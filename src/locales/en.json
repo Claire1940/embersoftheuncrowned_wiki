@@ -10,14 +10,7 @@
       "twitterDescription": "Embers of the Uncrowned Wiki covers demo, classes, builds, raids, companions, settlement growth, and system requirements on Steam."
     }
   },
-  "nav": {
-    "guides": "Guides",
-    "crafting": "Crafting",
-    "items": "Items",
-    "biomes": "Biomes",
-    "building": "Building",
-    "support": "Support"
-  },
+  "nav": {},
   "common": {
     "home": "Home",
     "more": "More",
