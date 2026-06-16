@@ -52,696 +52,466 @@
     }
   },
   "gameFeature": {
-    "title": "Lucid Blocks Gameplay",
-    "description": "Explore surreal biomes, fuse items with Apotheosis, and survive strange creatures in this dreamlike voxel sandbox on Steam."
+    "title": "Embers of the Uncrowned Gameplay",
+    "description": "Master manual isometric combat across three classes, fight domain bosses and raids, grow companions, and rebuild House Harborwell in a dark fantasy action MMORPG on Steam."
   },
   "tools": {
-    "title": "Lucid Blocks",
+    "title": "Embers of the Uncrowned",
     "titleHighlight": "Resources",
-    "subtitle": "Everything you need to explore, craft, and survive in Lucid Blocks",
+    "subtitle": "Everything you need to play the demo, pick a class, build power and reclaim House Harborwell",
     "cards": [
       {
-        "icon": "BookOpen",
+        "icon": "Gift",
+        "title": "Codes & Rewards",
+        "description": "Official rewards, wishlist bonuses and demo drops"
+      },
+      {
+        "icon": "CalendarCheck",
+        "title": "Demo & Requirements",
+        "description": "Release status, demo window and PC specs"
+      },
+      {
+        "icon": "GraduationCap",
         "title": "Beginner Guide",
-        "description": "First steps, exploration, and early progression"
+        "description": "First steps, controls and the combat loop"
       },
       {
-        "icon": "Sparkles",
-        "title": "Apotheosis Crafting",
-        "description": "Freeform fusion system and early recipes"
+        "icon": "Swords",
+        "title": "Class Tier List",
+        "description": "Executioner, Stormbringer and Spectral Blade"
       },
       {
-        "icon": "Hammer",
-        "title": "Tools and Weapons",
-        "description": "Frost Pick, Azrael, Hookshot, and more"
+        "icon": "Gem",
+        "title": "Skills & Gems",
+        "description": "Active skills, Skill Gems and bloodline power"
       },
       {
-        "icon": "Package",
-        "title": "Storage and Inventory",
-        "description": "Cache Cubes, Cabinets, and Qualia storage"
+        "icon": "Skull",
+        "title": "Bosses & Raids",
+        "description": "Domain bosses, raids and co-op matchmaking"
       },
       {
-        "icon": "Home",
-        "title": "Qualia and Base Building",
-        "description": "Personal Qualia and home base setup"
+        "icon": "HeartHandshake",
+        "title": "Companions",
+        "description": "Eslyn, companion skills and affinity quests"
       },
       {
-        "icon": "Eye",
-        "title": "World Regions",
-        "description": "Fog Meadow, Essence Morass, and more"
-      },
-      {
-        "icon": "AlertTriangle",
-        "title": "Creatures and Enemies",
-        "description": "Manikins, spiders, and how to survive"
-      },
-      {
-        "icon": "ArrowRight",
-        "title": "Mobility Gear",
-        "description": "Hookshot, Glider Glove, Bee Glider"
-      },
-      {
-        "icon": "TrendingUp",
-        "title": "Farming and Growth",
-        "description": "Seed progression and material farming"
-      },
-      {
-        "icon": "Star",
-        "title": "Best Early Unlocks",
-        "description": "Priority upgrades for the first hour"
-      },
-      {
-        "icon": "ClipboardCheck",
-        "title": "Achievement Tracker",
-        "description": "All 19 Steam achievements and conditions"
-      },
-      {
-        "icon": "MessageCircle",
-        "title": "Singleplayer FAQ",
-        "description": "Platform, price, co-op, and language questions"
-      },
-      {
-        "icon": "Gamepad2",
-        "title": "Steam Deck and Controller",
-        "description": "Proton 9.0.4 setup and controller tips"
-      },
-      {
-        "icon": "Settings",
-        "title": "Settings and Accessibility",
-        "description": "Hide hands, Vulkan, and display options"
-      },
-      {
-        "icon": "Clock",
-        "title": "Updates and Patch Notes",
-        "description": "Recent fixes and roadmap notes"
-      },
-      {
-        "icon": "Shield",
-        "title": "Crash Fix",
-        "description": "Vulkan check, logs path, and bug reporting"
+        "icon": "Castle",
+        "title": "House & Settlement",
+        "description": "House Harborwell, buildings and region liberation"
       }
     ]
   },
   "modules": {
-    "lucidBlocksBeginnerGuide": {
-      "title": "Lucid Blocks Beginner Guide",
-      "displayType": "steps",
-      "intro": "Start by learning how exploration, fusion, and progression connect. Lucid Blocks rewards experimentation, so early progress comes from gathering unusual materials, testing combinations, and unlocking your personal Qualia.",
-      "steps": [
-        {
-          "title": "Explore Before You Commit",
-          "description": "Walk outward, mine common blocks, and keep any strange drops you find. Early progress is less about fixed quests and more about discovering what materials can become."
-        },
-        {
-          "title": "Unlock Your Personal Qualia Early",
-          "description": "Your personal Qualia is one of the most important early milestones. It gives you a reliable place to regroup and build around."
-        },
-        {
-          "title": "Use Osmium for Fast Early Progress",
-          "description": "Osmium is one of the most useful early materials. A popular early route is combining Osmium with sticks to make a Frost Pick for fast mining."
-        },
-        {
-          "title": "Record Good Fusions",
-          "description": "Keep track of successful combinations in your journal. Lucid Blocks has many possible fusion paths, so writing down useful results saves a lot of time."
-        }
-      ],
-      "quickTips": [
-        "Apotheosis does not require a fixed recipe list.",
-        "Infinite world generation means moving higher or deeper can reveal completely different materials.",
-        "Movement tools and utility gear become a major quality-of-life boost once you start unlocking them.",
-        "Getting lost early is normal, but useful tools, storage, and movement options snowball fast once your first good fusions start working."
-      ]
-    },
-    "lucidBlocksApotheosisCrafting": {
-      "title": "Lucid Blocks Apotheosis Crafting",
-      "displayType": "cards",
-      "intro": "Apotheosis is the game's unrestricted fusion system. Instead of memorizing a traditional recipe book, you combine materials, watch the result, and build your own crafting knowledge over time.",
-      "cards": [
-        {
-          "name": "Freeform Fusion",
-          "description": "Apotheosis lets you fuse together different items without needing to follow a fixed recipe list."
-        },
-        {
-          "name": "Multiple Useful Outcomes",
-          "description": "Different materials often push toward certain results. Community discoveries show that similar inputs can still lead to practical tools, storage, or combat upgrades."
-        },
-        {
-          "name": "Journal-First Crafting",
-          "description": "The best way to learn Apotheosis is to track your successful combinations. Your journal quickly becomes your own crafting reference."
-        },
-        {
-          "name": "Community-Tested Early Fusions",
-          "description": "Popular early examples include Osmium plus Stick for a Frost Pick, Stick plus Tungsten Appendage for Azrael, and Azrael plus Magnetite for the Tendril Rapier."
-        }
-      ],
-      "milestones": [
-        "Fuse an item",
-        "Fuse a vermin",
-        "Fuse a divine artifact"
-      ]
-    },
-    "lucidBlocksToolsAndWeapons": {
-      "title": "Lucid Blocks Tools and Weapons",
-      "displayType": "itemCards",
-      "intro": "Lucid Blocks mixes official utility gear with community-discovered early weapons. The best setup is usually a blend of fast mining, safe traversal, and one dependable combat option.",
+    "embersCodesAndRewards": {
+      "eyebrow": "Rewards",
+      "title": "Embers of the Uncrowned Codes and Rewards",
+      "subtitle": "Track official rewards, Steam wishlist bonuses, demo access rewards and community drops from the official Embers of the Uncrowned channels.",
+      "intro": "Embers of the Uncrowned centers its public reward flow around Steam wishlist participation, the Steam Next Fest demo and official community channels. This module collects every official reward path in one place so you can claim each bonus directly from the confirmed sources.",
       "items": [
         {
-          "name": "Frost Pick",
-          "type": "Mining Tool",
-          "description": "A fast and affordable early pick made from Osmium and Stick. Players use it to speed up early material gathering."
+          "label": "Steam Wishlist Mount Reward",
+          "status": "Available During Demo Launch Window",
+          "reward": "Cloudfur Cottonsloth Mount",
+          "claimMethod": "Add Embers of the Uncrowned to your Steam wishlist and follow the official wishlist event instructions to claim the mount when the demo opens.",
+          "eventWindow": "Steam Next Fest demo period"
         },
         {
-          "name": "Azrael",
-          "type": "Starter Weapon",
-          "description": "A practical early weapon route crafted from Stick and Tungsten Appendage."
+          "label": "Free Steam Demo Access",
+          "status": "Live",
+          "reward": "Free playable Steam demo",
+          "claimMethod": "Open the Embers of the Uncrowned Demo page on Steam and choose Install Demo.",
+          "eventWindow": "Steam Next Fest: June 15-22 PDT"
         },
         {
-          "name": "Tendril Rapier",
-          "type": "Upgraded Weapon",
-          "description": "A stronger follow-up made by combining Azrael with Magnetite. It is one of the most useful early-mid combat paths shared by players."
+          "label": "Official Redeem Codes",
+          "status": "Follow Official Channels",
+          "reward": "Future code drops and launch rewards",
+          "claimMethod": "Use the Steam news page, Discord and the X account for reward posts tied to events and launch campaigns.",
+          "eventWindow": "Ongoing official updates"
         },
         {
-          "name": "Hookshot",
-          "type": "Mobility Tool",
-          "description": "An official traversal item that greatly improves movement and vertical exploration."
-        },
-        {
-          "name": "Bee Glider",
-          "type": "Mobility Tool",
-          "description": "An official movement item that helps cover space more safely and efficiently."
-        },
-        {
-          "name": "Ball Wand",
-          "type": "Utility Weapon",
-          "description": "An official ranged utility item that expands your combat and puzzle options."
-        },
-        {
-          "name": "Scuba Diving Gear",
-          "type": "Traversal Gear",
-          "description": "An official utility item for reaching areas that would otherwise slow down exploration."
-        },
-        {
-          "name": "Explosives",
-          "type": "Utility Damage",
-          "description": "Officially highlighted as part of the core toolset and useful for breaking through threats or obstacles."
+          "label": "Discord and Social Reward Watch",
+          "status": "Official Channel Tracking",
+          "reward": "Community event updates and announcement drops",
+          "claimMethod": "Join the official Discord and follow PlayEOTU on X for reward posts tied to events or launch campaigns.",
+          "eventWindow": "Pre-launch and demo period"
         }
       ]
     },
-    "lucidBlocksStorageAndInventory": {
-      "title": "Lucid Blocks Storage and Inventory",
-      "displayType": "solutionCards",
-      "intro": "Inventory pressure starts early in Lucid Blocks, so building storage should be one of your first goals. Several real player-tested solutions already stand out.",
-      "solutions": [
-        {
-          "name": "Cache Cube",
-          "role": "Chest-Like Storage",
-          "description": "Cache Cubes are one of the earliest practical storage answers and are treated by players as the game's main chest-style container."
-        },
-        {
-          "name": "Cabinet",
-          "role": "Simple Base Storage",
-          "description": "Cabinets are another confirmed storage option. A shared early recipe uses 1 Cut Wood and 1 String."
-        },
-        {
-          "name": "Personal Qualia",
-          "role": "Long-Term Storage Hub",
-          "description": "Once unlocked, your personal Qualia becomes a natural place to organize materials, craft in peace, and expand your base setup."
-        },
-        {
-          "name": "Journal Tracking",
-          "role": "Inventory Efficiency",
-          "description": "Recording useful combinations in your journal reduces wasted materials and makes inventory management much easier."
-        }
-      ],
-      "managementTips": [
-        "Prioritize one dependable storage option before hoarding rare drops.",
-        "Build around your personal Qualia once it becomes available.",
-        "Keep crafting materials, combat tools, and movement gear separated so upgrades are easier to plan.",
-        "Use your journal as part of inventory management, not just crafting discovery."
-      ]
-    },
-    "lucidBlocksQualiaAndBaseBuilding": {
-      "title": "Lucid Blocks Qualia and Base Building",
-      "displayType": "cards",
-      "intro": "Qualia is one of the most important progression milestones in Lucid Blocks. It gives you a personal space to regroup, store materials, and gradually turn exploration progress into a real home base.",
-      "cards": [
-        {
-          "name": "Personal Qualia",
-          "description": "Unlocking a Qualia is an early milestone that gives you a more reliable place to return to while exploring the wider world."
-        },
-        {
-          "name": "Storage-First Building",
-          "description": "Many players start using their Qualia as a storage hub before turning it into a larger base with organized crafting and building space."
-        },
-        {
-          "name": "Creative Home Building",
-          "description": "Lucid Blocks supports creative building, and players are already using Qualia spaces to make houses and personalized layouts."
-        },
-        {
-          "name": "Progression Hub",
-          "description": "A strong base helps you separate exploration loot, crafting materials, seeds, tools, and mobility gear so your next upgrades are easier to plan."
-        }
-      ],
-      "highlights": [
-        "Enter a qualia",
-        "Store materials safely",
-        "Expand from utility to decoration",
-        "Use base space to support crafting and farming"
-      ]
-    },
-    "lucidBlocksWorldRegions": {
-      "title": "Lucid Blocks World Regions",
-      "displayType": "regionCards",
-      "intro": "Lucid Blocks uses infinite world generation, so players keep discovering new environments and structures. A few named places are already showing up in achievements and community discussions.",
-      "regions": [
-        {
-          "name": "Fog Meadow",
-          "type": "Community-Noted Area",
-          "description": "Fog Meadow is already known among players as a tense area associated with hidden threats and dangerous encounters."
-        },
-        {
-          "name": "Tiamana Leyline",
-          "type": "Discovery Landmark",
-          "description": "The tiamana leyline is important enough to have its own achievement milestone, making it one of the clearest named world discoveries so far."
-        },
-        {
-          "name": "Clonaqualia",
-          "type": "Build Space",
-          "description": "Players are already using Clonaqualia as a place to build houses, store materials, and experiment with more permanent layouts."
-        },
-        {
-          "name": "Essence Morass",
-          "type": "Farming Area",
-          "description": "Essence Morass is being shared by players as a useful farming location, especially for fighting slimes and gaining experience."
-        }
-      ]
-    },
-    "lucidBlocksCreaturesAndEnemies": {
-      "title": "Lucid Blocks Creatures and Enemies",
-      "displayType": "creatureCards",
-      "intro": "Lucid Blocks mixes surreal creatures with real danger. Official descriptions and community posts point to a world full of strange life, hostile threats, and a few standout encounters players remember quickly.",
-      "creatures": [
-        {
-          "name": "Manikins",
-          "role": "Hostile Enemy",
-          "description": "Manikins are one of the officially named foes in the world and part of the game's surreal threat roster."
-        },
-        {
-          "name": "Squishy Gels",
-          "role": "Hostile Enemy",
-          "description": "Squishy gels are another officially named enemy type and help define the game's strange biological style."
-        },
-        {
-          "name": "Higher-Dimensional Beings",
-          "role": "Hostile Enemy",
-          "description": "These beings are presented as part of the world's more abstract and unsettling enemy lineup."
-        },
-        {
-          "name": "Colossal Spiders",
-          "role": "Major Threat",
-          "description": "Spiders are one of the most immediately feared enemies in community discussions and are clearly a memorable danger."
-        },
-        {
-          "name": "Bubblebear",
-          "role": "Named Creature",
-          "description": "Bubblebear is notable enough to have its own achievement, which makes it one of the clearest named creature encounters in the game."
-        },
-        {
-          "name": "Cute Vermin",
-          "role": "Interactable Creature",
-          "description": "Vermin are not only part of fusion progression, they can also be renamed, giving them a more personal role than standard enemies."
-        },
-        {
-          "name": "Blasphemous Creature",
-          "role": "Elite Threat",
-          "description": "The blasphemous creature is tied to a dedicated combat achievement, marking it as a significant enemy encounter."
-        }
-      ]
-    },
-    "lucidBlocksMobilityGear": {
-      "title": "Lucid Blocks Mobility Gear",
-      "displayType": "itemCards",
-      "intro": "Movement upgrades are one of the biggest quality-of-life jumps in Lucid Blocks. Once you unlock your first traversal tools, exploration becomes faster, safer, and much more rewarding.",
+    "embersReleaseDemoRequirements": {
+      "eyebrow": "Release Info",
+      "title": "Embers of the Uncrowned Release Date, Demo and System Requirements",
+      "subtitle": "Find the official Steam links, demo status, PC requirements, supported languages, anti-cheat note and playable window in one clean table.",
+      "intro": "Embers of the Uncrowned is a dark fantasy MMORPG from NEXON, with the full game marked Coming soon and a free demo available on Steam. The table below collects the practical facts in one place so you can check release status, demo access, languages and PC requirements at a glance.",
       "items": [
         {
-          "name": "Hookshot",
-          "type": "Traversal Tool",
-          "description": "The hookshot is one of the clearest movement milestones in the game and has its own dedicated achievement."
+          "category": "Full Game Status",
+          "officialDetail": "Coming soon on Steam",
+          "playerAction": "Wishlist the full game on Steam to receive release updates."
         },
         {
-          "name": "Glider Glove",
-          "type": "Air Mobility",
-          "description": "The glider glove opens up much smoother travel and is another major progression milestone with its own achievement."
+          "category": "Demo Status",
+          "officialDetail": "Free Steam demo available",
+          "playerAction": "Install the demo from the Steam demo page."
         },
         {
-          "name": "Bee Glider",
-          "type": "Traversal Tool",
-          "description": "Bee gliders are officially highlighted as part of the game's movement toolkit for covering space more efficiently."
+          "category": "Steam Demo Page Release Date",
+          "officialDetail": "Jun 13, 2026",
+          "playerAction": "Use the dedicated demo page for installation."
         },
         {
-          "name": "Ball Wand",
-          "type": "Utility Gear",
-          "description": "Ball wands are one of the officially highlighted special tools and expand how you move through or interact with the world."
+          "category": "Steam Next Fest Demo Window",
+          "officialDetail": "June 15-22 PDT",
+          "playerAction": "Play during the event window and follow Steam news for updates."
         },
         {
-          "name": "Scuba Diving Gear",
-          "type": "Exploration Gear",
-          "description": "Scuba diving gear is officially listed as part of the core utility set for reaching areas that would otherwise be harder to explore."
+          "category": "Platform",
+          "officialDetail": "PC via Steam",
+          "playerAction": "Use the Steam client for download and updates."
         },
         {
-          "name": "Explosives",
-          "type": "Utility Damage",
-          "description": "Explosives are both officially highlighted and linked to an achievement milestone, making them part of the game's core utility progression."
-        }
-      ],
-      "unlockMilestones": [
-        "Command a hookshot",
-        "Fly with the glider glove",
-        "Brandish a projectile wand",
-        "Brandish an explosive"
-      ]
-    },
-    "lucidBlocksFarmingAndGrowth": {
-      "title": "Lucid Blocks Farming and Growth",
-      "displayType": "mixedCards",
-      "intro": "Growth is part of real progression in Lucid Blocks. Farming is not only about planting and harvesting, but also about setting up repeatable material routes that keep your tools, weapons, and crafting options flowing.",
-      "sections": [
-        {
-          "name": "Seed Progression",
-          "description": "Planting and fertilizing seeds is a real milestone in the game, and harvesting a fully-grown nut is part of the same growth path."
+          "category": "Developer and Publisher",
+          "officialDetail": "NEXON",
+          "playerAction": "Follow NEXON and PlayEOTU channels for official announcements."
         },
         {
-          "name": "Material Farming",
-          "description": "A practical early farming loop is creating Mercury Capsules, which spawn small slimes that drop Tendrils and goo for repeatable crafting materials."
+          "category": "Genre and Online Features",
+          "officialDetail": "Action, Massively Multiplayer, RPG; MMO, Online PvP, Online Co-op",
+          "playerAction": "Expect online play, multiplayer boss content, raids and PvP-related systems."
         },
         {
-          "name": "Tool Sustain",
-          "description": "Resource farming becomes much stronger once you can consistently gather Osmium, glass shards, plants, and slime materials for follow-up crafts."
+          "category": "Languages",
+          "officialDetail": "English full audio, interface and subtitles; German, Spanish-Spain, Portuguese-Brazil, Russian and Simplified Chinese interface and subtitles",
+          "playerAction": "Check the Steam language table before downloading."
         },
         {
-          "name": "Base Routine",
-          "description": "The best farming setup supports more than food. It should feed your storage, movement tools, weapon upgrades, and future fusion experiments."
-        }
-      ],
-      "growthMilestones": [
-        "Fertilize a seed",
-        "Harvest a fully-grown nut",
-        "Create repeatable material loops",
-        "Turn farming into long-term progression"
-      ]
-    },
-    "lucidBlocksBestEarlyUnlocks": {
-      "title": "Lucid Blocks Best Early Unlocks",
-      "displayType": "priorityCards",
-      "intro": "The strongest early unlocks are the ones that improve safety, storage, and movement. In Lucid Blocks, a few practical upgrades can make the entire rest of the game much smoother.",
-      "priorities": [
-        {
-          "name": "Personal Qualia",
-          "priority": "Essential",
-          "description": "As soon as you get access to your personal Qualia, your run becomes much more stable. It acts as a reliable hub for storage, building, and regrouping."
+          "category": "Anti-Cheat",
+          "officialDetail": "Uses kernel-level NGS (Nexon Game Security), requiring manual removal after uninstall",
+          "playerAction": "Review the Steam anti-cheat note before installing."
         },
         {
-          "name": "Frost Pick",
-          "priority": "Very High",
-          "description": "A fast and cheap early mining tool made from Osmium and Stick. It is one of the most useful upgrades for accelerating early resource collection."
+          "category": "Interactive Elements",
+          "officialDetail": "In-game chat and online interactivity",
+          "playerAction": "Use online features with normal multiplayer account safety."
         },
         {
-          "name": "Cache Cube",
-          "priority": "Very High",
-          "description": "Storage pressure starts early, so getting your first dependable chest-style container is a major quality-of-life upgrade."
+          "category": "Minimum PC Requirements",
+          "officialDetail": "Windows 11 64-bit, Intel i5-3570 or AMD FX-8350, 8 GB RAM, GTX 1060 or RX 580 or Intel Arc A380, DirectX 11, broadband internet, 30 GB storage",
+          "playerAction": "Use this as the baseline for launching the demo."
         },
         {
-          "name": "Hookshot",
-          "priority": "High",
-          "description": "The hookshot is one of the clearest movement milestones in the game and quickly makes exploration faster and safer."
-        },
-        {
-          "name": "Glider Glove",
-          "priority": "High",
-          "description": "The glider glove adds another major mobility boost and makes long-distance movement far more efficient."
-        },
-        {
-          "name": "Projectile Wand or Bombs",
-          "priority": "High",
-          "description": "A ranged tool or explosive option gives you a safer answer to dangerous enemies and trial-style encounters."
+          "category": "Recommended PC Requirements",
+          "officialDetail": "Windows 11 64-bit, Intel i5-9600 or Ryzen 5 2600X, 16 GB RAM, RTX 2060 or RX 5700 XT or Intel Arc A770, DirectX 11, broadband internet, 30 GB storage",
+          "playerAction": "Use this target for smoother demo play."
         }
       ]
     },
-    "lucidBlocksAchievementTracker": {
-      "title": "Lucid Blocks Achievement Tracker",
-      "displayType": "achievementGrid",
-      "intro": "Lucid Blocks currently has 19 Steam achievements, and they naturally split into exploration, crafting, mobility, combat, and growth progression.",
-      "groups": [
+    "embersBeginnerGuideControls": {
+      "eyebrow": "Beginner Guide",
+      "title": "Embers of the Uncrowned Beginner Guide and Controls",
+      "subtitle": "Start the demo with the right Steam page, class choice, controls, combat loop, co-op content and early story objectives.",
+      "intro": "Embers of the Uncrowned is built around manual isometric combat, precise evasion, boss interruption windows, class mechanics, companions and settlement progression. Start here to set up the demo correctly and learn the core systems before your first session.",
+      "items": [
         {
-          "name": "Exploration",
-          "achievements": [
-            {
-              "title": "Angel α",
-              "description": "Enter a qualia."
-            },
-            {
-              "title": "Angel γ",
-              "description": "Discover a tiamana leyline."
-            },
-            {
-              "title": "Angel δ",
-              "description": "Overcome a tiamana challenge."
-            },
-            {
-              "title": "Angel ε",
-              "description": "Hidden achievement."
-            }
+          "title": "Install the Correct Demo",
+          "description": "Use the official Embers of the Uncrowned Demo page on Steam and choose Install Demo. The full game page is separate and remains marked Coming soon."
+        },
+        {
+          "title": "Pick a Starting Class",
+          "description": "Choose from Executioner, Spectral Blade and Stormbringer. Executioner uses a giant axe, Spectral Blade uses swift swordsmanship and phantoms, and Stormbringer uses wind and lightning magic."
+        },
+        {
+          "title": "Set Up Movement and Camera",
+          "description": "The game supports keyboard and mouse controls and Xbox controller input. Keyboard play uses WASD-style movement, mouse actions and camera control, while controller play is shown in official controller gameplay."
+        },
+        {
+          "title": "Learn the Core Combat Loop",
+          "description": "Basic attacks, active skills, evasion, interrupt timing and stagger windows drive combat. Evasion uses SP, interrupts break dangerous boss skills, and stagger creates burst-damage openings."
+        },
+        {
+          "title": "Map Your Skill Keys Early",
+          "description": "Use easy-to-reach bindings for active skills, dodge, potions and bloodline abilities. The official controls guide emphasizes manual combat, so comfortable key placement matters from the first fight."
+        },
+        {
+          "title": "Use Potions and Survival Tools Carefully",
+          "description": "HP and MP potions are part of the basic combat flow. Save defensive movement and recovery options for boss patterns rather than spending everything on small hits."
+        },
+        {
+          "title": "Follow the Demo Objectives",
+          "description": "The Steam Next Fest demo covers early progression from Goldenhaven, rebuilding the Amber Coast Settlement and forming alliances in Towerstead."
+        },
+        {
+          "title": "Try Multiplayer Content",
+          "description": "The demo includes multiplayer-focused content such as field activities, matchmaking, domain bosses, raid content and arena battles."
+        },
+        {
+          "title": "Report Bugs Through Official Channels",
+          "description": "Use Steam discussions and the official Discord for bug reports, demo feedback and updates from the development team."
+        }
+      ]
+    },
+    "embersClassTierListBuilds": {
+      "eyebrow": "Classes",
+      "title": "Embers of the Uncrowned Class Tier List and Builds",
+      "subtitle": "Compare Executioner, Stormbringer and Spectral Blade by first-hour comfort, role clarity, class mechanics, build identity and demo usefulness.",
+      "intro": "The current demo class pool includes three playable classes: Executioner, Spectral Blade and Stormbringer. This tier grid ranks them for early demo onboarding, build clarity and first-hour comfort based on their confirmed mechanics.",
+      "items": [
+        {
+          "tier": "S",
+          "className": "Executioner",
+          "rankLabel": "Best First Pick",
+          "role": "Heavy melee vanguard",
+          "coreMechanics": "Build Rage through combat, trigger Fury for explosive tempo, pursuit and skill chains.",
+          "elements": "Physical and Fire",
+          "buildFocus": [
+            "Physical boss damage with Shock and defense shredding",
+            "Physical AoE hunting with mobility and critical hits",
+            "Fire close-range Burn stacking",
+            "Fire movement-based AoE pressure"
+          ],
+          "difficulty": "Medium",
+          "bestFor": "Players who want durable melee combat, clear resource flow, heavy burst windows and a straightforward first demo class."
+        },
+        {
+          "tier": "A",
+          "className": "Stormbringer",
+          "rankLabel": "Best Caster Pick",
+          "role": "Wind and lightning magic damage dealer",
+          "coreMechanics": "Uses the dual forces of Wind and Lightning to control space and deliver magical pressure from safer positions.",
+          "elements": "Wind and Lightning",
+          "buildFocus": [
+            "Wind control and positioning",
+            "Lightning burst damage",
+            "Ranged spell pressure",
+            "Boss-safe casting windows"
+          ],
+          "difficulty": "Medium",
+          "bestFor": "Players who prefer ranged magic, elemental burst and a clearer view of battlefield patterns during boss fights."
+        },
+        {
+          "tier": "A",
+          "className": "Spectral Blade",
+          "rankLabel": "Best High-Skill Pick",
+          "role": "Mobile melee assassin and phantom duelist",
+          "coreMechanics": "Generates and consumes Shade, chains skills with Phantoms, uses Stealth and position swaps for burst openings.",
+          "elements": "Physical and Darkness",
+          "buildFocus": [
+            "Physical Shade generation into finishing skills",
+            "Stealth Rear Strike burst",
+            "Darkness Phantom control",
+            "Throwing Dart distance control with Shade-enhanced attacks"
+          ],
+          "difficulty": "High",
+          "bestFor": "Players who enjoy mobility, deception, combo routing and mechanical mastery."
+        }
+      ]
+    },
+    "embersSkillsGemsProgression": {
+      "eyebrow": "Progression",
+      "title": "Embers of the Uncrowned Skills, Skill Gems and Progression",
+      "subtitle": "Progression in Embers of the Uncrowned starts with one of three playable classes and expands through active skills, passive systems, Skill Gems, gear enhancement and bloodline awakening.",
+      "intro": "Use this section as a practical class-growth path: choose a class, understand its combat style, build around active and passive skills, then connect Skill Gems, gear enhancement and bloodline awakening into one long-term power plan.",
+      "items": [
+        {
+          "step": 1,
+          "title": "Choose a demo class",
+          "summary": "The Steam Next Fest demo features Stormbringer, Executioner and Spectral Blade as playable classes.",
+          "details": [
+            "Stormbringer uses wind and lightning magic for ranged magical pressure.",
+            "Executioner fights with a giant axe and focuses on heavy, crushing attacks.",
+            "Spectral Blade uses a longsword and fast swordsmanship for swift melee combat."
           ]
         },
         {
-          "name": "Crafting and Summoning",
-          "achievements": [
-            {
-              "title": "Apotheosis α",
-              "description": "Fuse an item."
-            },
-            {
-              "title": "Apotheosis β",
-              "description": "Fuse a vermin."
-            },
-            {
-              "title": "Apotheosis γ",
-              "description": "Fuse a divine artifact."
-            },
-            {
-              "title": "Archangel β",
-              "description": "Summon your faith."
-            }
+          "step": 2,
+          "title": "Learn active and passive skill progression",
+          "summary": "Each playable class in the demo has 28-29 skills, with active and passive progression systems shaping how the class plays.",
+          "details": [
+            "Active skills define moment-to-moment combat choices.",
+            "Passive progression supports class identity, survivability and damage style.",
+            "Different skill trees allow players to test distinct combat styles instead of locking every class into one fixed route."
           ]
         },
         {
-          "name": "Mobility and Utility",
-          "achievements": [
-            {
-              "title": "Virtue α",
-              "description": "Fly with the glider glove."
-            },
-            {
-              "title": "Virtue β",
-              "description": "Command a hookshot."
-            },
-            {
-              "title": "Archangel α",
-              "description": "Brandish a projectile wand."
-            },
-            {
-              "title": "Archangel γ",
-              "description": "Brandish an explosive."
-            }
+          "step": 3,
+          "title": "Match skills to class identity",
+          "summary": "The class system is built around unique skills and attributes, so class choice changes both combat rhythm and build direction.",
+          "details": [
+            "Stormbringer favors magical burst and elemental pressure.",
+            "Executioner favors committed melee strikes and high-impact attacks.",
+            "Spectral Blade favors speed, sword combos and agile close-range damage."
           ]
         },
         {
-          "name": "Combat and Creatures",
-          "achievements": [
-            {
-              "title": "Bubblebear Massacre",
-              "description": "Defeat innocent bubblebears."
-            },
-            {
-              "title": "Archangel δ",
-              "description": "Eliminate a blasphemous creature."
-            },
-            {
-              "title": "Angel β",
-              "description": "Die."
-            },
-            {
-              "title": "Dominion γ",
-              "description": "Rename a cute vermin."
-            }
+          "step": 4,
+          "title": "Layer Skill Gems and gear enhancement",
+          "summary": "Infinite Progression is centered on combining Skill Gems, enhancing gear and awakening bloodline power.",
+          "details": [
+            "Skill Gems are part of the long-term character growth layer.",
+            "Gear enhancement adds another route for combat-power development.",
+            "Bloodline awakening connects the character's inherited power to late progression."
           ]
         },
         {
-          "name": "Growth and Farming",
-          "achievements": [
-            {
-              "title": "Dominion α",
-              "description": "Fertilize a seed."
-            },
-            {
-              "title": "Dominion β",
-              "description": "Harvest a fully-grown nut."
-            },
-            {
-              "title": "Dominion δ",
-              "description": "Hidden achievement."
-            }
+          "step": 5,
+          "title": "Push progression through demo content",
+          "summary": "The demo includes three main story chapters, 34 side quests and over 480 minutes of total content for players aiming to reach maximum demo progression.",
+          "details": [
+            "Main quests are positioned as the direct route through the demo.",
+            "Side quests expand progression while players explore regions and systems.",
+            "Region liberation, boss content and companion growth all feed back into the wider House Harborwell progression loop."
           ]
         }
       ]
     },
-    "lucidBlocksSingleplayerAndPlatformFAQ": {
-      "title": "Lucid Blocks Singleplayer and Platform FAQ",
-      "displayType": "accordion",
-      "intro": "These are the core platform and access questions players keep asking before buying Lucid Blocks.",
-      "faqs": [
+    "embersBossesRaidsCoop": {
+      "eyebrow": "Co-op Combat",
+      "title": "Embers of the Uncrowned Bosses, Raids and Co-op",
+      "subtitle": "The demo highlights 12 boss monsters across Domain, Field, Defense of Spring and Raid encounters, plus multiplayer-focused field and matchmaking content.",
+      "intro": "This table separates each confirmed multiplayer activity by purpose, team focus and demo role, so players can quickly understand which fights are solo-adjacent field content and which ones expect coordinated group play.",
+      "items": [
         {
-          "question": "Is Lucid Blocks singleplayer?",
-          "answer": "Yes. Lucid Blocks is a singleplayer game."
+          "encounter": "Domain Bosses",
+          "mode": "Open co-op land-reclaiming encounter",
+          "playerSetup": "Players join forces with others",
+          "demoDetail": "Included among the 12 boss monsters in the demo",
+          "objective": "Defeat bosses occupying the domain and support House restoration"
         },
         {
-          "question": "Is multiplayer or co-op planned?",
-          "answer": "No. Multiplayer is not planned for release or future updates."
+          "encounter": "Raid Bosses",
+          "mode": "High-coordination boss encounter",
+          "playerSetup": "Group play built around cooperation and tactics",
+          "demoDetail": "Included among the 12 boss monsters in the demo",
+          "objective": "Confront powerful bosses where victory depends on coordinated execution"
         },
         {
-          "question": "Where can I play Lucid Blocks?",
-          "answer": "It is currently available on Steam for Windows."
+          "encounter": "Field Bosses",
+          "mode": "Field-based multiplayer combat",
+          "playerSetup": "Designed for multiplayer-focused field content",
+          "demoDetail": "Listed as one of the demo boss encounter categories",
+          "objective": "Fight large threats while exploring liberated and contested regions"
         },
         {
-          "question": "How much does Lucid Blocks cost?",
-          "answer": "$9.99 on Steam."
+          "encounter": "Defense of Spring",
+          "mode": "Defense encounter",
+          "playerSetup": "Group-friendly PvE encounter structure",
+          "demoDetail": "Listed as one of the demo boss encounter categories",
+          "objective": "Defend a key objective while handling boss-level pressure"
         },
         {
-          "question": "Does Lucid Blocks support controllers?",
-          "answer": "Yes, but controller play is not recommended because the menus are not designed around it."
+          "encounter": "PvP Arena",
+          "mode": "Online PvP",
+          "playerSetup": "Matchmaking-supported competitive play",
+          "demoDetail": "Previewed alongside raid, open-world event and arena content",
+          "objective": "Test class control, positioning and combat timing against other players"
         },
         {
-          "question": "Does Lucid Blocks work on Steam Deck?",
-          "answer": "Yes. Proton 9.0 or 9.0.4 is the commonly recommended setup for Steam Deck."
-        },
-        {
-          "question": "Does Lucid Blocks work on Linux?",
-          "answer": "Yes. Proton 9.0 is reported to work well for Linux and Steam Deck."
-        },
-        {
-          "question": "Will Mac or Android be supported?",
-          "answer": "They may be supported in the future, but they are not current launch platforms."
-        },
-        {
-          "question": "Does Lucid Blocks have translations?",
-          "answer": "No. There are currently no translations planned."
-        },
-        {
-          "question": "Will Lucid Blocks keep getting updates?",
-          "answer": "Yes. Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
+          "encounter": "Field and Matchmaking Content",
+          "mode": "MMORPG multiplayer layer",
+          "playerSetup": "Party coordination and matchmaking",
+          "demoDetail": "The demo includes multiplayer-focused field and matchmaking content across three core regions and 10 explorable or liberatable regions",
+          "objective": "Move from exploration into organized boss, raid and arena activities"
         }
       ]
     },
-    "lucidBlocksSteamDeckAndController": {
-      "title": "Lucid Blocks Steam Deck and Controller",
-      "displayType": "accordion",
-      "intro": "Lucid Blocks can run on Steam Deck, but the default setup may need adjustment. Keyboard and mouse remains the smoother option for menus and general play.",
-      "faqs": [
+    "embersCompanionsAffinity": {
+      "eyebrow": "Companions",
+      "title": "Embers of the Uncrowned Companions and Affinity",
+      "subtitle": "Companions are part of the combat loop. The demo centers companion progression around Eslyn, 17 companion skills and affinity-based exclusive questlines.",
+      "intro": "This module turns the companion system into homepage-ready cards: who joins you, what they do in combat, how affinity adds quests and how companion growth supports class builds.",
+      "items": [
         {
-          "question": "Does Lucid Blocks work on Steam Deck?",
-          "answer": "Yes. Proton 9.0 works well, and Proton 9.0.4 is a commonly shared fix for Steam Deck issues."
+          "title": "Eslyn",
+          "badge": "Featured Companion",
+          "description": "Eslyn is the companion highlighted for the demo, fighting alongside the player while supporting the campaign to rebuild House Harborwell.",
+          "playerValue": "Gives the class build a second layer of battlefield support and story presence."
         },
         {
-          "question": "What should I do if Steam Deck controls are not working?",
-          "answer": "Force compatibility and switch the game to Proton 9.0.4. The default configuration may not accept controller input correctly."
+          "title": "17 Companion Skills",
+          "badge": "Skill System",
+          "description": "The demo companion system includes 17 companion skills, giving companion growth a clear mechanical role in combat planning.",
+          "playerValue": "Lets players combine class skills with companion effects instead of treating companions as passive followers."
         },
         {
-          "question": "Does Lucid Blocks support controllers?",
-          "answer": "Yes, but controller play is not recommended because the game's menus are not designed around it."
+          "title": "Affinity-Based Questlines",
+          "badge": "Bond Progression",
+          "description": "Companion progression includes affinity-based exclusive questlines centered around Eslyn.",
+          "playerValue": "Turns relationship growth into playable content tied to quests and character development."
         },
         {
-          "question": "Is Linux support possible?",
-          "answer": "Yes. Proton 9.0 is reported to work well for Linux and Steam Deck."
+          "title": "Combat Synergy",
+          "badge": "Build Support",
+          "description": "The official Steam description frames companions as allies who grow stronger with the player and create powerful synergies to bolster forces.",
+          "playerValue": "Connects companion growth directly to class identity, party strength and long-term progression."
         },
         {
-          "question": "What is the best input setup?",
-          "answer": "Keyboard and mouse is the smoothest option for menu navigation and general moment-to-moment play."
+          "title": "Settlement Connection",
+          "badge": "House Harborwell",
+          "description": "Official companion and settlement previews connect Eslyn and followers with rebuilding the fallen House Harborwell.",
+          "playerValue": "Links companion progression to the wider house, settlement and territory systems."
         }
       ]
     },
-    "lucidBlocksSettingsAndAccessibility": {
-      "title": "Lucid Blocks Settings and Accessibility",
-      "displayType": "settingCards",
-      "intro": "Lucid Blocks already has a few practical settings and compatibility notes that matter immediately when players first launch the game.",
-      "settings": [
+    "embersHouseSettlementRegions": {
+      "eyebrow": "House and World",
+      "title": "Embers of the Uncrowned House System, Settlement and Regions",
+      "subtitle": "The world structure is built around reclaiming a fallen domain, liberating regions, upgrading a settlement and turning House Harborwell's recovery into visible progression.",
+      "intro": "Use this section to understand the game's territory layer: the player returns as the rightful lord of House Harborwell, fights corrupted enemies and elven forces, then expands the house through exploration, buildings, resources and liberated regions.",
+      "items": [
         {
-          "name": "Display Settings",
-          "type": "Comfort Option",
-          "description": "Display Settings includes an option that lets players hide the on-screen hands."
+          "title": "House Harborwell",
+          "content": "The player is the last hope for House Harborwell: an illegitimate child who left home to become a mercenary, then returns as the rightful lord to reclaim the lost domain.",
+          "highlights": [
+            "Core story identity",
+            "Lost domain recovery",
+            "House-based progression"
+          ]
         },
         {
-          "name": "Graphics Compatibility",
-          "type": "System Requirement",
-          "description": "Vulkan support is required for the graphics to render properly. Systems without Vulkan can run into crashes and severe graphical glitches."
+          "title": "Settlement Growth",
+          "content": "The settlement starts as a humble camp and grows into a vibrant city as people gather, regions are liberated and the house's influence spreads.",
+          "highlights": [
+            "Camp-to-city growth",
+            "Visible territory progress",
+            "House glory expansion"
+          ]
         },
         {
-          "name": "Input Preference",
-          "type": "Control Setup",
-          "description": "Controller support exists, but keyboard and mouse gives a smoother experience because menus are not built around controller use."
+          "title": "Upgradeable Buildings",
+          "content": "The demo includes seven different buildings that support enhancement, research, trade and crafting through upgradeable facilities.",
+          "highlights": [
+            "7 building types",
+            "Enhancement support",
+            "Research, trade and crafting"
+          ]
         },
         {
-          "name": "Language Support",
-          "type": "Localization",
-          "description": "The current setup is English-only, and no translations are planned right now."
-        }
-      ]
-    },
-    "lucidBlocksUpdatesAndPatchNotes": {
-      "title": "Lucid Blocks Updates and Patch Notes",
-      "displayType": "timeline",
-      "intro": "Lucid Blocks is already receiving quick post-launch fixes and small usability updates.",
-      "entries": [
-        {
-          "title": "Update 2.8.2",
-          "type": "UI Update",
-          "description": "Renamed \"awaken\" to \"exit\" in the main menu."
+          "title": "Regions and Exploration",
+          "content": "The demo includes three main regions and 10 regions available for liberation and exploration, giving the house system a map-based progression path.",
+          "highlights": [
+            "3 main regions",
+            "10 liberatable or explorable regions",
+            "Region liberation loop"
+          ]
         },
         {
-          "title": "Small Patch for Start-Up Crashes",
-          "type": "Hotfix",
-          "description": "A dedicated patch was released for players whose game was crashing on launch."
+          "title": "Resources and Management",
+          "content": "Region liberation and resource management expand progression opportunities, while settlement facilities turn exploration gains into practical upgrades.",
+          "highlights": [
+            "Resource management",
+            "Facility upgrades",
+            "Progression support"
+          ]
         },
         {
-          "title": "Post-Launch Content Support",
-          "type": "Roadmap Note",
-          "description": "Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
-        }
-      ]
-    },
-    "lucidBlocksCrashFixAndTroubleshooting": {
-      "title": "Lucid Blocks Crash Fix and Troubleshooting",
-      "displayType": "steps",
-      "intro": "Most immediate launch and crash issues should be checked in a simple order: patch level, graphics support, platform compatibility, and logs.",
-      "steps": [
-        {
-          "title": "Install the Latest Crash Hotfix",
-          "description": "If the game is crashing on start, update first and test again with the latest start-up crash patch."
-        },
-        {
-          "title": "Check Vulkan Support",
-          "description": "Lucid Blocks requires Vulkan support. Systems without Vulkan can suffer from crashes or major rendering problems."
-        },
-        {
-          "title": "Use Proton 9.0.4 on Steam Deck",
-          "description": "If Steam Deck input or launch behavior is broken, force compatibility and switch to Proton 9.0.4."
-        },
-        {
-          "title": "Collect Crash Logs",
-          "description": "Open Windows Run, paste %APPDATA%, go to lucid blocks/logs, and gather the .txt files for troubleshooting."
-        },
-        {
-          "title": "Report the Issue Properly",
-          "description": "Share the logs and device details through the official Discord bug-reports forum or on the Steam community page."
+          "title": "Hidden Stories",
+          "content": "The continent contains tragic stories and mysterious adventures, encouraging players to explore regions beyond the direct combat path.",
+          "highlights": [
+            "World lore",
+            "Exploration stories",
+            "Mystery-focused side content"
+          ]
         }
       ]
     }
@@ -749,31 +519,39 @@
   "faq": {
     "title": "Frequently Asked",
     "titleHighlight": "Questions",
-    "subtitle": "Everything you need to know about Lucid Blocks",
+    "subtitle": "Everything you need to know about Embers of the Uncrowned",
     "questions": [
       {
-        "question": "Is Lucid Blocks a singleplayer game?",
-        "answer": "Yes. Lucid Blocks is a singleplayer-only game with no multiplayer or co-op planned."
+        "question": "What is Embers of the Uncrowned?",
+        "answer": "Embers of the Uncrowned is a dark fantasy action MMORPG developed and published by NEXON, played from an isometric perspective on PC via Steam with manual combat, classes, companions, domain bosses and settlement growth."
       },
       {
-        "question": "What is the Apotheosis system in Lucid Blocks?",
-        "answer": "Apotheosis is Lucid Blocks' freeform fusion crafting system. Instead of following fixed recipes, you combine materials and discover your own crafting paths."
+        "question": "Is there a free demo for Embers of the Uncrowned?",
+        "answer": "Yes. Embers of the Uncrowned has a free Steam demo available during Steam Next Fest (June 15-22 PDT), installed directly from the dedicated demo page on Steam."
       },
       {
-        "question": "Where can I play Lucid Blocks?",
-        "answer": "Lucid Blocks is currently available on Steam for Windows. Linux and Steam Deck support is available through Proton 9.0."
+        "question": "What classes can I play in Embers of the Uncrowned?",
+        "answer": "The Embers of the Uncrowned demo features three playable classes: Executioner (heavy axe melee), Stormbringer (wind and lightning magic) and Spectral Blade (fast swordsmanship with phantoms and Stealth)."
       },
       {
-        "question": "How much does Lucid Blocks cost?",
-        "answer": "Lucid Blocks costs $9.99 on Steam."
+        "question": "Is Embers of the Uncrowned multiplayer or singleplayer?",
+        "answer": "Embers of the Uncrowned is an online MMORPG with MMO, Online Co-op and Online PvP features, including domain bosses, raids, field content, arena PvP and matchmaking."
       },
       {
-        "question": "Does Lucid Blocks support controllers?",
-        "answer": "Yes, but controller play is not recommended because the menus are not designed around it. Keyboard and mouse is the smoother option."
+        "question": "When does Embers of the Uncrowned fully release?",
+        "answer": "The full game of Embers of the Uncrowned is currently marked Coming soon on Steam. You can wishlist it to receive release updates while playing the free demo."
       },
       {
-        "question": "Will Lucid Blocks receive updates?",
-        "answer": "Yes. Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
+        "question": "Can I run Embers of the Uncrowned on my PC?",
+        "answer": "Embers of the Uncrowned runs on Windows 11 64-bit. The minimum spec is an Intel i5-3570 or AMD FX-8350 with 8 GB RAM and a GTX 1060 or RX 580, while the recommended spec targets an i5-9600 or Ryzen 5 2600X with 16 GB RAM and an RTX 2060 or RX 5700 XT, with 30 GB of storage."
+      },
+      {
+        "question": "Where can I follow official Embers of the Uncrowned updates?",
+        "answer": "You can follow Embers of the Uncrowned through the official Steam news hub, the NEXON official site, the PlayEOTU Discord, and the PlayEOTU accounts on X, YouTube, Instagram, Facebook and TikTok."
+      },
+      {
+        "question": "Does Embers of the Uncrowned support controllers?",
+        "answer": "Yes. Embers of the Uncrowned supports keyboard and mouse as well as Xbox controller input, with controller gameplay shown in official materials."
       }
     ]
   },
@@ -802,121 +580,121 @@
   },
   "pages": {
     "guides": {
-      "title": "Lucid Blocks Guides",
-      "description": "Complete gameplay guides from beginner basics to advanced Apotheosis strategies. Master survival and crafting.",
-      "metaTitle": "Lucid Blocks Guides - Beginner to Advanced Strategies",
-      "metaDescription": "Complete Lucid Blocks guides covering beginner tips, Apotheosis system, survival strategies, and expert tactics for mastering the surreal sandbox.",
+      "title": "Embers of the Uncrowned Guides",
+      "description": "Complete gameplay guides from beginner basics to advanced class builds. Master combat, progression and settlement growth.",
+      "metaTitle": "Embers of the Uncrowned Guides - Beginner to Advanced Strategies",
+      "metaDescription": "Complete Embers of the Uncrowned guides covering beginner tips, class builds, combat strategies and expert tactics for mastering the dark fantasy MMORPG.",
       "categoryLabel": "GAME GUIDES",
       "whatIs": "What are Guides?",
-      "whatIsDescription": "Comprehensive guides covering gameplay mechanics, survival strategies, and the Apotheosis crafting system. Learn everything from first steps to advanced techniques.",
+      "whatIsDescription": "Comprehensive guides covering gameplay mechanics, combat strategies and class progression. Learn everything from first steps to advanced techniques.",
       "why": "Why read guides?",
       "whySteps": {
         "step1Title": "Learn Core Mechanics",
-        "step1Description": "Understand the Apotheosis system and avoid common beginner mistakes",
+        "step1Description": "Understand the combat system and avoid common beginner mistakes",
         "step2Title": "Fast Progression",
-        "step2Description": "Follow proven paths to survive and thrive in the surreal world",
+        "step2Description": "Follow proven paths to build power and reclaim territory",
         "step3Title": "Master Strategies",
-        "step3Description": "Develop advanced tactics for exploration and crafting"
+        "step3Description": "Develop advanced tactics for bosses, raids and exploration"
       },
       "featured": "Featured & Essential",
       "all": "All Guides"
     },
     "crafting": {
-      "title": "Lucid Blocks Crafting",
-      "description": "Master the Apotheosis fusion system with essence mechanics, recipes, and crafting strategies for powerful items.",
-      "metaTitle": "Lucid Blocks Crafting - Apotheosis System & Recipes",
-      "metaDescription": "Master Lucid Blocks Apotheosis crafting system. Learn essence mechanics, fusion recipes, and strategies for creating powerful tools and weapons.",
-      "categoryLabel": "CRAFTING SYSTEM",
-      "whatIs": "What is Crafting?",
-      "whatIsDescription": "The Apotheosis system is a unique essence-driven fusion mechanic where you combine up to six items to discover new recipes. No fixed crafting menus—experimentation is key.",
-      "why": "Why master crafting?",
+      "title": "Embers of the Uncrowned Builds",
+      "description": "Master class builds, Skill Gems, gear enhancement and bloodline progression with detailed strategies for powerful characters.",
+      "metaTitle": "Embers of the Uncrowned Builds - Skills, Gems & Gear",
+      "metaDescription": "Master Embers of the Uncrowned builds. Learn Skill Gems, gear enhancement, bloodline progression and strategies for creating powerful class setups.",
+      "categoryLabel": "BUILDS & PROGRESSION",
+      "whatIs": "What are Builds?",
+      "whatIsDescription": "The build system layers active skills, passive progression, Skill Gems, gear enhancement and bloodline awakening into long-term character growth. Experimentation across skill trees is key.",
+      "why": "Why master builds?",
       "whySteps": {
-        "step1Title": "Unlock Powerful Items",
-        "step1Description": "Discover essential tools, weapons, and mobility gear through fusion",
-        "step2Title": "Understand Essences",
-        "step2Description": "Learn how item essences combine to create predictable results",
+        "step1Title": "Unlock Powerful Setups",
+        "step1Description": "Discover strong class builds through Skill Gems and gear enhancement",
+        "step2Title": "Layer Progression Systems",
+        "step2Description": "Combine Skill Gems, gear enhancement and bloodline awakening into one growth plan",
         "step3Title": "Optimize Resources",
-        "step3Description": "Use dilution mechanics to maximize output from cheap materials"
+        "step3Description": "Use progression layers efficiently to maximize combat power"
       },
       "featured": "Featured & Essential",
-      "all": "All Crafting Guides"
+      "all": "All Build Guides"
     },
     "items": {
-      "title": "Lucid Blocks Items",
-      "description": "Detailed item guides covering tools, weapons, mobility gear, and storage solutions with crafting recipes and usage tips.",
-      "metaTitle": "Lucid Blocks Items - Tools, Weapons & Gear Guide",
-      "metaDescription": "Complete item database for Lucid Blocks including tools, weapons, mobility gear, and storage. Learn how to craft and use every item effectively.",
+      "title": "Embers of the Uncrowned Items",
+      "description": "Detailed item and gear guides covering weapons, Skill Gems, enhancement materials and equipment with usage tips.",
+      "metaTitle": "Embers of the Uncrowned Items - Gear, Gems & Equipment",
+      "metaDescription": "Complete item database for Embers of the Uncrowned including weapons, Skill Gems, gear and enhancement materials. Learn how to use every item effectively.",
       "categoryLabel": "ITEMS & EQUIPMENT",
       "whatIs": "What are Items?",
-      "whatIsDescription": "Comprehensive guides for tools, weapons, mobility gear, and functional items. Learn crafting recipes, usage strategies, and optimal combinations.",
+      "whatIsDescription": "Comprehensive guides for weapons, Skill Gems, gear and enhancement materials. Learn crafting routes, usage strategies and optimal equipment combinations.",
       "why": "Why check item guides?",
       "whySteps": {
-        "step1Title": "Learn Crafting Recipes",
-        "step1Description": "Discover how to craft essential tools and weapons using Apotheosis",
+        "step1Title": "Learn Enhancement Routes",
+        "step1Description": "Discover how to enhance gear and slot Skill Gems",
         "step2Title": "Optimize Equipment",
-        "step2Description": "Choose the best items for your playstyle and progression stage",
-        "step3Title": "Improve Survival",
-        "step3Description": "Equip mobility gear and weapons to navigate the dangerous world"
+        "step2Description": "Choose the best gear for your class and progression stage",
+        "step3Title": "Improve Combat",
+        "step3Description": "Equip the right weapons and Skill Gems to handle bosses and raids"
       },
       "featured": "Featured & Essential",
       "all": "All Items"
     },
     "biomes": {
-      "title": "Lucid Blocks Biomes",
-      "description": "Explore world regions, environmental features, resource locations, and survival tips for each biome.",
-      "metaTitle": "Lucid Blocks Biomes - World Regions & Exploration",
-      "metaDescription": "Explore Lucid Blocks biomes including Tiamana Leylines, Fog Meadow, and surreal regions. Find resources, avoid dangers, and navigate the infinite world.",
+      "title": "Embers of the Uncrowned Regions",
+      "description": "Explore world regions, settlement territories, resource locations and survival tips for each area.",
+      "metaTitle": "Embers of the Uncrowned Regions - World Areas & Exploration",
+      "metaDescription": "Explore Embers of the Uncrowned regions including main story areas and liberatable territories. Find resources, avoid dangers and reclaim the domain.",
       "categoryLabel": "WORLD REGIONS",
-      "whatIs": "What are Biomes?",
-      "whatIsDescription": "Guides to different world regions, environmental features, resource distribution, and danger zones. Learn what to expect and how to prepare for each area.",
-      "why": "Why explore biomes?",
+      "whatIs": "What are Regions?",
+      "whatIsDescription": "Guides to different world regions, environmental features, resource distribution and danger zones. Learn what to expect and how to prepare for each area.",
+      "why": "Why explore regions?",
       "whySteps": {
         "step1Title": "Find Resources",
-        "step1Description": "Locate rare materials and essences specific to each region",
+        "step1Description": "Locate rare materials and upgrade resources specific to each region",
         "step2Title": "Avoid Dangers",
-        "step2Description": "Understand environmental hazards and hostile creatures",
+        "step2Description": "Understand environmental hazards and hostile enemies",
         "step3Title": "Plan Exploration",
-        "step3Description": "Prepare the right tools and gear for each biome type"
+        "step3Description": "Prepare the right gear and companions for each region type"
       },
       "featured": "Featured & Essential",
-      "all": "All Biomes"
+      "all": "All Regions"
     },
     "building": {
-      "title": "Lucid Blocks Building",
-      "description": "Master Qualia personal dimensions, base building, storage management, and creative construction techniques.",
-      "metaTitle": "Lucid Blocks Building - Qualia & Base Construction",
-      "metaDescription": "Master Lucid Blocks building with Qualia personal dimensions, base construction, storage solutions, and creative building techniques.",
-      "categoryLabel": "BUILDING & BASES",
-      "whatIs": "What is Building?",
-      "whatIsDescription": "Guides to the Qualia personal dimension system, base construction, storage management, and creative building. Learn to create your safe haven in the surreal world.",
-      "why": "Why build bases?",
+      "title": "Embers of the Uncrowned Settlement",
+      "description": "Master House Harborwell settlement growth, building upgrades, resource management and region liberation.",
+      "metaTitle": "Embers of the Uncrowned Settlement - House Harborwell & Buildings",
+      "metaDescription": "Master Embers of the Uncrowned settlement growth with House Harborwell, upgradeable buildings, resource management and region liberation.",
+      "categoryLabel": "HOUSE & SETTLEMENT",
+      "whatIs": "What is the Settlement?",
+      "whatIsDescription": "Guides to the House Harborwell settlement system, building upgrades, resource management and region liberation. Learn to grow your camp into a city.",
+      "why": "Why build your settlement?",
       "whySteps": {
-        "step1Title": "Create Safe Spaces",
-        "step1Description": "Establish secure bases for storage and crafting operations",
+        "step1Title": "Grow Your Domain",
+        "step1Description": "Upgrade buildings to support enhancement, research and crafting",
         "step2Title": "Manage Resources",
-        "step2Description": "Organize materials efficiently with storage solutions",
-        "step3Title": "Unlock Qualia",
-        "step3Description": "Access personal pocket dimensions for ultimate convenience"
+        "step2Description": "Organize materials efficiently through settlement facilities",
+        "step3Title": "Liberate Regions",
+        "step3Description": "Expand your house's influence across the continent"
       },
       "featured": "Featured & Essential",
-      "all": "All Building Guides"
+      "all": "All Settlement Guides"
     },
     "support": {
-      "title": "Lucid Blocks Support",
-      "description": "Technical support, platform compatibility, performance optimization, and troubleshooting for common issues.",
-      "metaTitle": "Lucid Blocks Support - Technical Help & Fixes",
-      "metaDescription": "Get technical support for Lucid Blocks including Steam Deck setup, crash fixes, performance optimization, and platform compatibility guides.",
+      "title": "Embers of the Uncrowned Support",
+      "description": "Technical support, platform compatibility, performance optimization and troubleshooting for common issues.",
+      "metaTitle": "Embers of the Uncrowned Support - Technical Help & Fixes",
+      "metaDescription": "Get technical support for Embers of the Uncrowned including system requirements, performance optimization, anti-cheat notes and platform compatibility guides.",
       "categoryLabel": "TECHNICAL SUPPORT",
       "whatIs": "What is Support?",
-      "whatIsDescription": "Technical guides covering platform compatibility, performance optimization, crash fixes, and common issues. Get help with Steam Deck, multiplayer questions, and settings.",
+      "whatIsDescription": "Technical guides covering platform compatibility, performance optimization, anti-cheat notes and common issues. Get help with system requirements and settings.",
       "why": "Why check support?",
       "whySteps": {
         "step1Title": "Fix Technical Issues",
-        "step1Description": "Resolve crashes, performance problems, and compatibility issues",
+        "step1Description": "Resolve performance problems and compatibility issues",
         "step2Title": "Optimize Performance",
-        "step2Description": "Configure settings for best experience on your platform",
+        "step2Description": "Configure settings for the best experience on your PC",
         "step3Title": "Platform Compatibility",
-        "step3Description": "Learn about Steam Deck, controller support, and system requirements"
+        "step3Description": "Learn about system requirements, languages and anti-cheat"
       },
       "featured": "Featured & Essential",
       "all": "All Support Articles"

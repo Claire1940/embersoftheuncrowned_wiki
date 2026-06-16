@@ -28,6 +28,20 @@ export const iconRegistry: Record<string, LucideIcon> = {
   Gamepad2: LucideIcons.Gamepad2,
   TrendingUp: LucideIcons.TrendingUp,
 
+  // Embers of the Uncrowned 模块导航图标
+  Gift: LucideIcons.Gift,
+  CalendarCheck: LucideIcons.CalendarCheck,
+  GraduationCap: LucideIcons.GraduationCap,
+  Swords: LucideIcons.Swords,
+  Gem: LucideIcons.Gem,
+  Skull: LucideIcons.Skull,
+  HeartHandshake: LucideIcons.HeartHandshake,
+  Castle: LucideIcons.Castle,
+  Crown: LucideIcons.Crown,
+  Flame: LucideIcons.Flame,
+  Map: LucideIcons.Map,
+  Zap: LucideIcons.Zap,
+
   // UI 交互图标
   Sparkles: LucideIcons.Sparkles,
   ChevronDown: LucideIcons.ChevronDown,
