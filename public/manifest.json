@@ -1,12 +1,15 @@
 {
-  "name": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-  "short_name": "Lucid Blocks",
-  "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
+  "name": "Embers of the Uncrowned Wiki - Classes, Demo & Builds",
+  "short_name": "Embers Wiki",
+  "description": "Embers of the Uncrowned Wiki covers demo access, classes, combat, builds, raids, companions, settlement growth, system requirements and updates for the dark fantasy action MMORPG on Steam.",
   "start_url": "/",
+  "scope": "/",
   "display": "standalone",
   "orientation": "any",
-  "theme_color": "#1a7a7a",
-  "background_color": "#0a0a0a",
+  "theme_color": "#a92d3a",
+  "background_color": "#08090c",
+  "categories": ["games", "entertainment"],
+  "lang": "en",
   "icons": [
     {
       "src": "/android-chrome-192x192.png",
