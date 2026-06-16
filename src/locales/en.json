@@ -1,13 +1,13 @@
 {
   "seo": {
     "home": {
-      "title": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "keywords": "Lucid Blocks, Lucid Blocks wiki, crafting, biomes, achievements, survival, Steam",
-      "ogTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "ogDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "twitterTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "twitterDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, and survival tips for the surreal voxel sandbox on Steam."
+      "title": "Embers of the Uncrowned - Classes, Demo & Builds",
+      "description": "Embers of the Uncrowned Wiki covers demo access, classes, combat, builds, raids, companions, settlement growth, system requirements and updates.",
+      "keywords": "Embers of the Uncrowned, Steam, demo, classes, builds, raids, companions, MMORPG",
+      "ogTitle": "Embers of the Uncrowned Wiki - Classes, Demo & Builds",
+      "ogDescription": "Embers of the Uncrowned Wiki covers demo access, classes, combat, builds, raids, companions, settlement growth, system requirements and updates.",
+      "twitterTitle": "Embers of the Uncrowned Wiki - Classes, Demo & Builds",
+      "twitterDescription": "Embers of the Uncrowned Wiki covers demo, classes, builds, raids, companions, settlement growth, and system requirements on Steam."
     }
   },
   "nav": {
@@ -34,27 +34,27 @@
     "articlesComingSoon": "Articles coming soon"
   },
   "hero": {
-    "badge": "Surreal Voxel Survival Sandbox",
-    "title": "Lucid Blocks Wiki",
-    "description": "Explore dreamlike biomes, fuse items with Apotheosis, build freely, and survive strange creatures in this surreal open-world sandbox on Steam.",
-    "getFreeCodesCTA": "Explore Crafting Guide",
+    "badge": "Dark Fantasy Action MMORPG",
+    "title": "Embers of the Uncrowned Wiki",
+    "description": "Reclaim House Harborwell in a dark fantasy isometric MMORPG where class combat, companions, domain bosses, raids, settlement growth and bloodline progression shape your path through an elven invasion.",
+    "getFreeCodesCTA": "Download Demo",
     "playOnSteamCTA": "Play on Steam",
     "stats": {
       "stat1": {
-        "value": "1,325",
-        "label": "Players Online"
+        "value": "Coming Soon",
+        "label": "Full Release"
       },
       "stat2": {
-        "value": "1,986",
-        "label": "Peak CCU"
+        "value": "Jun 13, 2026",
+        "label": "Demo Release"
       },
       "stat3": {
-        "value": "97%",
-        "label": "Positive Reviews"
+        "value": "260",
+        "label": "Demo Reviews"
       },
       "stat4": {
-        "value": "Mar 12, 2026",
-        "label": "Release Date"
+        "value": "3",
+        "label": "Playable Classes"
       }
     }
   },
@@ -785,14 +785,14 @@
     ]
   },
   "cta": {
-    "title": "Ready to Explore Lucid Blocks?",
-    "description": "Join the Lucid Blocks community on Discord for guides, updates, and discussions!",
+    "title": "Ready to Reclaim House Harborwell?",
+    "description": "Wishlist on Steam, play the demo, and join the official Embers of the Uncrowned Discord for classes, builds, raid, and settlement updates.",
     "joinCommunity": "Join Discord",
     "joinGame": "Play on Steam"
   },
   "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Your complete resource hub for Lucid Blocks crafting, biomes, creatures, achievements, and survival guides.",
+    "title": "Embers of the Uncrowned Wiki",
+    "description": "Your complete resource hub for Embers of the Uncrowned demo, classes, builds, raids, companions, settlement, and system requirements.",
     "resources": "Resources",
     "community": "Community",
     "legal": "Legal",
@@ -804,7 +804,7 @@
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
     "copyrightNotice": "Copyright",
-    "copyright": "© 2026 Lucid Blocks Wiki. Not affiliated with the developers of Lucid Blocks.",
+    "copyright": "© 2026 Embers of the Uncrowned Wiki. Not affiliated with NEXON or the developers of Embers of the Uncrowned.",
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
