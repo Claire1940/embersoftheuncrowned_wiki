@@ -1,1 +1,710 @@
-{}
+{
+  "seo": {
+    "home": {
+      "title": "Embers of the Uncrowned - Classes, Demo & Builds",
+      "description": "Embers of the Uncrowned Wiki cobre acesso à demo, classes, combate, builds, raids, companheiros, crescimento de assentamento, requisitos de sistema e atualizações.",
+      "keywords": "Embers of the Uncrowned, Steam, demo, classes, builds, raids, companheiros, MMORPG",
+      "ogTitle": "Embers of the Uncrowned Wiki - Classes, Demo & Builds",
+      "ogDescription": "Embers of the Uncrowned Wiki cobre acesso à demo, classes, combate, builds, raids, companheiros, crescimento de assentamento, requisitos de sistema e atualizações.",
+      "twitterTitle": "Embers of the Uncrowned Wiki - Classes, Demo & Builds",
+      "twitterDescription": "Embers of the Uncrowned Wiki cobre demo, classes, builds, raids, companheiros, crescimento de assentamento e requisitos de sistema no Steam."
+    }
+  },
+  "nav": {
+    "release": "Lançamento",
+    "platforms": "Plataformas",
+    "classes": "Classes",
+    "gameplay": "Jogabilidade",
+    "guide": "Guia",
+    "story": "História"
+  },
+  "common": {
+    "home": "Início",
+    "more": "Mais",
+    "playNow": "Jogar no Steam",
+    "switchLanguage": "Mudar Idioma",
+    "switchTheme": "Mudar Tema",
+    "lightMode": "Modo Claro",
+    "darkMode": "Modo Escuro",
+    "notFound": "Página Não Encontrada",
+    "notFoundDescription": "A página que você está procurando não existe.",
+    "backToHome": "Voltar para o Início",
+    "relatedArticles": "Artigos Relacionados",
+    "readMore": "Leia Mais",
+    "articlesComingSoon": "Artigos em breve"
+  },
+  "hero": {
+    "badge": "MMORPG de Ação de Fantasia Sombria",
+    "title": "Embers of the Uncrowned Wiki",
+    "description": "Reivindique House Harborwell em um MMORPG isométrico de fantasia sombria onde o combate de classes, companheiros, chefes de domínio, raids, crescimento de assentamento e progressão de linhagem moldam seu caminho através de uma invasão élfica.",
+    "getFreeCodesCTA": "Baixar Demo",
+    "playOnSteamCTA": "Jogar no Steam",
+    "stats": {
+      "stat1": {
+        "value": "Em Breve",
+        "label": "Lançamento Completo"
+      },
+      "stat2": {
+        "value": "13 de junho de 2026",
+        "label": "Lançamento da Demo"
+      },
+      "stat3": {
+        "value": "260",
+        "label": "Avaliações da Demo"
+      },
+      "stat4": {
+        "value": "3",
+        "label": "Classes Jogáveis"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Jogabilidade de Embers of the Uncrowned",
+    "description": "Domine o combate isométrico manual em três classes, lute contra chefes de domínio e raids, crie companheiros e reconstrua House Harborwell em um MMORPG de ação de fantasia sombria no Steam."
+  },
+  "tools": {
+    "title": "Embers of the Uncrowned",
+    "titleHighlight": "Recursos",
+    "subtitle": "Tudo o que você precisa para jogar a demo, escolher uma classe, construir poder e reivindicar House Harborwell",
+    "cards": [
+      {
+        "icon": "Gift",
+        "title": "Códigos e Recompensas",
+        "description": "Recompensas oficiais, bônus de lista de desejos e drops da demo"
+      },
+      {
+        "icon": "CalendarCheck",
+        "title": "Demo e Requisitos",
+        "description": "Status de lançamento, janela da demo e especificações do PC"
+      },
+      {
+        "icon": "GraduationCap",
+        "title": "Guia para Iniciantes",
+        "description": "Primeiros passos, controles e o ciclo de combate"
+      },
+      {
+        "icon": "Swords",
+        "title": "Lista de Níveis de Classes",
+        "description": "Executioner, Stormbringer e Spectral Blade"
+      },
+      {
+        "icon": "Gem",
+        "title": "Habilidades e Gemas",
+        "description": "Habilidades ativas, Gemas de Habilidade e poder de linhagem"
+      },
+      {
+        "icon": "Skull",
+        "title": "Chefes e Raids",
+        "description": "Chefes de domínio, raids e matchmaking cooperativo"
+      },
+      {
+        "icon": "HeartHandshake",
+        "title": "Companheiros",
+        "description": "Eslyn, habilidades de companheiros e missões de afinidade"
+      },
+      {
+        "icon": "Castle",
+        "title": "Casa e Assentamento",
+        "description": "House Harborwell, edifícios e libertação de região"
+      }
+    ]
+  },
+  "modules": {
+    "embersCodesAndRewards": {
+      "eyebrow": "Recompensas",
+      "title": "Códigos e Recompensas de Embers of the Uncrowned",
+      "subtitle": "Acompanhe as recompensas oficiais, bônus da lista de desejos do Steam, recompensas de acesso à demo e drops da comunidade dos canais oficiais de Embers of the Uncrowned.",
+      "intro": "Embers of the Uncrowned centraliza seu fluxo de recompensas públicas na participação na lista de desejos do Steam, na demo do Steam Next Fest e nos canais oficiais da comunidade. Este módulo reúne todos os caminhos de recompensa oficiais em um só lugar para que você possa reivindicar cada bônus diretamente das fontes confirmadas.",
+      "items": [
+        {
+          "label": "Recompensa de Montaria da Lista de Desejos do Steam",
+          "status": "Disponível Durante a Janela de Lançamento da Demo",
+          "reward": "Montaria Cloudfur Cottonsloth",
+          "claimMethod": "Adicione Embers of the Uncrowned à sua lista de desejos do Steam e siga as instruções oficiais do evento da lista de desejos para reivindicar a montaria quando a demo for lançada.",
+          "eventWindow": "Período da demo do Steam Next Fest"
+        },
+        {
+          "label": "Acesso Gratuito à Demo do Steam",
+          "status": "Ao Vivo",
+          "reward": "Demo jogável gratuita do Steam",
+          "claimMethod": "Abra a página da Demo de Embers of the Uncrowned no Steam e escolha Instalar Demo.",
+          "eventWindow": "Steam Next Fest: 15 a 22 de junho PDT"
+        },
+        {
+          "label": "Códigos de Resgate Oficiais",
+          "status": "Siga os Canais Oficiais",
+          "reward": "Futuros drops de códigos e recompensas de lançamento",
+          "claimMethod": "Use a página de notícias do Steam, Discord e a conta X para posts de recompensas vinculados a eventos e campanhas de lançamento.",
+          "eventWindow": "Atualizações oficiais contínuas"
+        },
+        {
+          "label": "Acompanhamento de Recompensas do Discord e Redes Sociais",
+          "status": "Rastreamento de Canal Oficial",
+          "reward": "Atualizações de eventos da comunidade e drops de anúncios",
+          "claimMethod": "Junte-se ao Discord oficial e siga PlayEOTU no X para posts de recompensas vinculados a eventos ou campanhas de lançamento.",
+          "eventWindow": "Período de pré-lançamento e demo"
+        }
+      ]
+    },
+    "embersReleaseDemoRequirements": {
+      "eyebrow": "Informações de Lançamento",
+      "title": "Data de Lançamento, Demo e Requisitos de Sistema de Embers of the Uncrowned",
+      "subtitle": "Encontre os links oficiais do Steam, status da demo, requisitos de PC, idiomas suportados, nota anti-cheat e janela jogável em uma tabela limpa.",
+      "intro": "Embers of the Uncrowned é um MMORPG de fantasia sombria da NEXON, com o jogo completo marcado como Em breve e uma demo gratuita disponível no Steam. A tabela abaixo reúne os fatos práticos em um só lugar para que você possa verificar o status de lançamento, acesso à demo, idiomas e requisitos de PC rapidamente.",
+      "items": [
+        {
+          "category": "Status do Jogo Completo",
+          "officialDetail": "Em breve no Steam",
+          "playerAction": "Adicione o jogo completo à sua lista de desejos no Steam para receber atualizações de lançamento."
+        },
+        {
+          "category": "Status da Demo",
+          "officialDetail": "Demo gratuita do Steam disponível",
+          "playerAction": "Instale a demo na página da demo do Steam."
+        },
+        {
+          "category": "Data de Lançamento da Página da Demo do Steam",
+          "officialDetail": "13 de junho de 2026",
+          "playerAction": "Use a página dedicada da demo para instalação."
+        },
+        {
+          "category": "Janela da Demo do Steam Next Fest",
+          "officialDetail": "15 a 22 de junho PDT",
+          "playerAction": "Jogue durante a janela do evento e siga as notícias do Steam para atualizações."
+        },
+        {
+          "category": "Plataforma",
+          "officialDetail": "PC via Steam",
+          "playerAction": "Use o cliente Steam para download e atualizações."
+        },
+        {
+          "category": "Desenvolvedor e Editora",
+          "officialDetail": "NEXON",
+          "playerAction": "Siga os canais NEXON e PlayEOTU para anúncios oficiais."
+        },
+        {
+          "category": "Gênero e Recursos Online",
+          "officialDetail": "Ação, Massively Multiplayer, RPG; MMO, PvP Online, Co-op Online",
+          "playerAction": "Espere jogo online, conteúdo de chefes multiplayer, raids e sistemas relacionados a PvP."
+        },
+        {
+          "category": "Idiomas",
+          "officialDetail": "Áudio, interface e legendas completas em inglês; interface e legendas em alemão, espanhol-Espanha, português-Brasil, russo e chinês simplificado",
+          "playerAction": "Verifique a tabela de idiomas do Steam antes de baixar."
+        },
+        {
+          "category": "Anti-Cheat",
+          "officialDetail": "Usa NGS (Nexon Game Security) em nível de kernel, exigindo remoção manual após a desinstalação",
+          "playerAction": "Revise a nota anti-cheat do Steam antes de instalar."
+        },
+        {
+          "category": "Elementos Interativos",
+          "officialDetail": "Chat no jogo e interatividade online",
+          "playerAction": "Use os recursos online com a segurança normal da conta multiplayer."
+        },
+        {
+          "category": "Requisitos Mínimos de PC",
+          "officialDetail": "Windows 11 64-bit, Intel i5-3570 ou AMD FX-8350, 8 GB RAM, GTX 1060 ou RX 580 ou Intel Arc A380, DirectX 11, internet banda larga, 30 GB de armazenamento",
+          "playerAction": "Use isso como base para iniciar a demo."
+        },
+        {
+          "category": "Requisitos de PC Recomendados",
+          "officialDetail": "Windows 11 64-bit, Intel i5-9600 ou Ryzen 5 2600X, 16 GB RAM, RTX 2060 ou RX 5700 XT ou Intel Arc A770, DirectX 11, internet banda larga, 30 GB de armazenamento",
+          "playerAction": "Use este alvo para uma jogabilidade mais suave da demo."
+        }
+      ]
+    },
+    "embersBeginnerGuideControls": {
+      "eyebrow": "Guia para Iniciantes",
+      "title": "Guia para Iniciantes e Controles de Embers of the Uncrowned",
+      "subtitle": "Comece a demo com a página Steam correta, escolha de classe, controles, ciclo de combate, conteúdo cooperativo e objetivos iniciais da história.",
+      "intro": "Embers of the Uncrowned é construído em torno de combate isométrico manual, evasão precisa, janelas de interrupção de chefes, mecânicas de classe, companheiros e progressão de assentamento. Comece aqui para configurar a demo corretamente e aprender os sistemas centrais antes da sua primeira sessão.",
+      "items": [
+        {
+          "title": "Instale a Demo Correta",
+          "description": "Use a página oficial da Embers of the Uncrowned Demo no Steam e escolha Instalar Demo. A página do jogo completo é separada e permanece marcada como Em breve."
+        },
+        {
+          "title": "Escolha uma Classe Inicial",
+          "description": "Escolha entre Executioner, Spectral Blade e Stormbringer. Executioner usa um machado gigante, Spectral Blade usa esgrima rápida e fantasmas, e Stormbringer usa magia de vento e relâmpago."
+        },
+        {
+          "title": "Configure Movimento e Câmera",
+          "description": "O jogo suporta controles de teclado e mouse e entrada de controle Xbox. O jogo com teclado usa movimento estilo WASD, ações do mouse e controle de câmera, enquanto o jogo com controle é mostrado na jogabilidade oficial com controle."
+        },
+        {
+          "title": "Aprenda o Ciclo de Combate Principal",
+          "description": "Ataques básicos, habilidades ativas, evasão, tempo de interrupção e janelas de atordoamento impulsionam o combate. A evasão usa SP, interrupções quebram habilidades perigosas de chefes, e o atordoamento cria aberturas para dano explosivo."
+        },
+        {
+          "title": "Mapeie Suas Teclas de Habilidade Cedo",
+          "description": "Use atalhos fáceis de alcançar para habilidades ativas, esquiva, poções e habilidades de linhagem. O guia oficial de controles enfatiza o combate manual, então o posicionamento confortável das teclas é importante desde a primeira luta."
+        },
+        {
+          "title": "Use Poções e Ferramentas de Sobrevivência com Cuidado",
+          "description": "Poções de HP e MP fazem parte do fluxo de combate básico. Guarde as opções de movimento defensivo e recuperação para os padrões dos chefes, em vez de gastar tudo em pequenos golpes."
+        },
+        {
+          "title": "Siga os Objetivos da Demo",
+          "description": "A demo do Steam Next Fest cobre a progressão inicial de Goldenhaven, a reconstrução do assentamento Amber Coast e a formação de alianças em Towerstead."
+        },
+        {
+          "title": "Experimente o Conteúdo Multijogador",
+          "description": "A demo inclui conteúdo focado no multijogador, como atividades de campo, matchmaking, chefes de domínio, conteúdo de raide e batalhas de arena."
+        },
+        {
+          "title": "Relate Bugs Através dos Canais Oficiais",
+          "description": "Use as discussões do Steam e o Discord oficial para relatórios de bugs, feedback da demo e atualizações da equipe de desenvolvimento."
+        }
+      ]
+    },
+    "embersClassTierListBuilds": {
+      "eyebrow": "Classes",
+      "title": "Lista de Níveis e Builds de Classes de Embers of the Uncrowned",
+      "subtitle": "Compare Executioner, Stormbringer e Spectral Blade por conforto na primeira hora, clareza de função, mecânicas de classe, identidade de build e utilidade na demo.",
+      "intro": "O pool de classes da demo atual inclui três classes jogáveis: Executioner, Spectral Blade e Stormbringer. Esta grade de níveis as classifica para o onboarding inicial da demo, clareza de build e conforto na primeira hora com base em suas mecânicas confirmadas.",
+      "items": [
+        {
+          "tier": "S",
+          "className": "Executioner",
+          "rankLabel": "Melhor Primeira Escolha",
+          "role": "Vanguarda corpo a corpo pesada",
+          "coreMechanics": "Acumula Fúria através do combate, ativa Fúria para ritmo explosivo, perseguição e cadeias de habilidades.",
+          "elements": "Físico e Fogo",
+          "buildFocus": [
+            "Dano físico em chefes com Choque e redução de defesa",
+            "Caça AoE física com mobilidade e acertos críticos",
+            "Acúmulo de Queimadura de Fogo de curto alcance",
+            "Pressão AoE de Fogo baseada em movimento"
+          ],
+          "difficulty": "Médio",
+          "bestFor": "Jogadores que querem combate corpo a corpo durável, fluxo de recursos claro, janelas de explosão pesadas e uma primeira classe de demo direta."
+        },
+        {
+          "tier": "A",
+          "className": "Stormbringer",
+          "rankLabel": "Melhor Escolha de Conjurador",
+          "role": "Causador de dano mágico de vento e relâmpago",
+          "coreMechanics": "Usa as forças duplas de Vento e Relâmpago para controlar o espaço e entregar pressão mágica de posições mais seguras.",
+          "elements": "Vento e Relâmpago",
+          "buildFocus": [
+            "Controle e posicionamento de Vento",
+            "Dano explosivo de Relâmpago",
+            "Pressão de feitiços à distância",
+            "Janelas de conjuração seguras para chefes"
+          ],
+          "difficulty": "Médio",
+          "bestFor": "Jogadores que preferem magia à distância, explosão elemental e uma visão mais clara dos padrões do campo de batalha durante as lutas contra chefes."
+        },
+        {
+          "tier": "A",
+          "className": "Spectral Blade",
+          "rankLabel": "Melhor Escolha de Alta Habilidade",
+          "role": "Assassino corpo a corpo móvel e duelista fantasma",
+          "coreMechanics": "Gera e consome Sombra, encadeia habilidades com Fantasmas, usa Furtividade e trocas de posição para aberturas de explosão.",
+          "elements": "Físico e Escuridão",
+          "buildFocus": [
+            "Geração de Sombra física em habilidades de finalização",
+            "Explosão de Ataque pelas Costas Furtivo",
+            "Controle de Fantasma da Escuridão",
+            "Controle de distância de Dardo Arremessado com ataques aprimorados por Sombra"
+          ],
+          "difficulty": "Alto",
+          "bestFor": "Jogadores que gostam de mobilidade, engano, roteamento de combos e maestria mecânica."
+        }
+      ]
+    },
+    "embersSkillsGemsProgression": {
+      "eyebrow": "Progressão",
+      "title": "Embers of the Uncrowned Habilidades, Gemas de Habilidade e Progressão",
+      "subtitle": "A progressão em Embers of the Uncrowned começa com uma das três classes jogáveis e se expande através de habilidades ativas, sistemas passivos, Gemas de Habilidade, aprimoramento de equipamento e despertar da linhagem.",
+      "intro": "Use esta seção como um caminho prático de crescimento de classe: escolha uma classe, entenda seu estilo de combate, construa em torno de habilidades ativas e passivas, então conecte Gemas de Habilidade, aprimoramento de equipamento e despertar da linhagem em um plano de poder de longo prazo.",
+      "items": [
+        {
+          "step": 1,
+          "title": "Escolha uma classe da demo",
+          "summary": "A demo do Steam Next Fest apresenta Stormbringer, Executioner e Spectral Blade como classes jogáveis.",
+          "details": [
+            "Stormbringer usa magia de vento e relâmpago para pressão mágica à distância.",
+            "Executioner luta com um machado gigante e se concentra em ataques pesados e esmagadores.",
+            "Spectral Blade usa uma espada longa e esgrima rápida para combate corpo a corpo ágil."
+          ]
+        },
+        {
+          "step": 2,
+          "title": "Aprenda a progressão de habilidades ativas e passivas",
+          "summary": "Cada classe jogável na demo tem 28-29 habilidades, com sistemas de progressão ativos e passivos moldando como a classe joga.",
+          "details": [
+            "Habilidades ativas definem as escolhas de combate momento a momento.",
+            "A progressão passiva apoia a identidade da classe, a capacidade de sobrevivência e o estilo de dano.",
+            "Diferentes árvores de habilidades permitem que os jogadores testem estilos de combate distintos em vez de prender cada classe em uma rota fixa."
+          ]
+        },
+        {
+          "step": 3,
+          "title": "Combine habilidades com a identidade da classe",
+          "summary": "O sistema de classes é construído em torno de habilidades e atributos únicos, então a escolha da classe muda tanto o ritmo de combate quanto a direção da construção.",
+          "details": [
+            "Stormbringer favorece explosão mágica e pressão elemental.",
+            "Executioner favorece golpes corpo a corpo comprometidos e ataques de alto impacto.",
+            "Spectral Blade favorece velocidade, combos de espada e dano ágil de curto alcance."
+          ]
+        },
+        {
+          "step": 4,
+          "title": "Camadas de Gemas de Habilidade e aprimoramento de equipamento",
+          "summary": "A Progressão Infinita é centrada na combinação de Gemas de Habilidade, aprimoramento de equipamento e despertar do poder da linhagem.",
+          "details": [
+            "Gemas de Habilidade fazem parte da camada de crescimento de personagem de longo prazo.",
+            "O aprimoramento de equipamento adiciona outra rota para o desenvolvimento do poder de combate.",
+            "O despertar da linhagem conecta o poder herdado do personagem à progressão tardia."
+          ]
+        },
+        {
+          "step": 5,
+          "title": "Impulsione a progressão através do conteúdo da demo",
+          "summary": "A demo inclui três capítulos da história principal, 34 missões secundárias e mais de 480 minutos de conteúdo total para jogadores que desejam atingir a progressão máxima da demo.",
+          "details": [
+            "As missões principais são posicionadas como o caminho direto através da demo.",
+            "As missões secundárias expandem a progressão enquanto os jogadores exploram regiões e sistemas.",
+            "A libertação de regiões, o conteúdo de chefes e o crescimento de companheiros contribuem para o ciclo de progressão mais amplo de House Harborwell."
+          ]
+        }
+      ]
+    },
+    "embersBossesRaidsCoop": {
+      "eyebrow": "Combate Cooperativo",
+      "title": "Embers of the Uncrowned Chefes, Raids e Co-op",
+      "subtitle": "A demo destaca 12 monstros chefes em encontros de Domínio, Campo, Defesa da Primavera e Raid, além de conteúdo de campo e matchmaking focado em multiplayer.",
+      "intro": "Esta tabela separa cada atividade multiplayer confirmada por propósito, foco da equipe e função na demo, para que os jogadores possam entender rapidamente quais lutas são conteúdo de campo adjacente a solo e quais esperam jogo em grupo coordenado.",
+      "items": [
+        {
+          "encounter": "Chefes de Domínio",
+          "mode": "Encontro cooperativo aberto de recuperação de terras",
+          "playerSetup": "Jogadores unem forças com outros",
+          "demoDetail": "Incluído entre os 12 monstros chefes na demo",
+          "objective": "Derrotar chefes que ocupam o domínio e apoiar a restauração da Casa"
+        },
+        {
+          "encounter": "Chefes de Raid",
+          "mode": "Encontro de chefe de alta coordenação",
+          "playerSetup": "Jogo em grupo construído em torno de cooperação e táticas",
+          "demoDetail": "Incluído entre os 12 monstros chefes na demo",
+          "objective": "Enfrentar chefes poderosos onde a vitória depende de execução coordenada"
+        },
+        {
+          "encounter": "Chefes de Campo",
+          "mode": "Combate multiplayer baseado em campo",
+          "playerSetup": "Projetado para conteúdo de campo focado em multiplayer",
+          "demoDetail": "Listado como uma das categorias de encontro de chefes da demo",
+          "objective": "Lutar contra grandes ameaças enquanto explora regiões liberadas e contestadas"
+        },
+        {
+          "encounter": "Defesa da Primavera",
+          "mode": "Encontro de defesa",
+          "playerSetup": "Estrutura de encontro PvE amigável para grupos",
+          "demoDetail": "Listado como uma das categorias de encontro de chefes da demo",
+          "objective": "Defender um objetivo chave enquanto lida com a pressão de nível de chefe"
+        },
+        {
+          "encounter": "Arena PvP",
+          "mode": "PvP Online",
+          "playerSetup": "Jogo competitivo com suporte a matchmaking",
+          "demoDetail": "Pré-visualizado junto com conteúdo de raid, evento de mundo aberto e arena",
+          "objective": "Testar controle de classe, posicionamento e tempo de combate contra outros jogadores"
+        },
+        {
+          "encounter": "Conteúdo de Campo e Matchmaking",
+          "mode": "Camada multiplayer de MMORPG",
+          "playerSetup": "Coordenação de grupo e matchmaking",
+          "demoDetail": "A demo inclui conteúdo de campo e matchmaking focado em multiplayer em três regiões principais e 10 regiões exploráveis ou liberáveis",
+          "objective": "Passar da exploração para atividades organizadas de chefes, raids e arenas"
+        }
+      ]
+    },
+    "embersCompanionsAffinity": {
+      "eyebrow": "Companheiros",
+      "title": "Companheiros e Afinidade em Embers of the Uncrowned",
+      "subtitle": "Companheiros fazem parte do ciclo de combate. A demo foca a progressão dos companheiros em Eslyn, 17 habilidades de companheiro e missões exclusivas baseadas em afinidade.",
+      "intro": "Este módulo transforma o sistema de companheiros em cartões prontos para a página inicial: quem se junta a você, o que eles fazem em combate, como a afinidade adiciona missões e como o crescimento do companheiro apoia as construções de classe.",
+      "items": [
+        {
+          "title": "Eslyn",
+          "badge": "Companheira em Destaque",
+          "description": "Eslyn é a companheira destacada para a demo, lutando ao lado do jogador enquanto apoia a campanha para reconstruir a Casa Harborwell.",
+          "playerValue": "Dá à construção de classe uma segunda camada de suporte no campo de batalha e presença na história."
+        },
+        {
+          "title": "17 Habilidades de Companheiro",
+          "badge": "Sistema de Habilidades",
+          "description": "O sistema de companheiros da demo inclui 17 habilidades de companheiro, dando ao crescimento do companheiro um papel mecânico claro no planejamento de combate.",
+          "playerValue": "Permite que os jogadores combinem habilidades de classe com efeitos de companheiro em vez de tratar os companheiros como seguidores passivos."
+        },
+        {
+          "title": "Missões Baseadas em Afinidade",
+          "badge": "Progressão de Vínculo",
+          "description": "A progressão do companheiro inclui missões exclusivas baseadas em afinidade, centradas em Eslyn.",
+          "playerValue": "Transforma o crescimento do relacionamento em conteúdo jogável ligado a missões e desenvolvimento de personagem."
+        },
+        {
+          "title": "Sinergia de Combate",
+          "badge": "Suporte de Construção",
+          "description": "A descrição oficial do Steam enquadra os companheiros como aliados que ficam mais fortes com o jogador e criam sinergias poderosas para reforçar as forças.",
+          "playerValue": "Conecta o crescimento do companheiro diretamente à identidade de classe, força do grupo e progressão a longo prazo."
+        },
+        {
+          "title": "Conexão com o Assentamento",
+          "badge": "House Harborwell",
+          "description": "As prévias oficiais de companheiros e assentamentos conectam Eslyn e seus seguidores à reconstrução da caída Casa Harborwell.",
+          "playerValue": "Vincula a progressão do companheiro aos sistemas mais amplos de casa, assentamento e território."
+        }
+      ]
+    },
+    "embersHouseSettlementRegions": {
+      "eyebrow": "Casa e Mundo",
+      "title": "Sistema de Casa, Assentamento e Regiões em Embers of the Uncrowned",
+      "subtitle": "A estrutura do mundo é construída em torno da recuperação de um domínio caído, libertando regiões, atualizando um assentamento e transformando a recuperação da Casa Harborwell em progressão visível.",
+      "intro": "Use esta seção para entender a camada territorial do jogo: o jogador retorna como o legítimo senhor da Casa Harborwell, luta contra inimigos corrompidos e forças élficas, e então expande a casa através de exploração, construções, recursos e regiões libertadas.",
+      "items": [
+        {
+          "title": "House Harborwell",
+          "content": "O jogador é a última esperança para a Casa Harborwell: um filho ilegítimo que deixou o lar para se tornar um mercenário, e então retorna como o legítimo senhor para reivindicar o domínio perdido.",
+          "highlights": [
+            "Identidade central da história",
+            "Recuperação de domínio perdido",
+            "Progressão baseada na casa"
+          ]
+        },
+        {
+          "title": "Crescimento do Assentamento",
+          "content": "O assentamento começa como um acampamento humilde e cresce para uma cidade vibrante à medida que as pessoas se reúnem, as regiões são libertadas e a influência da casa se espalha.",
+          "highlights": [
+            "Crescimento de acampamento para cidade",
+            "Progresso territorial visível",
+            "Expansão da glória da casa"
+          ]
+        },
+        {
+          "title": "Construções Atualizáveis",
+          "content": "A demo inclui sete construções diferentes que suportam aprimoramento, pesquisa, comércio e criação através de instalações atualizáveis.",
+          "highlights": [
+            "7 tipos de construções",
+            "Suporte a aprimoramento",
+            "Pesquisa, comércio e criação"
+          ]
+        },
+        {
+          "title": "Regiões e Exploração",
+          "content": "A demo inclui três regiões principais e 10 regiões disponíveis para libertação e exploração, dando ao sistema de casa um caminho de progressão baseado em mapa.",
+          "highlights": [
+            "3 regiões principais",
+            "10 regiões libertáveis ou exploráveis",
+            "Ciclo de libertação de regiões"
+          ]
+        },
+        {
+          "title": "Recursos e Gerenciamento",
+          "content": "A libertação de regiões e o gerenciamento de recursos expandem as oportunidades de progressão, enquanto as instalações do assentamento transformam os ganhos da exploração em atualizações práticas.",
+          "highlights": [
+            "Gerenciamento de recursos",
+            "Atualizações de instalações",
+            "Suporte à progressão"
+          ]
+        },
+        {
+          "title": "Histórias Ocultas",
+          "content": "O continente contém histórias trágicas e aventuras misteriosas, encorajando os jogadores a explorar regiões além do caminho de combate direto.",
+          "highlights": [
+            "Lore do mundo",
+            "Histórias de exploração",
+            "Conteúdo lateral focado em mistério"
+          ]
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "Perguntas Frequentes",
+    "titleHighlight": "",
+    "subtitle": "Tudo o que você precisa saber sobre Embers of the Uncrowned",
+    "questions": [
+      {
+        "question": "O que é Embers of the Uncrowned?",
+        "answer": "Embers of the Uncrowned é um MMORPG de ação de fantasia sombria desenvolvido e publicado pela NEXON, jogado de uma perspectiva isométrica no PC via Steam com combate manual, classes, companheiros, chefes de domínio e crescimento de assentamento."
+      },
+      {
+        "question": "Existe uma demo gratuita para Embers of the Uncrowned?",
+        "answer": "Sim. Embers of the Uncrowned tem uma demo gratuita no Steam disponível durante o Steam Next Fest (15 a 22 de junho PDT), instalada diretamente da página dedicada da demo no Steam."
+      },
+      {
+        "question": "Quais classes posso jogar em Embers of the Uncrowned?",
+        "answer": "A demo de Embers of the Uncrowned apresenta três classes jogáveis: Executioner (machado pesado corpo a corpo), Stormbringer (magia de vento e relâmpago) e Spectral Blade (espadachim rápido com fantasmas e Furtividade)."
+      },
+      {
+        "question": "Embers of the Uncrowned é multiplayer ou singleplayer?",
+        "answer": "Embers of the Uncrowned é um MMORPG online com recursos de MMO, Co-op Online e PvP Online, incluindo chefes de domínio, raides, conteúdo de campo, PvP de arena e matchmaking."
+      },
+      {
+        "question": "Quando Embers of the Uncrowned será lançado completamente?",
+        "answer": "O jogo completo de Embers of the Uncrowned está atualmente marcado como Em breve no Steam. Você pode adicioná-lo à sua lista de desejos para receber atualizações de lançamento enquanto joga a demo gratuita."
+      },
+      {
+        "question": "Posso rodar Embers of the Uncrowned no meu PC?",
+        "answer": "Embers of the Uncrowned roda em Windows 11 64-bit. A especificação mínima é um Intel i5-3570 ou AMD FX-8350 com 8 GB de RAM e uma GTX 1060 ou RX 580, enquanto a especificação recomendada visa um i5-9600 ou Ryzen 5 2600X com 16 GB de RAM e uma RTX 2060 ou RX 5700 XT, com 30 GB de armazenamento."
+      },
+      {
+        "question": "Onde posso acompanhar as atualizações oficiais de Embers of the Uncrowned?",
+        "answer": "Você pode acompanhar Embers of the Uncrowned através do hub de notícias oficial do Steam, do site oficial da NEXON, do Discord PlayEOTU e das contas PlayEOTU no X, YouTube, Instagram, Facebook e TikTok."
+      },
+      {
+        "question": "Embers of the Uncrowned suporta controles?",
+        "answer": "Sim. Embers of the Uncrowned suporta teclado e mouse, bem como entrada de controle Xbox, com jogabilidade de controle mostrada em materiais oficiais."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Pronto para Reivindicar House Harborwell?",
+    "description": "Adicione à lista de desejos no Steam, jogue a demo e junte-se ao Discord oficial de Embers of the Uncrowned para atualizações de classes, builds, raides e assentamentos.",
+    "joinCommunity": "Entrar no Discord",
+    "joinGame": "Jogar no Steam"
+  },
+  "footer": {
+    "title": "Embers of the Uncrowned Wiki",
+    "description": "Seu centro de recursos completo para a demo de Embers of the Uncrowned, classes, builds, raides, companheiros, assentamento e requisitos de sistema.",
+    "resources": "Recursos",
+    "community": "Comunidade",
+    "legal": "Legal",
+    "discord": "Discord",
+    "twitter": "X / Twitter",
+    "steamCommunity": "Comunidade Steam",
+    "steamStore": "Loja Steam",
+    "about": "Sobre",
+    "privacy": "Política de Privacidade",
+    "terms": "Termos de Serviço",
+    "copyrightNotice": "Direitos Autorais",
+    "copyright": "© 2026 Embers of the Uncrowned Wiki. Não afiliado à NEXON ou aos desenvolvedores de Embers of the Uncrowned.",
+    "disclaimer": "Site de recursos não oficial feito por fãs."
+  },
+  "pages": {
+    "release": {
+      "title": "Lançamento de Embers of the Uncrowned",
+      "description": "Acompanhe a data de lançamento completa, a janela da demo gratuita do Steam, o acesso beta e o cronograma do Steam Next Fest para Embers of the Uncrowned.",
+      "metaTitle": "Data de Lançamento, Demo e Beta de Embers of the Uncrowned",
+      "metaDescription": "Obtenha a data de lançamento mais recente de Embers of the Uncrowned, o cronograma da demo gratuita do Steam, o acesso beta e o cronograma do Steam Next Fest.",
+      "categoryLabel": "LANÇAMENTO E DEMO",
+      "whatIs": "Qual é o Cronograma de Lançamento?",
+      "whatIsDescription": "O cronograma de lançamento abrange o lançamento completo do jogo Embers of the Uncrowned, a janela da demo gratuita do Steam Next Fest, o acesso beta e aos testes de jogo e todas as datas de anúncios oficiais.",
+      "why": "Por que acompanhar o lançamento?",
+      "whySteps": {
+        "step1Title": "Defina a Data de Lançamento",
+        "step1Description": "Saiba exatamente quando o jogo completo Embers of the Uncrowned será lançado no Steam.",
+        "step2Title": "Jogue a Demo Gratuita",
+        "step2Description": "Instale a demo do Steam Next Fest durante sua janela jogável antes do lançamento.",
+        "step3Title": "Participe do Beta e Testes de Jogo",
+        "step3Description": "Registre-se antecipadamente para acesso beta e testes de jogo antes do lançamento completo."
+      },
+      "featured": "Destaques e Essenciais",
+      "all": "Todos os Guias de Lançamento"
+    },
+    "platforms": {
+      "title": "Plataformas de Embers of the Uncrowned",
+      "description": "Saiba quais plataformas Embers of the Uncrowned suporta, incluindo especificações de PC, suporte a controle, Steam Deck, crossplay e disponibilidade em consoles.",
+      "metaTitle": "Plataformas, Requisitos de Sistema e Crossplay de Embers of the Uncrowned",
+      "metaDescription": "Verifique as plataformas de Embers of the Uncrowned, requisitos de sistema para PC, suporte a controle, status do Steam Deck, crossplay e disponibilidade em consoles.",
+      "categoryLabel": "PLATAFORMAS E ESPECIFICAÇÕES",
+      "whatIs": "Quais são as Plataformas?",
+      "whatIsDescription": "Os guias de plataforma cobrem o suporte para PC e Steam, requisitos mínimos e recomendados do sistema, compatibilidade com controle e Steam Deck, crossplay e disponibilidade em consoles para Embers of the Uncrowned.",
+      "why": "Por que verificar as plataformas?",
+      "whySteps": {
+        "step1Title": "Combine as Especificações do Seu PC",
+        "step1Description": "Confirme se seu hardware atende aos requisitos mínimos e recomendados.",
+        "step2Title": "Escolha Sua Entrada",
+        "step2Description": "Saiba os detalhes de suporte para controle, teclado, mouse e Steam Deck.",
+        "step3Title": "Conheça o Crossplay e Consoles",
+        "step3Description": "Verifique o suporte a crossplay junto com a disponibilidade para PS5 e Xbox."
+      },
+      "featured": "Destaque e Essencial",
+      "all": "Todos os Guias de Plataforma"
+    },
+    "classes": {
+      "title": "Classes de Embers of the Uncrowned",
+      "description": "Compare todas as classes de Embers of the Uncrowned, incluindo builds, mecânicas e classificações de tier para Executioner, Stormbringer e Spectral Blade.",
+      "metaTitle": "Classes, Builds e Tier List de Embers of the Uncrowned",
+      "metaDescription": "Domine as classes de Embers of the Uncrowned com builds, mecânicas, árvores de habilidades e classificações de tier para Executioner, Stormbringer e Spectral Blade.",
+      "categoryLabel": "CLASSES E BUILDS",
+      "whatIs": "Quais são as Classes?",
+      "whatIsDescription": "Os guias de classe detalham todas as classes jogáveis em Embers of the Uncrowned, cobrindo Executioner, Stormbringer e Spectral Blade com suas mecânicas, árvores de habilidades, builds e classificações de tier.",
+      "why": "Por que estudar as classes?",
+      "whySteps": {
+        "step1Title": "Compare Todas as Classes",
+        "step1Description": "Veja todas as classes e suas identidades de combate principais lado a lado.",
+        "step2Title": "Escolha a Build Certa",
+        "step2Description": "Escolha builds que correspondam ao seu estilo de jogo e dificuldade preferidos.",
+        "step3Title": "Classifique por Poder",
+        "step3Description": "Use a tier list para encontrar a escolha mais forte para a demo."
+      },
+      "featured": "Destaque e Essencial",
+      "all": "Todos os Guias de Classe"
+    },
+    "gameplay": {
+      "title": "Jogabilidade de Embers of the Uncrowned",
+      "description": "Domine a jogabilidade de Embers of the Uncrowned com mecânicas de combate, raides, masmorras, raides solo, arena PvP e dicas de jogabilidade com controle.",
+      "metaTitle": "Jogabilidade, Combate, Raides e PvP de Embers of the Uncrowned",
+      "metaDescription": "Aprenda a jogabilidade de Embers of the Uncrowned, incluindo mecânicas de combate, raides, masmorras, raides solo, arena PvP e estratégias de jogabilidade com controle.",
+      "categoryLabel": "JOGABILIDADE E COMBATE",
+      "whatIs": "O que é a Jogabilidade?",
+      "whatIsDescription": "Os guias de jogabilidade cobrem o ciclo de combate isométrico manual, raides, masmorras, raides solo, arena PvP e a jogabilidade com controle que definem Embers of the Uncrowned.",
+      "why": "Por que aprender a jogabilidade?",
+      "whySteps": {
+        "step1Title": "Domine o Combate",
+        "step1Description": "Aprenda evasão, interrupções e janelas de atordoamento para lutas contra chefes.",
+        "step2Title": "Conclua Raides e Masmorras",
+        "step2Description": "Lide com raides solo, raides em grupo e encontros em masmorras.",
+        "step3Title": "Compita em PvP",
+        "step3Description": "Use a arena e o matchmaking para testar o controle da sua classe."
+      },
+      "featured": "Destaque e Essencial",
+      "all": "Todos os Guias de Jogabilidade"
+    },
+    "guide": {
+      "title": "Guia de Embers of the Uncrowned",
+      "description": "Comece com o pé direito com os guias para iniciantes de Embers of the Uncrowned, dicas de como jogar, análises, monetização e um veredito claro de compra ou não.",
+      "metaTitle": "Guia de Embers of the Uncrowned - Dicas para Iniciantes, Análises e Monetização",
+      "metaDescription": "Leia os guias de Embers of the Uncrowned para dicas de iniciantes, noções básicas de como jogar, análises, detalhes de monetização e uma recomendação clara de compra ou não.",
+      "categoryLabel": "GUIAS E DICAS",
+      "whatIs": "O que é o Guia?",
+      "whatIsDescription": "Os artigos do guia cobrem a configuração inicial para iniciantes, como jogar, dicas de especialistas, análises completas, monetização e uma análise prática de compra ou não para Embers of the Uncrowned.",
+      "why": "Por que ler os guias?",
+      "whySteps": {
+        "step1Title": "Comece como Iniciante",
+        "step1Description": "Siga os primeiros passos, controles e o ciclo de combate principal.",
+        "step2Title": "Melhore com Dicas",
+        "step2Description": "Aplique dicas comprovadas para progressão, chefes e builds.",
+        "step3Title": "Decida Antes de Comprar",
+        "step3Description": "Use a análise e o detalhamento da monetização para escolher."
+      },
+      "featured": "Destaque e Essencial",
+      "all": "Todos os Guias"
+    },
+    "story": {
+      "title": "História de Embers of the Uncrowned",
+      "description": "Explore a história de Embers of the Uncrowned, a lore do mundo e personagens-chave como Bella enquanto a House Harborwell luta para recuperar seu domínio.",
+      "metaTitle": "História, Lore e Personagens de Embers of the Uncrowned",
+      "metaDescription": "Mergulhe na história e lore de Embers of the Uncrowned, incluindo a House Harborwell, a invasão élfica e personagens como Bella.",
+      "categoryLabel": "HISTÓRIA E LORE",
+      "whatIs": "O que é a História?",
+      "whatIsDescription": "Os guias de história exploram o mundo de fantasia sombria de Embers of the Uncrowned, incluindo a queda da House Harborwell, a invasão élfica e personagens como Bella.",
+      "why": "Por que seguir a história?",
+      "whySteps": {
+        "step1Title": "Aprenda a Lore",
+        "step1Description": "Entenda o mundo, as facções e a guerra pela House Harborwell.",
+        "step2Title": "Conheça os Personagens",
+        "step2Description": "Siga figuras-chave como Bella e seu papel na campanha.",
+        "step3Title": "Conecte a História à Jogabilidade",
+        "step3Description": "Veja como a narrativa se conecta à libertação de assentamentos e regiões."
+      },
+      "featured": "Destaque e Essencial",
+      "all": "Todos os Guias de História"
+    }
+  }
+}
