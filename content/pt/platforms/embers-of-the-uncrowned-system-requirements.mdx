@@ -1,0 +1,191 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Requisitos de Sistema de Embers of the Uncrowned: Guia de Configuração para PC",
+  description: "Confira os requisitos oficiais de sistema de Embers of the Uncrowned. Obtenha as especificações mínimas e recomendadas para PC, necessidades de armazenamento e dicas de desempenho para a demo de 2026.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1a1b1e/ffffff?text=System+Requirements+Guide",
+  date: "2026-06-16",
+  author: "Equipe Wiki de Embers of the Uncrowned"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Requisitos de sistema de Embers of the Uncrowned**: Requer um processador de 64 bits e sistema operacional **Windows 11** para estabilidade ideal.
+- **GPU Mínima**: É necessária pelo menos uma **GTX 1060** ou **RX 580** para lidar com os visuais isométricos de fantasia sombria.
+- **Necessidade de Armazenamento**: Certifique-se de ter **30 GB** de espaço disponível em um SSD para carregamento mais rápido do Assentamento Costa Âmbar.
+- **Nota Anti-Cheat**: O jogo utiliza o **Nexon Game Security (NGS)**, que opera no nível do kernel.
+- **Acesso à Demo**: A demo gratuita do Steam está atualmente disponível desde **13 de junho de 2026**, permitindo que os jogadores testem seu hardware antecipadamente.
+</Callout>
+
+<Section icon={Shield} title="Requisitos Oficiais de Sistema de Embers of the Uncrowned">
+
+Compreender os **requisitos de sistema de Embers of the Uncrowned** é o primeiro passo para qualquer mercenário que busca retomar a Casa Harborwell. Desenvolvido pela NEXON, este MMORPG de fantasia sombria apresenta ambientes isométricos de alta fidelidade, efeitos de habilidade complexos e chefes de domínio maciços que podem exigir muito de hardware mais antigo. Embora o jogo seja otimizado para processadores multi-core modernos, a transição de um pequeno acampamento para uma cidade vibrante no sistema de assentamento requer VRAM consistente e armazenamento rápido para evitar travamentos durante o streaming de ativos.
+
+**Destaques do Vídeo:**
+- Visão geral do mundo isométrico de fantasia sombria e fluxo de combate.
+- Demonstração visual das três classes principais: Carrasco, Lâmina Espectral e Tempestário.
+- Prévia do sistema de crescimento de assentamento da Casa Harborwell.
+- Filmagem de encontros maciços com Chefes de Domínio e mecânicas de raide.
+
+<YouTubeEmbed videoId="eMqdSFFxL6U" title="Embers of the Uncrowned - Trailer Oficial de Sistemas de Jogabilidade" />
+
+Os alvos de hardware são divididos em duas categorias principais para garantir que tanto jogadores com orçamento limitado quanto entusiastas possam desfrutar da história da invasão élfica. Abaixo estão as especificações oficiais fornecidas para a demo de 2026 e o próximo lançamento completo.
+
+| Categoria | Especificação Mínima | Especificação Recomendada |
+| :--- | :--- | :--- |
+| **SO** | Windows 11 (64 bits) | Windows 11 (64 bits) |
+| **Processador** | Intel i5-3570 / AMD FX-8350 | Intel i5-9600 / Ryzen 5 2600X |
+| **Memória** | 8 GB RAM | 16 GB RAM |
+| **Gráficos** | GTX 1060 / RX 580 / Arc A380 | RTX 2060 / RX 5700 XT / Arc A770 |
+| **DirectX** | Versão 11 | Versão 11 |
+| **Armazenamento** | 30 GB de espaço disponível | 30 GB de espaço disponível (SSD) |
+
+<Callout type="warning" title="Aviso de Compatibilidade do SO">
+A página oficial do Steam lista explicitamente **Windows 11 64 bits** como o sistema operacional necessário. Embora alguns usuários possam tentar rodar o jogo no Windows 10, os desenvolvedores não garantem estabilidade ou suporte para versões mais antigas do SO devido a otimizações específicas de segurança e DirectX.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Análise de Níveis de Hardware e Expectativas de Desempenho">
+
+Para ajudá-lo a decidir se seu equipamento atual está pronto para as raides e desafios de domínio, categorizamos as expectativas de desempenho com base em níveis de hardware comuns. Como Embers of the Uncrowned apresenta combate manual com evasão precisa e janelas de atordoamento, manter uma alta taxa de quadros é fundamental para a sobrevivência contra chefes como os encontrados na Defesa da Primavera.
+
+<CardGrid cols={3}>
+  <Card title="Nível de Entrada (Mínimo)">
+    - **Resolução**: 1080p
+    - **Configurações**: Baixa a Média
+    - **FPS Alvo**: 30-45 FPS
+    - Melhor para exploração casual e missões solo em Goldenhaven.
+  </Card>
+  <Card title="Intermediário (Recomendado)">
+    - **Resolução**: 1080p / 1440p
+    - **Configurações**: Alta
+    - **FPS Alvo**: 60+ FPS
+    - Recomendado para encontros de Raide suaves e batalhas na Arena PvP.
+  </Card>
+  <Card title="High-End (Entusiasta)">
+    - **Resolução**: 4K
+    - **Configurações**: Ultra
+    - **FPS Alvo**: 60+ FPS
+    - Ideal para capturar todos os detalhes góticos do legado de Harborwell.
+  </Card>
+</CardGrid>
+
+O sistema de "Progressão Infinita" do jogo envolve o uso intenso de Gemas de Habilidade e efeitos de despertar de linhagem. Esses ativos visuais podem causar "atraso de partículas" durante raides de 12 jogadores se a VRAM da sua GPU for limitada. Se você estiver usando os 8 GB de RAM mínimos exigidos, recomendamos fortemente fechar aplicativos em segundo plano, como navegadores da web ou sobreposições do Discord, para evitar problemas de paginação de memória.
+
+<Callout type="tip" title="Dica de Otimização">
+Se você experimentar travamentos no Assentamento Costa Âmbar, tente primeiro diminuir as configurações de "Qualidade da Sombra" e "Reflexos". Estes são os recursos mais intensivos em recursos na versão demo atual.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Guia de Instalação e Configuração">
+
+Depois de verificar se o seu PC atende aos **requisitos de sistema de Embers of the Uncrowned**, você pode prosseguir com a instalação. A demo lançada em 13 de junho de 2026 é uma entrada separada na loja Steam da página "Em Breve" do jogo completo. Siga estas etapas para garantir uma configuração limpa.
+
+<Steps>
+  <Step num="1" title="Localize a Página da Demo">
+    Navegue até a loja oficial do Steam e procure especificamente por **Embers of the Uncrowned Demo**. Não apenas adicione o jogo principal à sua lista de desejos; você deve baixar o cliente demo específico para o evento Steam Next Fest.
+  </Step>
+  <Step num="2" title="Verifique o Espaço em Disco">
+    Certifique-se de ter pelo menos 30 GB de espaço livre. Embora o tamanho do download possa ser menor devido à compressão, os arquivos não compactados e futuros patches durante o período da demo exigirão a alocação total.
+  </Step>
+  <Step num="3" title="Atualize os Drivers Gráficos">
+    NVIDIA, AMD e Intel frequentemente lançam drivers "Game Ready" para os principais lançamentos da NEXON. Certifique-se de que seus drivers estejam atualizados para as versões de junho de 2026, no mínimo, para evitar artefatos visuais em ambientes de fantasia sombria.
+  </Step>
+  <Step num="4" title="Configure o Anti-Cheat NGS">
+    No primeiro lançamento, o prompt do Nexon Game Security (NGS) aparecerá. Este é um requisito de nível de kernel para jogar online. Você deve conceder permissões administrativas para que o jogo inicialize seus componentes multiplayer.
+  </Step>
+</Steps>
+
+| Tipo de Requisito | Detalhe | Ação do Jogador |
+| :--- | :--- | :--- |
+| **Rede** | Internet Banda Larga | Necessário para todos os modos de jogo |
+| **Conta** | Conta Steam | Necessário para demo e jogo completo |
+| **Controle** | Suporte para Xbox / DualShock | Opcional, mas recomendado para combate manual |
+| **Anti-Cheat** | NGS (nível de kernel) | Instalação obrigatória |
+
+<Callout type="success" title="Pronto para Lançar">
+Após seguir estas etapas, você poderá selecionar sua classe — Carrasco, Lâmina Espectral ou Tempestário — e começar sua jornada para retomar o domínio perdido da Casa Harborwell.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Informações de Segurança e Anti-Cheat">
+
+Como um MMORPG moderno com elementos de Arena PvP e Raide competitivos, Embers of the Uncrowned emprega medidas rigorosas anti-cheat. O uso do **Nexon Game Security (NGS)** é um padrão para títulos da NEXON, mas vem com implicações específicas de nível de hardware que os jogadores devem estar cientes antes da instalação.
+
+| Recurso | Descrição | Impacto |
+| :--- | :--- | :--- |
+| **Nível** | Nível de Kernel (Anel 0) | Acesso de alto nível ao sistema |
+| **Função** | Varredura de memória / Detecção de macro | Impede vantagens injustas no PvP |
+| **Remoção** | Remoção manual necessária | Nem sempre é excluído na desinstalação do Steam |
+| **Compatibilidade** | Windows 11 Secure Boot | Pode exigir ajustes no BIOS |
+
+<Checklist
+  id="security-prep"
+  title="Lista de Verificação de Segurança:"
+  items={[
+    "Habilite o Secure Boot no seu BIOS se for solicitado pelo inicializador do jogo.",
+    "Adicione a pasta do jogo à lista de permissões do seu software antivírus para evitar falsos positivos.",
+    "Revise o processo de remoção manual do NGS se você planeja desinstalar a demo posteriormente.",
+    "Certifique-se de que sua instalação do Windows 11 esteja totalmente atualizada com o patch de segurança mais recente."
+  ]}
+/>
+
+<Callout type="warning" title="Nota Importante sobre a Desinstalação">
+Observe que sistemas anti-cheat de nível de kernel como o NGS às vezes permanecem no sistema após uma desinstalação padrão do Steam. Se você encontrar problemas com outros jogos após remover a demo, pode ser necessário usar uma ferramenta de remoção dedicada ou excluir manualmente a pasta de serviço do NGS.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Suporte a Idiomas e Conectividade Regional">
+
+Embers of the Uncrowned é projetado para um público global, oferecendo amplo suporte a idiomas em sua interface e legendas. Embora o áudio completo esteja atualmente restrito ao inglês, a localização para elementos da interface do usuário e diálogo da história abrange a maioria da base de usuários do Steam.
+
+| Idioma | Interface | Legendas | Áudio Completo |
+| :--- | :--- | :--- | :--- |
+| **Inglês** | Sim | Sim | **Sim** |
+| **Alemão** | Sim | Sim | Não |
+| **Espanhol - Espanha** | Sim | Sim | Não |
+| **Português - Brasil** | Sim | Sim | Não |
+| **Russo** | Sim | Sim | Não |
+| **Chinês Simplificado** | Sim | Sim | Não |
+
+A conectividade é gerenciada por meio de data centers regionais para minimizar a latência durante encontros de Raide de alto risco. Como o sistema de combate depende de "tempo de interrupção" e "evasão", um ping abaixo de 100ms é altamente recomendado para classes como a Lâmina Espectral, que depende de movimentos rápidos e precisos.
+
+<Callout type="info" title="Jogo Global">
+A demo suporta matchmaking em várias regiões. Se você estiver jogando de uma região não listada com servidores locais, o jogo o redirecionará automaticamente para o nó estável mais próximo para garantir a melhor experiência possível durante a campanha de invasão élfica.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Posso rodar Embers of the Uncrowned em um laptop?",
+    answer: "Sim, desde que o laptop atenda aos requisitos de sistema de Embers of the Uncrowned. Especificamente, certifique-se de ter uma GPU dedicada como uma GTX 1060 ou superior. Placas de vídeo integradas (como Intel UHD) geralmente não são suportadas para este título."
+  },
+  {
+    question: "Um SSD é obrigatório para a jogabilidade?",
+    answer: "Embora o jogo seja executado a partir de um HDD tradicional, um SSD é fortemente recomendado. O sistema de assentamento e as transições contínuas entre regiões como Goldenhaven e Towerstead dependem do carregamento rápido de ativos para evitar travamentos."
+  },
+  {
+    question: "O jogo suporta monitores ultrawide?",
+    answer: "Sim, a demo de 2026 suporta resoluções 21:9 e 32:9. A câmera isométrica oferece um campo de visão expandido, o que pode ser vantajoso para identificar os telegrafos dos Chefes de Domínio mais cedo."
+  },
+  {
+    question: "Por que o jogo exige Windows 11?",
+    answer: "Os desenvolvedores utilizam otimizações específicas do DirectX 11 e recursos de segurança inerentes ao Windows 11 para gerenciar o anti-cheat NGS e os complexos sistemas de progressão de linhagem de forma eficiente."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,148 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, HandMetal } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Embers of the Uncrowned Steam Deck: Guía de Rendimiento y Configuración",
+  description: "Optimiza tu experiencia en Embers of the Uncrowned en Steam Deck con nuestra guía detallada de configuraciones, consejos de rendimiento y compatibilidad.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/A92D3A/fff?text=EotU+Steam+Deck+Guide",
+  date: "2026-06-16",
+  author: "Equipo de Wiki de Embers of the Uncrowned"
+}
+
+<Callout type="info" title="Guía Rápida">
+- La compatibilidad de **Embers of the Uncrowned Steam Deck** es clave para jugar en modo portátil.
+- **Ajusta la configuración gráfica** para un rendimiento y calidad visual equilibrados.
+- **Monitorea la duración de la batería** y el calor para asegurar sesiones de juego estables.
+- El **soporte para controlador** es nativo, pero los diseños personalizados pueden mejorar la jugabilidad.
+- El **rendimiento de la demo** ofrece un buen indicador del potencial del juego completo en Steam Deck.
+</Callout>
+
+<Section icon={HandMetal} title="Optimización de Embers of the Uncrowned en Steam Deck">
+
+Jugar **Embers of the Uncrowned Steam Deck** ofrece una experiencia MMORPG de fantasía oscura portátil única. Aunque el juego está diseñado principalmente para PC, las capacidades de Steam Deck permiten una aventura portátil sorprendentemente robusta. Lograr un rendimiento óptimo implica ajustar cuidadosamente la configuración del juego y aprovechar las características de Steam Deck.
+
+<Callout type="tip">
+Para la mejor experiencia, asegúrate siempre de que el sistema operativo de tu Steam Deck y los controladores de la GPU estén actualizados. Esto puede afectar significativamente el rendimiento y la estabilidad del juego.
+</Callout>
+
+La demo del juego, lanzada el 13 de junio de 2026, ofrece una excelente oportunidad para probar varias configuraciones y encontrar lo que mejor funciona para tu Steam Deck. Con 260 reseñas mixtas, ajustar tu configuración puede marcar la diferencia en tu disfrute.
+
+**Aspectos destacados del video:**
+- Demuestra la configuración inicial para un rendimiento óptimo.
+- Muestra la configuración gráfica recomendada para una jugabilidad fluida.
+- Ofrece consejos para gestionar la duración de la batería durante sesiones prolongadas.
+
+</Section>
+
+<Section icon={Sparkles} title="Configuración Gráfica Recomendada para Steam Deck">
+
+Equilibrar la fidelidad visual con una velocidad de fotogramas fluida es crucial para una gran experiencia de **Embers of the Uncrowned Steam Deck**. Reducir ciertas configuraciones puede mejorar drásticamente el rendimiento sin afectar gravemente la atmósfera de fantasía oscura. Experimenta con estas recomendaciones como punto de partida.
+
+<Callout type="warning" title="Impacto en el rendimiento">
+La alta calidad de las sombras, los efectos de partículas complejos y el anti-aliasing pueden ser particularmente exigentes para el hardware de Steam Deck. Prioriza la reducción de estas configuraciones primero si experimentas caídas de fotogramas.
+</Callout>
+
+| Categoría de Configuración | Valor Recomendado | Impacto en el Rendimiento | Impacto Visual |
+|:-----------------|:------------------|:----------------------|:--------------|
+| Resolución       | 1280x800          | Alto                  | Moderado      |
+| Calidad de Texturas  | Medio            | Bajo-Medio            | Moderado      |
+| Calidad de Sombras   | Bajo               | Alto                  | Bajo           |
+| Anti-Aliasing    | Desactivado / FXAA        | Alto                  | Bajo-Medio    |
+| Distancia de Visión    | Medio            | Medio                | Bajo           |
+| Efectos de Partículas | Medio            | Medio                | Bajo           |
+| V-Sync           | Activado                | Estabiliza la velocidad de fotogramas  | Suavidad    |
+
+Estas configuraciones buscan proporcionar una velocidad de fotogramas estable de 30-40 FPS, lo que generalmente es aceptable para MMORPGs en un dispositivo portátil. Podrías aumentar algunas configuraciones si te sientes cómodo con caídas ocasionales.
+
+</Section>
+
+<Section icon={Shield} title="Optimizaciones Específicas de Steam Deck y Esquemas de Control">
+
+Más allá de la configuración del juego, Steam Deck ofrece varias optimizaciones a nivel de sistema que pueden mejorar tu experiencia de juego en **Embers of the Uncrowned Steam Deck**. Esto incluye la gestión de energía, diseños de controlador personalizados y compatibilidad con Proton.
+
+<Callout type="info">
+Embers of the Uncrowned utiliza NGS (Nexon Game Security) a nivel de kernel. Asegúrate de revisar la nota anti-trampas de Steam antes de instalarlo, ya que requiere la eliminación manual después de desinstalar el juego.
+</Callout>
+
+<Steps>
+  <Step num="1" title="Perfil de Gestión de Energía">
+    Accede al Menú de Acceso Rápido (QAM) presionando el botón "...". Navega a la pestaña de Rendimiento y habilita la opción "Usar perfil por juego". Experimenta con la limitación del TDP (Potencia de Diseño Térmico) y la velocidad de reloj de la GPU para encontrar un equilibrio entre rendimiento y duración de la batería.
+  </Step>
+  <Step num="2" title="Compatibilidad con Proton">
+    Aunque muchos juegos funcionan bien con la versión predeterminada de Proton, algunos títulos se benefician de versiones específicas. En tu Biblioteca de Steam, haz clic derecho en Embers of the Uncrowned, ve a Propiedades > Compatibilidad y fuerza el uso de una herramienta de compatibilidad específica de Steam Play. Prueba diferentes versiones de Proton GE si encuentras problemas.
+  </Step>
+  <Step num="3" title="Diseños de Controlador Personalizados">
+    El juego admite la entrada de controlador de Xbox, lo que se traduce bien en Steam Deck. Sin embargo, puedes crear diseños personalizados a través del configurador de Steam Input. Considera mapear habilidades o acceso al inventario de uso frecuente a los botones traseros para reacciones más rápidas en combate.
+  </Step>
+  <Step num="4" title="Consideraciones de Almacenamiento Externo">
+    Embers of the Uncrowned requiere 30 GB de almacenamiento. Si estás usando una tarjeta SD, asegúrate de que sea una tarjeta de alta velocidad (se recomienda una clasificación A2) para minimizar los tiempos de carga y evitar tartamudeos durante el juego.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Trophy} title="Puntos de Referencia de Rendimiento y Experiencia Esperada">
+
+Basado en el rendimiento de la demo y los requisitos del sistema, los jugadores pueden anticipar una experiencia sólida, aunque no siempre a 60 FPS, en Steam Deck. La naturaleza MMORPG de fantasía oscura de Embers of the Uncrowned significa que las velocidades de fotogramas consistentes suelen ser más críticas que una fidelidad gráfica ultra alta.
+
+| Componente       | Requisito Mínimo para PC | Requisito Recomendado para PC | Rendimiento Esperado en Steam Deck |
+|:----------------|:-----------------------|:---------------------------|:--------------------------------|
+| CPU             | Intel i5-3570 / AMD FX-8350 | Intel i5-9600 / Ryzen 5 2600X | Comparable al mínimo, con optimizaciones |
+| GPU             | GTX 1060 / RX 580 / Intel Arc A380 | RTX 2060 / RX 5700 XT / Intel Arc A770 | APU AMD integrada, requiere configuraciones más bajas |
+| RAM             | 8 GB                   | 16 GB                      | 16 GB (compartida con VRAM)       |
+| Almacenamiento         | 30 GB SSD              | 30 GB SSD                  | 30 GB (interno o SD de alta velocidad) |
+| Velocidad de Fotogramas Objetivo | 30 FPS+                | 60 FPS+                    | 30-40 FPS (con configuraciones optimizadas) |
+
+<Callout type="success">
+Muchos jugadores reportan una experiencia fluida y agradable en Steam Deck después de ajustar la configuración. La perspectiva isométrica y el combate táctico se adaptan bien al formato portátil.
+</Callout>
+
+<Checklist
+  id="steam-deck-playability"
+  title="Lista de Verificación de Jugabilidad en Steam Deck:"
+  items={[
+    "El juego se inicia y se ejecuta correctamente",
+    "Velocidad de fotogramas estable (30-40 FPS) con configuraciones optimizadas",
+    "La entrada del controlador es completamente funcional",
+    "Las funciones en línea (cooperativo, PvP) son accesibles",
+    "No hay fallos gráficos importantes ni cierres inesperados"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Target} title="Preguntas Frecuentes sobre la Compatibilidad con Steam Deck">
+
+Comprender los matices de jugar un MMORPG de PC como Embers of the Uncrowned en un dispositivo portátil a menudo lleva a preguntas específicas. Aquí hay algunas consultas comunes con respecto a la compatibilidad de **Embers of the Uncrowned Steam Deck**.
+
+<Callout type="tip">
+Consulta siempre el Discord oficial de Embers of the Uncrowned y el Centro de la Comunidad de Steam para obtener los últimos consejos y guías de solución de problemas impulsados por la comunidad para usuarios de Steam Deck.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "¿Embers of the Uncrowned es compatible oficialmente con Steam Deck?",
+    answer: "Aunque NEXON no ha anunciado oficialmente la verificación completa para Steam Deck, la demo del juego es jugable en el dispositivo. Los esfuerzos de la comunidad y los ajustes de configuración dentro del juego permiten una buena experiencia."
+  },
+  {
+    question: "¿Cómo es la duración de la batería al jugar Embers of the Uncrowned en Steam Deck?",
+    answer: "La duración de la batería variará significativamente según la configuración del juego y el perfil de rendimiento de Steam Deck. Espera entre 1.5 y 3 horas de juego en promedio, con configuraciones más bajas que extienden el tiempo de juego."
+  },
+  {
+    question: "¿Puedo usar periféricos externos como un ratón y teclado con Embers of the Uncrowned en Steam Deck?",
+    answer: "Sí, Steam Deck es compatible con concentradores USB-C externos para conectar un ratón, teclado y una pantalla externa, lo que permite una configuración de PC más tradicional si se desea."
+  },
+  {
+    question: "¿La versión completa de Embers of the Uncrowned tendrá una mejor optimización para Steam Deck?",
+    answer: "Es común que los juegos reciban optimizaciones de rendimiento cerca o después de su lanzamiento completo. Aunque no está garantizado, los desarrolladores pueden abordar el rendimiento de Steam Deck como parte de los esfuerzos de optimización más amplios para PC."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,170 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Executor de Embers of the Uncrowned: Guia de Builds e Estilo de Jogo",
+  description: "Domine a classe Executor de Embers of the Uncrowned com este guia aprofundado que abrange builds, mecânicas principais e estilos de jogo ideais para a demo.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/8B0000/fff?text=Executioner+Guide",
+  date: "2026-06-16",
+  author: "Equipe Wiki de Embers of the Uncrowned"
+}
+
+<Callout type="info" title="Guia Rápido">
+- O **Executor** é uma classe de vanguarda corpo a corpo pesada em **Embers of the Uncrowned**.
+- As mecânicas principais giram em torno de acumular **Fúria** e ativar **Ira** para dano explosivo.
+- Foque nos elementos **Físico e Fogo** para builds otimizadas.
+- Recomendado para jogadores que preferem **combate corpo a corpo durável** e gerenciamento claro de recursos.
+- O Executor oferece uma experiência de demo **direta**, mas impactante.
+</Callout>
+
+<Section icon={Swords} title="Compreendendo a Classe Executor">
+O Executor se destaca como uma formidável vanguarda corpo a corpo pesada em Embers of the Uncrowned, especializando-se em combate devastador de curta distância. Esta classe é projetada para jogadores que gostam de estar na linha de frente da batalha, desferindo golpes pesados com um machado gigante e controlando o ritmo dos confrontos. Dominar o **Executor** envolve entender seu sistema de recursos único e aproveitar poderosas janelas de burst.
+
+**Destaques do Vídeo:**
+- Demonstra o loop de combate central do Executor.
+- Mostra as impactantes mecânicas de Fúria e Ira.
+- Fornece exemplos de cadeias de habilidades e habilidades de perseguição.
+
+<YouTubeEmbed videoId="YG2lS7LPm5A" title="Embers of the Uncrowned - Official Gameplay Systems Trailer" />
+
+A identidade da classe está profundamente enraizada em sua capacidade de gerar Fúria através do combate, o que então alimenta o potente estado de Ira. Isso permite mudanças explosivas de ritmo, perseguição implacável de inimigos e poderosas cadeias de habilidades que podem dizimar grupos ou alvos únicos.
+
+<Callout type="tip" title="A Vantagem do Executor">
+O **Executor** se destaca quando continuamente engajado em combate, pois a agressão sustentada se traduz diretamente em maior produção de dano através do sistema Fúria/Ira. Evite desengajar com muita frequência.
+</Callout>
+
+### Mecânicas Principais do Executor
+
+A fantasia de poder do Executor é construída em torno de duas mecânicas principais: Fúria e Ira. Esses sistemas ditam o fluxo do combate e definem o potencial de burst da classe.
+
+| Mecânica     | Descrição                                                                      | Impacto no Combate                                                                    |
+| :----------- | :----------------------------------------------------------------------------- | :------------------------------------------------------------------------------------ |
+| **Fúria**    | Gerada ao atacar e sofrer dano. Preenche uma barra de recursos.               | Alimenta habilidades e constrói em direção ao poderoso estado de Ira.                |
+| **Ira**      | Ativada quando a barra de Fúria está cheia. Concede buffs significativos e desbloqueia habilidades. | Permite dano de burst explosivo, perseguição aprimorada e cadeias de habilidades estendidas. |
+| **Perseguição**| Habilidades que permitem ao Executor fechar rapidamente a distância para os inimigos. | Essencial para manter o tempo de atividade nos alvos e maximizar a geração de Fúria. |
+| **Cadeias de Habilidades** | Sequências específicas de habilidades que fluem juntas para o impacto máximo. | Otimiza a produção de dano e o gerenciamento de recursos durante as janelas de Ira. |
+
+</Section>
+
+<Section icon={Target} title="Builds e Estilos de Jogo do Executor">
+O **Executor** oferece caminhos de build versáteis focados em dano físico com choque e redução de defesa, ou dano de fogo com acúmulo de queimadura. Cada caminho enfatiza diferentes aspectos do kit de ferramentas da classe, permitindo que os jogadores personalizem seu estilo de jogo.
+
+### Foco de Build Recomendado
+
+| Foco de Build                      | Elementos Chave    | Função Primária                   | Dificuldade | Melhor Para                                                                   |
+| :--------------------------------- | :----------------- | :-------------------------------- | :--------- | :-------------------------------------------------------------------------- |
+| **Dano Físico em Chefes**          | Físico, Choque     | Burst de alvo único, Redução de Defesa | Médio      | Jogadores que querem eliminar rapidamente alvos de alta prioridade.         |
+| **Caça Físico em Área**            | Físico, Crítico    | Limpeza de grupo, Mobilidade      | Médio      | Jogadores que gostam de progressão rápida através de grupos de inimigos.      |
+| **Acúmulo de Queimadura de Fogo de Curta Distância** | Fogo, Queimadura   | Dano Contínuo Sustentado, Controle de Área | Médio      | Jogadores que preferem dano consistente ao longo do tempo e negação de campo de batalha. |
+| **Fogo em Área Baseado em Movimento** | Fogo, Mobilidade   | Pressão em Área Móvel, Controle de Multidão | Médio      | Jogadores que gostam de entrar e sair do combate enquanto danificam múltiplos inimigos.|
+
+<Callout type="success" title="Sinergia de Build">
+Considere emparelhar sua build escolhida de **Executor** com companheiros que complementem seu tipo de dano ou forneçam controle de multidão adicional para maximizar a eficiência em conteúdo de grupo.
+</Callout>
+
+### Progressão Através de Gemas de Habilidade e Equipamento
+
+A progressão para o Executor, assim como outras classes em Embers of the Uncrowned, depende fortemente de **Gemas de Habilidade** e aprimoramento de equipamento. Esses sistemas permitem profunda personalização e escalonamento de poder.
+
+<Steps>
+  <Step num="1" title="Escolha uma Classe Demo">
+    A demo do Steam Next Fest apresenta o **Executor** como uma classe jogável, focando em ataques pesados e esmagadores com um machado gigante. Familiarize-se primeiro com seu kit básico.
+  </Step>
+  <Step num="2" title="Aprenda a Progressão de Habilidades Ativas e Passivas">
+    Cada classe jogável na demo tem 28-29 habilidades, oferecendo progressão ativa e passiva. Para o **Executor**, priorize habilidades que aumentam a geração de Fúria e a duração da Ira, ou aquelas que amplificam seu elemento escolhido (Físico ou Fogo).
+  </Step>
+  <Step num="3" title="Combine Habilidades com a Identidade da Classe">
+    O **Executor** favorece golpes corpo a corpo comprometidos e ataques de alto impacto. Selecione habilidades que reforcem essa identidade, como aquelas que fornecem dano de cleave para builds em área ou dano significativo de alvo único para chefes.
+  </Step>
+  <Step num="4" title="Camadas de Gemas de Habilidade e Aprimoramento de Equipamento">
+    As **Gemas de Habilidade** são cruciais para o crescimento de longo prazo do personagem. Experimente diferentes gemas para aumentar suas habilidades ativas ou aprimorar habilidades passivas. O aprimoramento de equipamento fornece outra camada de desenvolvimento de poder de combate, então foque em aprimorar peças que aumentam seus atributos primários (Força, Poder de Ataque) e dano elemental.
+  </Step>
+  <Step num="5" title="Avance na Progressão Através do Conteúdo da Demo">
+    A demo inclui três capítulos da história principal, 34 missões secundárias e mais de 480 minutos de conteúdo. Utilize essas oportunidades para testar diferentes builds de **Executor**, adquirir novos equipamentos e subir o nível de suas habilidades. A liberação de regiões e o crescimento de companheiros também contribuem para sua progressão geral.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Shield} title="Executor vs. Outras Classes">
+Ao comparar o **Executor** com o Portador da Tempestade e a Lâmina Espectral, seu papel como uma vanguarda corpo a corpo durável fica claro. Embora possa não ter a segurança de longo alcance de um Portador da Tempestade ou a decepção ágil de uma Lâmina Espectral, seu poder bruto e sua capacidade de sobrevivência o tornam uma excelente escolha para muitos jogadores.
+
+### Comparação de Classes para o Desempenho da Demo
+
+| Classe           | Papel                      | Mecânicas Principais                               | Dificuldade | Melhor Para                                                                       |
+| :--------------- | :------------------------- | :------------------------------------------------- | :--------- | :------------------------------------------------------------------------------ |
+| **Executor**     | Vanguarda corpo a corpo pesada | Acumula Fúria, ativa Ira para ritmo explosivo        | Médio      | Jogadores que querem combate corpo a corpo durável e janelas de burst pesado.   |
+| Portador da Tempestade | Magia de vento e relâmpago | Controla o espaço com magia de Vento e Relâmpago   | Médio      | Jogadores que preferem magia de longo alcance, burst elemental e padrões de campo de batalha. |
+| Lâmina Espectral | Assassino corpo a corpo móvel | Gera e consome Sombra, usa Fantasmas, Furtividade | Alta       | Jogadores que gostam de mobilidade, decepção, roteamento de combos e maestria mecânica. |
+
+<Callout type="warning" title="Considere seu Estilo de Jogo">
+Embora o **Executor** seja uma escolha forte, novos jogadores podem achar o combate à distância do Portador da Tempestade ou a abordagem direta do Executor mais acessíveis do que o alto teto de habilidade da Lâmina Espectral.
+</Callout>
+
+### Situações Ótimas para o Executor
+
+O **Executor** realmente brilha em cenários de combate específicos. Saber quando e onde aproveitar seus pontos fortes pode impactar significativamente seu sucesso.
+
+<Checklist
+  id="executioner-strengths"
+  title="Cenários Ótimos do Executor:"
+  items={[
+    "Tanque de linha de frente e causador de dano em raides e chefes de domínio.",
+    "Limpar grandes grupos de inimigos eficientemente com builds em área.",
+    "Dano sustentado contra alvos únicos de alta vida.",
+    "Interromper formações inimigas com poderosas habilidades de carga e atordoamento.",
+    "Contribuir com dano de burst significativo durante fases críticas de chefes."
+  ]}
+/>
+
+</Section>
+
+<Section icon={Trophy} title="Táticas Avançadas do Executor">
+Para realmente dominar o **Executor**, entender táticas avançadas além das rotações básicas de habilidades é essencial. Isso envolve gerenciamento preciso de recursos, uso eficaz de habilidades de perseguição e saber quando liberar sua Ira.
+
+### Maximizando Fúria e Ira
+
+Gerar e consumir Fúria de forma eficiente é a pedra angular do jogo de alto desempenho do Executor.
+
+| Tática                      | Descrição                                                                                               | Benefício                                                                   |
+| :-------------------------- | :------------------------------------------------------------------------------------------------------ | :-------------------------------------------------------------------------- |
+| **Engajamento Agressivo**   | Esteja constantemente no alcance corpo a corpo, atacando para gerar Fúria a partir de golpes e dano sofrido. | Ativação mais rápida da Ira e aumento do dano geral.                       |
+| **Gerenciamento de Ira**    | Cronometre a ativação da sua Ira para coincidir com as janelas de vulnerabilidade do chefe ou grandes grupos de inimigos. | Maximiza o dano de burst e minimiza o tempo de atividade da Ira desperdiçado. |
+| **Interrupção de Habilidades** | Use habilidades específicas do **Executor** para interromper habilidades inimigas perigosas, mantendo o controle. | Previne o dano recebido e cria aberturas para sua equipe.                    |
+| **Posicionamento para Cleave** | Posicione-se para atingir múltiplos inimigos com habilidades de cleave, especialmente durante a Ira.    | Aumenta muito o dano em área e acelera os tempos de limpeza.               |
+
+<Callout type="info" title="Sabedoria da Comunidade">
+Muitos jogadores acham que uma build híbrida de **Executor**, misturando dano físico e de fogo, oferece a maior flexibilidade para lidar com diversos conteúdos na demo.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Perguntas Frequentes sobre o Executor">
+
+<FAQ items={[
+  {
+    question: "O Executor é uma boa classe para novos jogadores em Embers of the Uncrowned?",
+    answer: "Sim, o Executor é considerado uma classe de dificuldade média e é frequentemente recomendado como uma 'Melhor Primeira Escolha' devido ao seu fluxo de recursos direto, combate corpo a corpo durável e janelas de burst claras, tornando-o acessível para novos jogadores."
+  },
+  {
+    question: "Quais são os tipos de dano primários para o Executor?",
+    answer: "O Executor causa principalmente dano Físico e de Fogo. As builds podem focar em um ou outro tipo para se especializar em dano a chefes, limpeza de área ou acúmulo de queimadura."
+  },
+  {
+    question: "Como funciona o sistema de Fúria e Ira do Executor?",
+    answer: "O Executor gera Fúria através do combate. Uma vez que Fúria suficiente é acumulada, o estado de Ira pode ser ativado, o que fornece buffs significativos, desbloqueia habilidades poderosas e permite dano de burst explosivo e cadeias de habilidades."
+  },
+  {
+    question: "O Executor pode efetivamente solar conteúdo na demo?",
+    answer: "A durabilidade e o alto dano do **Executor** o tornam muito eficaz para solar grande parte do conteúdo da demo, incluindo missões principais e secundárias. Suas fortes ferramentas de engajamento ajudam a manter o controle na maioria dos encontros."
+  }
+]} />
+
+</Section>

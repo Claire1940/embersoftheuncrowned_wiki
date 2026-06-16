@@ -1,0 +1,187 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Combate en Embers of the Uncrowned: Mecánicas Manuales y Guía de Clases",
+  description: "Domina el combate en Embers of the Uncrowned con nuestra guía sobre mecánicas manuales, gemas de habilidad específicas de clase, sistemas de aturdimiento y tácticas de incursión cooperativa para 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/15161a/fff?text=Combat+Mechanics+Guide",
+  date: "2026-06-16",
+  author: "Equipo de Wiki de Embers of the Uncrowned"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Control Manual**: A diferencia de los MMO tradicionales portados a móviles, el **combate en Embers of the Uncrowned** es completamente manual, requiriendo movimiento y puntería precisos con WASD o mando.
+- **Sistema de Aturdimiento**: Romper la "Ventana de Aturdimiento" de un jefe es el método principal para infligir daño masivo durante las incursiones.
+- **Arquetipos de Clase**: Elige entre el Verdugo (Cuerpo a cuerpo pesado), Hoja Espectral (Asesino ágil) o Portatormentas (A distancia elemental).
+- **Progresión Infinita**: El poder de combate se escala mediante una combinación de Gemas de Habilidad, Mejora de Equipo y Despertar del Linaje.
+- **Maestría en Evasión**: La gestión de la Resistencia (SP) para las esquivas es crítica, ya que la mayoría de los ataques de los jefes se basan en telegrafía y causan mucho daño.
+</Callout>
+
+<Section icon={Swords} title="Fundamentos del Combate en Embers of the Uncrowned">
+
+El núcleo del **combate en Embers of the Uncrowned** reside en su alejamiento de los sistemas automatizados. Los jugadores deben navegar por un mundo isométrico de fantasía oscura donde cada golpe, esquiva y habilidad requiere una entrada manual. El sistema se basa en el posicionamiento táctico y la mecánica de "Aturdimiento", que recompensa a los jugadores por interrumpir habilidades peligrosas de los jefes. Ya sea que estés explorando la Costa Ámbar o defendiendo Goldenhaven, comprender el ritmo de la evasión manual y el encadenamiento de habilidades es la diferencia entre reclamar la Casa Harborwell y convertirse en otra víctima de la invasión élfica.
+
+**Puntos destacados del video:**
+- **Puntería Manual**: Demuestra la precisión requerida para la colocación de tiros de habilidad y la puntería manual.
+- **Sinergia de Clases**: Muestra cómo los Verdugos atraen el aggro mientras los Portatormentas proporcionan presión elemental.
+- **Mecánicas de Jefe**: Resalta las señales visuales para las interrupciones y las ventanas de aturdimiento.
+
+<YouTubeEmbed videoId="VoCPXiss8Ek" title="Embers of the Uncrowned - Tráiler Oficial de Sistemas de Juego" />
+
+El combate se profundiza aún más con el sistema de Resistencia (SP). Cada esquiva consume SP, lo que evita que los jugadores abusen de los fotogramas de invencibilidad. Esto fuerza un enfoque táctico en el que debes aprender los patrones de los jefes y solo evadir cuando sea necesario. Gestionar tu MP para las habilidades mientras mantienes suficiente SP para la supervivencia es el bucle fundamental del juego de alto nivel en la demo de 2026.
+
+| Tipo de Control | Mapeo de Teclado y Ratón | Entrada de Mando (Xbox) | Función de Combate |
+| :--- | :--- | :--- | :--- |
+| **Movimiento** | Teclas WASD | Joystick Izquierdo | Posicionamiento y kiteo manual |
+| **Ataque Básico** | Botón Izquierdo del Ratón | Botón X | Genera recursos (Furia/Sombra) |
+| **Ranuras de Habilidad** | 1, 2, 3, 4, Q, E | RB, RT, LB, LT | Daño principal y utilidad |
+| **Evasión** | Barra Espaciadora | Botón A | Consume SP para esquivar ataques |
+| **Interrupción** | Tecla R | Botón B | Rompe el lanzamiento de habilidades del jefe |
+| **Linaje** | Tecla T | Botón Y | Activa el estado de despertar |
+
+<Callout type="success" title="Consejo de Combate">
+Mantén siempre al menos el 25% de tu barra de SP llena. Quedarse sin Resistencia durante el "Ultimate" de un jefe suele resultar en una muerte instantánea, especialmente en las incursiones de la región de Towerstead.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Arquetipos de Combate Específicos de Clase">
+
+La demo de junio de 2026 presenta tres clases distintas, cada una con un sistema único de gestión de recursos y ritmo de combate. Comprender estos arquetipos es vital tanto para la progresión en solitario como para el emparejamiento basado en grupos.
+
+<CardGrid cols={3}>
+  <Card title="Verdugo">
+    - **Rol**: Vanguardia de Cuerpo a Cuerpo Pesado
+    - **Recurso**: Furia / Ira
+    - **Estilo**: Presión cuerpo a cuerpo de alto riesgo y alta recompensa con elementos Físicos y de Fuego.
+  </Card>
+  <Card title="Hoja Espectral">
+    - **Rol**: Asesino Ágil
+    - **Recurso**: Sombra / Fantasmas
+    - **Estilo**: Combos de alta movilidad usando elementos Físicos y Oscuridad para confundir a los enemigos.
+  </Card>
+  <Card title="Portatormentas">
+    - **Rol**: Lanzador Elemental
+    - **Recurso**: Maná / Fuerza Elemental
+    - **Estilo**: Hechizos de Viento y Rayo a distancia centrados en el control de área y el daño explosivo.
+  </Card>
+</CardGrid>
+
+Cada clase cuenta con 28-29 habilidades únicas que se pueden modificar a través del sistema de Gemas de Habilidad. Por ejemplo, un Verdugo puede centrarse en una construcción de "Quemadura de Fuego" para infligir daño con el tiempo mientras kiting, o una construcción de "Desgarro Físico" para maximizar el impacto durante las ventanas de aturdimiento. La Hoja Espectral se basa en generar "Sombra" a través de ataques básicos y consumirla para movimientos finales, lo que la convierte en la clase con mayor límite de habilidad en la construcción actual.
+
+| Nombre de la Clase | Dificultad | Tipo de Daño Principal | Mejor Escenario de Combate |
+| :--- | :--- | :--- | :--- |
+| **Verdugo** | Medio | Físico / Fuego | Tanqueo en primera línea y limpieza de AoE |
+| **Hoja Espectral** | Alto | Físico / Oscuridad | DPS de jefe de un solo objetivo y PvP |
+| **Portatormentas** | Medio | Viento / Rayo | Daño a distancia seguro y control de masas |
+
+<Callout type="tip" title="Sugerencia de Construcción">
+Para la demo del Steam Next Fest de 2026, el **Verdugo** es la opción más estable para jugadores solitarios debido a su alta defensa natural y su sencilla conversión de Furia a Ira.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Progresión: Gemas de Habilidad y Linajes">
+
+El poder en el **combate de Embers of the Uncrowned** no se trata solo de tu nivel; se trata de cómo superpones tus sistemas de progresión. El modelo de "Progresión Infinita" permite a los jugadores personalizar su estilo de combate a través de tres pilares principales: Gemas de Habilidad, Mejora de Equipo y Despertar del Linaje.
+
+<Steps>
+  <Step num="1" title="Seleccionar Habilidades Activas">
+    Elige 6 habilidades activas del conjunto de 28 de tu clase. Equilibra entre generadores rápidos de recursos y habilidades de alto daño.
+  </Step>
+  <Step num="2" title="Engarzar Gemas de Habilidad">
+    Aplica Gemas de Habilidad a tus habilidades activas. Estas pueden cambiar el elemento de una habilidad, reducir los tiempos de reutilización o añadir utilidad como "Aturdir" o "Robo de Vida".
+  </Step>
+  <Step num="3" title="Mejorar Equipo de Combate">
+    Usa los recursos obtenidos de los Jefes de Dominio para mejorar tus armas y armaduras, aumentando la resistencia física y elemental base.
+  </Step>
+  <Step num="4" title="Despertar el Poder del Linaje">
+    Desbloquea el poder latente de la Casa Harborwell. Este estado "Definitivo" proporciona mejoras temporales a la velocidad, el daño y la regeneración de recursos.
+  </Step>
+</Steps>
+
+Las Gemas de Habilidad son la parte más transformadora del sistema de combate. El "Rayo en Cadena" de un Portatormentas puede modificarse con una "Gema de Vendaval" para empujar a los enemigos hacia atrás, o una "Gema de Trueno" para aumentar la probabilidad de golpe crítico contra objetivos aturdidos. Este nivel de personalización asegura que dos jugadores de la misma clase puedan tener roles de combate muy diferentes dentro de una incursión.
+
+| Capa de Progresión | Fuente Principal | Impacto en el Combate |
+| :--- | :--- | :--- |
+| **Gemas de Habilidad** | Caídas de Mundo / Incursiones | Modifica el comportamiento y los elementos de la habilidad |
+| **Mejora de Equipo** | Artesanía / Asentamiento | Aumenta el HP, MP y Ataque brutos |
+| **Poder del Linaje** | Capítulos de la Historia | Proporciona una poderosa mejora de "Despertar" |
+| **Habilidades de Compañero** | Afinidad de Eslyn | Añade soporte pasivo o sinergia activa |
+
+<Callout type="warning" title="Nota Anti-Trampas">
+La demo utiliza **Nexon Game Security (NGS)**. Este es un anti-trampas a nivel de kernel. Asegúrate de que tu sistema cumpla con el requisito de Windows 11 de 64 bits para evitar tartamudeos de combate o desconexiones durante el juego en línea.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Cooperación Táctica: Jefes e Incursiones">
+
+La demo de 2026 destaca 12 monstruos jefes en varios tipos de encuentros. El éxito en estos encuentros de alto nivel requiere más que solo un alto DPS; requiere "Sinergia de Combate" con tus compañeros y miembros del grupo. Los Jefes de Dominio requieren que los jugadores recuperen tierras para la Casa Harborwell, mientras que los Jefes de Incursión están diseñados para un juego en grupo de alta coordinación.
+
+La "Ventana de Aturdimiento" es la mecánica más importante de dominar. Cuando un jefe prepara un ataque poderoso, aparece una barra amarilla o morada. Usar habilidades de "Interrupción" durante este tiempo agotará la barra. Una vez vacía, el jefe queda Aturdido, recibiendo un 200% de daño aumentado durante un corto período.
+
+| Tipo de Encuentro | Cantidad de Jugadores | Dificultad | Objetivo Principal |
+| :--- | :--- | :--- | :--- |
+| **Jefe de Campo** | Mundo Abierto | Baja / Media | Agruparse para eliminar amenazas regionales |
+| **Jefe de Dominio** | 1 - 4 Jugadores | Media | Reclamar territorio para el Asentamiento |
+| **Defensa de Primavera** | 4 Jugadores | Alta | Defender un objetivo central de oleadas |
+| **Encuentro de Incursión** | 4+ Jugadores | Muy Alta | Usar interrupciones y tácticas coordinadas |
+| **Arena PvP** | 1v1 / 3v3 | Competitivo | Dominar el posicionamiento y el tiempo de habilidad |
+
+Compañeros como **Eslyn** también juegan un papel en estas peleas. Con 17 habilidades de compañero disponibles en la demo, puedes configurar a tu aliado para que se centre en curar, proporcionar escudos o ayudar con las interrupciones. Construir "Afinidad" con Eslyn a través de misiones desbloquea sinergias de combate más poderosas que refuerzan tu fuerza general.
+
+<Callout type="info" title="Estrategia de Incursión">
+En incursiones de 4 jugadores, asigna a un jugador (normalmente un Verdugo) para que guarde su habilidad de "Interrupción" exclusivamente para la mecánica de aniquilación del jefe. No malgastes estas habilidades en ataques estándar.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de Verificación de Preparación para el Combate">
+
+Antes de dirigirte a las regiones de mayor dificultad como Towerstead o intentar la Defensa de Primavera, asegúrate de que tu personaje esté correctamente optimizado para el encuentro.
+
+<Checklist
+  id="combat-prep"
+  title="Lista de Verificación Pre-Incursión:"
+  items={[
+    "Equipa Gemas de Habilidad que coincidan con la debilidad elemental del jefe",
+    "Mejora tu arma principal a +5 como mínimo en el Asentamiento",
+    "Configura las habilidades de compañero de Eslyn en modo 'Soporte' o 'Agresivo'",
+    "Abastece de pociones de HP y MP del vendedor de la Costa Ámbar",
+    "Asegúrate de que tu medidor de Linaje esté completamente cargado antes del encuentro",
+    "Revisa los colores de telegrafía de aturdimiento del jefe en el menú del tutorial"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Map} title="Preguntas Frecuentes sobre el Combate">
+
+<FAQ items={[
+  {
+    question: "¿Existe un sistema de combate automático o de ruta automática?",
+    answer: "No. El combate de Embers of the Uncrowned es estrictamente manual. No hay función de juego automático, lo que requiere que los jugadores apunten manualmente las habilidades y esquiven los ataques."
+  },
+  {
+    question: "¿Cómo desbloqueo más habilidades para mi clase?",
+    answer: "Las habilidades se desbloquean a medida que avanzas en los tres capítulos principales de la historia y subes de nivel. Cada clase tiene un conjunto de 28-29 habilidades para descubrir en la demo."
+  },
+  {
+    question: "¿Puedo cambiar mi clase después de iniciar la demo?",
+    answer: "La demo te permite probar las tres clases, pero la progresión se registra por personaje. Puedes crear múltiples personajes para probar el Verdugo, la Hoja Espectral y el Portatormentas."
+  },
+  {
+    question: "¿Cuál es el beneficio del Despertar del Linaje?",
+    answer: "El Despertar del Linaje es un potenciador temporal que mejora las mecánicas centrales de tu clase, aumenta la producción de daño y, a menudo, proporciona invulnerabilidad a los efectos de control de masas."
+  }
+]} />
+
+</Section>

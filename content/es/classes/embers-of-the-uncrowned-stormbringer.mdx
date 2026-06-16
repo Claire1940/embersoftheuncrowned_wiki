@@ -1,0 +1,194 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Zap, BookOpen, Users, Home } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Embers of the Uncrowned Invocador de Tormentas: Mejores Builds y Guía de Clase",
+  description: "Domina al Invocador de Tormentas de Embers of the Uncrowned con nuestra guía de magia de viento y relámpago, gemas de habilidad, progresión de linaje y builds listas para la demo.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1a1a2e/fff?text=Stormbringer+Class+Guide",
+  date: "2026-06-16",
+  author: "Equipo Wiki de Embers of the Uncrowned"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Invocador de Tormentas de Embers of the Uncrowned**: El principal infligidor de daño mágico a distancia en la demo de Steam de junio de 2026.
+- **Mecánicas Clave**: Sistema de doble elemento que utiliza **Viento para control** y **Relámpago para daño explosivo**.
+- **Enfoque de la Build**: Prioriza las **Gemas de Habilidad** que mejoran la presión elemental y reducen los tiempos de reutilización para las fases de jefe.
+- **Sinergia con Compañero**: Empareja con **Eslyn** para mantener la distancia mientras ella proporciona apoyo en la línea frontal.
+- **Acceso a la Demo**: Disponible durante el **Steam Next Fest (15-22 de junio de 2026)** con progresión hasta la liberación de Casa Harborwell.
+</Callout>
+
+<Section icon={Zap} title="Introducción al Invocador de Tormentas de Embers of the Uncrowned">
+
+El **Invocador de Tormentas de Embers of the Uncrowned** representa la cúspide de la destrucción mágica dentro del MMORPG de fantasía oscura de NEXON. Como una de las tres clases jugables en la actual demo de Steam, el Invocador de Tormentas ofrece una ventaja táctica distintiva: la capacidad de manipular el campo de batalla desde una distancia segura. A diferencia del brutal combate cuerpo a cuerpo del Ejecutor o el ágil duelo de la Hoja Espectral, el Invocador de Tormentas se basa en un posicionamiento preciso y el ciclo rítmico de las fuerzas del Viento y el Relámpago para desmantelar enemigos corruptos e invasores elfos por igual.
+
+**Puntos destacados del video:**
+- Resumen de las tres clases principales: Ejecutor, Hoja Espectral e Invocador de Tormentas.
+- Demostración visual de los efectos de las habilidades de Viento y Relámpago del Invocador de Tormentas.
+- Información sobre el sistema de combate manual, enfatizando el tiempo de esquiva y las cadenas de habilidades.
+- Avance del Asentamiento de la Costa Ámbar y la progresión de Casa Harborwell.
+
+<YouTubeEmbed videoId="VoCPXiss8Ek" title="Embers of the Uncrowned - Official Gameplay Systems Trailer" />
+
+Elegir esta clase requiere una mentalidad enfocada en la "presión segura". En la demo de 2026, los jugadores encuentran que, si bien el Invocador de Tormentas tiene una defensa física más baja, su capacidad para aturdir a los Jefes de Dominio desde la retaguardia lo convierte en un componente esencial de cualquier grupo de incursión coordinado.
+
+<Callout type="success" title="Mejor Elección de Lanzador">
+El Invocador de Tormentas está actualmente clasificado como la **Mejor Elección de Lanzador** para la demo debido a sus hechizos de AoE (Área de Efecto) de alto impacto y su superior capacidad de supervivencia a través de mecánicas de kiting.
+</Callout>
+
+| Atributo | Calificación | Descripción |
+| :--- | :--- | :--- |
+| **Daño** | ★★★★★ | Ráfaga excepcional mediante Relámpago y presión sostenida de Viento. |
+| **Alcance** | ★★★★★ | La distancia de combate más larga de todas las clases de la demo. |
+| **Defensa** | ★★☆☆☆ | Poca vida; depende en gran medida de la evasión manual y el PE. |
+| **Control** | ★★★★☆ | Fuertes derribos y efectos de ralentización usando magia de Viento. |
+| **Dificultad** | Media | Requiere buena lectura de telégrafos y gestión de PE. |
+
+</Section>
+
+<Section icon={Swords} title="Mecánicas de Combate Centrales y Sinergia Elemental">
+
+El ciclo de combate para el **Invocador de Tormentas de Embers of the Uncrowned** se basa en la sinergia entre el Viento y el Relámpago. En el sistema de combate isométrico manual, no puedes simplemente quedarte quieto y lanzar; debes utilizar la mecánica de "Evasión", que consume PE, para evitar patrones letales de los jefes mientras mantienes tu rotación mágica.
+
+### El Sistema de Doble Fuerza
+El Invocador de Tormentas no solo inflige daño; controla el espacio. Las habilidades de Viento se utilizan principalmente para agrupar enemigos o empujar a unidades cuerpo a cuerpo agresivas, mientras que las habilidades de Relámpago actúan como el "remate" para explotar las aperturas creadas.
+
+| Tipo de Magia | Efecto Primario | Mejor Usado Para |
+| :--- | :--- | :--- |
+| **Viento** | Desplazamiento/Ralentización | Control de masas, kiting y creación de distancia. |
+| **Relámpago** | Gran Ráfaga/Choque | Daño a jefes, reducción de defensa y golpes críticos. |
+
+<CardGrid cols={2}>
+  <Card title="Tácticas de Viento">
+    - Usa **Tornado** para agrupar pequeños monstruos para una agricultura eficiente.
+    - Despliega **Escudos de Ráfaga** para mitigar el daño de proyectiles entrantes.
+    - Enfócate en gemas de habilidad de **Velocidad de Movimiento** para mejorar el kiting.
+  </Card>
+  <Card title="Tácticas de Relámpago">
+    - Calcula el tiempo de **Cadena de Relámpagos** para cuando los enemigos estén agrupados por Viento.
+    - Usa **Golpe de Trueno** durante las ventanas de aturdimiento del jefe para 2x de daño.
+    - Prioriza la **Tasa Crítica** para activar los debuffs de Choque.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Consejo de Posicionamiento Profesional">
+Mantén siempre al menos una barra completa de PE para una carrera de emergencia. Las animaciones de lanzamiento del Invocador de Tormentas pueden ser largas, haciéndote vulnerable a los ataques de salto de los "Jefes de Dominio" si tu PE está agotado.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Mejores Builds de Invocador de Tormentas para la Demo de 2026">
+
+Con 28-29 habilidades disponibles por clase en la demo, construir tu **Invocador de Tormentas de Embers of the Uncrowned** requiere una cuidadosa selección de habilidades activas y progresión pasiva. El sistema de "Progresión Infinita" te permite adaptar tu lanzador a un DPS puro de cañón de cristal o a un mago de soporte con mucha utilidad.
+
+### Configuraciones de Habilidades Recomendadas
+
+| Nombre de la Build | Habilidades Primarias | Estilo de Juego |
+| :--- | :--- | :--- |
+| **Invocador de Tormentas** | Golpe de Trueno, Rayo, Campo Estático | Daño de ráfaga puro para matar jefes. |
+| **Fuerza del Vendaval** | Ciclón, Ráfaga de Aire, Caminata del Viento | Alta movilidad y control de masas para limpiar mapas. |
+| **Sabio Híbrido** | Cadena de Relámpagos, Tornado, Escudo de Maná | Enfoque equilibrado para misiones en solitario en Goldenhaven. |
+
+<Steps>
+  <Step num="1" title="Selección Inicial de Habilidades">
+    Comienza desbloqueando proyectiles básicos de Viento. Estos tienen bajos costos de maná y te permiten completar las primeras misiones de Goldenhaven sin depender de pociones caras.
+  </Step>
+  <Step num="2" title="Integración de Gemas de Habilidad">
+    Una vez que llegues al Asentamiento de la Costa Ámbar, visita la instalación de mejora para ranurar tus primeras Gemas de Habilidad. Enfócate en la "Reducción de Enfriamiento" para tu habilidad de ráfaga de Relámpago principal.
+  </Step>
+  <Step num="3" title="Despertar del Linaje">
+    Como hijo ilegítimo de Casa Harborwell, la progresión de tu linaje añade estadísticas pasivas. Para el Invocador de Tormentas, siempre dirígete hacia la **Regeneración de Maná** y la **Penetración Mágica**.
+  </Step>
+  <Step num="4" title="Mejora de Equipo">
+    Usa los recursos recolectados de la "Liberación de Regiones" para mejorar tu bastón. Un bastón +5 en la demo proporciona un salto significativo en el "Poder de Hechizo" requerido para las peleas de jefes de Torrestead.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Nota Anti-Trampas">
+El juego utiliza **Nexon Game Security (NGS)**. Asegúrate de que tu sistema cumpla con el requisito de Windows 11 de 64 bits para evitar cierres inesperados durante secuencias de efectos mágicos de alta intensidad.
+</Callout>
+
+</Section>
+
+<Section icon={Users} title="Sinergia con Compañero y Crecimiento del Asentamiento">
+
+El **Invocador de Tormentas de Embers of the Uncrowned** no lucha solo. El sistema de compañeros, específicamente con **Eslyn** en la demo, es vital para sobrevivir a incursiones de alto nivel y jefes de dominio.
+
+### Luchando con Eslyn
+Eslyn actúa como tu línea frontal principal. Al construir **Afinidad** con ella a través de misiones exclusivas, desbloqueas habilidades de compañero que complementan directamente tus builds de Invocador de Tormentas. Por ejemplo, Eslyn puede provocar a los enemigos, manteniéndolos dentro de tu **Campo Estático** para un daño máximo.
+
+### Casa Harborwell y las Instalaciones del Asentamiento
+Tu progresión está ligada al crecimiento de tu asentamiento. A medida que liberas las 10 regiones disponibles, tu campamento evoluciona a una ciudad, desbloqueando nuevos edificios.
+
+| Tipo de Edificio | Beneficio para el Invocador de Tormentas |
+| :--- | :--- |
+| **Laboratorio de Alquimia** | Crea pociones de PM de alto nivel para sostener largas batallas contra jefes. |
+| **Forja Arcana** | Mejora bastones y túnicas mágicas para una mejor defensa. |
+| **Biblioteca** | Investiga mejoras pasivas que aumentan el daño elemental. |
+| **Puesto Comercial** | Intercambia recursos regionales por gemas de habilidad raras. |
+
+<Checklist
+  id="stormbringer-prep"
+  title="Lista de Preparación para la Incursión:"
+  items={[
+    "Equipa al menos tres Gemas de Habilidad enfocadas en Relámpago",
+    "Alcanza el Nivel de Afinidad 3 con Eslyn para la habilidad 'Guardia'",
+    "Mejora la Biblioteca del asentamiento al Nivel 2 para Maestría Mágica",
+    "Acumula más de 20 Pociones de Maná Mayores del Laboratorio de Alquimia",
+    "Verifica que las especificaciones de la PC cumplan con el objetivo recomendado de GTX 2060/RTX 2060"
+  ]}
+/>
+
+<Callout type="success" title="Sinergia del Asentamiento">
+El crecimiento visible del territorio no es solo cosmético. Un asentamiento completamente mejorado en la demo proporciona un aumento del 15% a todo el daño elemental dentro de las zonas liberadas.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Estrategias de Jefes y Rendimiento en Incursiones">
+
+En la demo, encontrarás 12 monstruos jefes en encuentros de Dominio, Campo e Incursión. El **Invocador de Tormentas de Embers of the Uncrowned** sobresale en estos escenarios al proporcionar utilidad de "Interrupción" y acumulación de "Aturdimiento".
+
+### Manejo de Jefes de Dominio
+Los Jefes de Dominio requieren que recuperes tierras para Casa Harborwell. Como Invocador de Tormentas, tu papel es mantener la distancia máxima y usar habilidades de Viento para alejar a los "adds" (enemigos más pequeños) mientras enfocas el Relámpago en el jefe.
+
+| Tipo de Jefe | Estrategia del Invocador de Tormentas | Dificultad |
+| :--- | :--- | :--- |
+| **Jefe de Campo** | Kiting en círculos; usa Caminata del Viento para evitar golpes de área de efecto. | Fácil |
+| **Jefe de Dominio** | Enfócate en interrumpir habilidades canalizadas con Choque de Relámpago. | Medio |
+| **Jefe de Incursión** | Coordina con el grupo; guarda la ráfaga para las ventanas de Aturdimiento. | Difícil |
+
+<Callout type="info" title="Consejo de Emparejamiento">
+Usa el emparejamiento dentro del juego para los encuentros de "Defensa de la Primavera". Los Invocadores de Tormentas son muy solicitados por su capacidad para eliminar oleadas de enemigos antes de que lleguen al objetivo.
+</Callout>
+
+</Section>
+
+<Section icon={BookOpen} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Es el Invocador de Tormentas bueno para jugar en solitario en la demo de Embers of the Uncrowned?",
+    answer: "Sí, el Invocador de Tormentas es excelente para jugar en solitario porque su magia de Viento proporciona suficiente control de masas para mantener a los enemigos a raya. Sin embargo, debes confiar en tu compañera, Eslyn, para tanquear el daño durante las peleas de jefes más difíciles."
+  },
+  {
+    question: "¿Cuáles son las mejores Gemas de Habilidad para una build de Invocador de Tormentas de Embers of the Uncrowned?",
+    answer: "Prioriza las Gemas de Habilidad que ofrecen 'Reducción de Enfriamiento', 'Reducción de Costo de Maná' y '% de Daño de Relámpago'. En la demo, las gemas que añaden una probabilidad de 'Choque' también son muy valiosas para los encuentros con jefes."
+  },
+  {
+    question: "¿Cómo desbloqueo más habilidades para el Invocador de Tormentas?",
+    answer: "Las habilidades se desbloquean subiendo de nivel y progresando en los capítulos de la historia principal (3 disponibles en la demo). También ganas puntos de habilidad que se pueden gastar en los árboles de habilidades activas y pasivas para especializar tu build."
+  },
+  {
+    question: "¿Puedo cambiar de clase si no me gusta el Invocador de Tormentas?",
+    answer: "En la demo, puedes crear múltiples personajes para probar el Ejecutor y la Hoja Espectral. Sin embargo, la elección de clase es permanente para esa ranura de personaje específica."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,212 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Embers of the Uncrowned Beginner Guide: Class Rankings & Setup Guide",
+  description: "Master Embers of the Uncrowned with our 2026 beginner guide. Learn class rankings, combat mechanics, settlement growth, and Steam demo setup tips.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1a1a1a/fff?text=Beginner+Guide+and+Setup",
+  date: "2026-06-16",
+  author: "embers of the uncrowned Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Primary keyword**: This **embers of the uncrowned beginner guide** covers the June 2026 Steam demo and core systems.
+- **Class selection**: Start with the **Executioner** for the easiest melee onboarding or **Stormbringer** for ranged safety.
+- **Combat loop**: Focus on **stagger windows** and manual evasion to survive high-difficulty boss encounters.
+- **Settlement focus**: Prioritize **House Harborwell** upgrades to unlock better crafting and resource management.
+- **Technical note**: The game uses **kernel-level NGS anti-cheat**, which requires manual removal if you uninstall the demo.
+</Callout>
+
+<Section icon={Map} title="Getting Started: Steam Demo and System Setup">
+
+Embers of the Uncrowned is a dark fantasy isometric MMORPG developed by NEXON, currently available as a free demo on Steam as of June 13, 2026. Unlike traditional tab-target MMOs, this title emphasizes manual precision, tactical positioning, and building a legacy through House Harborwell. Before diving into the elven invasion, ensure your hardware meets the requirements to handle the high-fidelity gothic environments and particle-heavy combat effects.
+
+**Video Highlights:**
+- **Manual Combat**: Overview of the isometric action-oriented combat system.
+- **Class Previews**: Brief look at the Executioner, Spectral Blade, and Stormbringer in action.
+- **Progression Layers**: Explanation of Skill Gems and Bloodline Awakening.
+- **World Exploration**: A glimpse at the liberated and contested regions of the Amber Coast.
+
+<YouTubeEmbed videoId="eMqdSFFxL6U" title="Embers of the Uncrowned - Official Gameplay Systems Trailer" />
+
+The demo includes three main story chapters and over 480 minutes of content. To ensure a smooth experience, review the official PC requirements below. Note that the game requires a consistent broadband connection for its multiplayer-focused field activities and matchmaking.
+
+| Category | Minimum Requirement | Recommended Requirement |
+| :--- | :--- | :--- |
+| **OS** | Windows 11 64-bit | Windows 11 64-bit |
+| **Processor** | Intel i5-3570 / AMD FX-8350 | Intel i5-9600 / Ryzen 5 2600X |
+| **Memory** | 8 GB RAM | 16 GB RAM |
+| **Graphics** | GTX 1060 / RX 580 / Arc A380 | RTX 2060 / RX 5700 XT / Arc A770 |
+| **DirectX** | Version 11 | Version 11 |
+| **Storage** | 30 GB available space | 30 GB available space |
+
+<Callout type="warning" title="Anti-Cheat Warning">
+Embers of the Uncrowned utilizes **Nexon Game Security (NGS)** at the kernel level. Be aware that this software often requires manual removal after unearthing the demo from your Steam library. Always check the Steam news hub for the latest technical updates.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Class Tier List: Choosing Your Hero">
+
+Choosing your starting class is the most critical decision in the **embers of the uncrowned beginner guide**. The demo features three distinct playable classes, each with 28 to 29 unique skills. Your choice dictates your combat rhythm, resource management, and role in group raids.
+
+<CardGrid cols={3}>
+  <Card title="Executioner (S-Tier)">
+    - **Role**: Heavy Melee Vanguard
+    - **Mechanic**: Rage and Fury
+    - **Best for**: Beginners who want high survivability and crushing physical burst damage.
+  </Card>
+  <Card title="Stormbringer (A-Tier)">
+    - **Role**: Ranged Magic DPS
+    - **Mechanic**: Wind and Lightning
+    - **Best for**: Players who prefer staying at a safe distance while controlling the battlefield.
+  </Card>
+  <Card title="Spectral Blade (A-Tier)">
+    - **Role**: High-Skill Assassin
+    - **Mechanic**: Shade and Phantoms
+    - **Best for**: Advanced players who enjoy high mobility, stealth, and complex combo chains.
+  </Card>
+</CardGrid>
+
+Each class can be further customized through skill trees and elemental focuses. The Executioner, for instance, can pivot between pure physical defense-shredding and fire-based damage-over-time builds.
+
+| Class Name | Primary Elements | Difficulty | Combat Style |
+| :--- | :--- | :--- | :--- |
+| **Executioner** | Physical / Fire | Medium | Heavy axe strikes, pursuit, and explosive tempo. |
+| **Stormbringer** | Wind / Lightning | Medium | Ranged spell pressure and elemental area control. |
+| **Spectral Blade** | Physical / Darkness | High | Swift swordsmanship, phantoms, and stealth-based burst. |
+
+<Callout type="tip" title="Best First Pick">
+For your first hour in Goldenhaven, the **Executioner** is highly recommended. The Rage mechanic is intuitive, and the high health pool allows you to learn boss patterns without being instantly punished for a mistimed dodge.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Core Combat and Control Mechanics">
+
+Combat in Embers of the Uncrowned is manual and tactical. You cannot rely on auto-pathing or auto-combat to clear bosses. Success depends on managing your Stamina (SP) for evasions and timing your interrupts to break dangerous boss abilities.
+
+<Steps>
+  <Step num="1" title="Map Your Skill Keys">
+    The game supports WASD movement and controller input. Ensure your active skills, dodge, and potions are on easy-to-reach keys. Manual combat requires constant movement, so avoid cluttered layouts.
+  </Step>
+  <Step num="2" title="Manage the Stagger Window">
+    Bosses have a stagger gauge. By using specific high-impact skills during their attack wind-ups, you can deplete this gauge, leaving the boss vulnerable to a burst damage phase.
+  </Step>
+  <Step num="3" title="Utilize Evasion (SP)">
+    Dashing consumes SP. Do not spam your dodge; save it for red-telegraphed "unblockable" attacks. Managing your SP is just as important as managing your health.
+  </Step>
+  <Step num="4" title="Interrupt Timing">
+    Certain boss skills can be interrupted. Look for the blue flash or specific animation cues to use your CC (Crowd Control) abilities, effectively canceling the enemy's high-damage move.
+  </Step>
+</Steps>
+
+| Action | Control (KB/M) | Effect |
+| :--- | :--- | :--- |
+| **Movement** | WASD | Manual positioning and kiting. |
+| **Basic Attack** | Left Click | Sustained damage and resource generation. |
+| **Evasion** | Space / Shift | Quick dash to avoid damage (consumes SP). |
+| **Skill Use** | 1, 2, 3, 4, Q, E | Executes class-specific abilities. |
+| **Potions** | R, F | Recovers HP or MP during combat. |
+
+<Callout type="success" title="Combat Mastery">
+Always keep an eye on your **Bloodline Ability**. This is a powerful "ultimate" move that can turn the tide of a raid. Save it for the final 25% of a boss's health or when you are surrounded by elite mobs.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Progression: Skill Gems and Bloodline Power">
+
+The "Infinite Progression" system is what separates a novice from a veteran. In this **embers of the uncrowned beginner guide**, we emphasize three layers of character growth: active skill progression, Skill Gems, and Bloodline Awakening. These systems work in tandem to bolster your combat power.
+
+| Progression Layer | Function | Demo Availability |
+| :--- | :--- | :--- |
+| **Active Skills** | Moment-to-moment combat choices and skill chains. | 28-29 skills per class. |
+| **Skill Gems** | Socketed items that add modifiers to existing skills. | Found in raids and high-level field content. |
+| **Gear Enhancement** | Direct stat boosts to weapons and armor. | Via settlement blacksmith and resources. |
+| **Bloodline Power** | Inherited traits that provide massive passive buffs. | Unlocked through main story chapters. |
+| **Companion Growth** | Increases synergy and unlocks companion skills. | Centered on Eslyn in the current demo. |
+
+<Callout type="info" title="Skill Gem Strategy">
+Do not ignore Skill Gems early on. Even low-tier gems can add significant cooldown reduction or elemental damage that makes farming much more efficient. Check your inventory frequently to ensure your gear is fully socketed.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="House Harborwell and Settlement Growth">
+
+Your journey isn't just about personal power; it's about rebuilding House Harborwell. The settlement system starts as a humble camp and expands into a vibrant city as you liberate regions and gather resources. This acts as your primary hub for trade, crafting, and research.
+
+| Building Type | Function | Upgrade Priority |
+| :--- | :--- | :--- |
+| **Blacksmith** | Gear enhancement and equipment crafting. | High |
+| **Alchemy Lab** | Potion brewing and elemental research. | Medium |
+| **Trading Post** | Resource exchange and market access. | Low |
+| **Training Grounds** | Companion skill unlocks and affinity tasks. | High |
+| **Command Center** | Region liberation missions and story progress. | Essential |
+
+<Checklist
+  id="settlement-goals"
+  title="Early Settlement Milestones:"
+  items={[
+    "Reach the Amber Coast and establish the initial camp",
+    "Unlock the first 3 buildings via main story quests",
+    "Liberate at least 2 surrounding regions to gather stone and timber",
+    "Complete Eslyn's first affinity quest to unlock her combat synergy",
+    "Upgrade the Blacksmith to level 2 for basic gear enhancement"
+  ]}
+/>
+
+<Callout type="tip" title="Resource Management">
+Focus on liberating regions early. Each liberated territory provides a passive stream of resources that are required for building upgrades. Without these, your progression will stall significantly by Chapter 3.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Multiplayer: Bosses, Raids, and Co-op">
+
+Embers of the Uncrowned features 12 boss monsters in the demo, ranging from open-world Domain Bosses to coordinated Raid encounters. Matchmaking is supported, making it easy to find a party for the more difficult content.
+
+| Encounter Type | Player Setup | Objective |
+| :--- | :--- | :--- |
+| **Domain Bosses** | Open World Co-op | Reclaim land for House Harborwell. |
+| **Raid Bosses** | Coordinated Party | Defeat high-health enemies with complex mechanics. |
+| **Field Bosses** | Random Matchmaking | Large-scale threats found in contested regions. |
+| **Defense of Spring** | Wave-based PvE | Defend a central objective from monster swarms. |
+| **PvP Arena** | Competitive Matchmaking | Test your build and skill against other players. |
+
+<Callout type="warning" title="Raid Etiquette">
+In raids, pay attention to the **tank's position**. If you are playing a Stormbringer or Spectral Blade, do not pull aggro early. Wait for the Executioner to establish a threat lead before unleashing your highest damage combos.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "How do I access the Embers of the Uncrowned demo?",
+    answer: "You can download the demo directly from the official Steam page. Look for the 'Download Demo' button separate from the full game's 'Wishlist' button."
+  },
+  {
+    question: "Is there a way to reset my skills in the demo?",
+    answer: "Yes, the demo allows for skill resets at the settlement hub, allowing you to test different builds for the Executioner, Stormbringer, or Spectral Blade."
+  },
+  {
+    question: "What is the Cloudfur Cottonsloth and how do I get it?",
+    answer: "It is a special mount reward for participating in the Steam wishlist event. Check the official Steam news hub for the specific claim instructions during the demo window."
+  },
+  {
+    question: "Can I play Embers of the Uncrowned solo?",
+    answer: "While the story and exploration can be done solo, many bosses and raids are designed for multiplayer. Matchmaking is available to help solo players find groups easily."
+  }
+]} />
+
+</Section>
