@@ -10,7 +10,14 @@
       "twitterDescription": "Embers of the Uncrowned Wiki covers demo, classes, builds, raids, companions, settlement growth, and system requirements on Steam."
     }
   },
-  "nav": {},
+  "nav": {
+    "release": "Release",
+    "platforms": "Platforms",
+    "classes": "Classes",
+    "gameplay": "Gameplay",
+    "guide": "Guide",
+    "story": "Story"
+  },
   "common": {
     "home": "Home",
     "more": "More",
@@ -579,125 +586,125 @@
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
-    "guides": {
-      "title": "Embers of the Uncrowned Guides",
-      "description": "Complete gameplay guides from beginner basics to advanced class builds. Master combat, progression and settlement growth.",
-      "metaTitle": "Embers of the Uncrowned Guides - Beginner to Advanced Strategies",
-      "metaDescription": "Complete Embers of the Uncrowned guides covering beginner tips, class builds, combat strategies and expert tactics for mastering the dark fantasy MMORPG.",
-      "categoryLabel": "GAME GUIDES",
-      "whatIs": "What are Guides?",
-      "whatIsDescription": "Comprehensive guides covering gameplay mechanics, combat strategies and class progression. Learn everything from first steps to advanced techniques.",
-      "why": "Why read guides?",
+    "release": {
+      "title": "Embers of the Uncrowned Release",
+      "description": "Track the full release date, free Steam demo window, beta access and Steam Next Fest timing for Embers of the Uncrowned.",
+      "metaTitle": "Embers of the Uncrowned Release Date, Demo & Beta",
+      "metaDescription": "Get the latest Embers of the Uncrowned release date, free Steam demo schedule, beta access and Steam Next Fest timing.",
+      "categoryLabel": "RELEASE & DEMO",
+      "whatIs": "What is the Release Timeline?",
+      "whatIsDescription": "The release timeline covers the full Embers of the Uncrowned game launch, the free Steam Next Fest demo window, beta and play test access and every official announcement date.",
+      "why": "Why track the release?",
       "whySteps": {
-        "step1Title": "Learn Core Mechanics",
-        "step1Description": "Understand the combat system and avoid common beginner mistakes",
-        "step2Title": "Fast Progression",
-        "step2Description": "Follow proven paths to build power and reclaim territory",
-        "step3Title": "Master Strategies",
-        "step3Description": "Develop advanced tactics for bosses, raids and exploration"
+        "step1Title": "Lock the Launch Date",
+        "step1Description": "Know exactly when the full Embers of the Uncrowned game goes live on Steam.",
+        "step2Title": "Play the Free Demo",
+        "step2Description": "Install the Steam Next Fest demo during its playable window before release.",
+        "step3Title": "Join Beta and Play Tests",
+        "step3Description": "Register early for beta access and play tests ahead of full launch."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Release Guides"
+    },
+    "platforms": {
+      "title": "Embers of the Uncrowned Platforms",
+      "description": "Learn which platforms Embers of the Uncrowned supports, including PC specs, controller support, Steam Deck, crossplay and console availability.",
+      "metaTitle": "Embers of the Uncrowned Platforms, System Requirements & Crossplay",
+      "metaDescription": "Check Embers of the Uncrowned platforms, PC system requirements, controller support, Steam Deck status, crossplay and console availability.",
+      "categoryLabel": "PLATFORMS & SPECS",
+      "whatIs": "What are the Platforms?",
+      "whatIsDescription": "Platform guides cover PC and Steam support, minimum and recommended system requirements, controller and Steam Deck compatibility, crossplay and console availability for Embers of the Uncrowned.",
+      "why": "Why check platforms?",
+      "whySteps": {
+        "step1Title": "Match Your PC Specs",
+        "step1Description": "Confirm your hardware meets the minimum and recommended requirements.",
+        "step2Title": "Pick Your Input",
+        "step2Description": "Learn controller, keyboard, mouse and Steam Deck support details.",
+        "step3Title": "Know Crossplay and Consoles",
+        "step3Description": "Check crossplay support alongside PS5 and Xbox availability."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Platform Guides"
+    },
+    "classes": {
+      "title": "Embers of the Uncrowned Classes",
+      "description": "Compare every Embers of the Uncrowned class, including Executioner, Stormbringer and Spectral Blade builds, mechanics and tier rankings.",
+      "metaTitle": "Embers of the Uncrowned Classes, Builds & Tier List",
+      "metaDescription": "Master Embers of the Uncrowned classes with Executioner, Stormbringer and Spectral Blade builds, mechanics, skill trees and tier rankings.",
+      "categoryLabel": "CLASSES & BUILDS",
+      "whatIs": "What are the Classes?",
+      "whatIsDescription": "Class guides break down every playable class in Embers of the Uncrowned, covering Executioner, Stormbringer and Spectral Blade with their mechanics, skill trees, builds and tier rankings.",
+      "why": "Why study classes?",
+      "whySteps": {
+        "step1Title": "Compare Every Class",
+        "step1Description": "See all classes and their core combat identities side by side.",
+        "step2Title": "Pick the Right Build",
+        "step2Description": "Choose builds that match your preferred playstyle and difficulty.",
+        "step3Title": "Rank for Power",
+        "step3Description": "Use the tier list to find the strongest first pick for the demo."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Class Guides"
+    },
+    "gameplay": {
+      "title": "Embers of the Uncrowned Gameplay",
+      "description": "Master Embers of the Uncrowned gameplay with combat mechanics, raids, dungeons, solo raids, PvP arena and controller gameplay tips.",
+      "metaTitle": "Embers of the Uncrowned Gameplay, Combat, Raids & PvP",
+      "metaDescription": "Learn Embers of the Uncrowned gameplay including combat mechanics, raids, dungeons, solo raids, PvP arena and controller gameplay strategies.",
+      "categoryLabel": "GAMEPLAY & COMBAT",
+      "whatIs": "What is the Gameplay?",
+      "whatIsDescription": "Gameplay guides cover the manual isometric combat loop, raids, dungeons, solo raids, PvP arena and controller gameplay that define Embers of the Uncrowned.",
+      "why": "Why learn gameplay?",
+      "whySteps": {
+        "step1Title": "Master Combat",
+        "step1Description": "Learn evasion, interrupts and stagger windows for boss fights.",
+        "step2Title": "Clear Raids and Dungeons",
+        "step2Description": "Handle solo raids, group raids and dungeon encounters.",
+        "step3Title": "Compete in PvP",
+        "step3Description": "Use the arena and matchmaking to test your class control."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Gameplay Guides"
+    },
+    "guide": {
+      "title": "Embers of the Uncrowned Guide",
+      "description": "Start strong with Embers of the Uncrowned beginner guides, how-to-play tips, reviews, monetization and a clear buy-or-not verdict.",
+      "metaTitle": "Embers of the Uncrowned Guide - Beginner Tips, Reviews & Monetization",
+      "metaDescription": "Read Embers of the Uncrowned guides for beginner tips, how-to-play basics, reviews, monetization details and a clear buy-or-not recommendation.",
+      "categoryLabel": "GUIDES & TIPS",
+      "whatIs": "What is the Guide?",
+      "whatIsDescription": "Guide articles cover beginner setup, how to play, expert tips, full reviews, monetization and a practical buy-or-not breakdown for Embers of the Uncrowned.",
+      "why": "Why read the guides?",
+      "whySteps": {
+        "step1Title": "Start as a Beginner",
+        "step1Description": "Follow first steps, controls and the core combat loop.",
+        "step2Title": "Improve with Tips",
+        "step2Description": "Apply proven tips for progression, bosses and builds.",
+        "step3Title": "Decide Before You Buy",
+        "step3Description": "Use the review and monetization breakdown to choose."
       },
       "featured": "Featured & Essential",
       "all": "All Guides"
     },
-    "crafting": {
-      "title": "Embers of the Uncrowned Builds",
-      "description": "Master class builds, Skill Gems, gear enhancement and bloodline progression with detailed strategies for powerful characters.",
-      "metaTitle": "Embers of the Uncrowned Builds - Skills, Gems & Gear",
-      "metaDescription": "Master Embers of the Uncrowned builds. Learn Skill Gems, gear enhancement, bloodline progression and strategies for creating powerful class setups.",
-      "categoryLabel": "BUILDS & PROGRESSION",
-      "whatIs": "What are Builds?",
-      "whatIsDescription": "The build system layers active skills, passive progression, Skill Gems, gear enhancement and bloodline awakening into long-term character growth. Experimentation across skill trees is key.",
-      "why": "Why master builds?",
+    "story": {
+      "title": "Embers of the Uncrowned Story",
+      "description": "Explore the Embers of the Uncrowned story, world lore and key characters like Bella as House Harborwell fights to reclaim its domain.",
+      "metaTitle": "Embers of the Uncrowned Story, Lore & Characters",
+      "metaDescription": "Dive into Embers of the Uncrowned story and lore, including House Harborwell, the elven invasion and characters like Bella.",
+      "categoryLabel": "STORY & LORE",
+      "whatIs": "What is the Story?",
+      "whatIsDescription": "Story guides explore the dark fantasy world of Embers of the Uncrowned, including the fall of House Harborwell, the elven invasion and characters such as Bella.",
+      "why": "Why follow the story?",
       "whySteps": {
-        "step1Title": "Unlock Powerful Setups",
-        "step1Description": "Discover strong class builds through Skill Gems and gear enhancement",
-        "step2Title": "Layer Progression Systems",
-        "step2Description": "Combine Skill Gems, gear enhancement and bloodline awakening into one growth plan",
-        "step3Title": "Optimize Resources",
-        "step3Description": "Use progression layers efficiently to maximize combat power"
+        "step1Title": "Learn the Lore",
+        "step1Description": "Understand the world, factions and the war for House Harborwell.",
+        "step2Title": "Meet the Characters",
+        "step2Description": "Follow key figures like Bella and their role in the campaign.",
+        "step3Title": "Connect Story to Gameplay",
+        "step3Description": "See how the narrative ties into settlement and region liberation."
       },
       "featured": "Featured & Essential",
-      "all": "All Build Guides"
-    },
-    "items": {
-      "title": "Embers of the Uncrowned Items",
-      "description": "Detailed item and gear guides covering weapons, Skill Gems, enhancement materials and equipment with usage tips.",
-      "metaTitle": "Embers of the Uncrowned Items - Gear, Gems & Equipment",
-      "metaDescription": "Complete item database for Embers of the Uncrowned including weapons, Skill Gems, gear and enhancement materials. Learn how to use every item effectively.",
-      "categoryLabel": "ITEMS & EQUIPMENT",
-      "whatIs": "What are Items?",
-      "whatIsDescription": "Comprehensive guides for weapons, Skill Gems, gear and enhancement materials. Learn crafting routes, usage strategies and optimal equipment combinations.",
-      "why": "Why check item guides?",
-      "whySteps": {
-        "step1Title": "Learn Enhancement Routes",
-        "step1Description": "Discover how to enhance gear and slot Skill Gems",
-        "step2Title": "Optimize Equipment",
-        "step2Description": "Choose the best gear for your class and progression stage",
-        "step3Title": "Improve Combat",
-        "step3Description": "Equip the right weapons and Skill Gems to handle bosses and raids"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Items"
-    },
-    "biomes": {
-      "title": "Embers of the Uncrowned Regions",
-      "description": "Explore world regions, settlement territories, resource locations and survival tips for each area.",
-      "metaTitle": "Embers of the Uncrowned Regions - World Areas & Exploration",
-      "metaDescription": "Explore Embers of the Uncrowned regions including main story areas and liberatable territories. Find resources, avoid dangers and reclaim the domain.",
-      "categoryLabel": "WORLD REGIONS",
-      "whatIs": "What are Regions?",
-      "whatIsDescription": "Guides to different world regions, environmental features, resource distribution and danger zones. Learn what to expect and how to prepare for each area.",
-      "why": "Why explore regions?",
-      "whySteps": {
-        "step1Title": "Find Resources",
-        "step1Description": "Locate rare materials and upgrade resources specific to each region",
-        "step2Title": "Avoid Dangers",
-        "step2Description": "Understand environmental hazards and hostile enemies",
-        "step3Title": "Plan Exploration",
-        "step3Description": "Prepare the right gear and companions for each region type"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Regions"
-    },
-    "building": {
-      "title": "Embers of the Uncrowned Settlement",
-      "description": "Master House Harborwell settlement growth, building upgrades, resource management and region liberation.",
-      "metaTitle": "Embers of the Uncrowned Settlement - House Harborwell & Buildings",
-      "metaDescription": "Master Embers of the Uncrowned settlement growth with House Harborwell, upgradeable buildings, resource management and region liberation.",
-      "categoryLabel": "HOUSE & SETTLEMENT",
-      "whatIs": "What is the Settlement?",
-      "whatIsDescription": "Guides to the House Harborwell settlement system, building upgrades, resource management and region liberation. Learn to grow your camp into a city.",
-      "why": "Why build your settlement?",
-      "whySteps": {
-        "step1Title": "Grow Your Domain",
-        "step1Description": "Upgrade buildings to support enhancement, research and crafting",
-        "step2Title": "Manage Resources",
-        "step2Description": "Organize materials efficiently through settlement facilities",
-        "step3Title": "Liberate Regions",
-        "step3Description": "Expand your house's influence across the continent"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Settlement Guides"
-    },
-    "support": {
-      "title": "Embers of the Uncrowned Support",
-      "description": "Technical support, platform compatibility, performance optimization and troubleshooting for common issues.",
-      "metaTitle": "Embers of the Uncrowned Support - Technical Help & Fixes",
-      "metaDescription": "Get technical support for Embers of the Uncrowned including system requirements, performance optimization, anti-cheat notes and platform compatibility guides.",
-      "categoryLabel": "TECHNICAL SUPPORT",
-      "whatIs": "What is Support?",
-      "whatIsDescription": "Technical guides covering platform compatibility, performance optimization, anti-cheat notes and common issues. Get help with system requirements and settings.",
-      "why": "Why check support?",
-      "whySteps": {
-        "step1Title": "Fix Technical Issues",
-        "step1Description": "Resolve performance problems and compatibility issues",
-        "step2Title": "Optimize Performance",
-        "step2Description": "Configure settings for the best experience on your PC",
-        "step3Title": "Platform Compatibility",
-        "step3Description": "Learn about system requirements, languages and anti-cheat"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Support Articles"
+      "all": "All Story Guides"
     }
   }
 }

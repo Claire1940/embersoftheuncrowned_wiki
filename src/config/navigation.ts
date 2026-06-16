@@ -1,14 +1,29 @@
-import type { LucideIcon } from 'lucide-react'
+import {
+	Rocket,
+	MonitorSmartphone,
+	Swords,
+	Gamepad2,
+	BookOpen,
+	ScrollText,
+	type LucideIcon,
+} from 'lucide-react'
 
 export interface NavigationItem {
-	key: string // 用于翻译键，如 'codes' -> t('nav.codes')
-	path: string // URL 路径，如 '/codes'
+	key: string // 用于翻译键，如 'release' -> t('nav.release')
+	path: string // URL 路径，如 '/release'
 	icon: LucideIcon // Lucide 图标组件
 	isContentType: boolean // 是否对应 content/ 目录
 }
 
-// 导航配置将在后续 part 填充，本阶段先清空
-export const NAVIGATION_CONFIG: NavigationItem[] = []
+// Embers of the Uncrowned 导航分类（与 content/<locale>/ 目录一一对应）
+export const NAVIGATION_CONFIG: NavigationItem[] = [
+	{ key: 'release', path: '/release', icon: Rocket, isContentType: true },
+	{ key: 'platforms', path: '/platforms', icon: MonitorSmartphone, isContentType: true },
+	{ key: 'classes', path: '/classes', icon: Swords, isContentType: true },
+	{ key: 'gameplay', path: '/gameplay', icon: Gamepad2, isContentType: true },
+	{ key: 'guide', path: '/guide', icon: BookOpen, isContentType: true },
+	{ key: 'story', path: '/story', icon: ScrollText, isContentType: true },
+]
 
 // 从配置派生内容类型列表（用于路由和内容加载）
 export const CONTENT_TYPES = NAVIGATION_CONFIG.filter((item) => item.isContentType).map(
