@@ -11,15 +11,19 @@ import {
   ChevronDown,
   Download,
   ExternalLink,
+  Flame,
   Gem,
   Gift,
   GraduationCap,
   Heart,
   HeartHandshake,
+  MapPin,
   PartyPopper,
   Skull,
   Sparkles,
+  Star,
   Swords,
+  Target,
   Ticket,
   Zap,
 } from "lucide-react";
@@ -825,7 +829,7 @@ export default function HomePageClient({
 
           <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
             {t.modules.embersCompanionsAffinity.items.map((item: any, index: number) => {
-              const icons = [Sparkles, Zap, Heart, Swords, HeartHandshake];
+              const icons = [Star, Flame, Heart, Target, MapPin];
               const Icon = icons[index % icons.length];
               return (
                 <div
