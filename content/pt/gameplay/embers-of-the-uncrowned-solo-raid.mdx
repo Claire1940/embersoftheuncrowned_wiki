@@ -1,0 +1,175 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Ataque Solo em Embers of the Uncrowned: Estratégias e Builds",
+  description: "Domine os ataques solo em Embers of the Uncrowned com nosso guia detalhado, cobrindo estratégias, builds de classe ideais e dicas essenciais para o sucesso.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/8B0000/fff?text=Solo+Raid+Guide",
+  date: "2026-06-16",
+  author: "Equipe Wiki de Embers of the Uncrowned"
+}
+
+<Callout type="info" title="Guia Rápido">
+- O sucesso no **Ataque Solo** em Embers of the Uncrowned depende de uma preparação estratégica.
+- Otimize suas **builds de classe** para dano, sobrevivência e utilidade.
+- Compreender a **mecânica dos chefes** e os padrões de ataque é crucial para execuções solo.
+- Utilize a **sinergia de companheiros** para maximizar sua eficácia em combate.
+- Concentre-se no **aprimoramento de equipamento** e na estratificação de Gemas de Habilidade para o desempenho máximo.
+</Callout>
+
+<Section icon={Swords} title="Compreendendo os Desafios do Ataque Solo em Embers of the Uncrowned">
+Embers of the Uncrowned apresenta conteúdo de ataque desafiador projetado para jogo cooperativo, mas jogadores dedicados frequentemente buscam conquistar essas provações sozinhos. Embora o jogo enfatize a coordenação de grupo para seus chefes de ataque de alta coordenação, compreender a mecânica central e se preparar minuciosamente pode tornar as tentativas solo viáveis, especialmente para Chefes de Domínio e certos Chefes de Campo. Esta seção detalhará o que esperar e como abordar esses encontros formidáveis sozinho.
+
+A demonstração destaca 12 monstros chefes em encontros de Domínio, Campo, Defesa da Primavera e Ataque. Enquanto os verdadeiros "Chefes de Ataque" são projetados para táticas de grupo, os princípios de desviar, interromper e gerenciar janelas de atordoamento se aplicam a todos os tipos de chefes.
+
+**Destaques do Vídeo:**
+- Demonstra mecânicas de combate avançadas cruciais para o jogo solo.
+- Apresenta habilidades de classe e sua aplicação em encontros com chefes.
+- Fornece dicas visuais para entender os padrões de ataque inimigos.
+
+<YouTubeEmbed videoId="VoCPXiss8Ek" title="Embers of the Uncrowned - Trailer Oficial de Sistemas de Jogabilidade" />
+
+<Callout type="warning" title="Ataque vs. Chefes Soloáveis">
+Os verdadeiros **Chefes de Ataque** em Embers of the Uncrowned são construídos para coordenação de grupo e podem ser excepcionalmente difíceis ou impossíveis de solar devido a mecânicas que exigem vários jogadores. Concentre os esforços solo em **Chefes de Domínio** e **Chefes de Campo** específicos que permitem a expressão individual de habilidade.
+</Callout>
+
+### Tabela de Viabilidade de Ataque Solo
+
+| Tipo de Encontro | Viabilidade Solo | Desafios Chave | Abordagem Recomendada |
+|:---------------|:-----------------|:---------------|:---------------------|
+| **Chefes de Domínio** | Alta | Perigos ambientais, dano sustentado | Alto dano de explosão, forte auto-sustentação |
+| **Chefes de Campo** | Média | Grandes reservas de vida, ataques AoE amplos | Mobilidade, controle de grupo, dano ao longo do tempo |
+| **Chefes de Ataque** | Baixa | Mecânicas multifásicas, funções de grupo forçadas | Requer equipamento excepcional e execução perfeita, muitas vezes impossível |
+| **Defesa da Primavera** | Média | Gerenciamento de ondas, proteção de objetivos | Limpeza de AoE, utilidade defensiva, posicionamento estratégico |
+
+</Section>
+
+<Section icon={Target} title="Otimizando Sua Classe para Ataques Solo">
+Escolher a classe certa e otimizar sua build é fundamental para enfrentar o conteúdo de ataque solo. Cada uma das três classes jogáveis — Executor, Tempestário e Lâmina Espectral — oferece vantagens únicas. Sua build deve priorizar um equilíbrio entre produção de dano, sobrevivência e utilidade para gerenciar a mecânica dos chefes de forma eficaz.
+
+### Adequação da Classe para Ataques Solo
+
+| Classe          | Foco do Papel          | Potencial de Ataque Solo | Pontos Fortes Chave para Solo | Foco da Build Recomendado |
+|:---------------|:--------------------|:--------------------|:-----------------------|:------------------------|
+| **Executor**| Vanguarda Corpo a Corpo Pesada| Alta                | Alto dano de explosão, forte auto-cura com Fúria, controle de grupo | Dano físico, sustentação, geração de Fúria, limpeza de AoE |
+| **Tempestário**| DPS de Vento/Relâmpago  | Médio              | Segurança à distância, explosão elemental, negação de área | Maestria elemental, mobilidade, feitiços defensivos |
+| **Lâmina Espectral**| Assassino Corpo a Corpo Móvel| Alta (Baseado em Habilidade) | Alta mobilidade, evasão, dano de explosão com Fantasmas | Geração de Sombra, acertos críticos, furtividade para reposicionamento |
+
+<Callout type="tip" title="Build para Resistência">
+Para ataques solo, priorize a sobrevivência e o dano sustentado em vez de dano de explosão puro. Incorpore Gemas de Habilidade defensivas, roubo de vida ou regeneração em sua build para durar mais que os encontros com chefes.
+</Callout>
+
+### Lista de Verificação de Componentes Essenciais da Build
+
+<Checklist
+  id="solo-raid-build"
+  title="Essenciais da Build para Ataque Solo:"
+  items={[
+    "Maximize o atributo de dano primário (Força, Inteligência, Agilidade)",
+    "Aloque Gemas de Habilidade para bônus defensivos e utilidade",
+    "Garanta saúde adequada e atributos defensivos (Armadura, Resistências)",
+    "Integre habilidades de controle de grupo ou interrupção em sua rotação",
+    "Planeje a geração consistente de recursos (Mana, Fúria, Sombra)",
+    "Inclua habilidades de movimento para desviar de mecânicas"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Sparkles} title="Gemas de Habilidade, Aprimoramento de Equipamento e Progressão de Linhagem">
+A Progressão Infinita em Embers of the Uncrowned envolve uma complexa estratificação de Gemas de Habilidade, aprimoramento de equipamento e despertar da linhagem. Para tentativas de ataque solo, maximizar esses sistemas não é opcional — é um requisito. Cada camada contribui significativamente para o poder de combate do seu personagem e sua capacidade de resistir e superar chefes poderosos.
+
+### Estratificação de Progressão para o Sucesso Solo
+
+| Camada de Progressão | Impacto nos Ataques Solo | Dicas de Otimização |
+|:------------------|:---------------------|:------------------|
+| **Gemas de Habilidade**    | Adaptabilidade, bônus de atributos específicos | Priorize gemas que aprimoram seu dano primário, fornecem buffs defensivos ou reduzem tempos de recarga. |
+| **Aprimoramento de Equipamento**| Aumento de poder bruto, bônus de conjunto | Concentre-se em aprimorar armas e armaduras para estatísticas base mais altas. Procure equipamentos com afixos benéficos. |
+| **Despertar da Linhagem**| Bônus passivos únicos, escalonamento de atributos | Desbloqueie nós de linhagem que complementam sua build de classe, oferecendo dano sustentado ou sobrevivência. |
+| **Habilidades Ativas** | Ritmo de combate, janelas de explosão | Especializa-se em habilidades que oferecem alto dano de alvo único ou AoE confiável para gerenciamento de adicionais. |
+| **Habilidades Passivas** | Identidade central, sobrevivência | Invista em passivas que aumentam seu tipo de dano escolhido, aumentam a vida ou fornecem mecanismos defensivos. |
+
+<Callout type="success" title="Sinergize Seus Sistemas">
+O verdadeiro poder da sua build vem da sinergia dessas camadas de progressão. Por exemplo, uma Gema de Habilidade que aumenta o dano de fogo será mais eficaz se seu equipamento também tiver afixos de dano de fogo e seu despertar de linhagem aprimorar efeitos elementais.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Sinergia de Companheiros para Ataques Solo">
+Mesmo ao tentar conteúdo "solo", seus leais companheiros desempenham um papel vital em Embers of the Uncrowned. Companheiros como Eslyn oferecem uma segunda camada de suporte no campo de batalha e podem impactar significativamente seu sucesso. Aproveitar suas habilidades e linhas de missão baseadas em afinidade pode fornecer vantagens cruciais.
+
+### Contribuições de Companheiros para Ataques Solo
+
+| Recurso do Companheiro | Benefício para Jogo Solo | Uso Estratégico |
+|:------------------|:----------------------|:--------------|
+| **Eslyn**         | Dano adicional, cura/buffs menores | Direcione-a para alvos específicos ou apoie suas manobras defensivas. |
+| **Habilidades de Companheiro**| Utilidade, controle de grupo, dano | Escolha habilidades que preencham lacunas no kit de ferramentas da sua classe, como interrupções extras ou AoE. |
+| **Missões de Afinidade**| Bônus de atributos, habilidades únicas | Conclua-as para desbloquear efeitos passivos poderosos ou habilidades ativas para seu companheiro. |
+| **Sinergia de Combate**| Habilidades de classe amplificadas | Emparelhe companheiros com habilidades que aprimorem sua fonte de dano primária ou forneçam camadas defensivas. |
+| **Conexão com o Assentamento**| Crescimento de poder indireto | À medida que seu assentamento cresce, ele pode desbloquear benefícios relacionados a companheiros ou instalações de treinamento. |
+
+<Callout type="info" title="Não Negligencie os Companheiros">
+Companheiros não são apenas decorativos; eles são uma parte integrante do seu ciclo de combate. Garanta que o equipamento deles esteja atualizado e que suas habilidades sejam escolhidas para apoiar sua estratégia de ataque solo.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Estratégias Gerais para o Sucesso no Ataque Solo">
+Conquistar ataques solo requer mais do que apenas uma build forte; exige execução precisa, compreensão da mecânica dos chefes e adaptabilidade. Aqui estão algumas estratégias abrangentes para ajudá-lo a superar os desafios mais difíceis.
+
+### Lista de Verificação de Estratégia de Ataque Solo
+
+<Checklist
+  id="solo-raid-strategies"
+  title="Principais Estratégias de Ataque Solo:"
+  items={[
+    "**Aprenda os Padrões dos Chefes**: Identifique sinais de ataque, zonas seguras e habilidades que podem ser interrompidas.",
+    "**Gerenciamento de Recursos**: Use poções de HP/MP, tempos de recarga e recursos de classe de forma eficiente.",
+    "**Evasão e Posicionamento**: Domine os rolamentos de esquiva e mantenha a distância ideal das ameaças.",
+    "**Interrompa Habilidades Críticas**: Priorize interromper habilidades perigosas dos chefes que podem eliminá-lo.",
+    "**Gerenciamento de Adicionais**: Despache rapidamente inimigos menores para evitar ser sobrecarregado.",
+    "**Paciência e Persistência**: Ataques solo são frequentemente um processo de tentativa e erro."
+  ]}
+/>
+
+### Erros Comuns a Evitar em Ataques Solo
+
+| Erro                       | Consequência                                | Solução                                     |
+|:------------------------------|:-------------------------------------------|:---------------------------------------------|
+| **Ignorar Mecânicas**        | Morte instantânea, recursos desperdiçados            | Assista guias, pratique desvios, aprenda as fases |
+| **Equipamento Insuficiente**             | Dano ou sobrevivência insuficientes       | Farme equipamentos melhores, aprimore itens existentes     |
+| **Má Seleção de Habilidades**      | Falta de utilidade ou dano para o encontro| Reavalie Gemas de Habilidade e habilidades ativas  |
+| **Poções de Pânico**             | Ficar sem cura em momentos críticos| Conserve poções, use-as estrategicamente   |
+| **Sem Estratégia de Companheiro**     | Perder suporte de combate significativo  | Configure habilidades e equipamento do companheiro          |
+
+</Section>
+
+<Section icon={Map} title="FAQ: Ataques Solo em Embers of the Uncrowned">
+
+<FAQ items={[
+  {
+    question: "Todo o conteúdo de ataque pode ser feito solo em Embers of the Uncrowned?",
+    answer: "Embora alguns Chefes de Domínio e de Campo sejam soloáveis com builds e estratégias ideais, os Chefes de Ataque de alta coordenação são explicitamente projetados para jogo em grupo e podem ser impossíveis de solar devido a mecânicas que exigem múltiplos jogadores."
+  },
+  {
+    question: "Qual classe é melhor para tentativas de ataque solo?",
+    answer: "O Executor, com seu alto dano de explosão e auto-sustentação, e a Lâmina Espectral, com sua mobilidade e evasão, geralmente oferecem o maior potencial de ataque solo. O Tempestário pode ser eficaz para segurança à distância, mas pode ter dificuldades com pressão sustentada."
+  },
+  {
+    question: "Quão importantes são as Gemas de Habilidade para ataques solo?",
+    answer: "As Gemas de Habilidade são cruciais para ataques solo, pois permitem uma personalização significativa da build, capacitando os jogadores a aumentar o dano primário, aprimorar atributos defensivos e obter utilidade vital para superar encontros desafiadores."
+  },
+  {
+    question: "Companheiros ajudam em ataques solo?",
+    answer: "Sim, companheiros como Eslyn fornecem suporte essencial no campo de batalha, incluindo dano adicional, cura menor e utilidade. Otimizar suas habilidades e equipamento é vital para maximizar sua eficácia em combate durante tentativas solo."
+  }
+]} />
+
+</Section>

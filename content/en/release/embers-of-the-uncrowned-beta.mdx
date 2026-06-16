@@ -1,0 +1,198 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Embers of the Uncrowned Beta: Demo Access & Gameplay Guide",
+  description: "Master the Embers of the Uncrowned beta with our guide to demo access, class builds, combat controls, and rebuilding House Harborwell on Steam.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1a1a1a/fff?text=Beta+Access+Guide",
+  date: "2026-06-16",
+  author: "embers of the uncrowned Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Embers of the Uncrowned Beta**: The official demo is currently live on Steam as part of the **Steam Next Fest** (June 15-22, 2026).
+- **Core Mechanics**: Focus on manual isometric combat, precise evasion, and boss interruption across **three playable classes**.
+- **Progression**: Advance through the **House Harborwell** settlement system, unlocking building upgrades and bloodline powers.
+- **Multiplayer**: The demo features **12 boss monsters**, including Domain Bosses, Raids, and matchmaking-supported field content.
+- **PC Requirements**: Ensure your system meets the **GTX 1060 / RX 580** minimum baseline for a smooth experience.
+</Callout>
+
+<Section icon={Map} title="Accessing the Embers of the Uncrowned Beta">
+
+The **embers of the uncrowned beta** is currently available in the form of a high-fidelity Steam demo, released on June 13, 2026. Developed by NEXON, this dark fantasy MMORPG invites players to reclaim a fallen domain through a mix of isometric action and deep settlement management. Unlike many modern MMOs that rely on automated systems, this title emphasizes manual control and tactical cooperation.
+
+To participate in the current testing phase, players must navigate to the dedicated demo page on Steam. The full game is currently listed as "Coming Soon," and wishlisting it is the best way to receive updates regarding the transition from the demo phase to the official launch.
+
+**Video Highlights:**
+- **Cinematic Introduction**: A look at the dark fantasy world and the elven invasion.
+- **Class Showcases**: Brief glimpses of the Executioner, Spectral Blade, and Stormbringer in action.
+- **Combat Flow**: Demonstration of the manual targeting and evasion systems.
+
+<YouTubeEmbed videoId="eMqdSFFxL6U" title="Embers of the Uncrowned Official Trailer" />
+
+<Callout type="warning" title="Anti-Cheat Note">
+The game utilizes **Nexon Game Security (NGS)**, a kernel-level anti-cheat system. Be aware that this may require manual removal after uninstalling the demo if you wish to clear all game-related drivers from your system.
+</Callout>
+
+| Requirement | Minimum Specification | Recommended Specification |
+| :--- | :--- | :--- |
+| **OS** | Windows 11 64-bit | Windows 11 64-bit |
+| **CPU** | Intel i5-3570 / AMD FX-8350 | Intel i5-9600 / Ryzen 5 2600X |
+| **RAM** | 8 GB | 16 GB |
+| **GPU** | GTX 1060 / RX 580 / Arc A380 | RTX 2060 / RX 5700 XT / Arc A770 |
+| **DirectX** | Version 11 | Version 11 |
+| **Storage** | 30 GB available space | 30 GB available space |
+
+</Section>
+
+<Section icon={Swords} title="Class Selection and Initial Builds">
+
+Choosing your starting path in the **embers of the uncrowned beta** is critical, as each of the three available classes offers a distinct combat rhythm. The demo provides approximately 480 minutes of content, allowing you to experiment with skill trees and attribute allocations for the Executioner, Spectral Blade, and Stormbringer.
+
+<CardGrid cols={3}>
+  <Card title="Executioner">
+    - **Role**: Heavy melee vanguard
+    - **Mechanic**: Rage & Fury
+    - **Best For**: Players who enjoy high-impact, durable front-line combat.
+  </Card>
+  <Card title="Spectral Blade">
+    - **Role**: Mobile melee assassin
+    - **Mechanic**: Shade & Phantoms
+    - **Best For**: High-skill players who master positioning and skill chaining.
+  </Card>
+  <Card title="Stormbringer">
+    - **Role**: Elemental magic caster
+    - **Mechanic**: Wind & Lightning
+    - **Best For**: Ranged damage dealers who prefer controlling the battlefield from afar.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Build Strategy">
+Focus your early Skill Gems on **cooldown reduction** or **resource generation**. Since the demo limits your total playtime, maximizing your ability to use skills frequently will help you clear the 34 available side quests more efficiently.
+</Callout>
+
+| Class | Primary Elements | Difficulty | Combat Style |
+| :--- | :--- | :--- | :--- |
+| **Executioner** | Physical, Fire | Medium | Heavy burst, Rage-based chains |
+| **Spectral Blade** | Physical, Darkness | High | Stealth, Phantoms, High mobility |
+| **Stormbringer** | Wind, Lightning | Medium | Ranged AOE, Elemental pressure |
+
+</Section>
+
+<Section icon={Target} title="Combat Loop and Manual Controls">
+
+The combat in Embers of the Uncrowned is entirely manual, requiring players to aim their skills and time their dodges. The "Stagger" system is the core of boss encounters; by dealing enough damage or using specific "Interrupt" skills, you can temporarily disable a boss, creating a window for massive burst damage.
+
+<Steps>
+  <Step num="1" title="Input Setup">
+    Choose between Keyboard/Mouse (WASD) or an Xbox-style controller. Ensure your dodge (SP-based) is bound to a highly accessible button.
+  </Step>
+  <Step num="2" title="Resource Management">
+    Monitor your HP and MP closely. Executioners must manage Rage, while Spectral Blades track Shade generation to empower their finishers.
+  </Step>
+  <Step num="3" title="Stagger and Interrupt">
+    Watch for red "dangerous" skill indicators from bosses. Use interrupt-capable skills to break their cast and build the stagger meter.
+  </Step>
+  <Step num="4" title="Evasion Timing">
+    Evasion consumes SP. Do not spam your dodge; save it for unavoidable AOE patterns or "one-shot" mechanics in raids.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Stamina Management">
+Running out of SP (Stamina) during a boss fight often leads to immediate death. Always keep enough SP for at least one emergency dodge, especially during the **Domain Boss** encounters.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Progression: Skill Gems and Bloodlines">
+
+Beyond basic leveling, the **embers of the uncrowned beta** introduces "Infinite Progression" through Skill Gems and Bloodline Awakening. These systems allow you to customize the behavior of your active skills, such as adding fire damage to a physical strike or increasing the area of effect for a spell.
+
+Each class features 28-29 unique skills in the demo. By layering Skill Gems, you can create a build that compensates for your class's weaknesses. For example, a Stormbringer can use gems to add defensive utility to their wind spells, making them more viable for solo play in contested regions.
+
+<Callout type="success" title="Bloodline Awakening">
+Once you reach the later stages of the demo, focus on **Bloodline Awakening**. This system provides permanent stat boosts and unique passive traits that define your character's legacy within House Harborwell.
+</Callout>
+
+| Progression Layer | Primary Function | Acquisition Method |
+| :--- | :--- | :--- |
+| **Active Skills** | Direct combat actions | Leveling and Skill Points |
+| **Skill Gems** | Skill modification | Boss drops, Quest rewards |
+| **Gear Enhance** | Raw stat increases | Crafting, Settlement facilities |
+| **Bloodline** | Inherited power traits | Story progression, Awakening tasks |
+
+</Section>
+
+<Section icon={Shield} title="Rebuilding House Harborwell and Settlement Management">
+
+A unique aspect of Embers of the Uncrowned is the **Settlement System**. You play as the illegitimate child of House Harborwell, returning to reclaim your family's glory. Your base of operations starts as a simple camp at the Amber Coast and evolves into a bustling city as you liberate the surrounding 10 regions.
+
+<Checklist
+  id="settlement-goals"
+  title="Settlement Priority Tasks:"
+  items={[
+    "Upgrade the Blacksmith to unlock Gear Enhancement",
+    "Establish the Research Lab for Skill Gem optimization",
+    "Liberate the Amber Coast to secure early-game resources",
+    "Build affinity with Eslyn to unlock exclusive companion quests",
+    "Expand the Trading Post to manage rare material exchange"
+  ]}
+/>
+
+<Callout type="tip" title="Companion Synergy">
+Don't ignore **Eslyn**. As your primary companion in the demo, she provides 17 unique skills that can complement your build. Building affinity with her unlocks questlines that provide high-tier rewards essential for tackling the **Defense of Spring** encounters.
+</Callout>
+
+| Building Type | Core Function | Demo Limit |
+| :--- | :--- | :--- |
+| **Blacksmith** | Gear repair and enhancement | Level 3 |
+| **Research Lab** | Skill Gem synthesis | Level 2 |
+| **Trading Post** | Resource management | Level 2 |
+| **Alchemist** | Potion and consumable crafting | Level 3 |
+
+</Section>
+
+<Section icon={Trophy} title="Endgame Preview: Bosses and Raids">
+
+The demo culminates in high-difficulty multiplayer content. Players can participate in **Raid encounters** that require coordinated tactics and party synergy. The matchmaking system allows solo players to find groups for Field Bosses and Domain reclamation events.
+
+The **embers of the uncrowned beta** highlights 12 specific boss monsters. These encounters are designed to test your mastery of the manual combat system, specifically your ability to dodge and interrupt during high-pressure phases.
+
+| Encounter Type | Player Count | Difficulty | Primary Rewards |
+| :--- | :--- | :--- | :--- |
+| **Domain Boss** | Open Co-op | Medium | Settlement resources, Renown |
+| **Field Boss** | Open World | Medium | Rare gear, Upgrade materials |
+| **Raid Boss** | Coordinated Group | High | Legendary Skill Gems, Bloodline items |
+| **PvP Arena** | Matchmaking | Variable | Competitive rank, Cosmetic tokens |
+
+<Callout type="info" title="Final Beta Tip">
+Participate in the **Steam Next Fest** events to earn exclusive rewards like the **Cloudfur Cottonsloth Mount**. These items are typically tied to wishlist participation and demo completion milestones.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "How do I join the Embers of the Uncrowned beta?",
+    answer: "You can join by downloading the official demo on Steam. It is currently featured during the Steam Next Fest from June 15 to June 22, 2026."
+  },
+  {
+    question: "Will my progress from the demo carry over to the full game?",
+    answer: "NEXON has not officially confirmed progress carry-over for the full release. Typically, Steam Next Fest demos are standalone experiences, but check the official Discord for event-specific rewards."
+  },
+  {
+    question: "Are there any active redeem codes for the beta?",
+    answer: "Currently, there is no public code redemption system. Rewards are distributed through Steam wishlist events and in-game participation milestones rather than text codes."
+  },
+  {
+    question: "Which class is best for a solo player in the demo?",
+    answer: "The Executioner is highly recommended for solo players due to its high survivability and straightforward Rage-based damage combos."
+  }
+]} />
+
+</Section>

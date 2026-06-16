@@ -1,0 +1,187 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Jugabilidad de Embers of the Uncrowned: Mecánicas Principales y Guía de Combate",
+  description: "Sumérgete en la jugabilidad de Embers of the Uncrowned, cubriendo mecánicas de combate principales, habilidades de clase, sinergia con compañeros y sistemas de progresión para la demo de 2026.",
+  category: "Guía de Jugabilidad",
+  image: "https://placehold.co/800x400/8B0000/fff?text=Embers+of+the+Uncrowned+Gameplay",
+  date: "2026-06-16",
+  author: "Equipo de la Wiki de Embers of the Uncrowned",
+  keywords: "Embers of the Uncrowned, jugabilidad, combate, clases, guía, mecánicas"
+}
+
+<Callout type="info" title="Guía Rápida de la Jugabilidad de Embers of the Uncrowned">
+- La **jugabilidad de Embers of the Uncrowned** se centra en el combate isométrico manual con diversas mecánicas de clase.
+- Tres clases jugables: **Executioner**, **Spectral Blade** y **Stormbringer**, cada una con estilos de juego únicos.
+- Las **Gemas de Habilidad** y la **Progresión de Linaje** son cruciales para el crecimiento y poder del personaje a largo plazo.
+- Participa en **Jefes de Dominio**, **Incursiones** y **contenido multijugador** para experiencias cooperativas enriquecedoras.
+- Los **Compañeros**, como Eslyn, ofrecen una sinergia de combate significativa y líneas de misiones exclusivas basadas en la afinidad.
+</Callout>
+
+<Section icon={Swords} title="Comprendiendo las Mecánicas Principales de Combate">
+Embers of the Uncrowned introduce una profunda experiencia de MMORPG de acción isométrico, enfatizando el combate manual, la evasión precisa y el uso táctico de habilidades. Los jugadores se verán inmersos en un mundo de fantasía oscura donde comprender el ciclo principal de combate es clave para la supervivencia y la progresión. El juego cuenta con habilidades activas, mecánicas de evasión y tiempos de interrupción críticos para crear encuentros desafiantes.
+
+**Puntos Destacados del Video:**
+- Demostración del combate manual para las tres clases.
+- Muestra de evasión táctica y encadenamiento de habilidades.
+- Presentación de encuentros con jefes y mecánicas de interrupción.
+
+<YouTubeEmbed videoId="VoCPXiss8Ek" title="Embers of the Uncrowned - Tráiler Oficial de Sistemas de Juego" />
+
+El sistema de combate está diseñado para ser dinámico, requiriendo que los jugadores se adapten a los patrones de los enemigos y utilicen de manera efectiva las habilidades únicas de su clase elegida. Desde esquivar ataques entrantes hasta interrumpir habilidades poderosas de los jefes, cada acción contribuye al flujo de la batalla.
+
+<Callout type="tip">
+Dominar la **evasión** y el **tiempo de interrupción** es crucial para el contenido de alta dificultad. Reservar tus recursos defensivos para las mecánicas de los jefes puede cambiar el rumbo de un combate.
+</Callout>
+
+### Fundamentos del Combate
+
+| Mecánica          | Descripción                                                                 | Impacto en el Juego                                     |
+| :---------------- | :-------------------------------------------------------------------------- | :----------------------------------------------------- |
+| **Combate Manual** | Control directo del jugador sobre los ataques y el movimiento.              | Requiere compromiso activo y posicionamiento preciso.  |
+| **Evasión**       | Esquivar ataques consumiendo SP.                                            | Crítico para evitar daño y reposicionarse.             |
+| **Interrupciones** | Romper habilidades peligrosas de jefes con habilidades específicas.        | Evita daños elevados y crea ventanas de vulnerabilidad. |
+| **Aturdimiento**  | Crear aperturas para daño explosivo tras romper la postura del enemigo.     | Maximiza la salida de daño durante encuentros con jefes. |
+| **Habilidades Activas** | Habilidades de clase con enfriamientos y costes de recursos.          | Define la rotación de combate y las opciones tácticas. |
+
+</Section>
+
+<Section icon={Target} title="Dinámica de Clases y Rutas de Construcción">
+Embers of the Uncrowned ofrece tres clases jugables distintas en su demo: Executioner, Spectral Blade y Stormbringer. Cada clase proporciona una experiencia de juego única, con diferentes gestiones de recursos, conjuntos de habilidades y roles de combate. Construir tu personaje implica no solo seleccionar una clase, sino también invertir estratégicamente en habilidades activas y pasivas, recolectar Gemas de Habilidad, mejorar el equipo y despertar el poder del linaje.
+
+<CardGrid cols={3}>
+  <Card title="Executioner">
+    - **Vanguardia pesada cuerpo a cuerpo**
+    - Genera Rabia, activa Furia para daño explosivo
+    - Se enfoca en elementos físicos y de fuego
+    - **Dificultad media** para un combate duradero
+  </Card>
+  <Card title="Stormbringer">
+    - **Atacante mágico a distancia**
+    - Utiliza Viento y Rayo para control y presión
+    - Sobresale en ráfagas elementales y ventanas seguras
+    - **Dificultad media** para juego táctico a distancia
+  </Card>
+  <Card title="Spectral Blade">
+    - **Asesino móvil cuerpo a cuerpo**
+    - Genera y consume Sombra para cadenas de habilidades
+    - Usa Sigilo y cambios de posición para aperturas
+    - **Dificultad alta** para maestría en combos
+  </Card>
+</CardGrid>
+
+El sistema de progresión está diseñado para permitir una creación de builds diversa, permitiendo a los jugadores experimentar con diferentes estilos de combate dentro de su clase. Esta profundidad asegura que la **jugabilidad de Embers of the Uncrowned** se mantenga fresca y atractiva a través de partidas repetidas.
+
+<Callout type="warning" title="Impacto de la Elección de Clase">
+Tu elección de clase afecta significativamente tu ritmo de combate y la dirección de tu build. Aunque la demo permite la exploración, la progresión del juego completo se basará en estas decisiones fundamentales.
+</Callout>
+
+### Elementos de Progresión
+
+| Capa de Progresión | Descripción                                                      | Beneficio Clave                                        |
+| :----------------- | :--------------------------------------------------------------- | :----------------------------------------------------- |
+| **Habilidades Activas** | Define las opciones de combate momento a momento.               | Control directo sobre el flujo de combate y el daño.   |
+| **Habilidades Pasivas** | Apoya la identidad de clase, supervivencia y estilo de daño.    | Mejora habilidades básicas y aporta profundidad táctica. |
+| **Gemas de Habilidad** | Mecanismo de crecimiento del personaje a largo plazo.           | Personaliza habilidades y añade efectos poderosos.      |
+| **Mejora de Equipo** | Mejora las estadísticas y el poder del equipamiento.             | Aumenta directamente el poder de combate y resistencia. |
+| **Despertar de Linaje** | Conecta el poder heredado con la progresión tardía.            | Desbloquea habilidades únicas y picos de poder notables. |
+
+</Section>
+
+<Section icon={Shield} title="Compañeros y Sinergia en el Combate">
+Los compañeros son una parte integral de la experiencia de **jugabilidad de Embers of the Uncrowned**, sirviendo como algo más que simples decoraciones. Participan activamente en el combate, ofreciendo apoyo y sinergia con tu clase elegida. Eslyn, la compañera destacada en la demo, ejemplifica este sistema, luchando junto a los jugadores y apoyando la campaña para reconstruir la Casa Harborwell.
+
+El sistema de compañeros incluye 17 habilidades únicas de compañero y líneas de misiones exclusivas basadas en la afinidad, profundizando el vínculo entre los jugadores y sus aliados. Hacer crecer a tus compañeros fortalece a todo tu grupo y desbloquea nuevas posibilidades tácticas.
+
+<Callout type="success">
+Aumentar la **afinidad** con tus compañeros no solo desbloquea misiones exclusivas, sino que también mejora su efectividad en combate, proporcionando un apoyo crucial en encuentros desafiantes.
+</Callout>
+
+### Beneficios de los Compañeros
+
+| Característica              | Descripción                                                            | Valor para el Jugador                                            |
+| :-------------------------- | :--------------------------------------------------------------------- | :--------------------------------------------------------------- |
+| **Eslyn (Compañera Destacada)** | Lucha junto al jugador, apoya la campaña de la Casa Harborwell.       | Añade una capa extra de apoyo en el campo y presencia narrativa. |
+| **17 Habilidades de Compañero** | Habilidades diversas para un rol mecánico en la planificación táctica. | Combina habilidades de clase con efectos de compañero.           |
+| **Misiones de Afinidad**    | Misiones exclusivas centradas en Eslyn, ligadas al crecimiento.        | Convierte la relación en contenido jugable y desarrollo.         |
+| **Sinergia de Combate**     | Los aliados se fortalecen con el jugador, creando sinergias poderosas. | Conecta el crecimiento del aliado con la fuerza del grupo.       |
+| **Conexión con Asentamiento** | Compañeros vinculados a la reconstrucción de la Casa Harborwell.      | Une la progresión del aliado con los sistemas de territorio.     |
+
+</Section>
+
+<Section icon={Map} title="Jefes, Incursiones y Contenido Multijugador">
+Embers of the Uncrowned promueve intensamente su contenido multijugador, presentando diversos encuentros con jefes y actividades cooperativas. La demo por sí sola destaca 12 monstruos jefe a través de encuentros de Dominio, Campo, Defensa de la Primavera e Incursiones. Estas actividades requieren distintos grados de coordinación entre jugadores, desde encuentros abiertos de reclamo de tierras hasta combates de incursión altamente coordinados.
+
+Participar en estos elementos multijugador es vital para experimentar todo el alcance de la **jugabilidad de Embers of the Uncrowned**, ofreciendo desafíos únicos y recompensas que contribuyen a la progresión del personaje y del asentamiento.
+
+<Callout type="info">
+La demo incluye contenido de campo y emparejamiento enfocado en el multijugador a través de tres regiones principales y 10 regiones explorables o liberables, ofreciendo amplias oportunidades para el juego cooperativo.
+</Callout>
+
+### Actividades Multijugador
+
+| Tipo de Encuentro        | Modo                                  | Configuración de Jugadores             | Objetivo                                                   |
+| :----------------------- | :------------------------------------ | :------------------------------------- | :--------------------------------------------------------- |
+| **Jefes de Dominio**     | Cooperativo abierto de reclamo        | Los jugadores unen fuerzas con otros   | Derrotar jefes, apoyar la restauración de la Casa          |
+| **Jefes de Incursión**   | Encuentro de alta coordinación        | Juego en grupo, cooperación, tácticas  | Enfrentar jefes poderosos, requiere ejecución coordinada    |
+| **Jefes de Campo**       | Combate multijugador en el campo      | Diseñado para el campo multijugador    | Luchar contra grandes amenazas, explorar regiones liberadas |
+| **Defensa de la Primavera** | Encuentro de defensa                  | PvE amigable para grupos               | Defender objetivo clave, manejar presión de jefes          |
+| **Arena PvP**            | PvP en línea                          | Juego competitivo con emparejamiento   | Probar control de clase, posición y tiempos de combate     |
+| **Campo y Emparejamiento** | Capa multijugador de MMORPG           | Coordinación de grupo, emparejamiento  | Pasar de exploración a actividades organizadas de jefes    |
+
+</Section>
+
+<Section icon={Sparkles} title="Reconstruyendo la Casa Harborwell: Progresión de Asentamiento y Territorio">
+Un ciclo central de narrativa y jugabilidad en Embers of the Uncrowned implica la reconstrucción de la Casa Harborwell. Los jugadores regresan como el señor legítimo, encargados de reclamar un dominio perdido de enemigos corruptos y fuerzas élficas. Esta progresión se representa visiblemente a través del crecimiento del asentamiento, la liberación de regiones y la construcción de edificios mejorables.
+
+El asentamiento comienza como un humilde campamento y se transforma gradualmente en una ciudad vibrante a medida que se extiende la influencia. La gestión de recursos, el apoyo a la artesanía y los capítulos de la historia están entrelazados con este objetivo general, convirtiendo la progresión territorial en una parte central de la experiencia de **jugabilidad de Embers of the Uncrowned**.
+
+<Callout type="tip">
+Prioriza la mejora de los edificios del asentamiento para desbloquear opciones de investigación, comercio y artesanía, lo que reforzará significativamente el poder de tu personaje y la influencia de la Casa Harborwell.
+</Callout>
+
+### Lista de Verificación de Progresión del Asentamiento
+
+<Checklist
+  id="settlement-goals"
+  title="Objetivos de Reclamación de la Casa Harborwell:"
+  items={[
+    "Liberar el asentamiento de la Costa Ámbar",
+    "Formar alianzas en Towerstead",
+    "Mejorar los siete tipos de edificios en tu asentamiento",
+    "Explorar y liberar las 10 regiones",
+    "Gestionar los recursos eficientemente para un crecimiento sostenido"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Trophy} title="Preguntas Frecuentes sobre la Jugabilidad de Embers of the Uncrowned">
+
+<FAQ items={[
+  {
+    question: "¿Qué tipo de combate puedo esperar en Embers of the Uncrowned?",
+    answer: "Embers of the Uncrowned presenta un combate isométrico manual que requiere movimiento preciso, uso de habilidades activas, evasión e interrupciones tácticas para superar a enemigos y jefes."
+  },
+  {
+    question: "¿Cuántas clases hay disponibles en la demo?",
+    answer: "La demo ofrece tres clases jugables: Executioner (cuerpo a cuerpo pesado), Spectral Blade (asesino móvil) y Stormbringer (magia a distancia)."
+  },
+  {
+    question: "¿Son importantes los compañeros para el juego?",
+    answer: "Sí, los compañeros como Eslyn son fundamentales para el combate, ofreciendo habilidades, sinergia y misiones de afinidad que profundizan la experiencia de juego y fortalecen a tu grupo."
+  },
+  {
+    question: "¿Qué tipos de contenido multijugador existen?",
+    answer: "El juego incluye Jefes de Dominio, Jefes de Incursión (Raids), Jefes de Campo, encuentros de Defensa de la Primavera, Arena PvP y contenido general de campo multijugador, todo diseñado para el juego cooperativo."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,180 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Embers of the Uncrowned Raid: Boss Tactics & Co-op Guide",
+  description: "Master the embers of the uncrowned raid system with our guide on Domain Bosses, class roles, and tactical cooperation for the 2026 Steam demo.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1a1c23/fff?text=Raid+and+Boss+Tactics",
+  date: "2026-06-16",
+  author: "embers of the uncrowned Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Embers of the uncrowned raid** content focuses on high-coordination boss encounters and territory reclamation.
+- **Manual combat mechanics** like evasion, interrupts, and stagger windows are critical for surviving high-tier raids.
+- **Group composition** should ideally balance the Executioner's tanking, the Stormbringer's range, and the Spectral Blade's burst.
+- **Settlement progression** in House Harborwell is directly tied to defeating Domain and Raid bosses.
+- **Demo scope** includes 12 boss monsters across three core regions available during the June 2026 Steam Next Fest.
+</Callout>
+
+<Section icon={Map} title="Understanding the Embers of the Uncrowned Raid System">
+
+The endgame and cooperative loop of this dark fantasy MMORPG center heavily on the **embers of the uncrowned raid** and boss encounter systems. Unlike traditional "stat-check" MMOs, NEXON has designed these encounters to reward manual precision and tactical positioning. Players are tasked with reclaiming the fallen House Harborwell by defeating powerful entities occupying the domain.
+
+In the current June 2026 demo, raids are not just isolated instances but are integrated into the world’s progression. Defeating these bosses liberates regions and provides the resources necessary to upgrade your settlement from a humble camp into a fortified city. Coordination is mandatory, as bosses feature complex patterns that require specific responses such as "Interrupts" to break dangerous skill casts and "Stagger" windows for maximum damage output.
+
+| Encounter Type | Player Focus | Objective | Difficulty |
+| :--- | :--- | :--- | :--- |
+| **Domain Bosses** | Open Co-op | Reclaim House land and restore influence | Medium |
+| **Raid Bosses** | High Coordination | Defeat elite threats via tactical execution | High |
+| **Field Bosses** | Massive Multiplayer | Large-scale combat in contested regions | Variable |
+| **Defense of Spring** | Group PvE | Defend key objectives against boss waves | Medium |
+
+<Callout type="tip" title="Tactical Awareness">
+Raids in Embers of the Uncrowned use a "Stagger" system. When a boss's posture bar is depleted through heavy attacks or successful interrupts, they enter a vulnerable state. Save your highest-damage skill chains for this specific window to maximize efficiency.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Class Roles and Raid Synergy">
+
+Success in an **embers of the uncrowned raid** depends on how well players utilize their specific class mechanics. The game features three primary classes in the demo, each with distinct roles that complement a raiding party. Understanding the synergy between the Executioner, Spectral Blade, and Stormbringer is the difference between a successful clear and a total party wipe.
+
+<CardGrid cols={3}>
+  <Card title="Executioner">
+    - **Role**: Heavy Melee Vanguard
+    - **Mechanic**: Build Rage to trigger Fury for explosive damage.
+    - **Raid Utility**: Defense shredding and physical boss pressure.
+  </Card>
+  <Card title="Stormbringer">
+    - **Role**: Elemental Caster
+    - **Mechanic**: Uses Wind and Lightning to control the battlefield.
+    - **Raid Utility**: Ranged magical pressure and spatial control.
+  </Card>
+  <Card title="Spectral Blade">
+    - **Role**: Mobile Assassin
+    - **Mechanic**: Consumes Shade for phantom-assisted burst.
+    - **Raid Utility**: High-skill DPS and stealth-based positioning.
+  </Card>
+</CardGrid>
+
+Each class brings a unique flavor to the combat loop. For instance, the Executioner can act as a pseudo-tank by engaging the boss directly, while the Stormbringer provides consistent damage from a safe distance. The Spectral Blade excels at finding openings during chaotic boss phases to deliver massive critical strikes from the rear.
+
+| Class | Primary Element | Key Raid Contribution | Difficulty |
+| :--- | :--- | :--- | :--- |
+| **Executioner** | Fire / Physical | Tanking hits and shredding boss armor | Medium |
+| **Stormbringer** | Wind / Lightning | Constant DPS from safety and crowd control | Medium |
+| **Spectral Blade** | Darkness / Physical | High burst damage and phantom combos | High |
+
+<Callout type="warning" title="Stamina Management">
+Every class uses SP for evasion. In high-level raids, spamming dodge will leave you vulnerable during unavoidable "One-Shot" mechanics. Learn the boss's telegraphs to dodge only when necessary.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Step-by-Step Raid Preparation">
+
+Before entering an **embers of the uncrowned raid**, players must ensure their character and companions are properly geared. The "Infinite Progression" system means your power is a combination of your skill choices, gear enhancements, and Skill Gem configurations.
+
+<Steps>
+  <Step num="1" title="Optimize Skill Gems">
+    Equip Skill Gems that complement your raid role. For Executioners, focus on Rage generation; for Stormbringers, prioritize elemental penetration.
+  </Step>
+  <Step num="2" title="Check Companion Affinity">
+    Ensure Eslyn or other companions have their skills mapped. The demo features 17 companion skills that can provide crucial buffs during boss fights.
+  </Step>
+  <Step num="3" title="Enhance Settlement Facilities">
+    Visit House Harborwell to use the upgradeable buildings. Research and trade facilities can provide temporary consumables that boost stats for the duration of a raid.
+  </Step>
+  <Step num="4" title="Map Interrupt Skills">
+    Identify which of your 28-29 class skills have the "Interrupt" property. These must be ready to cast the moment the boss begins a channeled ultimate.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Companion Synergy">
+Companions are not just cosmetic. In the demo, Eslyn can be built to provide healing or defensive barriers. Coordinate with your team so that companion skills don't overlap, ensuring a steady stream of support throughout the encounter.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Raid Mechanics: Evasion and Interrupts">
+
+The core of the **embers of the uncrowned raid** experience is manual combat. The game does not feature "auto-combat" for these high-tier encounters. Players must actively watch the boss's animations to survive.
+
+**Interrupting Boss Skills**
+Many bosses in the demo, especially in the Towerstead region, utilize "Purple" or "Red" telegraphed attacks.
+- **Purple Attacks**: These can usually be interrupted by specific skills, putting the boss into a short stun.
+- **Red Attacks**: These are typically unblockable and require precise evasion or moving out of the area of effect (AoE).
+
+| Mechanic | Player Action | Result of Success | Penalty for Failure |
+| :--- | :--- | :--- | :--- |
+| **Interrupt** | Use skill with Interrupt tag | Boss stun / Stagger gain | Heavy party damage |
+| **Perfect Dodge** | Evade at the last moment | SP recovery / Counter window | Direct HP loss |
+| **Stagger** | Continuous heavy pressure | Massive damage window | Extended fight duration |
+
+<Callout type="info" title="Bloodline Awakening">
+Don't forget to activate your Bloodline power during the Stagger window. This inherited power provides a massive temporary boost to all combat stats, making it the ideal tool for pushing through a boss's final health phase.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Rewards and Settlement Growth">
+
+Participating in an **embers of the uncrowned raid** is the primary method for advancing the House Harborwell system. The demo highlights that progression is visible; as you defeat bosses, your settlement physically changes.
+
+**Raid Rewards Include:**
+- **Skill Gems**: Essential for the "Infinite Progression" layer of your build.
+- **House Resources**: Used to upgrade the 7 different building types in your settlement.
+- **Bloodline Materials**: Required for awakening deeper tiers of your character's inherited power.
+- **Affinity Points**: Increases your bond with companions like Eslyn, unlocking exclusive questlines.
+
+<Checklist
+  id="raid-readiness"
+  title="Raid Readiness Checklist:"
+  items={[
+    "Minimum PC requirements met (GTX 1060 / RX 580 baseline)",
+    "All 28+ class skills reviewed for tactical utility",
+    "Skill Gems slotted into primary gear pieces",
+    "Companion skills configured for group synergy",
+    "Consumables purchased from the Settlement trader"
+  ]}
+/>
+
+<Callout type="tip" title="Steam Next Fest Note">
+The demo is available from June 15-22, 2026. Participation in raid content during this window may contribute to community goals or provide insights for the development team via the official Discord and Steam discussions.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "How many players are required for an embers of the uncrowned raid?",
+    answer: "While some field content can be tackled solo or with companions, official raids are designed for coordinated group play. The matchmaking system supports party formation to ensure you have a full team before engaging major bosses."
+  },
+  {
+    question: "Can I change my class for different raids?",
+    answer: "In the demo, you can experiment with Executioner, Spectral Blade, and Stormbringer. However, progression like Skill Gems and Bloodline awakening is often tied to the specific character and class you are developing."
+  },
+  {
+    question: "What happens if we fail a raid encounter?",
+    answer: "Failure typically results in a respawn at the nearest liberated settlement or checkpoint. You do not lose your gear, but you will need to restart the boss encounter from the beginning. It is a good time to re-evaluate your skill gems and tactics."
+  },
+  {
+    question: "Are there unique rewards for raiding during the Steam demo?",
+    answer: "Yes, the Steam wishlist event and demo participation often grant rewards like the Cloudfur Cottonsloth Mount. Check the official Steam news hub for the latest updates on demo-specific rewards."
+  }
+]} />
+
+<Callout type="info" title="Final Verdict">
+Raiding in Embers of the Uncrowned is a test of skill over stats. Whether you are playing the heavy-hitting Executioner or the agile Spectral Blade, your success depends on mastering the rhythm of the boss and coordinating your cooldowns with your teammates.
+</Callout>
+
+</Section>

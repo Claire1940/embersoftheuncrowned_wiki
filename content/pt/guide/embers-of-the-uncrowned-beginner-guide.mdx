@@ -1,0 +1,212 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Guia para Iniciantes de Embers of the Uncrowned: Classificações de Classes e Guia de Configuração",
+  description: "Domine Embers of the Uncrowned com nosso guia para iniciantes de 2026. Aprenda as classificações de classes, mecânicas de combate, crescimento do assentamento e dicas de configuração da demo do Steam.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1a1a1a/fff?text=Beginner+Guide+and+Setup",
+  date: "2026-06-16",
+  author: "Equipe Wiki de Embers of the Uncrowned"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Palavra-chave principal**: Este **guia para iniciantes de Embers of the Uncrowned** cobre a demo do Steam de junho de 2026 e os sistemas centrais.
+- **Seleção de classe**: Comece com o **Carrasco** para a integração corpo a corpo mais fácil ou o **Conjurador de Tempestades** para segurança à distância.
+- **Ciclo de combate**: Concentre-se nas **janelas de atordoamento** e na evasão manual para sobreviver a encontros com chefes de alta dificuldade.
+- **Foco do assentamento**: Priorize as atualizações de **House Harborwell** para desbloquear melhores opções de criação e gerenciamento de recursos.
+- **Nota técnica**: O jogo usa **anti-cheat NGS em nível de kernel**, que requer remoção manual se você desinstalar a demo.
+</Callout>
+
+<Section icon={Map} title="Começando: Demo do Steam e Configuração do Sistema">
+
+Embers of the Uncrowned é um MMORPG isométrico de fantasia sombria desenvolvido pela NEXON, atualmente disponível como uma demo gratuita no Steam a partir de 13 de junho de 2026. Ao contrário dos MMORPGs tradicionais de seleção de alvo, este título enfatiza a precisão manual, o posicionamento tático e a construção de um legado através de House Harborwell. Antes de mergulhar na invasão élfica, certifique-se de que seu hardware atenda aos requisitos para lidar com os ambientes góticos de alta fidelidade e os efeitos de combate cheios de partículas.
+
+**Destaques do Vídeo:**
+- **Combate Manual**: Visão geral do sistema de combate isométrico orientado para a ação.
+- **Prévia das Classes**: Uma breve olhada no Carrasco, Lâmina Espectral e Conjurador de Tempestades em ação.
+- **Camadas de Progressão**: Explicação das Gemas de Habilidade e Despertar da Linhagem.
+- **Exploração do Mundo**: Um vislumbre das regiões liberadas e contestadas da Costa Âmbar.
+
+<YouTubeEmbed videoId="eMqdSFFxL6U" title="Embers of the Uncrowned - Trailer Oficial de Sistemas de Jogo" />
+
+A demo inclui três capítulos principais da história e mais de 480 minutos de conteúdo. Para garantir uma experiência tranquila, revise os requisitos oficiais de PC abaixo. Observe que o jogo requer uma conexão de banda larga consistente para suas atividades de campo e matchmaking focadas no multiplayer.
+
+| Categoria | Requisito Mínimo | Requisito Recomendado |
+| :--- | :--- | :--- |
+| **SO** | Windows 11 64-bit | Windows 11 64-bit |
+| **Processador** | Intel i5-3570 / AMD FX-8350 | Intel i5-9600 / Ryzen 5 2600X |
+| **Memória** | 8 GB RAM | 16 GB RAM |
+| **Gráficos** | GTX 1060 / RX 580 / Arc A380 | RTX 2060 / RX 5700 XT / Arc A770 |
+| **DirectX** | Versão 11 | Versão 11 |
+| **Armazenamento** | 30 GB de espaço disponível | 30 GB de espaço disponível |
+
+<Callout type="warning" title="Aviso Anti-Cheat">
+Embers of the Uncrowned utiliza o **Nexon Game Security (NGS)** em nível de kernel. Esteja ciente de que este software geralmente requer remoção manual após desenterrar a demo da sua biblioteca Steam. Sempre verifique o hub de notícias do Steam para as últimas atualizações técnicas.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Lista de Níveis de Classe: Escolhendo Seu Herói">
+
+Escolher sua classe inicial é a decisão mais crítica no **guia para iniciantes de Embers of the Uncrowned**. A demo apresenta três classes jogáveis distintas, cada uma com 28 a 29 habilidades únicas. Sua escolha dita seu ritmo de combate, gerenciamento de recursos e papel em raides em grupo.
+
+<CardGrid cols={3}>
+  <Card title="Carrasco (Tier S)">
+    - **Função**: Vanguarda Melee Pesada
+    - **Mecânica**: Raiva e Fúria
+    - **Melhor para**: Iniciantes que desejam alta capacidade de sobrevivência e dano físico explosivo esmagador.
+  </Card>
+  <Card title="Conjurador de Tempestades (Tier A)">
+    - **Função**: DPS Mágico de Longo Alcance
+    - **Mecânica**: Vento e Relâmpago
+    - **Melhor para**: Jogadores que preferem manter distância segura enquanto controlam o campo de batalha.
+  </Card>
+  <Card title="Lâmina Espectral (Tier A)">
+    - **Função**: Assassino de Alta Habilidade
+    - **Mecânica**: Sombra e Fantasmas
+    - **Melhor para**: Jogadores avançados que gostam de alta mobilidade, furtividade e cadeias de combos complexas.
+  </Card>
+</CardGrid>
+
+Cada classe pode ser ainda mais personalizada através de árvores de habilidades e focos elementais. O Carrasco, por exemplo, pode alternar entre construções de pura defesa física e dano ao longo do tempo baseado em fogo.
+
+| Nome da Classe | Elementos Primários | Dificuldade | Estilo de Combate |
+| :--- | :--- | :--- | :--- |
+| **Carrasco** | Físico / Fogo | Médio | Golpes de machado pesados, perseguição e ritmo explosivo. |
+| **Conjurador de Tempestades** | Vento / Relâmpago | Médio | Pressão de feitiços de longo alcance e controle de área elemental. |
+| **Lâmina Espectral** | Físico / Escuridão | Alto | Esgrima rápida, fantasmas e explosão baseada em furtividade. |
+
+<Callout type="tip" title="Melhor Primeira Escolha">
+Para sua primeira hora em Goldenhaven, o **Carrasco** é altamente recomendado. A mecânica de Raiva é intuitiva, e a alta quantidade de vida permite que você aprenda os padrões dos chefes sem ser punido instantaneamente por uma esquiva mal cronometrada.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Mecânicas de Combate e Controle Essenciais">
+
+O combate em Embers of the Uncrowned é manual e tático. Você não pode confiar em auto-caminho ou auto-combate para derrotar chefes. O sucesso depende de gerenciar sua Estamina (SP) para evasões e cronometrar suas interrupções para quebrar habilidades perigosas dos chefes.
+
+<Steps>
+  <Step num="1" title="Mapeie Suas Teclas de Habilidade">
+    O jogo suporta movimento WASD e entrada de controle. Garanta que suas habilidades ativas, esquiva e poções estejam em teclas de fácil acesso. O combate manual requer movimento constante, então evite layouts desorganizados.
+  </Step>
+  <Step num="2" title="Gerencie a Janela de Atordoamento">
+    Chefes possuem uma barra de atordoamento. Usando habilidades específicas de alto impacto durante os preparativos de ataque deles, você pode esgotar esta barra, deixando o chefe vulnerável a uma fase de dano explosivo.
+  </Step>
+  <Step num="3" title="Utilize a Evasão (SP)">
+    Correr consome SP. Não use sua esquiva indiscriminadamente; guarde-a para ataques "não bloqueáveis" telegrafados em vermelho. Gerenciar seu SP é tão importante quanto gerenciar sua vida.
+  </Step>
+  <Step num="4" title="Tempo de Interrupção">
+    Certas habilidades de chefes podem ser interrompidas. Procure pelo flash azul ou sinais de animação específicos para usar suas habilidades de CC (Controle de Multidão), cancelando efetivamente o movimento de alto dano do inimigo.
+  </Step>
+</Steps>
+
+| Ação | Controle (KB/M) | Efeito |
+| :--- | :--- | :--- |
+| **Movimento** | WASD | Posicionamento manual e "kiting". |
+| **Ataque Básico** | Clique Esquerdo | Dano sustentado e geração de recursos. |
+| **Evasão** | Espaço / Shift | Esquiva rápida para evitar dano (consome SP). |
+| **Uso de Habilidade** | 1, 2, 3, 4, Q, E | Executa habilidades específicas da classe. |
+| **Poções** | R, F | Recupera HP ou MP durante o combate. |
+
+<Callout type="success" title="Maestria em Combate">
+Fique sempre atento à sua **Habilidade de Linhagem**. Este é um movimento "supremo" poderoso que pode mudar o rumo de um raide. Guarde-o para os últimos 25% da vida de um chefe ou quando você estiver cercado por mobs de elite.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Progressão: Gemas de Habilidade e Poder da Linhagem">
+
+O sistema de "Progressão Infinita" é o que separa um novato de um veterano. Neste **guia para iniciantes de Embers of the Uncrowned**, enfatizamos três camadas de crescimento do personagem: progressão de habilidades ativas, Gemas de Habilidade e Despertar da Linhagem. Esses sistemas funcionam em conjunto para aumentar seu poder de combate.
+
+| Camada de Progressão | Função | Disponibilidade na Demo |
+| :--- | :--- | :--- |
+| **Habilidades Ativas** | Escolhas de combate momento a momento e cadeias de habilidades. | 28-29 habilidades por classe. |
+| **Gemas de Habilidade** | Itens encaixados que adicionam modificadores a habilidades existentes. | Encontradas em raides e conteúdo de campo de alto nível. |
+| **Aprimoramento de Equipamento** | Aumentos diretos de atributos para armas e armaduras. | Via ferreiro do assentamento e recursos. |
+| **Poder da Linhagem** | Traços herdados que fornecem buffs passivos massivos. | Desbloqueado através dos capítulos da história principal. |
+| **Crescimento do Companheiro** | Aumenta a sinergia e desbloqueia habilidades de companheiros. | Centrado em Eslyn na demo atual. |
+
+<Callout type="info" title="Estratégia de Gema de Habilidade">
+Não ignore as Gemas de Habilidade no início. Mesmo gemas de baixo nível podem adicionar uma redução de tempo de recarga significativa ou dano elemental que torna a coleta de recursos muito mais eficiente. Verifique seu inventário frequentemente para garantir que seu equipamento esteja totalmente encaixado.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="House Harborwell e Crescimento do Assentamento">
+
+Sua jornada não é apenas sobre poder pessoal; é sobre reconstruir House Harborwell. O sistema de assentamento começa como um acampamento humilde e se expande para uma cidade vibrante à medida que você liberta regiões e coleta recursos. Isso atua como seu centro principal para comércio, criação e pesquisa.
+
+| Tipo de Edifício | Função | Prioridade de Upgrade |
+| :--- | :--- | :--- |
+| **Ferreiro** | Aprimoramento de equipamento e criação de itens. | Alta |
+| **Laboratório de Alquimia** | Preparação de poções e pesquisa elemental. | Média |
+| **Posto de Comércio** | Troca de recursos e acesso ao mercado. | Baixa |
+| **Campos de Treinamento** | Desbloqueio de habilidades de companheiros e tarefas de afinidade. | Alta |
+| **Centro de Comando** | Missões de libertação de região e progresso da história. | Essencial |
+
+<Checklist
+  id="settlement-goals"
+  title="Marcos Iniciais do Assentamento:"
+  items={[
+    "Chegar à Costa Âmbar e estabelecer o acampamento inicial",
+    "Desbloquear os 3 primeiros edifícios através das missões da história principal",
+    "Libertar pelo menos 2 regiões vizinhas para coletar pedra e madeira",
+    "Completar a primeira missão de afinidade de Eslyn para desbloquear sua sinergia de combate",
+    "Atualizar o Ferreiro para o nível 2 para aprimoramento básico de equipamento"
+  ]}
+/>
+
+<Callout type="tip" title="Gerenciamento de Recursos">
+Concentre-se em libertar regiões cedo. Cada território libertado fornece um fluxo passivo de recursos que são necessários para as atualizações dos edifícios. Sem eles, sua progressão será significativamente interrompida até o Capítulo 3.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Multijogador: Chefes, Raides e Co-op">
+
+Embers of the Uncrowned apresenta 12 monstros chefes na demo, variando de Chefes de Domínio de mundo aberto a encontros de Raide coordenados. O matchmaking é suportado, tornando fácil encontrar um grupo para o conteúdo mais difícil.
+
+| Tipo de Encontro | Configuração do Jogador | Objetivo |
+| :--- | :--- | :--- |
+| **Chefes de Domínio** | Co-op de Mundo Aberto | Recuperar terras para House Harborwell. |
+| **Chefes de Raide** | Grupo Coordenado | Derrotar inimigos com muita vida e mecânicas complexas. |
+| **Chefes de Campo** | Matchmaking Aleatório | Ameaças em larga escala encontradas em regiões contestadas. |
+| **Defesa da Primavera** | PvE Baseado em Ondas | Defender um objetivo central de enxames de monstros. |
+| **Arena PvP** | Matchmaking Competitivo | Testar sua build e habilidade contra outros jogadores. |
+
+<Callout type="warning" title="Etiqueta em Raides">
+Em raides, preste atenção à **posição do tanque**. Se você estiver jogando como Conjurador de Tempestades ou Lâmina Espectral, não puxe a agressão cedo. Espere o Carrasco estabelecer uma liderança de ameaça antes de liberar seus combos de maior dano.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Como acesso a demo de Embers of the Uncrowned?",
+    answer: "Você pode baixar a demo diretamente da página oficial do Steam. Procure o botão 'Baixar Demo' separado do botão 'Adicionar à Lista de Desejos' do jogo completo."
+  },
+  {
+    question: "Existe uma maneira de redefinir minhas habilidades na demo?",
+    answer: "Sim, a demo permite redefinir habilidades no centro do assentamento, permitindo que você teste diferentes builds para o Carrasco, Conjurador de Tempestades ou Lâmina Espectral."
+  },
+  {
+    question: "O que é o Cloudfur Cottonsloth e como o consigo?",
+    answer: "É uma recompensa de montaria especial por participar do evento da lista de desejos do Steam. Verifique o hub de notícias oficial do Steam para as instruções de resgate específicas durante o período da demo."
+  },
+  {
+    question: "Posso jogar Embers of the Uncrowned sozinho?",
+    answer: "Embora a história e a exploração possam ser feitas sozinho, muitos chefes e raides são projetados para multijogador. O matchmaking está disponível para ajudar jogadores solo a encontrar grupos facilmente."
+  }
+]} />
+
+</Section>
