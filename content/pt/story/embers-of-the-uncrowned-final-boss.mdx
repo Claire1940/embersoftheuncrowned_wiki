@@ -1,0 +1,166 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Chefe final de Embers of the Uncrowned: Estratégias e Mecânicas de Raid",
+  description: "Domine o chefe final de Embers of the Uncrowned com nosso guia tático. Aprenda as mecânicas de raide, funções de classe e janelas de atordoamento para o clímax da demo de 2026.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1a1a1a/e7663a?text=Final+Boss+Raid+Guide",
+  date: "2026-06-17",
+  author: "Equipe Wiki de Embers of the Uncrowned"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Contexto do Chefe Final**: O clímax da demo apresenta o **chefe final de Embers of the Uncrowned** de mais alto nível encontrado nos encontros de Raid da versão do Steam Next Fest de junho de 2026.
+- **Mecânica Chave**: O sucesso depende do gerenciamento das **Janelas de Atordoamento** e da execução de **Interrupções** precisas durante as animações de conjuração suprema do chefe.
+- **Sinergia de Classes**: É necessário um grupo equilibrado de Carrasco (Tank/Burst), Tempestário (AOE/Controle) e Lâmina Espectral (DPS/Assassinato) para a dificuldade mais alta.
+- **Preparação**: Certifique-se de que os edifícios da colônia de House Harborwell estejam atualizados para o Nível 3 para o máximo aprimoramento de equipamentos e potência de poções.
+- **Papel do Companheiro**: Eslyn deve estar no máximo de Afinidade para desbloquear suas habilidades de sinergia únicas que fornecem redução de dano durante a fase de fúria.
+</Callout>
+
+<Section icon={Swords} title="Compreendendo o chefe final de Embers of the Uncrowned">
+
+A jornada pelo domínio caído de House Harborwell eventualmente leva todo mercenário ao desafio final: o **chefe final de Embers of the Uncrowned**. Na demo de 2026, este encontro serve como a culminação dos três capítulos de história disponíveis, testando sua maestria sobre o combate isométrico manual e a coordenação do grupo. Ao contrário dos monstros de campo padrão ou Chefes de Domínio, o encontro final da raide apresenta mecânicas complexas e multifásicas que exigem mais do que apenas altos níveis de equipamento.
+
+O combate em Embers of the Uncrowned é construído em torno da precisão manual. Você não pode simplesmente "tankar e bater" neste encontro. O chefe utiliza uma variedade de ataques de área de efeito (AoE), projéteis direcionados e perigos ambientais que forçam o movimento constante. Compreender a classificação dos chefes é o primeiro passo para a vitória.
+
+| Categoria do Chefe | Tipo de Encontro | Nível de Coordenação | Objetivo Principal |
+| :--- | :--- | :--- | :--- |
+| **Chefe de Domínio** | Co-op de Mundo Aberto | Baixo | Reivindicar território para House Harborwell |
+| **Chefe de Campo** | Evento Regional | Médio | Derrotar ameaças em larga escala por recursos |
+| **Chefe de Raide** | Calabouço Instanciado | **Alto** | Executar mecânicas para sobreviver ao chefe final |
+| **Chefe de Defesa** | Defesa de Primavera | Médio | Proteger objetivos enquanto gerencia adds |
+
+<Callout type="warning" title="Nota Anti-Cheat">
+A NEXON utiliza o sistema **NGS (Nexon Game Security)** em nível de kernel. Certifique-se de que seu sistema atenda ao requisito de Windows 11 de 64 bits e esteja ciente de que este software requer remoção manual se você optar por desinstalar a demo após derrotar o chefe final.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Funções de Classe e Preparação para a Raide">
+
+Antes de entrar na arena final, seu grupo deve ser otimizado. O **chefe final de Embers of the Uncrowned** apresenta altas resistências físicas e elementais, tornando a seleção de Gemas de Habilidade e o Despertar da Linhagem componentes críticos de sua construção. Cada uma das três classes jogáveis preenche um nicho específico que se torna indispensável durante as fases finais da raide.
+
+<CardGrid cols={3}>
+  <Card title="Carrasco">
+    - **Função**: Vanguarda e Especialista em Atordoamento.
+    - **Foco**: Acumular Fúria para desencadear Frenesi para alto dano explosivo.
+    - **Melhor Uso**: Destruir a defesa do chefe e iniciar interrupções.
+  </Card>
+  <Card title="Tempestário">
+    - **Função**: Mago de Longo Alcance e Controle de Multidão.
+    - **Foco**: Utilizar Vento e Relâmpago para manter distância segura.
+    - **Melhor Uso**: Eliminar adds e fornecer pressão elemental.
+  </Card>
+  <Card title="Lâmina Espectral">
+    - **Função**: DPS de Alta Mobilidade.
+    - **Foco**: Geração de Sombra e cadeias de habilidades Fantasma.
+    - **Melhor Uso**: Mirar em pontos fracos e executar ataques pelas costas.
+  </Card>
+</CardGrid>
+
+A preparação se estende além da sua classe. Você também deve considerar o crescimento do seu companheiro. Eslyn, a companheira destacada na demo de 2026, oferece 17 habilidades únicas que podem ser incorporadas ao seu ciclo de combate. Alta afinidade com Eslyn desbloqueia missões que concedem bônus de estatísticas permanentes essenciais para sobreviver ao temporizador de fúria do chefe.
+
+| Camada de Preparação | Requisito | Impacto no Chefe Final |
+| :--- | :--- | :--- |
+| **Gemas de Habilidade** | Nível 5+ | Aprimora o dano de habilidades ativas e reduz recargas |
+| **Aprimoramento de Equipamento** | +10 Mínimo | Aumenta a capacidade de sobrevivência contra AoE inevitável |
+| **Poder de Linhagem** | Nível de Despertar 2 | Desbloqueia habilidades supremas para a fase final |
+| **Nível da Colônia** | Acampamento para Cidade | Fornece consumíveis e buffs de nível superior |
+
+<Callout type="tip" title="Dica Profissional">
+O efeito "Choque" do Carrasco combinado com o "Explosão de Relâmpago" do Tempestário cria uma sinergia que aumenta a progressão da barra de Atordoamento do chefe em 25%. Sempre coordene essas habilidades.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Mecânicas do Chefe Fase a Fase">
+
+O encontro com o **chefe final de Embers of the Uncrowned** é dividido em três fases distintas, cada uma introduzindo novos perigos e exigindo diferentes abordagens táticas. A falha em respeitar as mecânicas de uma única fase geralmente resulta em um wipe total do grupo.
+
+<Steps>
+  <Step num="1" title="A Salva de Abertura (100% - 70% HP)">
+    O chefe começa com combos de ataque corpo a corpo previsíveis e ataques de projéteis lineares. O objetivo aqui é aprender o ritmo de seus padrões de combate manual. Observe o brilho roxo indicando uma habilidade "Interrupível". Usar uma habilidade de deslocamento ou de alto impacto durante esta janela irá pausar o ímpeto do chefe.
+  </Step>
+  <Step num="2" title="A Mudança de Domínio (70% - 30% HP)">
+    O chefe recua para o centro e começa a invocar forças de invasão élficas. Os jogadores devem dividir seu foco entre eliminar adds e desviar de raios ambientais. É aqui que o Tempestário se destaca no controle do campo de batalha enquanto o Lâmina Espectral caça conjuradores de alta prioridade.
+  </Step>
+  <Step num="3" title="A Fúria do Descoroado (30% - 0% HP)">
+    O chefe entra em um estado de Fúria permanente, aumentando a velocidade de ataque e o dano. A arena encolhe, e a barra de Atordoamento se torna muito mais difícil de preencher. Guarde suas habilidades de Despertar da Linhagem para esta fase para queimar a vida restante antes que as ferramentas de sobrevivência do grupo se esgotem.
+  </Step>
+</Steps>
+
+| Mecânica | Sinal Visual | Resposta do Jogador |
+| :--- | :--- | :--- |
+| **Janela de Atordoamento** | Barra branca abaixo do HP | Libere habilidades de alto impacto imediatamente |
+| **Explosão de Interrupção** | Aura circular roxa | Use habilidades com a tag "Interrupção" para quebrar a conjuração |
+| **Evasão Sombria** | Chefe fica translúcido | Pare de atacar; prepare-se para um ataque pelas costas |
+| **Nova de Brasas** | Ladrilhos brilhantes no chão | Mova-se para as zonas seguras liberadas nas bordas |
+
+<Callout type="warning" title="Gerenciamento de Recursos">
+A evasão consome SP (Pontos de Estamina). Se você spammar seu rolamento de esquiva durante a Fase 1, você terá zero SP para escapar da letal Nova de Brasas na Fase 3. Mova-se manualmente sempre que possível e guarde SP para emergências.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Maximizando as Recompensas Pós-Chefe">
+
+Derrotar o **chefe final de Embers of the Uncrowned** na demo não é apenas por direito de se gabar; ele desbloqueia um progresso significativo para sua colônia de House Harborwell e fornece Gemas de Habilidade de alto nível que são transferidas para o ciclo de endgame. O sistema de "Progressão Infinita" em Embers of the Uncrowned garante que cada raide bem-sucedida contribua para o seu poder a longo prazo.
+
+<Checklist
+  id="post-boss-checklist"
+  title="Objetivos Pós-Vitória:"
+  items={[
+    "Saquear o Baú da Raide por Gemas de Habilidade Tier 4",
+    "Retornar a House Harborwell para acionar a cinemática 'Restauração'",
+    "Atualizar o Laboratório de Pesquisa da Colônia para o Nível 4",
+    "Falar com Eslyn para reivindicar a recompensa de afinidade 'Legado Descoroado'",
+    "Verificar o Steam Community Hub para o emblema de tempo limitado 'Matador de Chefes'"
+  ]}
+/>
+
+As recompensas são dimensionadas com base no seu desempenho, especificamente quantas janelas de Atordoamento você explorou com sucesso e quão pouco dano o grupo sofreu.
+
+| Nível de Recompensa | Tempo de Conclusão | Qualidade do Drop | Itens Únicos |
+| :--- | :--- | :--- | :--- |
+| **Rank S** | < 8 Minutos | Lendário | Essência de Linhagem, Skin de Montaria Rara |
+| **Rank A** | 8-12 Minutos | Épico | Gemas de Habilidade de Alto Nível, Materiais de Criação |
+| **Rank B** | > 12 Minutos | Raro | Pedras de Aprimoramento Básicas, Ouro |
+
+<Callout type="success" title="Crescimento da Colônia">
+Liberar a região final ao derrotar o chefe permite que sua colônia cresça de um acampamento para uma cidade vibrante. Isso desbloqueia a instalação "Comércio", permitindo que você troque Gemas de Habilidade duplicadas com outros jogadores.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Conclusão e Dicas Finais">
+
+O **chefe final de Embers of the Uncrowned** representa o auge do sistema de combate da demo de 2026. Requer uma compreensão profunda da sua classe escolhida — seja o Carrasco de alto impacto, o ágil Lâmina Espectral ou o Tempestário elemental. Ao focar na mecânica de Atordoamento e manter alta afinidade com seus companheiros, você pode reivindicar House Harborwell e se preparar para o lançamento do jogo completo.
+
+Lembre-se que a demo é um campo de testes. Use as 34 missões secundárias disponíveis para farmar os materiais necessários para o aprimoramento de equipamentos antes de tentar a raide. Paciência tática e precisão manual sempre superarão as estatísticas brutas neste MMORPG de fantasia sombria.
+
+<FAQ items={[
+  {
+    question: "Posso solar o chefe final de Embers of the Uncrowned?",
+    answer: "Embora possível com uma construção de Carrasco aprimorada em +15 e habilidades de Linhagem maximizadas, ele foi projetado como um encontro cooperativo. Usar o sistema de matchmaking para encontrar um Tempestário e uma Lâmina Espectral aumenta significativamente sua taxa de sucesso."
+  },
+  {
+    question: "Qual é a estatística mais importante para a luta contra o chefe final?",
+    answer: "Dano de Atordoamento e Recuperação de SP são as estatísticas mais críticas. O Dano de Atordoamento permite que você crie janelas de explosão, enquanto a Recuperação de SP garante que você tenha estamina suficiente para desviar dos padrões de AoE letais do chefe."
+  },
+  {
+    question: "As recompensas do chefe são transferidas da demo para o jogo completo?",
+    answer: "A NEXON confirmou que recompensas específicas baseadas em conquistas, como a 'Montaria Algodão de Nuvem' e certos títulos cosméticos obtidos do chefe final, serão vinculadas à sua conta Steam para o lançamento completo."
+  },
+  {
+    question: "Como faço para acionar a janela de Atordoamento com mais frequência?",
+    answer: "Use habilidades com as tags 'Impacto Pesado' ou 'Destruição'. A coordenação é fundamental; fazer com que todos os três membros do grupo usem suas habilidades de alto impacto simultaneamente esgotará a barra de Atordoamento do chefe em segundos."
+  }
+]} />
+
+</Section>

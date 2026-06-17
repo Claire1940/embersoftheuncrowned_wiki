@@ -1,0 +1,166 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "embers of the uncrowned final boss: Raid Strategies & Mechanics",
+  description: "Master the embers of the uncrowned final boss with our tactical guide. Learn raid mechanics, class roles, and stagger windows for the 2026 demo climax.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1a1a1a/e7663a?text=Final+Boss+Raid+Guide",
+  date: "2026-06-17",
+  author: "embers of the uncrowned Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Final Boss Context**: The demo climax features the highest-tier **embers of the uncrowned final boss** found within the Raid encounters of the June 2026 Steam Next Fest build.
+- **Key Mechanic**: Success relies on managing **Stagger Windows** and executing precise **Interrupts** during the boss's ultimate cast animations.
+- **Class Synergy**: A balanced party of Executioner (Tank/Burst), Stormbringer (AOE/Control), and Spectral Blade (DPS/Assassination) is required for the highest difficulty.
+- **Preparation**: Ensure House Harborwell settlement buildings are upgraded to Level 3 for maximum gear enhancement and potion potency.
+- **Companion Role**: Eslyn must be at maximum Affinity to unlock her unique synergy skills that provide damage reduction during the enrage phase.
+</Callout>
+
+<Section icon={Swords} title="Understanding the embers of the uncrowned final boss">
+
+The journey through the fallen domain of House Harborwell eventually leads every mercenary to the ultimate challenge: the **embers of the uncrowned final boss**. In the 2026 demo, this encounter serves as the culmination of the three available story chapters, testing your mastery over manual isometric combat and party coordination. Unlike standard field monsters or Domain Bosses, the final raid encounter features complex, multi-phase mechanics that require more than just high gear scores.
+
+Combat in Embers of the Uncrowned is built around manual precision. You cannot simply "tank and spank" this encounter. The boss utilizes a variety of area-of-effect (AoE) attacks, targeted projectiles, and environmental hazards that force constant movement. Understanding the classification of bosses is the first step toward victory.
+
+| Boss Category | Encounter Type | Coordination Level | Primary Objective |
+| :--- | :--- | :--- | :--- |
+| **Domain Boss** | Open World Co-op | Low | Reclaim territory for House Harborwell |
+| **Field Boss** | Regional Event | Medium | Defeat large-scale threats for resources |
+| **Raid Boss** | Instanced Dungeon | **High** | Execute mechanics to survive the final boss |
+| **Defense Boss** | Spring Defense | Medium | Protect objectives while managing adds |
+
+<Callout type="warning" title="Anti-Cheat Note">
+NEXON utilizes the kernel-level **NGS (Nexon Game Security)** system. Ensure your system meets the Windows 11 64-bit requirement and be aware that this software requires manual removal if you choose to uninstall the demo after defeating the final boss.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Class Roles and Raid Preparation">
+
+Before stepping into the final arena, your party must be optimized. The **embers of the uncrowned final boss** features high physical and elemental resistances, making Skill Gem selection and Bloodline Awakening critical components of your build. Each of the three playable classes fills a specific niche that becomes indispensable during the final raid phases.
+
+<CardGrid cols={3}>
+  <Card title="Executioner">
+    - **Role**: Vanguard and Stagger Specialist.
+    - **Focus**: Building Rage to trigger Fury for heavy burst damage.
+    - **Best Use**: Shredding boss defense and initiating interrupts.
+  </Card>
+  <Card title="Stormbringer">
+    - **Role**: Ranged Magic and Crowd Control.
+    - **Focus**: Utilizing Wind and Lightning to maintain safe distance.
+    - **Best Use**: Clearing adds and providing elemental pressure.
+  </Card>
+  <Card title="Spectral Blade">
+    - **Role**: High-Mobility DPS.
+    - **Focus**: Shade generation and Phantom skill chains.
+    - **Best Use**: Targeting weak points and executing rear strikes.
+  </Card>
+</CardGrid>
+
+Preparation extends beyond your class. You must also consider your companion's growth. Eslyn, the featured companion in the 2026 demo, provides 17 unique skills that can be woven into your combat loop. High affinity with Eslyn unlocks questlines that grant permanent stat bonuses essential for surviving the boss's enrage timer.
+
+| Preparation Layer | Requirement | Impact on Final Boss |
+| :--- | :--- | :--- |
+| **Skill Gems** | Level 5+ | Enhances active skill damage and reduces cooldowns |
+| **Gear Enhancement** | +10 Minimum | Increases survivability against unavoidable AoE |
+| **Bloodline Power** | Awakening Tier 2 | Unlocks ultimate abilities for the final phase |
+| **Settlement Level** | Camp to City | Provides higher tier consumables and buffs |
+
+<Callout type="tip" title="Pro Tip">
+The Executioner’s "Shock" effect combined with the Stormbringer’s "Lightning Burst" creates a synergy that increases the boss's Stagger bar progression by 25%. Always coordinate these skills.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Phase-by-Phase Boss Mechanics">
+
+The encounter with the **embers of the uncrowned final boss** is divided into three distinct phases, each introducing new hazards and requiring different tactical approaches. Failure to respect the mechanics of a single phase usually results in a total party wipe.
+
+<Steps>
+  <Step num="1" title="The Opening Salvo (100% - 70% HP)">
+    The boss begins with predictable melee combos and linear projectile attacks. The goal here is to learn the rhythm of its manual combat patterns. Watch for the purple glow indicating an "Interruptible" skill. Using a displacement or heavy impact skill during this window will pause the boss's momentum.
+  </Step>
+  <Step num="2" title="The Domain Shift (70% - 30% HP)">
+    The boss retreats to the center and begins summoning elven invasion forces. Players must split their focus between clearing adds and dodging environmental lightning strikes. This is where the Stormbringer excels at controlling the battlefield while the Spectral Blade hunts high-priority casters.
+  </Step>
+  <Step num="3" title="The Uncrowned Enrage (30% - 0% HP)">
+    The boss enters a permanent Fury state, increasing attack speed and damage. The arena shrinks, and the Stagger bar becomes much harder to fill. Save your Bloodline Awakening skills for this phase to burn through the remaining health before the party's survival tools are exhausted.
+  </Step>
+</Steps>
+
+| Mechanic | Visual Cue | Player Response |
+| :--- | :--- | :--- |
+| **Stagger Window** | White bar under HP | Unleash high-impact skills immediately |
+| **Interrupt Blast** | Purple circular aura | Use "Interrupt" tagged skills to break cast |
+| **Shadow Evasion** | Boss turns translucent | Stop attacking; prepare for a rear strike |
+| **Ember Nova** | Glowing floor tiles | Move to the liberated safe zones at the edges |
+
+<Callout type="warning" title="Resource Management">
+Evasion consumes SP (Stamina Points). If you spam your dodge roll during Phase 1, you will have zero SP left to escape the lethal Ember Nova in Phase 3. Move manually whenever possible and save SP for emergencies.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Maximizing Post-Boss Rewards">
+
+Defeating the **embers of the uncrowned final boss** in the demo is not just for bragging rights; it unlocks significant progression for your House Harborwell settlement and provides high-tier Skill Gems that carry over into the endgame loop. The "Infinite Progression" system in Embers of the Uncrowned ensures that every successful raid contributes to your long-term power.
+
+<Checklist
+  id="post-boss-checklist"
+  title="Post-Victory Objectives:"
+  items={[
+    "Loot the Raid Chest for Tier 4 Skill Gems",
+    "Return to House Harborwell to trigger the 'Restoration' cinematic",
+    "Upgrade the Settlement Research Lab to Level 4",
+    "Talk to Eslyn to claim the 'Uncrowned Legacy' affinity reward",
+    "Check the Steam Community Hub for the limited-time 'Boss Slayer' badge"
+  ]}
+/>
+
+The rewards are scaled based on your performance, specifically how many Stagger windows you successfully exploited and how little damage the party took.
+
+| Reward Tier | Completion Time | Drop Quality | Unique Items |
+| :--- | :--- | :--- | :--- |
+| **S-Rank** | < 8 Minutes | Legendary | Bloodline Essence, Rare Mount Skin |
+| **A-Rank** | 8-12 Minutes | Epic | High-Level Skill Gems, Crafting Mats |
+| **B-Rank** | > 12 Minutes | Rare | Basic Enhancement Stones, Gold |
+
+<Callout type="success" title="Settlement Growth">
+Liberating the final region by defeating the boss allows your settlement to grow from a camp into a vibrant city. This unlocks the "Trade" facility, allowing you to swap duplicate Skill Gems with other players.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Conclusion and Final Tips">
+
+The **embers of the uncrowned final boss** represents the pinnacle of the 2026 demo's combat system. It requires a deep understanding of your chosen class—whether it be the heavy-hitting Executioner, the agile Spectral Blade, or the elemental Stormbringer. By focusing on the Stagger mechanic and maintaining high affinity with your companions, you can reclaim House Harborwell and prepare for the full game's release.
+
+Remember that the demo is a testing ground. Use the 34 available side quests to farm the necessary materials for gear enhancement before attempting the raid. Tactical patience and manual precision will always outweigh raw stats in this dark fantasy MMORPG.
+
+<FAQ items={[
+  {
+    question: "Can I solo the embers of the uncrowned final boss?",
+    answer: "While possible with a +15 enhanced Executioner build and maxed Bloodline skills, it is designed as a co-op encounter. Using the matchmaking system to find a Stormbringer and Spectral Blade significantly increases your success rate."
+  },
+  {
+    question: "What is the most important stat for the final boss fight?",
+    answer: "Stagger Damage and SP Recovery are the most critical stats. Stagger Damage allows you to create burst windows, while SP Recovery ensures you have enough stamina to dodge the boss's lethal AoE patterns."
+  },
+  {
+    question: "Do boss rewards carry over from the demo to the full game?",
+    answer: "NEXON has confirmed that specific achievement-based rewards, such as the 'Cloudfur Cottonsloth Mount' and certain cosmetic titles earned from the final boss, will be linked to your Steam account for the full release."
+  },
+  {
+    question: "How do I trigger the Stagger window more frequently?",
+    answer: "Use skills with the 'Heavy Impact' or 'Destruction' tags. Coordination is key; having all three party members use their high-impact skills simultaneously will deplete the boss's Stagger bar in seconds."
+  }
+]} />
+
+</Section>

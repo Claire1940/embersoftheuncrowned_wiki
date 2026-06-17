@@ -1,0 +1,196 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Sistema de Território de Embers of the Uncrowned: Guia da Casa Harborwell",
+  description: "Domine o sistema de território de Embers of the Uncrowned. Aprenda a reconstruir a Casa Harborwell, libertar regiões e aprimorar seu assentamento neste guia de 2026.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1a1c23/fff?text=Territory+System+Guide",
+  date: "2026-06-17",
+  author: "Equipe da Wiki de Embers of the Uncrowned",
+  keywords: "sistema de território, Casa Harborwell, Embers of the Uncrowned, guia de jogo, reconstrução de assentamento"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Sistema de Território**: A mecânica central de **Embers of the Uncrowned** que envolve a restauração da Casa Harborwell através do crescimento do assentamento.
+- **Casa Harborwell**: Sua principal base de operações que evolui de um simples acampamento para uma vasta cidade de fantasia sombria.
+- **Libertação de Regiões**: Os jogadores devem limpar 10 regiões distintas de invasores élficos e forças corrompidas para expandir sua influência.
+- **Melhorias de Edifícios**: Sete tipos essenciais de edifícios fornecem benefícios de pesquisa, fabricação e comércio para apoiar a progressão da sua classe.
+- **Sinergia de Linhagem**: O crescimento do território alimenta diretamente o sistema de despertar de linhagem, desbloqueando poderosos traços passivos de combate.
+</Callout>
+
+<Section icon={Map} title="A Fundação do Sistema de Território de Embers of the Uncrowned">
+
+No mundo de fantasia sombria de **Embers of the Uncrowned**, você joga como o filho ilegítimo de uma família nobre caída, retornando como um mercenário para reivindicar seu direito de primogenitura. O **sistema de território de Embers of the Uncrowned** não é meramente uma atividade secundária; é a espinha dorsal estrutural da progressão do jogo. Diferente dos MMORPGs tradicionais onde as cidades são centros estáticos, a Casa Harborwell é uma entidade viva que reflete suas conquistas e proeza em combate.
+
+**Destaques do Vídeo:**
+- Visão geral do mundo de fantasia sombria isométrica e mecânicas de combate manual.
+- Demonstração visual do assentamento evoluindo de um acampamento para uma cidade.
+- Prévia dos Chefes de Domínio ocupando territórios contestados.
+- Breve olhar sobre o sistema de companheiros e como eles auxiliam na libertação de regiões.
+
+<YouTubeEmbed videoId="VoCPXiss8Ek" title="Embers of the Uncrowned - Trailer Oficial de Sistemas de Jogabilidade" />
+
+O sistema integra exploração, gestão de recursos e combate de alto risco. À medida que você liberta a Costa de Âmbar e avança em direção a Towerstead, o território que você controla fornece os materiais necessários para Gemas de Habilidade e aprimoramento de equipamentos. O sucesso exige um equilíbrio entre a limpeza agressiva de regiões e a gestão meticulosa do assentamento.
+
+<CardGrid cols={3}>
+  <Card title="Casa Harborwell">
+    - **Identidade Central**: Reivindique seu lar ancestral através dos capítulos da história.
+    - **Progressão**: Desbloqueia novas regiões e missões narrativas avançadas.
+    - **Visuais**: Assista às ruínas se transformarem em uma fortaleza gótica.
+  </Card>
+  <Card title="Crescimento do Assentamento">
+    - **De Acampamento a Cidade**: Expanda sua influência para atrair mais sobreviventes.
+    - **Instalações**: Desbloqueie até 7 tipos únicos de edifícios para fabricação.
+    - **Economia**: Gerencie rotas comerciais para financiar seu exército e equipamentos.
+  </Card>
+  <Card title="Libertação de Regiões">
+    - **10 Regiões**: Explore e conquiste paisagens diversas.
+    - **Chefes de Domínio**: Derrote ocupantes poderosos para garantir terras.
+    - **Lore Oculta**: Descubra a história trágica da casa caída.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Conselho do Lorde">
+O sistema de território é sua principal fonte de renda passiva. Priorize o desbloqueio do Mercado cedo na demo para garantir um fluxo constante de materiais para suas builds de Lâmina Espectral ou Carrasco.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Dominando o Crescimento do Assentamento e Melhorias de Edifícios">
+
+O coração do **sistema de território de Embers of the Uncrowned** reside no desenvolvimento do seu assentamento. Começando como o "Assentamento da Costa de Âmbar" na demo de junho de 2026, sua base começa como uma coleção de tendas e caminhos de lama. Para transformá-la em uma cidade vibrante, você deve investir recursos coletados em Raides e Chefes de Domínio.
+
+Cada edifício em seu assentamento serve a um propósito mecânico específico. Você não pode simplesmente construir tudo de uma vez; deve escolher quais instalações priorizar com base na classe e estilo de jogo escolhidos. Por exemplo, um Stormbringer pode priorizar instalações de pesquisa para aprimorar a magia elemental, enquanto um Carrasco focaria no Ferreiro para obter poder físico bruto.
+
+| Tipo de Edifício | Função Principal | Impacto na Progressão |
+| :--- | :--- | :--- |
+| **Ferreiro** | Aprimoramento e fabricação de itens | Aumenta atributos base e dano de arma |
+| **Biblioteca** | Pesquisa de habilidades e arquivos | Desbloqueia variantes de habilidades passivas e lore |
+| **Mercado** | Comércio e troca de recursos | Gera ouro e materiais de fabricação raros |
+| **Lab. de Alquimia** | Poções e consumíveis | Essencial para sobreviver a Raides de alto nível |
+| **Salão de Treino** | Desenvolvimento de habilidades de aliados | Melhora a IA de combate de Eslyn e outros aliados |
+| **Santuário** | Despertar de linhagem | Conecta o crescimento do território ao poder do personagem |
+| **Quartel** | Defesa e estabilidade regional | Reduz a frequência de contra-ataques inimigos |
+
+<Steps>
+  <Step num="1" title="Estabeleça o Acampamento da Costa de Âmbar">
+    Complete as missões iniciais da história em Goldenhaven para desbloquear seu primeiro lote de território. Isso serve como a fundação para a Casa Harborwell.
+  </Step>
+  <Step num="2" title="Recrute Sobreviventes Essenciais">
+    Resgate NPCs durante a exploração de regiões. Esses sobreviventes atuam como trabalhadores e especialistas para seus edifícios, aumentando a eficiência das instalações.
+  </Step>
+  <Step num="3" title="Invista na Infraestrutura Principal">
+    Use os recursos da sua primeira vitória contra um Chefe de Domínio para construir o Ferreiro e o Mercado. Estes são os dois edifícios mais críticos para a sustentação no início do jogo.
+  </Step>
+  <Step num="4" title="Atualize para o Status de Cidade">
+    Depois de libertar três regiões principais, você pode iniciar a Atualização da Cidade. Isso muda a estética visual do assentamento e desbloqueia slots de edifícios de Nível 2.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Escassez de Recursos">
+Os materiais de construção são limitados na demo inicial. Não distribua seus recursos de forma muito rasa entre todos os sete edifícios. Foque no Ferreiro até que seu equipamento esteja pelo menos +5 antes de investir pesadamente na Biblioteca.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Libertação de Região e Mecânicas de Chefes de Domínio">
+
+A expansão é o objetivo principal do **sistema de território de Embers of the Uncrowned**. O mundo do jogo é dividido em três regiões principais da história e dez sub-regiões exploráveis/libertáveis. Cada sub-região está atualmente ocupada por forças élficas ou monstros corrompidos que devem ser eliminados para integrar a terra à Casa Harborwell.
+
+A libertação não é um evento de combate único. Envolve um "Ciclo de Libertação" onde os jogadores devem realizar tarefas específicas para enfraquecer o domínio do inimigo antes de desafiar o Chefe de Domínio. Esse ciclo garante que os jogadores interajam com o ambiente e a lore local antes do confronto final.
+
+| Categoria de Região | Número de Zonas | Objetivos Principais | Tipo de Recompensa |
+| :--- | :--- | :--- | :--- |
+| **História Principal** | 3 Regiões | Capítulos da história, Alianças | Exp de Linhagem Maior |
+| **Libertável** | 10 Zonas | Chefes de Domínio, Limpeza de Postos | Recursos de Assentamento |
+| **Contestada** | Variável | Chefes de Campo, Eventos Públicos | Itens de Melhoria de Equip. |
+| **Zonas de Raide** | 4 Zonas | Chefes de Alta Coordenação | Gemas de Hab. Lendárias |
+
+<Checklist
+  id="liberation-goals"
+  title="Checklist de Libertação de Região:"
+  items={[
+    "Limpar todos os postos avançados inimigos na sub-região",
+    "Resgatar pelo menos 5 sobreviventes presos para o assentamento",
+    "Localizar e ativar o antigo ponto de viagem da Casa Harborwell",
+    "Derrotar o Chefe de Domínio local em um encontro de combate manual",
+    "Estabelecer um nó de extração de recursos no local libertado"
+  ]}
+/>
+
+<Callout type="success" title="Sinergia de Combate">
+Ao lutar contra Chefes de Domínio pelo território, lembre-se de que a esquiva manual e o tempo de interrupção são fundamentais. Use as habilidades do seu companheiro para criar janelas de atordoamento, permitindo que você cause dano explosivo massivo à barra de postura do chefe.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Sinergia de Território com Linhagem e Gemas de Habilidade">
+
+O aspecto mais único do **sistema de território de Embers of the Uncrowned** é como ele fortalece diretamente seu personagem. Isso é alcançado através da camada de "Progressão Infinita", que conecta a prosperidade do seu assentamento ao seu Despertar de Linhagem e à potência das Gemas de Habilidade.
+
+À medida que a Casa Harborwell cresce, você desbloqueia "Legados da Casa". Estes são bônus permanentes para toda a conta que escalam com o nível dos seus edifícios. Por exemplo, uma Biblioteca de Nível 5 pode conceder um aumento de 10% em todo o dano de Raio para seu Stormbringer, enquanto um Ferreiro de Nível 5 aumenta a chance de Acerto Crítico para sua Lâmina Espectral.
+
+| Camada de Progressão | Conexão com o Território | Benefício Mecânico |
+| :--- | :--- | :--- |
+| **Gemas de Hab.** | Fabricadas no Lab. de Alquimia | Adiciona efeitos elementais a habilidades |
+| **Poder de Linhagem** | Despertado no Santuário | Desbloqueia traços passivos de Nível 4 |
+| **Melhoria de Equip.** | Realizada no Ferreiro | Aumenta o nível do item e limites de sub-status |
+| **Afinidade de Aliado** | Melhorada via Missões do Assentamento | Desbloqueia cadeias de habilidades exclusivas |
+
+O sistema de território também dita seu acesso a Gemas de Habilidade de alto nível. Certas gemas raras só podem ser encontradas nas "Histórias Ocultas" de regiões libertadas. A exploração é, portanto, obrigatória para jogadores que buscam otimizar suas builds para os Raides de endgame e a Arena PvP.
+
+<Callout type="info" title="Nota de Progressão">
+A demo inclui mais de 480 minutos de conteúdo. Grande parte desse tempo é gasta gerenciando a sinergia entre o equipamento do seu personagem e os níveis de pesquisa do assentamento. Garanta que você esteja sempre pesquisando uma nova passiva na Biblioteca enquanto estiver explorando.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Estratégias Avançadas para Gestão de Território">
+
+Para realmente dominar o **sistema de território de Embers of the Uncrowned** em 2026, você deve pensar como um lorde, não apenas como um mercenário. A gestão de recursos torna-se cada vez mais complexa à medida que você desbloqueia mais regiões. Você precisará equilibrar a produção de materiais básicos como pedra e madeira com a aquisição de "Fragmentos de Brasa" raros de Chefes de Campo.
+
+Uma estratégia avançada é a "Otimização de Nós". Uma vez que uma região é libertada, você pode atribuir seguidores a nós de recursos específicos. Dependendo das suas necessidades atuais, você pode configurar esses nós para focar na geração de ouro, materiais de fabricação ou experiência de Linhagem.
+
+| Prioridade de Gestão | Foco Recomendado | Raciocínio |
+| :--- | :--- | :--- |
+| **Início de Jogo** | Extração de Recursos | Necessidade de materiais para instalações básicas |
+| **Meio de Jogo** | Pesquisa e Tecnologia | Desbloquear habilidades de Nível 2 é vital para Raides |
+| **Fim de Jogo** | Ouro e Comércio | Custos de aprimoramento escalam exponencialmente |
+| **Janelas de Evento** | Defesa e Estabilidade | Proteja seu progresso durante contra-ataques élficos |
+
+<Callout type="warning" title="Lembrete Anti-Cheat">
+Embers of the Uncrowned usa o NGS (Nexon Game Security) em nível de kernel. Certifique-se de que seu sistema atenda ao requisito do Windows 11 de 64 bits para evitar a perda de progresso no território devido a problemas de conectividade ou sinalizações de segurança.
+</Callout>
+
+**Dicas Finais de Território para 2026:**
+- **Não ignore as missões secundárias**: As 34 missões secundárias na demo frequentemente fornecem os "Projetos" necessários para melhorias avançadas de edifícios.
+- **Verifique o Mercado diariamente**: Os itens comerciais rotacionam, e você pode frequentemente encontrar materiais de melhoria raros por uma fração do custo usual.
+- **Coordene em Raides**: Chefes de Raide em territórios libertados soltam o nível mais alto de recursos de assentamento. Junte-se a um grupo para limpá-los eficientemente.
+
+<FAQ items={[
+  {
+    question: "Como o sistema de território afeta meu poder de combate?",
+    answer: "O sistema de território fornece bônus passivos através dos Legados da Casa e desbloqueia as instalações necessárias para fabricar Gemas de Habilidade e aprimorar equipamentos. Um assentamento mais desenvolvido resulta diretamente em um personagem mais forte."
+  },
+  {
+    question: "Posso perder regiões libertadas para o inimigo?",
+    answer: "Embora você não perca a região inteiramente, as forças élficas podem lançar contra-ataques. Se você falhar em defender, os nós de recursos naquela região pararão de produzir até que você limpe a ameaça novamente."
+  },
+  {
+    question: "Qual é o edifício mais importante na Casa Harborwell?",
+    answer: "Para a maioria dos jogadores, o Ferreiro é a prioridade máxima, pois lida com o aprimoramento de equipamentos. No entanto, a Biblioteca é igualmente importante para jogadores que dependem de builds de habilidades complexas e sinergias passivas."
+  },
+  {
+    question: "Os companheiros ajudam no sistema de território?",
+    answer: "Sim, companheiros como Eslyn têm missões de afinidade específicas que, quando concluídas, desbloqueiam edifícios especiais ou bônus de eficiência para seu assentamento."
+  }
+]} />
+
+</Section>
