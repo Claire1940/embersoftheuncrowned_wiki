@@ -1,0 +1,183 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Sistema de casas de Embers of the Uncrowned: Guía de progresión",
+  description: "Domina el sistema de casas de Embers of the Uncrowned. Aprende a reconstruir la Casa Harborwell, mejorar edificios, gestionar recursos y liberar regiones.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/15161a/fff?text=House+System+Guide",
+  date: "2026-06-19",
+  author: "Equipo de la Wiki de Embers of the Uncrowned"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Bucle principal**: El **sistema de casas de Embers of the Uncrowned** gira en torno a la reconstrucción de la Casa Harborwell para pasar de ser un campamento a una ciudad.
+- **Mecánicas principales**: Libera 10 subregiones distintas a lo largo de 3 continentes principales para desbloquear mejoras de edificios e investigaciones.
+- **Enfoque estratégico**: Prioriza los edificios de fabricación y mejora mejorables para potenciar el equipamiento de tu personaje.
+- **Sinergia de compañeros**: Recluta aliados como Eslyn para gestionar instalaciones y desbloquear cadenas de misiones exclusivas.
+</Callout>
+
+<Section icon={Map} title="Reclamando la Casa Harborwell: El sistema de casas de Embers of the Uncrowned">
+
+En el MMORPG de acción isométrica y fantasía oscura de NEXON, establecer una fortaleza es clave para sobrevivir a la invasión élfica. El **sistema de casas de Embers of the Uncrowned** sirve como el anclaje central para la progresión del personaje, la recolección de recursos y la fabricación de equipamiento. Los jugadores asumen el papel de la última esperanza de la Casa Harborwell, un hijo ilegítimo que se fue de casa para trabajar como mercenario pero que ahora debe regresar para reclamar el dominio perdido de su familia.
+
+La reconstrucción de tu territorio está directamente ligada a las capacidades de combate de tu personaje. El bucle de progresión recompensa la exploración, la liberación de regiones y la gestión táctica de recursos. A medida que tu asentamiento crece desde un humilde campamento hasta una ciudad fortificada, desbloqueas estaciones de fabricación avanzadas, oportunidades de mejora de habilidades y misiones centradas en los compañeros.
+
+**Puntos destacados del video:**
+- Vista previa detallada del crecimiento del asentamiento y las mecánicas de campamento a ciudad.
+- Introducción a la gestión de compañeros y los beneficios de las instalaciones basados en la afinidad.
+- Demostraciones de la extracción de recursos regionales y el mapeo del territorio.
+
+<YouTubeEmbed videoId="VoCPXiss8Ek" title="Embers of the Uncrowned - Tráiler oficial de sistemas de juego" />
+
+<Callout type="warning" title="Nota sobre el sistema antitrampas">
+Embers of the Uncrowned utiliza Nexon Game Security (NGS), que funciona a nivel de kernel. Ten en cuenta que es posible que debas eliminar manualmente los archivos de NGS si desinstalas el cliente del juego.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Reconstruyendo el núcleo: De campamento a ciudad fortaleza">
+
+Reclamar la Casa Harborwell requiere la mejora sistemática de siete edificios principales. Cada instalación rige un aspecto diferente de la progresión del personaje, desde el refinamiento de gemas de habilidad hasta el desbloqueo de bonificaciones grupales para incursiones. Subir de nivel el torreón principal aumenta el límite de construcción de todas las demás estructuras, lo que significa que tu base de operaciones dicta el ritmo de toda tu actividad.
+
+La gestión de estos edificios requiere una afluencia constante de oro, madera y mineral de hierro. Es crucial lograr un equilibrio entre las mejoras de los edificios y la potenciación directa del equipamiento, ya que sobrefinanciar tu asentamiento puede estancar temporalmente el poder de combate de tu personaje.
+
+| Tipo de edificio | Función principal | Prioridad de mejora | Beneficio para el jugador |
+|---|---|---|---|
+| **Forja** | Mejora de equipamiento y herrería | **Alta** | Aumenta el poder de ataque físico y elemental |
+| **Laboratorio** | Investigación y mejora de gemas de habilidad | **Alta** | Modifica las habilidades activas y pasivas de clase |
+| **Puesto comercial** | Economía del jugador y comercio con PNJ | **Media** | Genera oro pasivo y componentes de fabricación raros |
+| **Santuario** | Descanso y entrenamiento de compañeros | **Media** | Aumenta las ganancias de afinidad y las estadísticas de los compañeros |
+| **Salón del gremio** | Coordinación y ventajas de incursión | **Baja** | Otorga potenciadores de combate pasivos para encuentros en grupo |
+| **Puesto de avanzada** | Recolección de recursos y envío | **Media** | Envía a compañeros inactivos a recolectar materiales de la región |
+| **Torreón** | Nodo de progresión principal de la casa | **Alta** | Desbloquea niveles superiores para todos los demás edificios del asentamiento |
+
+<Callout type="tip" title="Estrategia de mejora del torreón">
+Se recomienda encarecidamente mejorar el torreón tan pronto como los recursos lo permitan. El nivel de tu torreón actúa como un límite estricto para todas las demás instalaciones, impidiéndote acceder a los niveles avanzados de equipamiento.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Liberación de regiones y gestión de recursos">
+
+El mundo está dividido en 3 regiones principales, que contienen un total combinado de 10 subregiones disponibles para la exploración y liberación. Reclamar estos territorios a las fuerzas enemigas es la única forma de establecer nodos de recursos y cadenas de suministro para la Casa Harborwell. Asegurar estas zonas requiere que los jugadores completen capítulos de la historia principal, despejen puestos de avanzada regionales y derroten a poderosos jefes de dominio.
+
+Una vez que una región está libre de amenazas, puedes construir un puesto de avanzada para comenzar a extraer materiales especializados. Estos materiales se envían automáticamente al asentamiento, proporcionando un flujo constante de ingredientes de fabricación.
+
+| Nombre de la región | Zonas explorables | Recurso principal | Amenaza principal |
+|---|---|---|---|
+| **Goldenhaven** | 3 zonas | Mineral de hierro, Madera | Tropas de vanguardia corruptas |
+| **Costa de Ámbar** | 4 zonas | Sal marina, Fragmentos de ámbar | Jefes de dominio, Invasores élficos |
+| **Towerstead** | 3 zonas | Cristales arcanos, Reliquias | Grietas, Eventos de Defensa de la Primavera |
+
+Para asegurar recursos y establecer una red de suministro confiable, sigue estos pasos fundamentales para la adquisición de territorios:
+
+<Steps>
+  <Step num="1" title="Despejar los puestos de avanzada del sector">
+    Derrota a los campamentos enemigos localizados repartidos por la región objetivo. Esto reduce el medidor de amenaza y revela la ubicación del jefe de dominio local.
+  </Step>
+  <Step num="2" title="Derrotar al jefe de dominio">
+    Coordínate con otros jugadores o trae compañeros con alta afinidad para acabar con el jefe de dominio. Derrotarlo limpia la corrupción de la región.
+  </Step>
+  <Step num="3" title="Establecer el nodo de asentamiento">
+    Localiza el puesto de avanzada en ruinas en la región liberada y reclámalo para la Casa Harborwell. Esto desbloquea la generación local de recursos y los puntos de viaje rápido.
+  </Step>
+  <Step num="4" title="Desplegar recolectores de recursos">
+    Asigna compañeros inactivos o trabajadores del asentamiento al nodo para cosechar materias primas. Estos materiales se envían automáticamente de vuelta a la ciudad principal.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Rendimiento de recursos">
+Las zonas de mayor peligro generan recursos más raros, como cristales arcanos, que se requieren para la progresión de gemas de habilidad de nivel superior.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Integración de compañeros y sistemas de afinidad">
+
+Los compañeros no son meros seguidores pasivos o simples mascotas de combate; están profundamente integrados en la gestión de la Casa Harborwell. Reclutar aliados como Eslyn abre nuevas formas de optimizar las instalaciones de tu asentamiento. Asignar el compañero adecuado a un edificio proporciona aumentos significativos de eficiencia, como tiempos de fabricación reducidos o un mayor rendimiento de recursos.
+
+Desarrollar afinidad con tus compañeros al completar cadenas de misiones exclusivas y regalarles objetos regionales desbloquea sus habilidades pasivas latentes. Estas habilidades mejoran tanto sus capacidades de apoyo en combate como su efectividad al gestionar estructuras en tu ciudad.
+
+| Compañero | Rol de combate | Especialización en el asentamiento | Efecto de sinergia |
+|---|---|---|---|
+| **Eslyn** | Apoyo defensivo | Investigación del laboratorio | Reduce el tiempo de fabricación de gemas de habilidad en un 15% |
+| **Aethelgard** | Cuerpo a cuerpo de vanguardia | Operaciones de la forja | Disminuye el costo de oro para la mejora de equipamiento |
+| **Valeria** | DPS a distancia | Gestión de puestos de avanzada | Aumenta la velocidad de recolección de recursos en un 10% |
+
+El ciclo de vida de desarrollo de tu fortaleza generalmente pasa por tres fases principales:
+
+<CardGrid cols={3}>
+  <Card title="Fase 1: Fundación del asentamiento">
+    Concéntrate en establecer estaciones de fabricación básicas y desbloquear la forja. Reclama los territorios iniciales cerca de la Costa de Ámbar para asegurar recursos básicos.
+  </Card>
+  <Card title="Fase 2: Expansión de la ciudad">
+    Mejora el torreón al nivel 2. Desbloquea el laboratorio para comenzar a experimentar con gemas de habilidad y asigna a Eslyn para aumentar la eficiencia de la investigación.
+  </Card>
+  <Card title="Fase 3: Dominio de la ciudadela">
+    Reclama las 10 regiones. Maximiza los niveles de los edificios para fabricar equipamiento de nivel de incursión y optimiza los envíos de compañeros para recolectar cristales raros.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Hitos de afinidad">
+Alcanzar el nivel 5 de afinidad con Eslyn desbloquea su cadena de misiones personales. Completar esta misión otorga un plano único para el laboratorio.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de verificación de progresión del sistema de casas">
+
+La gestión de tu territorio requiere un seguimiento constante de tus hitos de desarrollo. Concéntrate en asegurar los nodos de recursos regionales antes de invertir fuertemente en mejoras de lujo. Utiliza esta lista de verificación de progresión para asegurarte de que tu asentamiento crezca a la par de las necesidades de combate de tu personaje.
+
+<Checklist
+  id="house-progression-goals"
+  title="Lista de verificación de progresión del asentamiento:"
+  items={[
+    "Mejora el torreón al nivel 3 para expandir los límites de la ciudad",
+    "Libera las 3 zonas en la región de Goldenhaven",
+    "Asigna a Aethelgard a la forja para reducir los costos de mejora",
+    "Desbloquea los 7 edificios mejorables en el asentamiento principal",
+    "Investiga el plano de mejora de gemas de habilidad de nivel 3"
+  ]}
+/>
+
+<Callout type="warning" title="Ritmo de las mejoras">
+No apresures las mejoras del torreón sin subir de nivel la forja. Si el nivel de mejora de tu equipamiento se queda muy atrás respecto al nivel de tu asentamiento, tendrás dificultades contra los jefes de dominio en las regiones recién desbloqueadas.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Preguntas frecuentes">
+
+Utiliza esta sección para abordar preguntas comunes sobre cuellos de botella de recursos, roles de compañeros y optimización estructural.
+
+<FAQ items={[
+  {
+    question: "¿Cuál es el beneficio principal del sistema de casas de Embers of the Uncrowned?",
+    answer: "Sirve como tu centro de progresión principal, lo que te permite fabricar equipamiento de nivel superior, refinar gemas de habilidad y generar recursos pasivos a partir de las regiones liberadas."
+  },
+  {
+    question: "¿Puedo perder el control de una región liberada?",
+    answer: "No. Una vez que una región es liberada de las fuerzas élficas o de la corrupción, permanece bajo el control de la Casa Harborwell de forma permanente, aunque los eventos de defensa aleatorios pueden ofrecer recompensas de bonificación."
+  },
+  {
+    question: "¿Cómo afectan los compañeros al crecimiento del asentamiento?",
+    answer: "Asignar compañeros a edificios específicos reduce los costos de fabricación, acelera los tiempos de investigación y aumenta el rendimiento de recursos según sus especializaciones únicas."
+  },
+  {
+    question: "¿Hay códigos de canje activos para el sistema de casas?",
+    answer: "Actualmente no hay códigos de canje activos para el juego. Todas las recompensas, como la montura Pereza de algodón pelonube (Cloudfur Cottonsloth), se obtienen a través de eventos de la lista de deseos de Steam y de la progresión en el juego."
+  }
+]} />
+
+<Callout type="info" title="Soporte de la comunidad">
+Únete al canal oficial de Discord para debatir sobre las configuraciones del asentamiento y coordinar eventos de defensa regional multijugador con otros jugadores.
+</Callout>
+
+</Section>

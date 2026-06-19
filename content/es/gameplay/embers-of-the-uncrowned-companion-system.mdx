@@ -1,0 +1,179 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Guía del Sistema de Compañeros de Embers of the Uncrowned: Sinergia y Afinidad",
+  description: "Domina el sistema de compañeros de Embers of the Uncrowned. Aprende cómo optimizar las habilidades de Eslyn, desbloquear misiones de afinidad y crear sinergias de clase.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/0d0d10/A92D3A?text=Companion+System+Guide",
+  date: "2026-06-19",
+  author: "Equipo de la Wiki de Embers of the Uncrowned"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Mecánica principal**: El **sistema de compañeros de Embers of the Uncrowned** sirve como una extensión activa de las configuraciones de clase, en lugar de ofrecer soporte meramente estético.
+- **Compañera destacada**: Eslyn es la compañera principal que aparece en la demo, facilitando el progreso a través de la Costa de Ámbar y Towerstead.
+- **Personalización de habilidades**: Se pueden personalizar hasta 17 habilidades únicas de compañero para cubrir las debilidades de tu clase durante el combate.
+- **Progreso de afinidad**: Elevar los niveles de afinidad desbloquea misiones de historia exclusivas, atributos de personaje y bonificaciones de linaje para la fase final del juego.
+</Callout>
+
+<Section icon={Sparkles} title="Perspectiva general del sistema de compañeros">
+
+En el oscuro mundo de fantasía de Embers of the Uncrowned, la supervivencia en solitario es un gran desafío. El ciclo de combate se centra en la acción isométrica manual, donde el posicionamiento preciso y la evasión son fundamentales. Para compensar la alta dificultad de las mecánicas de los jefes y los encuentros de dominio, los desarrolladores de NEXON integraron el sistema de compañeros directamente en el ciclo de progreso principal. A diferencia de los MMORPG tradicionales donde los seguidores sirven como simples acumuladores pasivos de estadísticas, los compañeros en este juego actúan como socios tácticos activos.
+
+Los compañeros progresan directamente junto a tu personaje principal, compartiendo la experiencia obtenida al despejar zonas y completar capítulos de la campaña. Poseen conjuntos de habilidades distintos, ranuras de equipo individuales y comportamientos de IA especializados que los jugadores pueden alternar según el desafío actual. Ya sea que necesites una línea frontal resistente para absorber daño o un soporte centrado en la utilidad para activar ventanas de desestabilización, el sistema de compañeros proporciona la flexibilidad necesaria para afrontar los encuentros más difíciles del juego.
+
+| Elemento del sistema | Funcionalidad | Aplicación en combate |
+| :--- | :--- | :--- |
+| Combate activo | Ataques automáticos y activación manual de habilidades | Daño por segundo (DPS) directo, control de masas y asistencia de desestabilización |
+| Personalización de habilidades | Selección de entre 17 habilidades únicas | Configuraciones personalizadas para cubrir debilidades de la clase |
+| Vínculo de afinidad | Progreso de la relación a través de misiones | Aumentos de estadísticas y bloqueos narrativos exclusivos |
+| Integración con la casa | Asignaciones de estaciones en el asentamiento | Recolección de recursos, investigación y mejoras de artesanía |
+
+<Callout type="info" title="Ventaja táctica">
+Gestionar las habilidades activas de tu compañero es esencial para derrotar en solitario a los Jefes de Dominio. Las habilidades de compañero sincronizadas correctamente pueden interrumpir los hechizos del jefe, evitándote gastar valioso SP en evasiones de emergencia.
+</Callout>
+
+Los compañeros también desempeñan un papel importante en la dinámica del grupo. Al entrar en las colas del modo multijugador, los sistemas de emparejamiento se ajustan para tener en cuenta a los compañeros activos, lo que permite a los grupos pequeños cubrir los roles vacantes de manera fluida. Esto garantiza que incluso si no encuentras un tanque o sanador dedicado para una incursión específica, un compañero debidamente equipado y especializado pueda intervenir para llenar ese vacío.
+
+</Section>
+
+<Section icon={Shield} title="Eslyn - La compañera destacada de la demo">
+
+La demo del Steam Next Fest presenta a Eslyn, una figura central en la reconstrucción de la Casa Harborwell. Como heredera ilegítima convertida en mercenaria, tu personaje forma una alianza temprana con Eslyn durante los capítulos iniciales en Goldenhaven. Eslyn está diseñada para mostrar la profundidad del sistema de compañeros, ofreciendo un equilibrio de utilidades defensivas y habilidades cuerpo a cuerpo de ataque rápido que los jugadores pueden personalizar para adaptarse a su clase elegida.
+
+El progreso de Eslyn está directamente vinculado al arco narrativo de la demo. A medida que liberas regiones de la Costa de Ámbar y estableces tu asentamiento, su historia de fondo se revela a través de rutas de diálogo dedicadas e interacciones en el campamento. Esta integración narrativa garantiza que su crecimiento mecánico se sienta merecido, reflejando el fortalecimiento de su vínculo con tu personaje mientras trabajan juntos para restaurar la gloria de la Casa Harborwell.
+
+<CardGrid cols={3}>
+  <Card title="Soporte de combate activo">
+    Eslyn se une activamente al combate, atrayendo la atención del jefe o infligiendo daño rápido. Su IA de combate se ajusta según las habilidades activas que equipes en su configuración.
+  </Card>
+  <Card title="Progreso de afinidad">
+    Completar misiones de compañero especializadas desbloquea niveles de habilidad superiores, conjuntos de armadura cosmética únicos y poderosos rasgos pasivos.
+  </Card>
+  <Card title="Contribución al asentamiento">
+    Cuando no está explorando activamente, Eslyn puede ser asignada a las instalaciones del asentamiento, mejorando la velocidad de artesanía y desbloqueando planos de objetos raros.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Consejo de configuración">
+Si juegas con una clase frágil a distancia como el Stormbringer, especializa el árbol de habilidades de Eslyn en nodos defensivos y de generación de amenaza de inmediato. Esto mantiene a los enemigos agrupados y alejados de tu zona de lanzamiento.
+</Callout>
+
+En combate, Eslyn utiliza una reserva de recursos personalizada independiente del MP del jugador. Este recurso escala con los niveles de mejora de su equipo, lo que dicta la frecuencia con la que puede ejecutar sus habilidades de alto impacto. Jugadores deben equilibrar el progreso del equipo de ella junto con el suyo propio para garantizar que siga siendo eficaz en el contenido de incursiones de nivel alto.
+
+</Section>
+
+<Section icon={Swords} title="Habilidades y sinergias del compañero">
+
+El sistema de compañeros ofrece 17 habilidades desbloqueables en la versión de la demo. Estas habilidades se dividen en tres categorías principales: Vanguardia (defensa y gestión de amenaza), Agresor (daño físico y elemental ofensivo) y Táctico (control de masas y utilidad). Los jugadores pueden equipar hasta cuatro habilidades activas en cualquier momento, creando perfiles de combate personalizados que complementen su clase elegida.
+
+Lograr la sinergia entre tu clase y tu compañero es clave para dominar las incursiones de la fase final y los encuentros de dominio. Por ejemplo, un jugador Executioner, que destaca en el combate físico a corta distancia, puede equipar a su compañero con habilidades de congelación y aturdimiento para mantener a los objetivos inmovilizados. Esto permite al jugador cargar de forma segura ataques pesados lentos y de gran daño sin temor a interrupciones.
+
+| Clase jugable | Rol principal del compañero | Efecto de sinergia clave | Resultado óptimo de la configuración |
+| :--- | :--- | :--- | :--- |
+| Executioner | DPS a distancia / Sanador | Acumulación de quemaduras y coordinación de trituración de armadura | Gran daño explosivo durante las ventanas de Furia |
+| Stormbringer | Tanque / Control de masas | Generación de amenaza y agrupación de enemigos | Distancia de lanzamiento segura para hechizos elementales |
+| Spectral Blade | Soporte de mejoras / Escudo | Multiplicadores de daño y clones de sombra | Golpes de gracia rápidos y generación de Sombras |
+
+<Callout type="warning" title="Advertencia de antisinergia">
+Evita combinar una configuración de Spectral Blade centrada en el sigilo con un compañero que no tenga habilidades de reducción de amenaza. Si el compañero atrae constantemente la atención de los enemigos hacia tu posición, interrumpirá tu daño adicional por ataques traseros.
+</Callout>
+
+A medida que avanzas por las 10 regiones explorables del juego, descubrirás Gemas de Habilidad diseñadas específicamente para el equipo de los compañeros. Estas gemas modifican las habilidades del compañero, añadiendo efectos secundarios como robo de vida, reducción de tiempos de reutilización o conversiones de daño elemental. Equipar estas gemas correctamente es tan importante como mejorar el árbol de habilidades de tu propio personaje.
+
+</Section>
+
+<Section icon={Trophy} title="Progreso de afinidad y misiones exclusivas">
+
+La relación entre el jugador y sus compañeros se rige por el Sistema de Afinidad. Elevar tu nivel de afinidad con Eslyn y futuros compañeros requiere una mezcla de toma de decisiones narrativas, entrega de regalos y la realización de cadenas de misiones específicas de cada personaje. Los niveles de afinidad más altos desbloquean directamente nuevos niveles en el árbol de habilidades del compañero, junto con aumentos permanentes de estadísticas tanto para el jugador como para el compañero.
+
+Para aumentar la afinidad de manera eficiente en la demo, los jugadores deben localizar objetos de historia ocultos repartidos por las tres regiones principales. Estos objetos se pueden entregar a los compañeros durante los descansos en el campamento, lo que activa conversaciones únicas. Superar con éxito estos árboles de diálogo otorga una cantidad sustancial de puntos de experiencia de afinidad.
+
+<Steps>
+  <Step num="1" title="Completa hitos de la campaña">
+    Avanza en los capítulos de la historia principal en Goldenhaven y la Costa de Ámbar para desbloquear el primer nivel de interacciones con compañeros.
+  </Step>
+  <Step num="2" title="Adquiere regalos de historia">
+    Busca reliquias históricas y objetos personales en las regiones explorables que coincidan con los antecedentes de Eslyn.
+  </Step>
+  <Step num="3" title="Despeja mazmorras de personaje">
+    Entra en mazmorras de compañero especializadas que ponen a prueba tu sinergia táctica bajo restricciones de combate únicas.
+  </Step>
+  <Step num="4" title="Despierta la sinergia de linaje">
+    Alinea los hitos de afinidad de tu compañero con tu árbol de progreso de linaje para desbloquear multiplicadores de estadísticas en la fase final del juego.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Desbloqueo de hito">
+Alcanzar el nivel de afinidad 5 con Eslyn desbloquea su misión de arma emblemática en Towerstead, otorgándole una espada única que aumenta su daño de desestabilización en un 15%.
+</Callout>
+
+Para ayudarte a seguir tus objetivos de desarrollo de compañeros, consulta la siguiente lista de verificación de hitos clave disponibles en la versión de la demo:
+
+<Checklist
+  id="companion-progression"
+  title="Hitos del sistema de compañeros:"
+  items={[
+    "Completa la misión de reclutamiento de Eslyn en Goldenhaven",
+    "Desbloquea las 17 habilidades de compañero en las ramas de Vanguardia, Agresor y Táctico",
+    "Alcanza el nivel de afinidad 5 para desbloquear la línea de misiones de Towerstead",
+    "Equipa a tu compañero con un conjunto completo de equipo mejorado de rango 2",
+    "Equipa tres Gemas de Habilidad de compañero activas para personalizar los efectos de combate"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Map} title="Integración con la Casa Harborwell y el asentamiento">
+
+Los compañeros en Embers of the Uncrowned no son solo guerreros; también son activos clave para restaurar la Casa Harborwell. El sistema de crecimiento del asentamiento te permite asignar compañeros a diferentes estructuras dentro de tu campamento. Estas asignaciones otorgan bonificaciones pasivas a la recolección de recursos, los tiempos de artesanía y la eficiencia de la investigación, lo que convierte la gestión de compañeros en una parte vital de tu estrategia de construcción del imperio.
+
+En la demo, los jugadores tienen acceso a siete edificios mejorables. Asignar compañeros a estas estructuras requiere equilibrar su disponibilidad para el combate con las necesidades de tu asentamiento. Mientras un compañero está asignado a un edificio, continuará otorgando bonificaciones pasivas incluso mientras exploras las 10 regiones del juego, lo que permite un progreso sin conexión.
+
+| Tipo de edificio | Asignación óptima de compañero | Bonificación por estación | Impacto en el asentamiento |
+| :--- | :--- | :--- | :--- |
+| Forja | Espec. de Vanguardia | Reduce los costes de mejora de equipo | Aumentos de poder de armas más rápidos |
+| Laboratorio | Espec. de Táctico | Acelera la investigación de gemas de habilidad | Desbloquea modificaciones de habilidad avanzadas |
+| Mercado | Espec. de Agresor | Aumenta el rendimiento de recursos comerciales | Mayor generación de oro para mejoras de edificios |
+| Fortaleza | Espec. de alta afinidad | Reduce el coste de la liberación regional | Expansión territorial más rápida por el mapa |
+
+<Callout type="tip" title="Gestión de recursos">
+Prioriza mejorar la Fortaleza temprano en la demo. Esta estructura aumenta el número máximo de compañeros que puedes albergar en tu asentamiento, maximizando tu generación pasiva de recursos.
+</Callout>
+
+A medida que expandes tu territorio, los compañeros activarán ocasionalmente eventos en el asentamiento. Estos eventos presentan opciones que pueden resultar en aumentos temporales de recursos, obtención de objetos raros o aumentos repentinos de afinidad. Mantener una rotación de compañeros asignados equilibrada garantiza que tu asentamiento siga siendo productivo mientras te concentras en completar incursiones de nivel alto.
+
+</Section>
+
+<Section icon={Target} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cómo escala el sistema de compañeros de Embers of the Uncrowned en el contenido multijugador?",
+    answer: "En el juego en grupo, el anfitrión puede optar por mantener activo a su compañero para ocupar los espacios vacíos. Si se forma un grupo completo de jugadores, los compañeros se retiran automáticamente para equilibrar la dificultad del encuentro."
+  },
+  {
+    question: "¿Puedo cambiar las habilidades de mi compañero a mitad del combate?",
+    answer: "No, las habilidades del compañero deben configurarse en el asentamiento o en las zonas de campamento antes de entrar en combate. Asegúrate de preparar tu configuración antes de enfrentarte a los jefes."
+  },
+  {
+    question: "¿Los objetos de compañero caen de monstruos comunes o de incursiones?",
+    answer: "El equipo de compañero y las gemas de habilidad especializadas se obtienen tanto de actividades de mundo abierto como de cofres de incursiones. Los objetos de nivel alto se otorgan específicamente como recompensa al completar mazmorras de afinidad de compañero."
+  },
+  {
+    question: "¿La muerte del compañero en combate provoca el fin de la partida?",
+    answer: "No, si tu compañero cae en batalla, entra en un estado abatido. Puedes revivirlo situándote cerca de su posición, aunque hacerlo te expone a los ataques enemigos."
+  }
+]} />
+
+<Callout type="info" title="Actualizaciones y comentarios">
+El sistema de compañeros está sujeto a cambios de equilibrio a lo largo de la fase de la demo. Presta atención al centro de la comunidad oficial de Steam y al canal de Discord del juego para conocer las últimas notas de ajuste.
+</Callout>
+
+</Section>

@@ -1,0 +1,186 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Embers of the Uncrowned Age Rating: ESRB & PEGI Guide",
+  description: "Get the official Embers of the Uncrowned age rating guide. Analyze mature content, Steam filters, kernel anti-cheat safety, and parent tips.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/15161a/fff?text=Age+Rating+Guide",
+  date: "2026-06-19",
+  author: "embers of the uncrowned Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Age Rating Alert**: The game features mature dark fantasy combat and requires age verification on Steam.
+- **Content Descriptors**: Players can expect graphic violence, dark fantasy themes, and blood splatters.
+- **Online Interactions**: Global chat and co-op matchmaking are unrated but present.
+- **Anti-Cheat Warning**: The demo utilizes kernel-level Nexon Game Security (NGS), requiring manual cleanup.
+- **Release Information**: The free demo launched on June 13, 2026, with the full game marked as Coming Soon.
+</Callout>
+
+<Section icon={Shield} title="Embers of the Uncrowned Age Rating Overview">
+
+Evaluating the official **embers of the uncrowned age rating** is essential for players and parents alike, especially given the game's dark fantasy theme, violent combat, and mature content settings. Published by NEXON, this isometric action MMORPG contains themes that target mature audiences. 
+
+Due to the nature of the dark fantasy world, Steam restricts access to the Community Hub and discussions using an adult content filter. Players must verify their birthdate to access official community pages. Below is the detailed breakdown of the target age ratings and content warnings.
+
+| Age Rating Authority | Estimated Rating | Key Content Warning | Action Required |
+| --- | --- | --- | --- |
+| **ESRB (North America)** | Mature 17+ | Blood, Gore, Graphic Violence | Age gate check on Steam |
+| **PEGI (Europe)** | PEGI 16 / 18 | Strong Violence, Dark Themes | Parental control setup |
+| **Steam Platform** | Mature Content | Violence, Fantasy Blood | Account settings update |
+| **Nexon Official** | Mature MMORPG | Intense Combat, Dark Lore | Client installation check |
+
+<Callout type="warning" title="Nexon Game Security (NGS) Notice">
+The game runs a kernel-level anti-cheat system (NGS). Ensure your Windows operating system is fully updated to avoid conflicts or system instability during demo play.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Content Descriptors and In-Game Themes">
+
+The dark fantasy atmosphere of the game is defined by its grim aesthetic and intense combat. Players take on the role of the rightful lord of House Harborwell, fighting corrupted forces, dark elves, and massive domain bosses. The visual presentation of combat is designed to feel heavy and impactful.
+
+The isometric perspective does not soften the impact of the violence. Melee combat features blood splatters and crushing execution moves. The table below outlines the core content descriptors that define the rating.
+
+| Content Category | Visual Severity | In-Game Mechanics | Potential Risks |
+| --- | --- | --- | --- |
+| **Violence** | High | Slicing, crushing, spell explosions | Desensitization to dark fantasy combat |
+| **Gore & Blood** | Medium | Splatters on hit, dark ritual visuals | Visual intensity during raids |
+| **Themes** | High | Demonic possession, corruption, elven invasion | Psychological tension, grim narrative |
+| **Online Chat** | Unrated | Global chat, party recruiting, guild channels | Exposure to unfiltered text communication |
+
+For younger players, the combinations of high-tempo melee combat and dark ritualistic environments might prove too intense. Additionally, the online component allows players to form parties, exposing them to user-generated chat which is not covered by official ratings.
+
+<Callout type="info" title="Online Interaction Warning">
+Like most MMORPGs, online interactions, player-to-player trade, and public matchmade parties are not rated. Players are advised to configure chat filters to limit exposure to toxic behavior.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Anti-Cheat Privacy and Demo Installation Safety">
+
+A major factor to consider beyond content ratings is the inclusion of Nexon Game Security (NGS). NGS is a kernel-level anti-cheat system that installs alongside the game files. It monitors system memory to prevent cheating, hacks, and scripts in competitive areas like the PvP Arena.
+
+While kernel-level software is common in modern PC gaming, it requires high-level system permissions. Parents and security-conscious players must understand how to manage and remove this software if they decide to uninstall the game.
+
+<Steps>
+  <Step num="1" title="Download the Demo">
+    Navigate to the official Steam page and locate the *Embers of the Uncrowned Demo* button to begin installation.
+  </Step>
+  <Step num="2" title="Verify Age Requirements">
+    Enter your birthdate on Steam when prompted to bypass the adult content preference gate.
+  </Step>
+  <Step num="3" title="Approve NGS Installation">
+    Launch the game and accept the prompt to run Nexon Game Security with administrator privileges.
+  </Step>
+  <Step num="4" title="Perform Manual Cleanup">
+    If you uninstall the demo, check your local program files and system drivers to manually remove residual NGS folders.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Performance Optimization">
+If you experience performance drops, check the minimum requirements. The game requires at least a GTX 1060 or RX 580 and 8 GB of RAM to run stably on Windows 11.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Gameplay Mechanics and Target Audience">
+
+The game's design is tailored toward fans of classic ARPGs like Diablo or Path of Exile. The gameplay loop centers on manual combat, boss interruption mechanics, and coordinated party play. The depth of the combat system and class mechanics target players who appreciate complex builds.
+
+There are three main classes featured in the demo, each carrying unique elements and tactical responsibilities. The style of combat directly influences the mature feel of the game.
+
+<CardGrid cols={3}>
+  <Card title="Executioner">
+    - **Melee Vanguard**: Uses heavy axes to shred defense.
+    - **Resource**: Builds Rage to trigger explosive Fury.
+    - **Vibe**: High impact, crushing strikes, physical carnage.
+  </Card>
+  <Card title="Spectral Blade">
+    - **Phantom Duelist**: Swift sword strikes and shadow duplicates.
+    - **Resource**: Generates Shade for stealth rear strikes.
+    - **Vibe**: Fast execution, backstabbing, dark energy.
+  </Card>
+  <Card title="Stormbringer">
+    - **Elemental Caster**: Controls space with wind and lightning.
+    - **Resource**: Ranged magical pressure.
+    - **Vibe**: Massive magical feedback, spell storms, battlefield control.
+  </Card>
+</CardGrid>
+
+The combination of these playstyles requires precise evasion and positioning. Boss fights are punishing, featuring stagger windows that force coordinated group efforts.
+
+| System Specifications | Minimum Specs | Recommended Specs |
+| --- | --- | --- |
+| **OS** | Windows 11 (64-bit) | Windows 11 (64-bit) |
+| **Processor** | Intel i5-3570 / AMD FX-8350 | Intel i5-9600 / Ryzen 5 2600X |
+| **Memory** | 8 GB RAM | 16 GB RAM |
+| **Graphics** | GTX 1060 / RX 580 / Arc A380 | RTX 2060 / RX 5700 XT / Arc A770 |
+| **DirectX** | Version 11 | Version 11 |
+| **Storage** | 30 GB available space | 30 GB available space |
+
+<Callout type="success" title="Companion Systems">
+Players are joined by Eslyn, a campaign companion. Rebuilding affinity with Eslyn unlocks specific questlines and passive stat supports that help solo players handle high-level challenges.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Age Rating Comparisons and Final Verdict">
+
+To help put the **embers of the uncrowned age rating** into perspective, it is useful to compare it against other popular online action RPGs and Nexon properties. These comparisons clarify whether the game is exceptionally violent or if it aligns with standard genre tropes.
+
+| Game | ESRB Rating | PEGI Rating | Core Content Focus |
+| --- | --- | --- | --- |
+| **Embers of the Uncrowned** | Mature 17+ (Est.) | PEGI 16 / 18 | Dark fantasy themes, blood splatters, online raids |
+| **Vindictus** | Mature 17+ | PEGI 18 | Decapitation, fantasy violence, partial nudity |
+| **The First Descendant** | Teen / Mature | PEGI 16 | Sci-fi shooter violence, online multiplayer |
+| **Lost Ark** | Mature 17+ | PEGI 16 | Blood, violent combat, suggestive themes |
+
+While the game is not as visually extreme as titles like Vindictus, its oppressive fantasy lore, elven invasion narrative, and heavy execution animations push it firmly past the casual threshold. It is best suited for teenagers and adults who are familiar with the mechanical demands of online co-op play and dark fantasy tropes.
+
+<Checklist
+  id="parental-readiness"
+  title="Player Safety & System Preparation Checklist:"
+  items={[
+    "Verify the Steam account birthdate settings to access the demo safely.",
+    "Monitor global and party chat interactions if younger teens are playing.",
+    "Inspect background applications for Nexon Game Security (NGS) performance.",
+    "Confirm the PC meets the 30 GB storage requirement.",
+    "Set up key bindings to accommodate the manual dodging and active skill mechanics."
+  ]}
+/>
+
+<Callout type="info" title="Final Verdict">
+The game presents a classic dark fantasy atmosphere. For mature gamers, it offers excellent mechanical depth. For younger audiences, parental discretion is highly recommended due to violent combat and online interactions.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "What is the official Embers of the Uncrowned age rating?",
+    answer: "The game does not have a final ESRB or PEGI rating yet since it is listed as Coming Soon. However, based on the dark fantasy themes, violence, and Steam's age gate, it is expected to receive a Mature 17+ (ESRB) or PEGI 16/18 rating."
+  },
+  {
+    question: "Does the Steam demo contain mature content?",
+    answer: "Yes. The demo features bloody combat, dark ritual designs, and an elven invasion story. Steam uses a standard birthdate gate to ensure users are of age before downloading the demo files."
+  },
+  {
+    question: "Is there an option to turn off blood and gore?",
+    answer: "Currently, the demo does not feature a toggle to disable graphic violence or blood effects. Players who are sensitive to fantasy violence should take this into account before playing."
+  },
+  {
+    question: "Is the kernel anti-cheat safe for my system?",
+    answer: "Nexon Game Security (NGS) is standard software used across many Nexon games. While it is safe for standard operations, it runs at the kernel level and should be manually cleaned up after uninstalling the game to ensure no background processes remain active."
+  }
+]} />
+
+</Section>

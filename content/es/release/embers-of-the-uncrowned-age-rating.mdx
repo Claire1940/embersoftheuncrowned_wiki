@@ -1,0 +1,186 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Clasificación por edad de Embers of the Uncrowned: Guía de ESRB y PEGI",
+  description: "Obtén la guía oficial de clasificación por edad de Embers of the Uncrowned. Analiza el contenido para adultos, los filtros de Steam, la seguridad del antitrampas a nivel de kernel y consejos para padres.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/15161a/fff?text=Age+Rating+Guide",
+  date: "2026-06-19",
+  author: "Equipo de la Wiki de Embers of the Uncrowned"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Alerta de clasificación por edad**: El juego presenta combates de fantasía oscura para adultos y requiere verificación de edad en Steam.
+- **Descriptores de contenido**: Los jugadores pueden esperar violencia gráfica, temas de fantasía oscura y salpicaduras de sangre.
+- **Interacciones en línea**: El chat global y el emparejamiento cooperativo no están clasificados pero están presentes.
+- **Advertencia de antitrampas**: La demo utiliza Nexon Game Security (NGS) a nivel de kernel, lo que requiere una limpieza manual tras la desinstalación.
+- **Información de lanzamiento**: La demo gratuita se lanzó el 13 de junio de 2026, con el juego completo marcado como Próximamente.
+</Callout>
+
+<Section icon={Shield} title="Resumen de la clasificación por edad de Embers of the Uncrowned">
+
+Evaluar la **clasificación por edad oficial de Embers of the Uncrowned** es esencial tanto para los jugadores como para los padres, especialmente dado el tema de fantasía oscura del juego, el combate violento y la configuración de contenido para adultos. Publicado por NEXON, este MMORPG de acción isométrica contiene temas dirigidos a un público adulto. 
+
+Debido a la naturaleza del mundo de fantasía oscura, Steam restringe el acceso al Punto de encuentro de la comunidad y a las discusiones mediante un filtro de contenido para adultos. Los jugadores deben verificar su fecha de nacimiento para acceder a las páginas oficiales de la comunidad. A continuación se muestra el desglose detallado de las clasificaciones de edad estimadas y las advertencias de contenido.
+
+| Autoridad de clasificación | Clasificación estimada | Advertencia de contenido clave | Acción requerida |
+| --- | --- | --- | --- |
+| **ESRB (Norteamérica)** | Mature 17+ | Sangre, violencia gráfica, desmembramiento | Verificación de edad en Steam |
+| **PEGI (Europa)** | PEGI 16 / 18 | Violencia fuerte, temas oscuros | Configuración de control parental |
+| **Plataforma Steam** | Contenido para adultos | Violencia, sangre de fantasía | Actualización de la configuración de la cuenta |
+| **Oficial de Nexon** | MMORPG para adultos | Combate intenso, lore oscuro | Verificación del instalador del cliente |
+
+<Callout type="warning" title="Aviso de Nexon Game Security (NGS)">
+El juego ejecuta un sistema antitrampas a nivel de kernel (NGS). Asegúrate de que tu sistema operativo Windows esté completamente actualizado para evitar conflictos o inestabilidad del sistema durante el juego de la demo.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Descriptores de contenido y temas del juego">
+
+La atmósfera de fantasía oscura del juego está definida por su estética sombría y su combate intenso. Los jugadores asumen el papel del legítimo señor de la Casa Harborwell, luchando contra fuerzas corruptas, elfos oscuros y enormes jefes de dominio. La presentación visual del combate está diseñada para sentirse pesada e impactante.
+
+La perspectiva isométrica no suaviza el impacto de la violencia. El combate cuerpo a cuerpo presenta salpicaduras de sangre y movimientos de ejecución devastadores. La siguiente tabla describe los descriptores de contenido principales que definen la clasificación.
+
+| Categoría de contenido | Severidad visual | Mecánicas de juego | Riesgos potenciales |
+| --- | --- | --- | --- |
+| **Violencia** | Alta | Cortes, aplastamientos, explosiones de hechizos | Desensibilización al combate de fantasía oscura |
+| **Sangre y violencia gráfica** | Media | Salpicaduras al golpear, rituales oscuros | Intensidad visual durante las incursiones |
+| **Temas** | Alta | Posesión demoníaca, corrupción, invasión élfica | Tensión psicológica, narrativa sombría |
+| **Chat en línea** | Sin clasificar | Chat global, reclutamiento de grupo, canales de gremio | Exposición a comunicación de texto sin filtrar |
+
+Para los jugadores más jóvenes, la combinación de un combate cuerpo a cuerpo de ritmo rápido y entornos rituales oscuros podría resultar demasiado intensa. Además, el componente en línea permite a los jugadores formar grupos, exponiéndolos al chat generado por los usuarios, el cual no está cubierto por las clasificaciones oficiales.
+
+<Callout type="info" title="Advertencia de interacción en línea">
+Al igual que la mayoría de los MMORPG, las interacciones en línea, el comercio entre jugadores y los grupos públicos con emparejamiento automático no están clasificados. Se aconseja a los jugadores configurar filtros de chat para limitar la exposición a comportamientos tóxicos.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Privacidad del antitrampas y seguridad en la instalación de la demo">
+
+Un factor importante a considerar más allá de las clasificaciones de contenido es la inclusión de Nexon Game Security (NGS). NGS es un sistema antitrampas a nivel de kernel que se instala junto con los archivos del juego. Monitorea la memoria del sistema para evitar trampas, hacks y scripts en áreas competitivas como la Arena PvP.
+
+Aunque el software a nivel de kernel es común en los juegos de PC modernos, requiere permisos de sistema de alto nivel. Los padres y los jugadores preocupados por la seguridad deben comprender cómo administrar y eliminar este software si deciden desinstalar el juego.
+
+<Steps>
+  <Step num="1" title="Descargar la demo">
+    Navega a la página oficial de Steam y busca el botón de *Embers of the Uncrowned Demo* para comenzar la instalación.
+  </Step>
+  <Step num="2" title="Verificar los requisitos de edad">
+    Introduce tu fecha de nacimiento en Steam cuando se te solicite para saltar el filtro de preferencia de contenido para adultos.
+  </Step>
+  <Step num="3" title="Aprobar la instalación de NGS">
+    Inicia el juego y acepta la solicitud para ejecutar Nexon Game Security con privilegios de administrador.
+  </Step>
+  <Step num="4" title="Realizar limpieza manual">
+    Si desinstalas la demo, revisa tus archivos de programa locales y los controladores del sistema para eliminar manualmente las carpetas residuales de NGS.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Optimización del rendimiento">
+Si experimentas caídas de rendimiento, verifica los requisitos mínimos. El juego requiere al menos una GTX 1060 o RX 580 y 8 GB de RAM para funcionar de manera estable en Windows 11.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Mecánicas de juego y público objetivo">
+
+El diseño del juego está adaptado para los fanáticos de los ARPG clásicos como Diablo o Path of Exile. El ciclo de juego se centra en el combate manual, las mecánicas de interrupción de jefes y el juego en grupo coordinado. La profundidad del sistema de combate y las mecánicas de clase se dirigen a jugadores que aprecian las construcciones de personajes complejas.
+
+Hay tres clases principales disponibles en la demo, cada una con elementos únicos y responsabilidades tácticas. El estilo de combate influye directamente en el tono maduro del juego.
+
+<CardGrid cols={3}>
+  <Card title="Executioner (Ejecutor)">
+    - **Vanguardia cuerpo a cuerpo**: Usa hachas pesadas para triturar la defensa.
+    - **Recurso**: Acumula ira para desatar una furia explosiva.
+    - **Estilo**: Alto impacto, golpes demoledores, carnicería física.
+  </Card>
+  <Card title="Spectral Blade (Hoja Espectral)">
+    - **Duelista fantasmal**: Cortes veloces con espada y duplicados de sombras.
+    - **Recurso**: Genera sombra para ataques sigilosos por la espalda.
+    - **Estilo**: Ejecución rápida, puñaladas por la espalda, energía oscura.
+  </Card>
+  <Card title="Stormbringer (Clamatormentas)">
+    - **Lanzador de conjuros elemental**: Controla el espacio con viento y rayos.
+    - **Recurso**: Presión mágica a distancia.
+    - **Estilo**: Retroalimentación mágica masiva, tormentas de hechizos, control del campo de batalla.
+  </Card>
+</CardGrid>
+
+La combinación de estos estilos de juego requiere una evasión y un posicionamiento precisos. Las batallas contra los jefes son implacables y presentan ventanas de aturdimiento que obligan a realizar esfuerzos grupales coordinados.
+
+| Especificaciones del sistema | Requisitos mínimos | Requisitos recomendados |
+| --- | --- | --- |
+| **SO** | Windows 11 (64 bits) | Windows 11 (64 bits) |
+| **Procesador** | Intel i5-3570 / AMD FX-8350 | Intel i5-9600 / Ryzen 5 2600X |
+| **Memoria** | 8 GB de RAM | 16 GB de RAM |
+| **Gráficos** | GTX 1060 / RX 580 / Arc A380 | RTX 2060 / RX 5700 XT / Arc A770 |
+| **DirectX** | Versión 11 | Versión 11 |
+| **Almacenamiento** | 30 GB de espacio disponible | 30 GB de espacio disponible |
+
+<Callout type="success" title="Sistemas de compañeros">
+Los jugadores están acompañados por Eslyn, una compañera de campaña. Reconstruir la afinidad con Eslyn desbloquea líneas de misión específicas y apoyos de estadísticas pasivas que ayudan a los jugadores en solo a afrontar desafíos de alto nivel.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Comparaciones de clasificación por edad y veredicto final">
+
+Para ayudar a poner en perspectiva la **clasificación por edad de Embers of the Uncrowned**, resulta útil compararla con otros juegos de rol de acción en línea populares y propiedades de Nexon. Estas comparaciones aclaran si el juego es excepcionalmente violentado o si se alinea con los tropos estándar del género.
+
+| Juego | Clasificación ESRB | Clasificación PEGI | Enfoque principal del contenido |
+| --- | --- | --- | --- |
+| **Embers of the Uncrowned** | Mature 17+ (Est.) | PEGI 16 / 18 | Temas de fantasía oscura, salpicaduras de sangre, incursiones en línea |
+| **Vindictus** | Mature 17+ | PEGI 18 | Decapitación, violencia de fantasía, desnudez parcial |
+| **The First Descendant** | Teen / Mature | PEGI 16 | Violencia de disparos de ciencia ficción, multijugador en línea |
+| **Lost Ark** | Mature 17+ | PEGI 16 | Sangre, combate violento, temas sugerentes |
+
+Aunque el juego no es tan visualmente extremo como títulos como Vindictus, su lore de fantasía opresiva, la narrativa de la invasión élfica y las intensas animaciones de ejecución lo sitúan firmemente más allá del umbral casual. Es más adecuado para adolescentes y adultos que estén familiarizados con las exigencias mecánicas del juego cooperativo en línea y los tropos de la fantasía oscura.
+
+<Checklist
+  id="parental-readiness"
+  title="Lista de verificación de seguridad del jugador y preparación del sistema:"
+  items={[
+    "Verificar la configuración de fecha de nacimiento de la cuenta de Steam para acceder a la demo de forma segura.",
+    "Monitorear las interacciones del chat global y de grupo si juegan adolescentes más jóvenes.",
+    "Inspeccionar las aplicaciones en segundo plano para verificar el rendimiento de Nexon Game Security (NGS).",
+    "Confirmar que la PC cumpla con el requisito de 30 GB de almacenamiento.",
+    "Configurar las asignaciones de teclas para adaptarse a la esquiva manual y las mecánicas de habilidades activas."
+  ]}
+/>
+
+<Callout type="info" title="Veredicto final">
+El juego presenta una atmósfera clásica de fantasía oscura. Para los jugadores maduros, ofrece una excelente profundidad mecánica. Para el público más joven, se recomienda encarecidamente la discreción de los padres debido al combate violento y las interacciones en línea.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cuál es la clasificación por edad oficial de Embers of the Uncrowned?",
+    answer: "El juego aún no tiene una clasificación final de la ESRB o PEGI, ya que figura como Próximamente. Sin embargo, según los temas de fantasía oscura, la violencia y la restricción de edad de Steam, se espera que reciba una clasificación Mature 17+ (ESRB) o PEGI 16/18."
+  },
+  {
+    question: "¿Contiene la demo de Steam contenido para adultos?",
+    answer: "Sí. La demo presenta combates sangrientos, diseños de rituales oscuros y una historia de invasión élfica. Steam utiliza un filtro estándar de fecha de nacimiento para garantizar que los usuarios tengan la edad suficiente antes de descargar los archivos de la demo."
+  },
+  {
+    question: "¿Hay alguna opción para desactivar la sangre y la violencia gráfica?",
+    answer: "Actualmente, la demo no cuenta con una opción para desactivar la violencia gráfica o los efectos de sangre. Los jugadores sensibles a la violencia de fantasía deben tener esto en cuenta antes de jugar."
+  },
+  {
+    question: "¿Es seguro el antitrampas a nivel de kernel para mi sistema?",
+    answer: "Nexon Game Security (NGS) es un software estándar utilizado en muchos juegos de Nexon. Si bien es seguro para operaciones estándar, se ejecuta a nivel de kernel y debe limpiarse manualmente después de desinstalar el juego para garantizar que no queden procesos activos en segundo plano."
+  }
+]} />
+
+</Section>
