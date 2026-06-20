@@ -1,0 +1,173 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "embers of the uncrowned pets: Guia de Companheiros e Builds",
+  description: "Domine o sistema de companheiros em Embers of the Uncrowned. Saiba como as habilidades de companheiros, missões de afinidade e sinergias de classe otimizam suas builds da demo.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/0f1115/fff?text=Companion+and+Pet+Guide",
+  date: "2026-06-21",
+  author: "Equipe da Wiki de Embers of the Uncrowned"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Sistema de Companheiros**: Os mascotes tradicionais de MMORPG são substituídos por um Sistema de Companheiros totalmente interativo, com habilidades ativas de combate e grande utilidade tática.
+- **Aliada em Destaque**: Eslyn é a companheira principal disponível na [Demo do Steam](https://store.steampowered.com/app/4350460/Embers_of_the_Uncrowned_Demo/) lançada em 13 de junho de 2026.
+- **Progressão de Habilidades**: Os companheiros possuem 17 habilidades únicas que complementam diretamente as builds do seu personagem ativo.
+- **Missões de Afinidade**: Aumentar a afinidade com o companheiro desbloqueia séries de missões exclusivas, história do personagem e poderosas sinergias passivas.
+- **Integração com o Assentamento**: A progressão do companheiro está diretamente ligada ao desenvolvimento da Casa Harborwell e do Assentamento da Costa de Âmbar.
+</Callout>
+
+<Section icon={Sparkles} title="embers of the uncrowned pets: Visão Geral do Sistema de Companheiros">
+
+Se você está procurando por **embers of the uncrowned pets** (mascotes), provavelmente está interessado no aguardado Sistema de Companheiros do jogo. Neste MMORPG de Ação e fantasia sombria desenvolvido pela NEXON, os tradicionais mascotes passivos são substituídos por companheiros de combate totalmente desenvolvidos. Em vez de apenas colecionar animais cosméticos que coletam saques, os jogadores recrutam aliados leais que lutam ao seu lado, sobem de nível e oferecem uma profunda sinergia mecânica com as classes dos jogadores.
+
+Durante a demo do Steam Next Fest, que acontece de 15 a 22 de junho de 2026, os jogadores podem experimentar esse sistema em primeira mão. A demo apresenta Eslyn, uma companheira de destaque que desempenha um papel fundamental no início da campanha para recuperar o domínio perdido da Casa Harborwell. Em vez de agirem como simples invocações, os companheiros são essenciais para o ciclo de combate, escalando com sua progressão, aprimoramento de equipamentos e o despertar da linhagem.
+
+| Recurso | Mascotes Tradicionais de MMORPG | Companheiros de Embers of the Uncrowned |
+| :--- | :--- | :--- |
+| **Função em Combate** | Bônus passivos de atributos ou ataques automáticos | Habilidades de combate ativas, posicionamento tático e suporte de aggro |
+| **Sistema de Habilidades** | Escolhas de habilidades ativas limitadas ou inexistentes | 17 habilidades únicas de companheiro para personalizar e aprimorar |
+| **Progressão** | Subida de nível simples através de comida ou grind | Missões baseadas em afinidade, melhorias de assentamento e escalonamento de equipamentos |
+| **Impacto na História** | Puramente cosmético ou texto de contextualização | Profundamente integrado na restauração da Casa Harborwell |
+
+<Callout type="info" title="Disponibilidade da Demo">
+A demo jogável gratuita foi lançada em 13 de junho de 2026 e é altamente focada em apresentar as mecânicas iniciais de companheiros, a reconstrução do assentamento e o combate cooperativo. Certifique-se de baixar o cliente correto na [Página da Loja do Steam](https://store.steampowered.com/app/3767660/Embers_of_the_Uncrowned/) em vez de esperar pelo lançamento completo.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Habilidades de Companheiros e Mecânicas de Combate">
+
+Os companheiros em *Embers of the Uncrowned* são projetados para ser uma extensão da sua própria build. A demo apresenta um sistema robusto de habilidades para seus aliados, contando com 17 habilidades de companheiro que podem ser desbloqueadas e personalizadas. Essas habilidades permitem que seu companheiro desempenhe várias funções táticas, como um tanque defensivo, um especialista em controle de grupo ou um suporte de alto dano.
+
+Ao participar de conteúdos de alta dificuldade, como Chefes de Domínio, Chefes de Campo ou raides cooperativas, a configuração de habilidades do seu companheiro pode ser a diferença entre a vitória e a derrota. For exemplo, um companheiro configurado com habilidades de controle de grupo pode atordoar chefes, criando janelas cruciais de dano explosivo para classes como o Carrasco (Executioner) ou a Lâmina Espectral (Spectral Blade).
+
+| Categoria de Habilidade | Foco Principal | Melhor Caso de Uso | Benefício Tático |
+| :--- | :--- | :--- | :--- |
+| **Vanguarda (Vanguard)** | Geração de ameaça e defesa | Jogo solo para classes frágeis de ataque à distância | Mantém os inimigos longe dos conjuradores do Arauto da Tormenta (Stormbringer) |
+| **Tático (Tactician)** | Controle de grupo e atordoamento | Encontros com Chefes de Domínio e Raides | Interrompe habilidades perigosas de chefes e cria aberturas |
+| **Boticário (Apothecary)** | Cura e suporte de escudo | Conteúdo cooperativo de alta dificuldade | Reduz a dependência de poções de vida durante lutas longas |
+| **Atacante (Striker)** | DPS elemental e físico | Rotas rápidas de farming solo | Acelera a limpeza de regiões e missões diárias |
+
+<Callout type="success" title="Dica de Sinergia de Combate">
+Sempre combine as habilidades ativas do seu companheiro com a build elemental do seu personagem. Se você estiver jogando com um Carrasco (Executioner) focado em Fogo, equipar seu companheiro com habilidades que destroem a defesa ou amplificam a queimadura aumentará exponencialmente seu dano total causado.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Desbloqueando Companheiros e Construindo Afinidade">
+
+Desbloquear e aprimorar seus companheiros exige participação ativa tanto na campanha principal quanto nos sistemas de assentamento. Para maximizar o potencial do seu companheiro, você deve progredir em suas missões exclusivas baseadas em afinidade. Esse processo não apenas revela suas histórias trágicas, mas também desbloqueia habilidades passivas poderosas que fortalecem todo o seu grupo.
+
+Na demo de 2026, a progressão do companheiro está diretamente ligada ao Assentamento da Costa de Âmbar e à Casa Harborwell. À medida que você melhora os edifícios do assentamento e liberta as regiões vizinhas das forças élficas, desbloqueará novas maneiras de interagir com seus aliados, pesquisar melhorias específicas para companheiros e criar equipamentos de alto nível para eles.
+
+<Steps>
+  <Step num="1" title="Conclua os capítulos iniciais da história em Goldenhaven">
+    Progrida nas missões do cenário principal em Goldenhaven para recrutar oficialmente Eslyn. Isso desbloqueia a interface do companheiro e seu primeiro conjunto de habilidades de companheiro.
+  </Step>
+  <Step num="2" title="Estabeleça o Assentamento da Costa de Âmbar">
+    Recupere o domínio caído da Casa Harborwell e transforme seu acampamento em um assentamento funcional. Isso desbloqueia instalações de treinamento de companheiros e bancadas de criação.
+  </Step>
+  <Step num="3" title="Inicie as missões de afinidade de Eslyn">
+    Fale com Eslyn no assentamento para aceitar missões exclusivas baseadas em afinidade. Concluir essas missões aumenta o nível de vínculo dela e desbloqueia habilidades avançadas de combate.
+  </Step>
+  <Step num="4" title="Melhore as instalações de pesquisa e comércio do assentamento">
+    Construa e melhore os sete edifícios de assentamento disponíveis na demo. Use essas instalações para pesquisar bônus passivos para companheiros e trocar por gemas de habilidade raras.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Nota sobre o Sistema Trapaça (Anti-Cheat)">
+Embers of the Uncrowned utiliza o NGS (Nexon Game Security) em nível de kernel para garantir o jogo limpo em PvP online, matchmaking e raides cooperativas. Esteja ciente deste requisito de sistema antes de instalar a demo ou o cliente completo do jogo no Windows 11.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Otimizando a Sinergia entre Classe e Companheiro">
+
+Para se destacar no mundo de fantasia sombria de *Embers of the Uncrowned*, você deve tratar seu companheiro como um componente vital da build do seu personagem. As três classes jogáveis na demo — Carrasco (Executioner), Arauto da Tormenta (Stormbringer) e Lâmina Espectral (Spectral Blade) — se beneficiam de configurações específicas de companheiros.
+
+Ao coordenar suas habilidades ativas, progressão passiva e gemas de habilidade com a configuração do seu companheiro, você pode criar builds altamente eficientes capazes de enfrentar os desafios cooperativos mais difíceis do jogo.
+
+<CardGrid cols={3}>
+  <Card title="Combinações para o Carrasco">
+    O Carrasco depende do acúmulo de Raiva e da ativação de Fúria para ataques corpo a corpo explosivos. Combine-o com um companheiro **Tático/Boticário** para fornecer escudos e controle de grupo, permitindo que você execute longas sequências de habilidades sem interrupção.
+  </Card>
+  <Card title="Combinações para o Arauto da Tormenta">
+    Como um conjurador de ataque à distância que usa magia de vento e raio, o Arauto da Tormenta é altamente vulnerável a ataques de curto alcance. Uma configuração de companheiro **Vanguarda** é essencial para atrair o aggro dos inimigos, manter pontos de estrangulamento e criar zonas seguras para conjuração.
+  </Card>
+  <Card title="Combinações para a Lâmina Espectral">
+    A altamente móvel Lâmina Espectral usa furtividade, fantasmas e trocas de posição para ataques traseiros de alto dano. Um companheiro **Atacante** equipado com habilidades de redução de defesa ajuda a maximizar suas janelas de dano explosivo físico e de trevas.
+  </Card>
+</CardGrid>
+
+| Classe | Função Recomendada do Companheiro | Foco de Habilidade Chave do Companheiro | Objetivo Tático Principal |
+| :--- | :--- | :--- | :--- |
+| **Carrasco** | Boticário / Tático | Escudos, recuperação de vida, atordoamento | Manter o tempo de atividade da Fúria e sobreviver a trocas corpo a corpo pesadas |
+| **Arauto da Tormenta** | Vanguarda | Alta geração de ameaça, empurrões | Manter distância dos inimigos e garantir janelas seguras de conjuração |
+| **Lâmina Espectral** | Atacante | Redução de defesa física, bônus críticos | Maximizar o dano explosivo furtivo e ataques traseiros rápidos |
+
+<Callout type="tip" title="Integração de Gemas de Habilidade">
+Não se esqueça de engastar Gemas de Habilidade nos equipamentos do seu companheiro, caso a opção esteja disponível. Assim como o seu personagem principal, os companheiros se beneficiam imensamente de gemas que aumentam atributos e reduzem o tempo de recarga, que podem ser adquiridas através da criação no assentamento e saques de Chefes de Domínio.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Marcos e Lista de Verificação do Companheiro">
+
+Alcançar a progressão máxima na demo de *Embers of the Uncrowned* exige uma abordagem focada. Com mais de 480 minutos de conteúdo total, incluindo três capítulos da história principal e 34 missões secundárias, priorizar o crescimento do seu companheiro facilitará significativamente sua jornada pelas regiões libertadas e contestadas do continente.
+
+Use a lista de verificação abaixo para acompanhar seus objetivos relacionados aos companheiros durante seu tempo na demo.
+
+<Checklist
+  id="companion-demo-goals"
+  title="Marcos Essenciais do Companheiro:"
+  items={[
+    "Desbloquear Eslyn durante os capítulos da campanha de Goldenhaven",
+    "Alcançar a afinidade máxima com Eslyn ao concluir suas missões exclusivas",
+    "Desbloquear e testar todas as 17 habilidades de companheiro para encontrar seu estilo de jogo preferido",
+    "Melhorar as instalações de treinamento do assentamento para aumentar os atributos passivos do companheiro",
+    "Equipar seu companheiro com itens raros criados no Assentamento da Costa de Âmbar",
+    "Derrotar um Chefe de Domínio ao lado do seu companheiro totalmente aprimorado"
+  ]}
+/>
+
+<Callout type="info" title="Canais Oficiais">
+Para as últimas atualizações, recompensas de eventos e discussões da comunidade, junte-se ao [Servidor Oficial do Discord](https://discord.gg/playeotu) e siga a equipe de desenvolvimento no X (antigo Twitter) através do perfil oficial [@PlayEOTU](https://x.com/PlayEOTU).
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Perguntas Frequentes">
+
+Nossa equipe reuniu as perguntas mais comuns sobre os sistemas de companheiros e mascotes em *Embers of the Uncrowned* para ajudar você a começar sua jornada preparado.
+
+<FAQ items={[
+  {
+    question: "Existem mascotes cosméticos tradicionais em Embers of the Uncrowned?",
+    answer: "Atualmente, o jogo se concentra fortemente em seu Sistema de Companheiros táticos (como Eslyn), que oferece suporte ativo em combate, em vez de mascotes passivos ou cosméticos tradicionais. Quaisquer sistemas futuros de mascotes cosméticos provavelmente serão anunciados nos canais oficiais da Nexon."
+  },
+  {
+    question: "Posso jogar a demo offline com meu companheiro?",
+    answer: "Não. Embers of the Uncrowned é um MMORPG de Ação online que requer uma conexão constante de banda larga com a internet. Mesmo ao jogar solo com seu companheiro, você deve estar conectado aos servidores do jogo."
+  },
+  {
+    question: "Como as habilidades de companheiro escalam conforme subo de nível?",
+    answer: "As habilidades de companheiro escalam com base no nível deles, nas melhorias das instalações do seu assentamento e nos equipamentos que você equipar neles. Investir na pesquisa do assentamento é fundamental para maximizar o escalonamento no final do jogo."
+  },
+  {
+    question: "Os companheiros participam de batalhas de Arena PvP?",
+    answer: "Os companheiros são projetados principalmente para o conteúdo PvE, incluindo capítulos da história, encontros com chefes de domínio e raides cooperativas. O papel deles em arenas PvP estruturadas é limitado para preservar o equilíbrio competitivo."
+  }
+]} />
+
+<Callout type="success" title="Veredito Final">
+O Sistema de Companheiros em Embers of the Uncrowned é uma abordagem inovadora para a fórmula clássica de mascotes de MMORPG. Ao tratar seus aliados como verdadeiros parceiros de combate com profunda personalização de builds, a NEXON criou um sistema que parece recompensador, tático e profundamente integrado à história de fantasia sombria da Casa Harborwell.
+</Callout>
+
+</Section>

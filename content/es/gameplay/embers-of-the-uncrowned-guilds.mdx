@@ -1,0 +1,197 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Users } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Gremios de Embers of the Uncrowned: Sistemas Sociales y Raids",
+  description: "Domina los sistemas sociales y de gremios en Embers of the Uncrowned. Aprende sobre la Casa Harborwell, raids cooperativas, jefes de dominio y alianzas multijugador.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1a1c23/fff?text=Guilds+and+Social+Guide",
+  date: "2026-06-21",
+  author: "Equipo de la Wiki de Embers of the Uncrowned",
+  keywords: "gremios, social, raids, Casa Harborwell, cooperativo, multijugador"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Cimientos del Gremio**: El juego social gira en torno a la **Casa Harborwell** y la formación de alianzas en regiones como Towerstead.
+- **Enfoque Cooperativo**: Une fuerzas para derrotar a los **Jefes de Dominio** y participar en **Raids** de alta coordinación para reclamar territorios perdidos.
+- **Crecimiento del Asentamiento**: El progreso se comparte mediante las **Mejoras del Asentamiento**, transformando humildes campamentos en ciudades vibrantes.
+- **Roles de Clase**: Cada una de las tres clases (Ejecutor, Filo Espectral, Clama-tormentas) ofrece una utilidad única en el combate grupal.
+- **Alcance de la Demo**: La demo actual de Steam cuenta con **emparejamiento multijugador** en 10 regiones liberables.
+</Callout>
+
+<Section icon={Users} title="Sistemas Sociales y Alianzas Regionales">
+
+En el oscuro mundo de fantasía de Embers of the Uncrowned, la interacción social es más que un simple cuadro de chat; es la columna vertebral de la resistencia contra la invasión élfica. Mientras que el juego se centra en el viaje del jugador como el legítimo señor de la Casa Harborwell, la capa multijugador introduce conceptos de **gremios de Embers of the Uncrowned** a través de alianzas regionales y objetivos de asentamiento compartidos. Los jugadores no solo luchan solos; forman alianzas en áreas clave como Towerstead para coordinar la liberación de la Costa de Ámbar y más allá.
+
+**Puntos destacados del video:**
+- Descripción general del sistema de combate isométrico manual utilizado en el juego grupal.
+- Vista previa de las tres clases principales y sus sinergias de habilidades.
+- Vistazo a los sistemas de progresión de Gemas de Habilidad y Linaje.
+- Breve muestra del ciclo de recuperación de asentamientos y casas.
+
+<YouTubeEmbed videoId="VoCPXiss8Ek" title="Embers of the Uncrowned - Tráiler Oficial de Sistemas de Juego" />
+
+La estructura social está diseñada para facilitar el juego cooperativo desde el principio. Ya sea que estés participando en actividades de campo o preparándote para una raid importante, el juego anima a los jugadores a sincronizar sus habilidades activas y las capacidades de sus compañeros para maximizar la eficiencia en el campo de batalla.
+
+| Característica Social | Descripción | Objetivo Principal |
+| :--- | :--- | :--- |
+| **Casa Harborwell** | El centro social principal liderado por jugadores | Reconstruir el dominio caído y el legado |
+| **Alianzas de Towerstead** | Redes de cooperación regional | Coordinar la liberación y defensa regional |
+| **Emparejamiento** | Formación automática de grupos | Encontrar grupos para raids y batallas en la arena |
+| **Chat del Asentamiento** | Comunicación localizada | Comerciar recursos y planificar mejoras del asentamiento |
+| **Sistema de Amigos** | Conexiones directas entre jugadores | Rastrear la afinidad del compañero e historial cooperativo |
+
+<Callout type="tip" title="Estrategia de Alianza">
+Concéntrate en formar alianzas en Towerstead temprano en la demo. Esto desbloquea misiones de defensa coordinadas que son significativamente más difíciles de completar en solitario.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Casa Harborwell y Progresión del Asentamiento">
+
+La experiencia de "Gremio" en este título está ligada de manera única al sistema de **Crecimiento del Asentamiento**. En lugar de un salón de gremio estático, los jugadores trabajan juntos para transformar un humilde campamento en una ciudad fortificada. Esta progresión territorial visible se comparte entre aliados, reflejando el esfuerzo colectivo de los seguidores de la Casa Harborwell. La demo incluye siete tipos diferentes de edificios que admiten varias funciones de juego, desde la investigación hasta la artesanía.
+
+<CardGrid cols={3}>
+  <Card title="Gestión de Recursos">
+    - **Recolecta materiales** de regiones liberadas
+    - Mejora las instalaciones compartidas
+    - Apoya la expansión de la Casa
+  </Card>
+  <Card title="Investigación de Edificios">
+    - Desbloquea nuevas **Gemas de Habilidad**
+    - Mejora el potenciamiento de equipo
+    - Refuerza las defensas del asentamiento
+  </Card>
+  <Card title="Liberación de Territorio">
+    - Reclama **10 regiones distintas**
+    - Elimina enemigos corruptos
+    - Establece nuevas rutas comerciales
+  </Card>
+</CardGrid>
+
+El crecimiento de tu asentamiento impacta directamente en tu poder de combate. A medida que mejoras los edificios, desbloqueas capas más profundas del sistema de **Progresión Infinita**, incluyendo el potenciamiento avanzado de equipo y el despertar del linaje.
+
+| Tipo de Edificio | Función | Prioridad de Mejora |
+| :--- | :--- | :--- |
+| **Centro de Mando** | Gestionar la liberación de regiones y misiones | Alta |
+| **Forja** | Mejora de equipo y reparación de durabilidad | Alta |
+| **Taller de Gemas** | Fabricar y engarzar poderosas Gemas de Habilidad | Media |
+| **Puesto Comercial** | Intercambiar recursos con otros jugadores | Media |
+| **Campos de Entrenamiento** | Probar builds de clase y rotaciones de habilidades | Baja |
+| **Botica** | Fabricar pociones de recuperación de HP y MP | Media |
+| **Laboratorio de Investigación** | Desbloquear bonificaciones pasivas para toda la casa | Alta |
+
+<Callout type="info" title="Consejo de Asentamiento">
+Los edificios en la demo tienen un límite de nivel. Maximiza tu Laboratorio de Investigación primero para reducir el costo de recursos de todas las demás mejoras del asentamiento.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Raids Cooperativas y Jefes de Dominio">
+
+La verdadera prueba para cualquier alianza o estructura similar a un gremio reside en los encuentros con jefes. Embers of the Uncrowned presenta 12 monstruos jefes en la demo, que van desde **Jefes de Dominio** en el mundo abierto hasta **Raids** de alta coordinación. La victoria en estos encuentros depende de algo más que un alto daño; requiere una sincronización precisa para las interrupciones y la gestión de las ventanas de aturdimiento.
+
+| Tipo de Encuentro | Nivel de Coordinación | Número de Jugadores | Recompensas Clave |
+| :--- | :--- | :--- | :--- |
+| **Jefes de Dominio** | Moderado | Cooperativo Abierto | Liberación de territorio, recursos |
+| **Jefes de Raid** | Alto | Grupo Coordinado | Equipo legendario, XP de Linaje |
+| **Jefes de Campo** | Bajo | Campo Abierto | Materiales de artesanía, Gemas de Habilidad |
+| **Defensa de Spring** | Moderado | PvE Grupal | XP de asentamiento, objetos defensivos |
+| **Arena PvP** | Extremo | Emparejamiento | Puntos de rango, cosméticos exclusivos |
+
+El éxito en las raids se determina por qué tan bien trabajan juntas las tres clases. El Ejecutor actúa como la vanguardia, absorbiendo golpes y acumulando furia, mientras que el Clama-tormentas proporciona presión elemental a distancia. El Filo Espectral se centra en la movilidad de alta habilidad para golpear durante las ventanas de ráfaga.
+
+<Callout type="warning" title="La Mecánica Importa">
+Los jefes tienen ventanas específicas de "Interrupción". No lograr interrumpir una habilidad de jefe con el tiempo correcto puede resultar en la eliminación de todo el grupo, independientemente de tu nivel de equipo.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Configuración Multijugador y Guía de Grupo">
+
+Comenzar con el contenido multijugador en la demo es sencillo, pero dominar el ciclo de grupo requiere comprender los sistemas de emparejamiento y objetivos. Ya sea que busques un jefe de campo rápido o un compromiso de raid a largo plazo, sigue estos pasos para optimizar tu experiencia social.
+
+<Steps>
+  <Step num="1" title="Acceder al Menú de Emparejamiento">
+    Abre la pestaña social y selecciona la actividad a la que deseas unirte. Puedes elegir entre Jefes de Campo, Raids o la Arena.
+  </Step>
+  <Step num="2" title="Define tu Rol">
+    Asegúrate de que tu build de clase (Ejecutor, Filo Espectral o Clama-tormentas) esté optimizada para el encuentro. Revisa tus Gemas de Habilidad y rasgos de Linaje.
+  </Step>
+  <Step num="3" title="Coordínate con Alianzas">
+    Usa el sistema de alianzas regionales en Towerstead para encontrar jugadores con objetivos de progresión similares. Esto es esencial para las 10 regiones liberables.
+  </Step>
+  <Step num="4" title="Ejecuta el Ciclo de Combate">
+    Concéntrate en la evasión y el tiempo de interrupción. Usa el sistema de combate manual para esquivar los patrones del jefe y activar ventanas de aturdimiento para tu equipo.
+  </Step>
+  <Step num="5" title="Recoger y Distribuir Recompensas">
+    Después de una raid exitosa, gestiona tus recursos en el asentamiento para prepararte para el siguiente objetivo en la recuperación de la Casa Harborwell.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Consejo de Comunicación">
+Usa el sistema de ping del juego para resaltar las ventanas de interrupción del jefe. La coordinación es la forma más rápida de completar los 480 minutos de contenido disponibles en la demo.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Progresión y Objetivos del Gremio">
+
+Aunque se espera que el sistema de gremios completo se amplíe tras el lanzamiento final del juego, los jugadores pueden seguir actualmente su progreso a través de los hitos del **Sistema de Casa**. Reclamar la Casa Harborwell es un objetivo a largo plazo que requiere completar capítulos de la historia principal y docenas de misiones secundarias.
+
+<Checklist
+  id="guild-progression-goals"
+  title="Hitos Sociales y de Raid:"
+  items={[
+    "Forma tu primera alianza en Towerstead",
+    "Derrota con éxito a los 12 monstruos jefes de la demo",
+    "Mejora los 7 edificios del asentamiento hasta el límite de la demo",
+    "Libera las 10 regiones en el mapa de la Costa de Ámbar",
+    "Alcanza la afinidad máxima con la compañera Eslyn",
+    "Completa los 3 capítulos de la historia principal y las 34 misiones secundarias"
+  ]}
+/>
+
+Cada hito alcanzado por tu alianza contribuye a la "Gloria de la Casa" general, que probablemente desempeñará un papel en los sistemas sociales competitivos del juego completo.
+
+| Logro | Tipo de Recompensa | Beneficio |
+| :--- | :--- | :--- |
+| **Libertador de Región** | Mejora Pasiva | Aumento de la tasa de obtención de recursos en esa región |
+| **Maestro de Raid** | Título/Cosmético | Muestra experiencia en cooperación de alto nivel |
+| **Arquitecto de Asentamiento** | Acceso a Instalaciones | Desbloquea niveles avanzados de artesanía e investigación |
+| **Linaje Despertado** | Poder de Combate | Impulso significativo a la efectividad de las habilidades activas |
+
+<Callout type="tip" title="Maximizando la Eficiencia">
+Concéntrate en las 34 misiones secundarias junto con la historia principal. Muchas de estas misiones desbloquean instalaciones específicas del asentamiento que son obligatorias para la progresión avanzada en la demo.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cómo funcionan los gremios de Embers of the Uncrowned en la demo?",
+    answer: "La demo utiliza los sistemas de la Casa Harborwell y las alianzas regionales como las estructuras sociales principales. Los jugadores trabajan juntos para liberar 10 regiones y mejorar las instalaciones compartidas del asentamiento en lugar de unirse a gremios estáticos tradicionales."
+  },
+  {
+    question: "¿Puedo jugar el contenido de raid en solitario?",
+    answer: "Si bien parte del contenido de campo es apto para jugar en solitario, las Raids y los Jefes de Dominio están diseñados para la coordinación multijugador. Se recomienda encarecidamente usar el sistema de emparejamiento para estos encuentros."
+  },
+  {
+    question: "¿Cuál es el tamaño máximo del grupo para las raids?",
+    answer: "La demo admite el juego en grupo a través del emparejamiento, centrándose típicamente en grupos pequeños que permiten que las tres clases principales (Ejecutor, Filo Espectral y Clama-tormentas) creen sinergias de manera efectiva."
+  },
+  {
+    question: "¿Se mantienen las alianzas de gremio en el juego completo?",
+    answer: "NEXON ha marcado el juego completo como 'Próximamente'. Aunque el progreso de la demo suele otorgar recompensas (como la montura Cloudfur Cottonsloth), las estructuras sociales específicas podrían restablecerse para el lanzamiento oficial."
+  }
+]} />
+
+</Section>
