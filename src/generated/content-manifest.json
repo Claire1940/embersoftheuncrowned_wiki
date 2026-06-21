@@ -1,0 +1,858 @@
+{
+  "en": {
+    "classes": [
+      {
+        "slug": "embers-of-the-uncrowned-all-classes",
+        "file": "embers-of-the-uncrowned-all-classes"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-build",
+        "file": "embers-of-the-uncrowned-build"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-class-anthology",
+        "file": "embers-of-the-uncrowned-class-anthology"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-classes",
+        "file": "embers-of-the-uncrowned-classes"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-executioner",
+        "file": "embers-of-the-uncrowned-executioner"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-spectral-blade",
+        "file": "embers-of-the-uncrowned-spectral-blade"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-stormbringer",
+        "file": "embers-of-the-uncrowned-stormbringer"
+      }
+    ],
+    "gameplay": [
+      {
+        "slug": "embers-of-the-uncrowned-character-creation",
+        "file": "embers-of-the-uncrowned-character-creation"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-combat",
+        "file": "embers-of-the-uncrowned-combat"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-companion-system",
+        "file": "embers-of-the-uncrowned-companion-system"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-controller-gameplay",
+        "file": "embers-of-the-uncrowned-controller-gameplay"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-dungeon",
+        "file": "embers-of-the-uncrowned-dungeon"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-gameplay",
+        "file": "embers-of-the-uncrowned-gameplay"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-guilds",
+        "file": "embers-of-the-uncrowned-guilds"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-house-system",
+        "file": "embers-of-the-uncrowned-house-system"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-mounts",
+        "file": "embers-of-the-uncrowned-mounts"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-pets",
+        "file": "embers-of-the-uncrowned-pets"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-pvp",
+        "file": "embers-of-the-uncrowned-pvp"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-raid",
+        "file": "embers-of-the-uncrowned-raid"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-solo-raid",
+        "file": "embers-of-the-uncrowned-solo-raid"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-territory-system",
+        "file": "embers-of-the-uncrowned-territory-system"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "embers-of-the-uncrowned-all-bosses",
+        "file": "embers-of-the-uncrowned-all-bosses"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-beginner-guide",
+        "file": "embers-of-the-uncrowned-beginner-guide"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-buy-or-not",
+        "file": "embers-of-the-uncrowned-buy-or-not"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-how-to-play",
+        "file": "embers-of-the-uncrowned-how-to-play"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-monetization",
+        "file": "embers-of-the-uncrowned-monetization"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-no-pay-to-win",
+        "file": "embers-of-the-uncrowned-no-pay-to-win"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-review",
+        "file": "embers-of-the-uncrowned-review"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-tips",
+        "file": "embers-of-the-uncrowned-tips"
+      }
+    ],
+    "platforms": [
+      {
+        "slug": "embers-of-the-uncrowned-controller-support",
+        "file": "embers-of-the-uncrowned-controller-support"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-crossplay",
+        "file": "embers-of-the-uncrowned-crossplay"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-pc",
+        "file": "embers-of-the-uncrowned-pc"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-ps5",
+        "file": "embers-of-the-uncrowned-ps5"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-steam-deck",
+        "file": "embers-of-the-uncrowned-steam-deck"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-system-requirements",
+        "file": "embers-of-the-uncrowned-system-requirements"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-xbox",
+        "file": "embers-of-the-uncrowned-xbox"
+      }
+    ],
+    "release": [
+      {
+        "slug": "embers-of-the-uncrowned-age-rating",
+        "file": "embers-of-the-uncrowned-age-rating"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-announcement-date",
+        "file": "embers-of-the-uncrowned-announcement-date"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-beta",
+        "file": "embers-of-the-uncrowned-beta"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-demo",
+        "file": "embers-of-the-uncrowned-demo"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-launch-date",
+        "file": "embers-of-the-uncrowned-launch-date"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-live",
+        "file": "embers-of-the-uncrowned-live"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-play-test",
+        "file": "embers-of-the-uncrowned-play-test"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-register",
+        "file": "embers-of-the-uncrowned-register"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-release-date",
+        "file": "embers-of-the-uncrowned-release-date"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-steam-next-fest",
+        "file": "embers-of-the-uncrowned-steam-next-fest"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-steam",
+        "file": "embers-of-the-uncrowned-steam"
+      }
+    ],
+    "story": [
+      {
+        "slug": "embers-of-the-uncrowned-bella",
+        "file": "embers-of-the-uncrowned-bella"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-final-boss",
+        "file": "embers-of-the-uncrowned-final-boss"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-lore",
+        "file": "embers-of-the-uncrowned-lore"
+      }
+    ]
+  },
+  "es": {
+    "classes": [
+      {
+        "slug": "embers-of-the-uncrowned-all-classes",
+        "file": "embers-of-the-uncrowned-all-classes"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-build",
+        "file": "embers-of-the-uncrowned-build"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-class-anthology",
+        "file": "embers-of-the-uncrowned-class-anthology"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-classes",
+        "file": "embers-of-the-uncrowned-classes"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-executioner",
+        "file": "embers-of-the-uncrowned-executioner"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-spectral-blade",
+        "file": "embers-of-the-uncrowned-spectral-blade"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-stormbringer",
+        "file": "embers-of-the-uncrowned-stormbringer"
+      }
+    ],
+    "gameplay": [
+      {
+        "slug": "embers-of-the-uncrowned-character-creation",
+        "file": "embers-of-the-uncrowned-character-creation"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-combat",
+        "file": "embers-of-the-uncrowned-combat"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-companion-system",
+        "file": "embers-of-the-uncrowned-companion-system"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-controller-gameplay",
+        "file": "embers-of-the-uncrowned-controller-gameplay"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-dungeon",
+        "file": "embers-of-the-uncrowned-dungeon"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-gameplay",
+        "file": "embers-of-the-uncrowned-gameplay"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-guilds",
+        "file": "embers-of-the-uncrowned-guilds"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-house-system",
+        "file": "embers-of-the-uncrowned-house-system"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-mounts",
+        "file": "embers-of-the-uncrowned-mounts"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-pets",
+        "file": "embers-of-the-uncrowned-pets"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-pvp",
+        "file": "embers-of-the-uncrowned-pvp"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-raid",
+        "file": "embers-of-the-uncrowned-raid"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-solo-raid",
+        "file": "embers-of-the-uncrowned-solo-raid"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-territory-system",
+        "file": "embers-of-the-uncrowned-territory-system"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "embers-of-the-uncrowned-all-bosses",
+        "file": "embers-of-the-uncrowned-all-bosses"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-beginner-guide",
+        "file": "embers-of-the-uncrowned-beginner-guide"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-buy-or-not",
+        "file": "embers-of-the-uncrowned-buy-or-not"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-how-to-play",
+        "file": "embers-of-the-uncrowned-how-to-play"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-monetization",
+        "file": "embers-of-the-uncrowned-monetization"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-no-pay-to-win",
+        "file": "embers-of-the-uncrowned-no-pay-to-win"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-review",
+        "file": "embers-of-the-uncrowned-review"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-tips",
+        "file": "embers-of-the-uncrowned-tips"
+      }
+    ],
+    "platforms": [
+      {
+        "slug": "embers-of-the-uncrowned-controller-support",
+        "file": "embers-of-the-uncrowned-controller-support"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-crossplay",
+        "file": "embers-of-the-uncrowned-crossplay"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-pc",
+        "file": "embers-of-the-uncrowned-pc"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-ps5",
+        "file": "embers-of-the-uncrowned-ps5"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-steam-deck",
+        "file": "embers-of-the-uncrowned-steam-deck"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-system-requirements",
+        "file": "embers-of-the-uncrowned-system-requirements"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-xbox",
+        "file": "embers-of-the-uncrowned-xbox"
+      }
+    ],
+    "release": [
+      {
+        "slug": "embers-of-the-uncrowned-age-rating",
+        "file": "embers-of-the-uncrowned-age-rating"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-announcement-date",
+        "file": "embers-of-the-uncrowned-announcement-date"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-beta",
+        "file": "embers-of-the-uncrowned-beta"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-demo",
+        "file": "embers-of-the-uncrowned-demo"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-launch-date",
+        "file": "embers-of-the-uncrowned-launch-date"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-live",
+        "file": "embers-of-the-uncrowned-live"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-play-test",
+        "file": "embers-of-the-uncrowned-play-test"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-register",
+        "file": "embers-of-the-uncrowned-register"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-release-date",
+        "file": "embers-of-the-uncrowned-release-date"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-steam-next-fest",
+        "file": "embers-of-the-uncrowned-steam-next-fest"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-steam",
+        "file": "embers-of-the-uncrowned-steam"
+      }
+    ],
+    "story": [
+      {
+        "slug": "embers-of-the-uncrowned-bella",
+        "file": "embers-of-the-uncrowned-bella"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-final-boss",
+        "file": "embers-of-the-uncrowned-final-boss"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-lore",
+        "file": "embers-of-the-uncrowned-lore"
+      }
+    ]
+  },
+  "pt": {
+    "classes": [
+      {
+        "slug": "embers-of-the-uncrowned-all-classes",
+        "file": "embers-of-the-uncrowned-all-classes"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-build",
+        "file": "embers-of-the-uncrowned-build"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-class-anthology",
+        "file": "embers-of-the-uncrowned-class-anthology"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-classes",
+        "file": "embers-of-the-uncrowned-classes"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-executioner",
+        "file": "embers-of-the-uncrowned-executioner"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-spectral-blade",
+        "file": "embers-of-the-uncrowned-spectral-blade"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-stormbringer",
+        "file": "embers-of-the-uncrowned-stormbringer"
+      }
+    ],
+    "gameplay": [
+      {
+        "slug": "embers-of-the-uncrowned-character-creation",
+        "file": "embers-of-the-uncrowned-character-creation"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-combat",
+        "file": "embers-of-the-uncrowned-combat"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-companion-system",
+        "file": "embers-of-the-uncrowned-companion-system"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-controller-gameplay",
+        "file": "embers-of-the-uncrowned-controller-gameplay"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-dungeon",
+        "file": "embers-of-the-uncrowned-dungeon"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-gameplay",
+        "file": "embers-of-the-uncrowned-gameplay"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-guilds",
+        "file": "embers-of-the-uncrowned-guilds"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-house-system",
+        "file": "embers-of-the-uncrowned-house-system"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-mounts",
+        "file": "embers-of-the-uncrowned-mounts"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-pets",
+        "file": "embers-of-the-uncrowned-pets"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-pvp",
+        "file": "embers-of-the-uncrowned-pvp"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-raid",
+        "file": "embers-of-the-uncrowned-raid"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-solo-raid",
+        "file": "embers-of-the-uncrowned-solo-raid"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-territory-system",
+        "file": "embers-of-the-uncrowned-territory-system"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "embers-of-the-uncrowned-all-bosses",
+        "file": "embers-of-the-uncrowned-all-bosses"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-beginner-guide",
+        "file": "embers-of-the-uncrowned-beginner-guide"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-buy-or-not",
+        "file": "embers-of-the-uncrowned-buy-or-not"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-how-to-play",
+        "file": "embers-of-the-uncrowned-how-to-play"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-monetization",
+        "file": "embers-of-the-uncrowned-monetization"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-no-pay-to-win",
+        "file": "embers-of-the-uncrowned-no-pay-to-win"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-review",
+        "file": "embers-of-the-uncrowned-review"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-tips",
+        "file": "embers-of-the-uncrowned-tips"
+      }
+    ],
+    "platforms": [
+      {
+        "slug": "embers-of-the-uncrowned-controller-support",
+        "file": "embers-of-the-uncrowned-controller-support"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-crossplay",
+        "file": "embers-of-the-uncrowned-crossplay"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-pc",
+        "file": "embers-of-the-uncrowned-pc"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-ps5",
+        "file": "embers-of-the-uncrowned-ps5"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-steam-deck",
+        "file": "embers-of-the-uncrowned-steam-deck"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-system-requirements",
+        "file": "embers-of-the-uncrowned-system-requirements"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-xbox",
+        "file": "embers-of-the-uncrowned-xbox"
+      }
+    ],
+    "release": [
+      {
+        "slug": "embers-of-the-uncrowned-age-rating",
+        "file": "embers-of-the-uncrowned-age-rating"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-announcement-date",
+        "file": "embers-of-the-uncrowned-announcement-date"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-beta",
+        "file": "embers-of-the-uncrowned-beta"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-demo",
+        "file": "embers-of-the-uncrowned-demo"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-launch-date",
+        "file": "embers-of-the-uncrowned-launch-date"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-live",
+        "file": "embers-of-the-uncrowned-live"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-play-test",
+        "file": "embers-of-the-uncrowned-play-test"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-register",
+        "file": "embers-of-the-uncrowned-register"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-release-date",
+        "file": "embers-of-the-uncrowned-release-date"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-steam-next-fest",
+        "file": "embers-of-the-uncrowned-steam-next-fest"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-steam",
+        "file": "embers-of-the-uncrowned-steam"
+      }
+    ],
+    "story": [
+      {
+        "slug": "embers-of-the-uncrowned-bella",
+        "file": "embers-of-the-uncrowned-bella"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-final-boss",
+        "file": "embers-of-the-uncrowned-final-boss"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-lore",
+        "file": "embers-of-the-uncrowned-lore"
+      }
+    ]
+  },
+  "ru": {
+    "classes": [
+      {
+        "slug": "embers-of-the-uncrowned-all-classes",
+        "file": "embers-of-the-uncrowned-all-classes"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-build",
+        "file": "embers-of-the-uncrowned-build"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-class-anthology",
+        "file": "embers-of-the-uncrowned-class-anthology"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-classes",
+        "file": "embers-of-the-uncrowned-classes"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-executioner",
+        "file": "embers-of-the-uncrowned-executioner"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-spectral-blade",
+        "file": "embers-of-the-uncrowned-spectral-blade"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-stormbringer",
+        "file": "embers-of-the-uncrowned-stormbringer"
+      }
+    ],
+    "gameplay": [
+      {
+        "slug": "embers-of-the-uncrowned-character-creation",
+        "file": "embers-of-the-uncrowned-character-creation"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-combat",
+        "file": "embers-of-the-uncrowned-combat"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-companion-system",
+        "file": "embers-of-the-uncrowned-companion-system"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-controller-gameplay",
+        "file": "embers-of-the-uncrowned-controller-gameplay"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-dungeon",
+        "file": "embers-of-the-uncrowned-dungeon"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-gameplay",
+        "file": "embers-of-the-uncrowned-gameplay"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-guilds",
+        "file": "embers-of-the-uncrowned-guilds"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-house-system",
+        "file": "embers-of-the-uncrowned-house-system"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-mounts",
+        "file": "embers-of-the-uncrowned-mounts"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-pets",
+        "file": "embers-of-the-uncrowned-pets"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-pvp",
+        "file": "embers-of-the-uncrowned-pvp"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-raid",
+        "file": "embers-of-the-uncrowned-raid"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-solo-raid",
+        "file": "embers-of-the-uncrowned-solo-raid"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-territory-system",
+        "file": "embers-of-the-uncrowned-territory-system"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "embers-of-the-uncrowned-all-bosses",
+        "file": "embers-of-the-uncrowned-all-bosses"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-beginner-guide",
+        "file": "embers-of-the-uncrowned-beginner-guide"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-buy-or-not",
+        "file": "embers-of-the-uncrowned-buy-or-not"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-how-to-play",
+        "file": "embers-of-the-uncrowned-how-to-play"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-monetization",
+        "file": "embers-of-the-uncrowned-monetization"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-no-pay-to-win",
+        "file": "embers-of-the-uncrowned-no-pay-to-win"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-review",
+        "file": "embers-of-the-uncrowned-review"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-tips",
+        "file": "embers-of-the-uncrowned-tips"
+      }
+    ],
+    "platforms": [
+      {
+        "slug": "embers-of-the-uncrowned-controller-support",
+        "file": "embers-of-the-uncrowned-controller-support"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-crossplay",
+        "file": "embers-of-the-uncrowned-crossplay"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-pc",
+        "file": "embers-of-the-uncrowned-pc"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-ps5",
+        "file": "embers-of-the-uncrowned-ps5"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-steam-deck",
+        "file": "embers-of-the-uncrowned-steam-deck"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-system-requirements",
+        "file": "embers-of-the-uncrowned-system-requirements"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-xbox",
+        "file": "embers-of-the-uncrowned-xbox"
+      }
+    ],
+    "release": [
+      {
+        "slug": "embers-of-the-uncrowned-age-rating",
+        "file": "embers-of-the-uncrowned-age-rating"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-announcement-date",
+        "file": "embers-of-the-uncrowned-announcement-date"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-beta",
+        "file": "embers-of-the-uncrowned-beta"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-demo",
+        "file": "embers-of-the-uncrowned-demo"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-launch-date",
+        "file": "embers-of-the-uncrowned-launch-date"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-live",
+        "file": "embers-of-the-uncrowned-live"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-play-test",
+        "file": "embers-of-the-uncrowned-play-test"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-register",
+        "file": "embers-of-the-uncrowned-register"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-release-date",
+        "file": "embers-of-the-uncrowned-release-date"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-steam-next-fest",
+        "file": "embers-of-the-uncrowned-steam-next-fest"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-steam",
+        "file": "embers-of-the-uncrowned-steam"
+      }
+    ],
+    "story": [
+      {
+        "slug": "embers-of-the-uncrowned-bella",
+        "file": "embers-of-the-uncrowned-bella"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-final-boss",
+        "file": "embers-of-the-uncrowned-final-boss"
+      },
+      {
+        "slug": "embers-of-the-uncrowned-lore",
+        "file": "embers-of-the-uncrowned-lore"
+      }
+    ]
+  }
+}
