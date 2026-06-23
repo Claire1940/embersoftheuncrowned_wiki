@@ -1,0 +1,198 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Embers of the Uncrowned World Boss: Raid Tactics & Rewards",
+  description: "Master the Embers of the Uncrowned world boss encounters. Learn raid mechanics, party setups, and exclusive drops for Domain and Field bosses.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/15161a/fff?text=World+Boss+Guide",
+  date: "2026-06-24",
+  author: "embers of the uncrowned Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Primary target**: Defeating an **embers of the uncrowned world boss** requires mastering manual combat, precise evasion, and team coordination.
+- **Key mechanics**: Focus on the stagger window and interrupt timing to break heavy boss skills and maximize damage.
+- **Optimal setup**: Combine Executioner for stagger pressure, Stormbringer for ranged damage, and Spectral Blade for burst.
+- **Essential prep**: Upgrade your settlement buildings and bring Eslyn to unlock powerful companion combat synergies.
+</Callout>
+
+<Section icon={Map} title="Embers of the Uncrowned World Boss Types and Mechanics">
+
+Confronting an **embers of the uncrowned world boss** serves as the ultimate test of your combat capabilities in NEXON's dark fantasy Action MMORPG. The Steam Next Fest demo, released on June 13, 2026, showcases a robust endgame and cooperative layer featuring 12 unique boss monsters. These encounters are split across various types, each requiring distinct party setups, tactical coordination, and mechanical execution.
+
+Understanding the differences between these boss encounters is the first step toward reclaiming House Harborwell. While some bosses roam the open fields of the Amber Coast, others reside in instanced raid zones that demand high-level coordination and precise execution.
+
+| Boss Category | Encounter Type | Player Setup | Main Objective |
+|---|---|---|---|
+| **Domain Bosses** | Open co-op land-reclaiming | Open matchmaking / Public | Defeat occupying forces to restore House Harborwell |
+| **Raid Bosses** | High-coordination instanced | Coordinated group play | Execute tactical mechanics to defeat powerful threats |
+| **Field Bosses** | Open-world multiplayer | Solo or public parties | Defeat large threats roaming liberated and contested areas |
+| **Defense of Spring** | Objective-based PvE | Coordinated defense | Defend key landmarks while managing boss-level pressure |
+
+<Callout type="warning" title="Anti-Cheat System Warning">
+Embers of the Uncrowned uses kernel-level NGS (Nexon Game Security). Ensure your system meets the minimum requirements (Windows 11 64-bit, 30 GB storage) and note that NGS requires manual removal if you choose to uninstall the demo.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Combat Mechanics: Evasion, Interrupts, and Stagger Windows">
+
+Manual isometric combat is the core pillar of the combat system. To defeat any high-tier boss, you must look beyond basic attack spam and master the active defensive options built into the engine. Bosses possess massive health pools and devastating area-of-effect (AoE) attacks that can easily wipe an unprepared party.
+
+The combat flow relies on three primary mechanics: precise evasion, skill interrupts, and executing damage during stagger windows. Evasion consumes Stamina Points (SP), meaning you cannot dodge indefinitely. Managing this resource is critical during prolonged encounters.
+
+| Mechanic | Resource Cost | Visual Indicator | Strategic Purpose |
+|---|---|---|---|
+| **Evasion** | Medium SP | Character dash animation | Avoid lethal AoE patterns and reposition behind the boss |
+| **Interrupt** | Skill Cooldown | Blue or yellow casting bar | Break dangerous boss skills and prevent wipe mechanics |
+| **Stagger** | None | Depleting posture/stagger bar | Create a high-damage burst window with critical modifiers |
+
+To successfully handle a boss wipe mechanic, follow this standard tactical sequence:
+
+<Steps>
+  <Step num="1" title="Identify the Cast Bar">
+    Watch the boss's overhead casting bar. A glowing blue or yellow outline indicates an interruptible spell that will deal massive party-wide damage if completed.
+  </Step>
+  <Step num="2" title="Deploy Crowd Control (CC) Skills">
+    Coordinate with your team to unleash heavy CC or specialized interrupt skills. Executioners should lead with shock-inducing strikes, while Stormbringers apply elemental pressure.
+  </Step>
+  <Step num="3" title="Expose the Stagger Window">
+    Once the interrupt succeeds, the boss's stagger bar will deplete rapidly. Hit the boss with high-impact skills to trigger the staggered state, rendering them defenseless.
+  </Step>
+  <Step num="4" title="Unleash Burst Damage">
+    With the boss staggered, swap to high-damage modifiers. Spectral Blades should utilize Rear Strike bonuses, while Stormbringers cast their longest cooldown elemental spells.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Stamina Management">
+Never exhaust your SP bar entirely on minor attacks. Always keep at least one dodge charge available to escape sudden ground-targeted hazards or boss charge attacks.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Class Roles: Optimizing Builds for World Boss Raids">
+
+The demo features three playable classes: Executioner, Stormbringer, and Spectral Blade. Each class brings a unique mechanical identity, resource system, and elemental focus to cooperative encounters. Creating a balanced party is essential when tackling raid-level bosses, as solo-focused builds often lack the utility needed to survive complex mechanics.
+
+<CardGrid cols={3}>
+  <Card title="Executioner (S-Tier)">
+    - **Role**: Heavy melee vanguard & stagger specialist
+    - **Mechanic**: Builds Rage to trigger Fury state
+    - **Elements**: Physical and Fire
+    - **Best For**: Breaking boss posture and absorbing heavy physical hits
+  </Card>
+  <Card title="Stormbringer (A-Tier)">
+    - **Role**: Ranged magical DPS & crowd control
+    - **Mechanic**: Dual elemental forces (Wind/Lightning)
+    - **Elements**: Wind and Lightning
+    - **Best For**: Safe ranged DPS and consistent elemental pressure
+  </Card>
+  <Card title="Spectral Blade (A-Tier)">
+    - **Role**: Melee assassin & burst specialist
+    - **Mechanic**: Shade generation and Phantom summons
+    - **Elements**: Physical and Darkness
+    - **Best For**: High single-target DPS and exploiting rear-strike windows
+  </Card>
+</CardGrid>
+
+Class synergy determines how quickly your team can clear encounters. While a party of three Executioners can stagger bosses easily, they will struggle with high-mobility targets or phases that require ranged coordination.
+
+| Class Combination | Stagger Speed | Survivability | DPS Output | Synergy Rating |
+|---|---|---|---|---|
+| **Executioner + Stormbringer + Spectral Blade** | Fast | High | Very High | ★★★★★ (Perfect) |
+| **Executioner + Executioner + Stormbringer** | Extremely Fast | Very High | Moderate | ★★★★☆ (Durable) |
+| **Stormbringer + Stormbringer + Spectral Blade** | Slow | Low | High | ★★★☆☆ (Glass Cannon) |
+| **Spectral Blade + Spectral Blade + Spectral Blade** | Moderate | Low | Extremely High | ★★☆☆☆ (High Skill) |
+
+<Callout type="success" title="Build Customization">
+Each class features 28-29 active and passive skills. Do not stick to a generic leveling build for boss encounters; swap your passive progression toward defense shredding and stagger damage before entering a raid.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Companion Support: Maximizing Eslyn's Combat Value">
+
+Companions in Embers of the Uncrowned are fully integrated combat partners rather than cosmetic additions. The demo highlights Eslyn as your primary companion, offering 17 unique companion skills and exclusive affinity-based questlines. Her growth directly impacts your performance against the world boss pool.
+
+Eslyn provides critical defensive buffs, healing zones, and distraction mechanics that allow melee classes to reposition for rear attacks. Enhancing her affinity unlocks stronger combat modifiers and deeper tactical options.
+
+| Companion Feature | Combat Application | Progression Impact |
+|---|---|---|
+| **Eslyn's Base Skills** | Healing, threat generation, and minor crowd control | Provides a safety net for solo and small-group play |
+| **17 Companion Skills** | Custom skill loadouts for different boss patterns | Allows tailoring companion utility to match your class build |
+| **Affinity Questlines** | Unlocks exclusive companion gear and stat boosts | Increases companion survivability in high-damage raid phases |
+| **Combat Synergy** | Combines companion skills with player active skills | Triggers powerful combo effects during stagger windows |
+
+Before launching a cooperative boss fight, run through this preparation checklist to ensure your team and companions are fully optimized.
+
+<Checklist
+  id="boss-prep"
+  title="World Boss Raid Preparation Checklist:"
+  items={[
+    "Equip active Skill Gems that match your target's elemental weakness",
+    "Set Eslyn's companion skill loadout to defensive/healing support",
+    "Complete affinity quests to maximize your companion's base stats",
+    "Ensure all party members have active HP/MP potions slotted",
+    "Upgrade your settlement's crafting facilities for high-tier gear"
+  ]}
+/>
+
+<Callout type="info" title="Affinity Priority">
+Do not neglect Eslyn's exclusive questlines. The stat multipliers gained from high affinity levels are crucial for keeping her alive during late-game boss encounters.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Loot and Progression: Reclaiming House Harborwell">
+
+Defeating world bosses is not just about personal glory; it is the primary engine driving your settlement's progression. The game features a camp-to-city settlement system centered around House Harborwell. Reclaiming lost domains unlocks upgradeable buildings, research options, and advanced crafting facilities.
+
+The demo includes three main regions and 10 explorable or liberatable zones. Clearing these zones of Domain Bosses allows you to upgrade up to seven different settlement buildings, transforming your humble mercenary camp into a thriving dark fantasy stronghold.
+
+| Settlement Building | Boss-Related Function | Upgrade Priority |
+|---|---|---|
+| **Forge / Smithy** | Crafts and enhances high-tier weapons and armor | High (Directly increases DPS and defense) |
+| **Alchemist Lab** | Crafts high-potency HP, MP, and buff potions | Medium (Essential for surviving long raids) |
+| **Research Center** | Unlocks passive bonuses against specific boss types | High (Reduces incoming damage from Domain Bosses) |
+| **Trading Post** | Allows trading rare boss drops for crafting materials | Low (Useful for finishing specific gear sets) |
+
+Bosses drop rare Skill Gems, gear enhancement materials, and bloodline awakening tokens. These items feed into the "Infinite Progression" system, allowing you to continually push your character's combat power beyond standard level caps.
+
+<Callout type="success" title="Settlement Synergy">
+Always return to House Harborwell after defeating a Domain Boss. Upgrading your buildings immediately unlocks better crafting recipes, giving you a competitive edge for the next encounter.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "How many players are required to defeat an Embers of the Uncrowned world boss?",
+    answer: "While some Field Bosses can be tackled solo with a highly optimized companion like Eslyn, Raid Bosses and Domain Bosses are designed for cooperative group play. A coordinated party of three players is highly recommended to handle stagger and interrupt mechanics effectively."
+  },
+  {
+    question: "Can I change my class build specifically for a world boss encounter?",
+    answer: "Yes. Each class features 28-29 skills with flexible active and passive progression trees. You can swap your skills and equip different Skill Gems to match the elemental weaknesses or mechanical demands of specific boss fights."
+  },
+  {
+    question: "What is the difference between Domain Bosses and Raid Bosses?",
+    answer: "Domain Bosses are open co-op encounters tied to region liberation and settlement growth for House Harborwell. Raid Bosses are highly coordinated, instanced encounters that require strict mechanical execution, precise positioning, and specific party roles to overcome."
+  },
+  {
+    question: "How do companions support players during world boss fights?",
+    answer: "Companions like Eslyn act as active combat partners. They utilize up to 17 unique skills to provide healing, draw boss aggression, apply elemental debuffs, and trigger powerful combat synergies that bolster your class's damage output."
+  }
+]} />
+
+<Callout type="info" title="Official Links">
+For the latest news, developer updates, and community discussions, visit the [NEXON Official Site](https://embersoftheuncrowned.nexon.com/) or join the official [Discord Community](https://discord.gg/playeotu).
+</Callout>
+
+</Section>

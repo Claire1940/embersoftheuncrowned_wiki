@@ -1,0 +1,198 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Jefe de mundo de Embers of the Uncrowned: Tácticas de incursión y recompensas",
+  description: "Domina los encuentros con los jefes de mundo de Embers of the Uncrowned. Aprende las mecánicas de incursión, configuraciones de grupo y botines exclusivos para jefes de dominio y de campo.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/15161a/fff?text=World+Boss+Guide",
+  date: "2026-06-24",
+  author: "Equipo de la Wiki de Embers of the Uncrowned"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Objetivo principal**: Derrotar a un **jefe de mundo de embers of the uncrowned** requiere dominar el combate manual, la evasión precisa y la coordinación en equipo.
+- **Mecánicas clave**: Concéntrate en la ventana de aturdimiento y en el momento de la interrupción para romper las habilidades pesadas del jefe y maximizar el daño.
+- **Configuración óptima**: Combina al Executioner para presionar con aturdimiento, al Stormbringer para daño a distancia y a la Spectral Blade para daño explosivo.
+- **Preparación esencial**: Mejora los edificios de tu asentamiento y lleva a Eslyn para desbloquear poderosas sinergias de combate con compañeros.
+</Callout>
+
+<Section icon={Map} title="Tipos y mecánicas de jefes de mundo en Embers of the Uncrowned">
+
+Enfrentarse a un **jefe de mundo de embers of the uncrowned** es la prueba definitiva de tus capacidades de combate en el RPG de acción multijugador masivo en línea (Action MMORPG) de fantasía oscura de NEXON. La demo de Steam Next Fest, lanzada el 13 de junio de 2026, presenta un sólido contenido de juego final (endgame) y una capa cooperativa con 12 monstruos jefe únicos. Estos encuentros se dividen en varios tipos, y cada uno requiere configuraciones de grupo, coordinación táctica y ejecución mecánica distintas.
+
+Comprender las diferencias entre estos encuentros de jefes es el primer paso para reclamar House Harborwell. Mientras que algunos jefes deambulan por los campos abiertos de la Costa de Ámbar (Amber Coast), otros residen en zonas de incursión (raid) instanciadas que exigen una coordinación de alto nivel y una ejecución precisa.
+
+| Categoría de jefe | Tipo de encuentro | Configuración de jugadores | Objetivo principal |
+|---|---|---|---|
+| **Jefes de dominio** | Cooperativo abierto de reclamación de tierras | Emparejamiento abierto / Público | Derrotar a las fuerzas de ocupación para restaurar House Harborwell |
+| **Jefes de incursión (Raid)** | Instanciado de alta coordinación | Juego en grupo coordinado | Ejecutar mecánicas tácticas para derrotar amenazas poderosas |
+| **Jefes de campo** | Multijugador de mundo abierto | Partidas en solitario o públicas | Derrotar grandes amenazas que deambulan por áreas liberadas y disputadas |
+| **Defensa de la primavera (Defense of Spring)** | PvE basado en objetivos | Defensa coordinada | Defender puntos de referencia clave mientras se gestiona la presión a nivel de jefe |
+
+<Callout type="warning" title="Advertencia del sistema antitrampas">
+Embers of the Uncrowned utiliza NGS (Nexon Game Security) a nivel de kernel. Asegúrate de que tu sistema cumpla con los requisitos mínimos (Windows 11 de 64 bits, 30 GB de almacenamiento) y ten en cuenta que NGS requiere una eliminación manual si decides desinstalar la demo.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Mecánicas de combate: Evasión, interrupciones y ventanas de aturdimiento">
+
+El combate isométrico manual es el pilar central del sistema de combate. Para derrotar a cualquier jefe de alto nivel, debes mirar más allá del simple spam de ataques básicos y dominar las opciones defensivas activas integradas en el motor. Los jefes poseen enormes reservas de salud y devastadores ataques de área de efecto (AoE) que pueden acabar fácilmente con un grupo que no esté preparado.
+
+El flujo del combate depende de tres mecánicas principales: evasión precisa, interrupciones de habilidades y ejecución de daño durante las ventanas de aturdimiento (stagger). La evasión consume puntos de energía (SP), lo que significa que no puedes esquivar indefinidamente. Gestionar este recurso es fundamental durante los encuentros prolongados.
+
+| Mecánica | Coste de recursos | Indicador visual | Propósito estratégico |
+|---|---|---|---|
+| **Evasión** | SP medio | Animación de deslizamiento del personaje | Evitar patrones de AoE letales y reposicionarse detrás del jefe |
+| **Interrupción** | Enfriamiento de habilidad | Barra de canalización azul o amarilla | Interrumpir habilidades peligrosas del jefe y evitar mecánicas de aniquilación (wipe) |
+| **Aturdimiento (Stagger)** | Ninguno | Barra de postura/aturdimiento que se agota | Crear una ventana de daño explosivo (burst) con modificadores críticos |
+
+To successfully handle a boss wipe mechanic, follow this standard tactical sequence:
+
+<Steps>
+  <Step num="1" title="Identificar la barra de canalización">
+    Vigila la barra de canalización sobre la cabeza del jefe. Un contorno azul o amarillo brillante indica un hechizo interrumpible que infligirá un daño masivo a todo el grupo si se completa.
+  </Step>
+  <Step num="2" title="Desplegar habilidades de control de masas (CC)">
+    Coordínate con tu equipo para desatar habilidades de CC pesado o de interrupción especializada. Los Executioners deben liderar con golpes que induzcan conmoción, mientras que los Stormbringers aplican presión elemental.
+  </Step>
+  <Step num="3" title="Exponer la ventana de aturdimiento">
+    Una vez que la interrupción tenga éxito, la barra de aturdimiento del jefe se agotará rápidamente. Golpea al jefe con habilidades de alto impacto para activar el estado aturdido, dejándolo indefenso.
+  </Step>
+  <Step num="4" title="Desatar daño explosivo (Burst)">
+    Con el jefe aturdido, cambia a modificadores de alto daño. Los Spectral Blades deben utilizar las bonificaciones de Ataque Trasero (Rear Strike), mientras que los Stormbringers lanzan sus hechizos elementales con el tiempo de enfriamiento más largo.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Gestión de resistencia (Stamina)">
+Nunca agotes por completo tu barra de SP en ataques menores. Mantén siempre al menos una carga de esquiva disponible para escapar de peligros repentinos en el suelo o de ataques de carga del jefe.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Roles de clase: Optimización de builds para incursiones de jefes de mundo">
+
+La demo presenta tres clases jugables: Executioner, Stormbringer y Spectral Blade. Cada clase aporta una identidad mecánica única, un sistema de recursos y un enfoque elemental a los encuentros cooperativos. Crear un grupo equilibrado es esencial al enfrentarse a jefes de nivel de incursión, ya que las builds centradas en el juego en solitario a menudo carecen de la utilidad necesaria para sobrevivir a mecánicas complejas.
+
+<CardGrid cols={3}>
+  <Card title="Executioner (Tier S)">
+    - **Rol**: Vanguardia cuerpo a cuerpo pesado y especialista en aturdimiento
+    - **Mecánica**: Acumula ira para activar el estado de furia
+    - **Elementos**: Físico y Fuego
+    - **Ideal para**: Romper la postura del jefe y absorber golpes físicos pesados
+  </Card>
+  <Card title="Stormbringer (Tier A)">
+    - **Rol**: DPS mágico a distancia y control de masas
+    - **Mecánica**: Fuerzas elementales duales (Viento/Rayo)
+    - **Elementos**: Viento y Rayo
+    - **Ideal para**: DPS seguro a distancia y presión elemental constante
+  </Card>
+  <Card title="Spectral Blade (Tier A)">
+    - **Rol**: Asesino cuerpo a cuerpo y especialista en daño explosivo (burst)
+    - **Mecánica**: Generación de sombras y convocación de fantasmas
+    - **Elementos**: Físico y Oscuridad
+    - **Ideal para**: Alto DPS a un solo objetivo y aprovechar las ventanas de ataque trasero
+  </Card>
+</CardGrid>
+
+La sinergia de clases determina qué tan rápido puede tu equipo superar los encuentros. Aunque un grupo de tres Executioners puede aturdir a los jefes fácilmente, tendrán dificultades con objetivos de alta movilidad o fases que requieran coordinación a distancia.
+
+| Combinación de clases | Velocidad de aturdimiento | Supervivencia | Rendimiento de DPS | Calificación de sinergia |
+|---|---|---|---|---|
+| **Executioner + Stormbringer + Spectral Blade** | Rápida | Alta | Muy alto | ★★★★★ (Perfecta) |
+| **Executioner + Executioner + Stormbringer** | Extremadamente rápida | Muy alta | Moderado | ★★★★☆ (Duradera) |
+| **Stormbringer + Stormbringer + Spectral Blade** | Lenta | Baja | Alto | ★★★☆☆ (Cañón de cristal) |
+| **Spectral Blade + Spectral Blade + Spectral Blade** | Moderada | Baja | Extremadamente alto | ★★☆☆☆ (Alta habilidad) |
+
+<Callout type="success" title="Personalización de la Build">
+Cada clase cuenta con 28-29 habilidades activas y pasivas. No te limites a una build genérica de subida de nivel para los encuentros con jefes; cambia tu progresión pasiva hacia la reducción de defensa y el daño de aturdimiento antes de entrar a una incursión.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Soporte de compañeros: Maximizar el valor de combate de Eslyn">
+
+Los compañeros en Embers of the Uncrowned son socios de combate totalmente integrados en lugar de adiciones cosméticas. La demo destaca a Eslyn como tu compañera principal, ofreciendo 17 habilidades de compañero únicas y líneas de misión exclusivas basadas en la afinidad. Su crecimiento afecta directamente tu rendimiento contra el repertorio de jefes de mundo.
+
+Eslyn proporciona mejoras defensivas críticas, zonas de curación y mecánicas de distracción que permiten a las clases cuerpo a cuerpo reposicionarse para realizar ataques traseros. Mejorar su afinidad desbloquea modificadores de combate más fuertes y opciones tácticas más profundas.
+
+| Característica del compañero | Aplicación en combate | Impacto en la progresión |
+|---|---|---|
+| **Habilidades básicas de Eslyn** | Curación, generación de amenaza (threat) y control de masas menor | Proporciona una red de seguridad para el juego en solitario y en grupos pequeños |
+| **17 habilidades de compañero** | Conjuntos de habilidades personalizados para diferentes patrones de jefes | Permite adaptar la utilidad del compañero para que coincida con tu build de clase |
+| **Misiones de afinidad** | Desbloquea equipo exclusivo para compañeros y aumentos de estadísticas | Incrementa la supervivencia del compañero en fases de incursión de alto daño |
+| **Sinergia de combate** | Combina habilidades de compañero con habilidades activas del jugador | Activa poderosos efectos de combo durante las ventanas de aturdimiento |
+
+Antes de lanzar una pelea cooperativa contra un jefe, revisa esta lista de preparación para asegurarte de que tu equipo y tus compañeros estén completamente optimizados.
+
+<Checklist
+  id="boss-prep"
+  title="Lista de preparación para la incursión del jefe de mundo:"
+  items={[
+    "Equipa gemas de habilidad activas que coincidan con la debilidad elemental de tu objetivo",
+    "Configura el conjunto de habilidades de compañera de Eslyn para soporte defensivo/curación",
+    "Completa las misiones de afinidad para maximizar las estadísticas base de tu compañera",
+    "Asegúrate de que todos los miembros del grupo tengan pociones de HP/MP activas equipadas",
+    "Mejora las instalaciones de artesanía de tu asentamiento para obtener equipo de alto nivel"
+  ]}
+/>
+
+<Callout type="info" title="Prioridad de afinidad">
+No descuides las misiones exclusivas de Eslyn. Los multiplicadores de estadísticas obtenidos de los niveles altos de afinidad son cruciales para mantenerla con vida durante los encuentros con jefes al final del juego.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Botín y progresión: Reclamando House Harborwell">
+
+Derrotar a los jefes de mundo no es solo una cuestión de gloria personal; es el motor principal que impulsa la progresión de tu asentamiento. El juego cuenta con un sistema de asentamiento que va de campamento a ciudad, centrado en House Harborwell. Reclamar los dominios perdidos desbloquea edificios mejorables, opciones de investigación e instalaciones de artesanía avanzadas.
+
+La demo incluye tres regiones principales y 10 zonas explorables o liberables. Limpiar estas zonas de jefes de dominio te permite mejorar hasta siete edificios de asentamiento diferentes, transformando tu humilde campamento de mercenarios en una próspera fortaleza de fantasía oscura.
+
+| Edificio del asentamiento | Función relacionada con el jefe | Prioridad de mejora |
+|---|---|---|
+| **Forja / Herrería** | Fabrica y mejora armas y armaduras de alto nivel | Alta (Aumenta directamente el DPS y la defensa) |
+| **Laboratorio de alquimia** | Fabrica pociones de HP, MP y mejoras de alta potencia | Media (Esencial para sobrevivir a incursiones largas) |
+| **Centro de investigación** | Desbloquea bonificaciones pasivas contra tipos de jefes específicos | Alta (Reduce el daño recibido de los jefes de dominio) |
+| **Puesto comercial** | Permite intercambiar botines raros de jefes por materiales de artesanía | Baja (Útil para completar conjuntos de equipo específicos) |
+
+Los jefes sueltan gemas de habilidad raras, materiales de mejora de equipo y fichas de despertar de linaje. Estos objetos alimentan el sistema de "Progresión Infinita", lo que te permite aumentar continuamente el poder de combate de tu personaje más allá de los límites de nivel estándar.
+
+<Callout type="success" title="Sinergia del asentamiento">
+Regresa siempre a House Harborwell después de derrotar a un jefe de dominio. Mejorar tus edificios desbloquea inmediatamente mejores recetas de artesanía, dándote una ventaja competitiva para el próximo encuentro.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cuántos jugadores se requieren para derrotar a un jefe de mundo de Embers of the Uncrowned?",
+    answer: "Aunque algunos jefes de campo se pueden enfrentar en solitario con una compañera altamente optimizada como Eslyn, los jefes de incursión y los jefes de dominio están diseñados para el juego en grupo cooperativo. Se recomienda encarecidamente un grupo coordinado de tres jugadores para manejar con eficacia las mecánicas de aturdimiento e interrupción."
+  },
+  {
+    question: "¿Puedo cambiar mi build de clase específicamente para un encuentro con un jefe de mundo?",
+    answer: "Sí. Cada clase cuenta con 28-29 habilidades con árboles de progresión activos y pasivos flexibles. Puedes cambiar tus habilidades y equipar diferentes gemas de habilidad para adaptarte a las debilidades elementales o a las exigencias mecánicas de combates contra jefes específicos."
+  },
+  {
+    question: "¿Cuál es la diferencia entre los jefes de dominio y los jefes de incursión?",
+    answer: "Los jefes de dominio son encuentros cooperativos abiertos vinculados a la liberación de regiones y al crecimiento del asentamiento para House Harborwell. Los jefes de incursión son encuentros instanciados y altamente coordinados que requieren una ejecución mecánica estricta, un posicionamiento preciso y roles de grupo específicos para poder superarse."
+  },
+  {
+    question: "¿Cómo apoyan los compañeros a los jugadores durante los combates contra jefes de mundo?",
+    answer: "Los compañeros como Eslyn actúan como socios de combate activos. Utilizan hasta 17 habilidades únicas para proporcionar curación, atraer la agresión del jefe, aplicar perjuicios (debuffs) elementales y activar poderosas sinergias de combate que aumentan el daño de tu clase."
+  }
+]} />
+
+<Callout type="info" title="Enlaces oficiales">
+Para conocer las últimas noticias, actualizaciones de los desarrolladores y discusiones de la comunidad, visita el [sitio oficial de NEXON](https://embersoftheuncrowned.nexon.com/) o únete a la [comunidad oficial de Discord](https://discord.gg/playeotu).
+</Callout>
+
+</Section>

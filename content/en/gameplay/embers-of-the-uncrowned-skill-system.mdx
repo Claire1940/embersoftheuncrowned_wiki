@@ -1,0 +1,179 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Embers of the Uncrowned Skill System: Build Guide & Progression",
+  description: "Master the Embers of the Uncrowned skill system with our guide on active skills, Skill Gems, and bloodline awakening for all playable demo classes.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/15161A/fff?text=Skill+System+Guide",
+  date: "2026-06-24",
+  author: "embers of the uncrowned Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Primary keyword**: The **embers of the uncrowned skill system** features 28-29 unique skills per class, blending active combat with passive growth.
+- **Key mechanic**: Combat relies on **manual isometric control**, where timing evasions and skill interrupts is critical for survival.
+- **Best strategy**: Focus on **Skill Gem integration** early to unlock infinite progression layers beyond base level caps.
+- **Critical tip**: Use **Bloodline Awakening** to synchronize character legacy with specific elemental damage types like Fire, Wind, or Darkness.
+- **Top choice**: The **Executioner** is currently the most stable class for beginners due to its high Rage-based burst and durability.
+</Callout>
+
+<Section icon={Map} title="Overview of the Embers of the Uncrowned Skill System">
+
+The **embers of the uncrowned skill system** represents the core of NEXON's dark fantasy MMORPG, moving away from automated combat toward a high-engagement, manual tactical experience. In the current 2026 demo, players are introduced to a layered progression model where character power is not merely a reflection of level, but a combination of active skill mastery, passive synergy, and external enhancements. Each of the three playable classes—Executioner, Spectral Blade, and Stormbringer—features a deep library of nearly 30 skills that define their role on the battlefield.
+
+| Skill Category | Function | Resource Cost |
+|---|---|---|
+| **Active Skills** | Direct damage, CC, or utility | MP or Class Resource |
+| **Passive Skills** | Stat buffs and mechanic modifiers | None (Persistent) |
+| **Evasion/Utility** | Defensive movement and recovery | SP (Stamina) |
+| **Bloodline Skills** | High-impact legacy abilities | Awakening Gauge |
+
+The system emphasizes "Infinite Progression," a design philosophy where Skill Gems and gear enhancements allow players to continue refining their builds long after reaching the demo's initial content milestones. This ensures that even within the limited scope of the Steam Next Fest demo, players can experiment with radically different combat styles within the same class.
+
+<Callout type="tip" title="Tactical Combat Tip">
+Success in combat depends on the **Stagger Window**. Use heavy skills to deplete a boss's stagger bar, then unleash your highest-damage skill gems during the vulnerability phase for maximum efficiency.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Class-Specific Skill Mechanics and Identity">
+
+Every class in Embers of the Uncrowned is built around a unique mechanical hook that dictates how skills are sequenced. Understanding these hooks is the first step in mastering the **embers of the uncrowned skill system**.
+
+<CardGrid cols={3}>
+  <Card title="Executioner (Rage)">
+    - **Resource**: Rage built through combat
+    - **Focus**: Heavy melee and Fire damage
+    - **Style**: High-risk, high-reward burst
+  </Card>
+  <Card title="Spectral Blade (Shade)">
+    - **Resource**: Shade stacks and Phantoms
+    - **Focus**: Mobility and Darkness damage
+    - **Style**: Precision combos and deception
+  </Card>
+  <Card title="Stormbringer (Elemental)">
+    - **Resource**: Wind and Lightning charges
+    - **Focus**: Ranged magical pressure
+    - **Style**: Battlefield control and AoE
+  </Card>
+</CardGrid>
+
+The Executioner utilizes a "Fury" mechanic where specific skill chains trigger explosive tempo, allowing for relentless pursuit of enemies. Conversely, the Spectral Blade relies on "Shade Generation," where shadows are consumed to finish skills or teleport across the arena. The Stormbringer manages the dual forces of nature, balancing Wind for positioning and Lightning for raw burst damage.
+
+| Class | Primary Element | Skill Count | Difficulty |
+|---|---|---|---|
+| **Executioner** | Fire / Physical | 29 | Medium |
+| **Spectral Blade** | Darkness / Physical | 28 | High |
+| **Stormbringer** | Wind / Lightning | 28 | Medium |
+
+<Callout type="warning" title="Build Restriction">
+In the 2026 demo, class choices are permanent for that character slot. Ensure you test the playstyle of each class in the opening tutorial before committing your Skill Gems to a specific path.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Skill Gems and Infinite Progression Layers">
+
+The true depth of the **embers of the uncrowned skill system** is found in its modularity. Skill Gems act as the primary vehicle for customization, allowing players to modify the behavior of their active abilities. These gems are not just stat sticks; they can change a skill's elemental affinity, add additional projectiles, or reduce cooldowns based on specific triggers.
+
+**Key Components of Progression:**
+- **Skill Gems**: Socketed into active skills to enhance or alter their primary functions.
+- **Gear Enhancement**: Increases the base effectiveness of the weapon or armor, scaling with the player's level.
+- **Bloodline Awakening**: Connects the character’s inherited power (House Harborwell legacy) to late-game progression.
+
+<Checklist
+  id="skill-gem-checklist"
+  title="Progression Milestones:"
+  items={[
+    "Identify your primary damage skill",
+    "Collect 3 matching elemental Skill Gems",
+    "Enhance gear to +5 for demo stability",
+    "Unlock the first Bloodline Awakening node",
+    "Complete 34 side quests for resource farming"
+  ]}
+/>
+
+<Callout type="success" title="Optimization Tip">
+Don't spread your Skill Gems too thin. Focus on enhancing one "Core" skill and one "Utility" skill to create a reliable rotation for Domain Bosses and Raids.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Bloodline Power and Settlement Synergy">
+
+Progression in Embers of the Uncrowned is inextricably linked to the restoration of House Harborwell. As you liberate regions and upgrade your settlement, you unlock new facets of the **embers of the uncrowned skill system**. The "Bloodline" represents the character's hidden potential as the rightful lord of the domain, providing a separate skill tree that benefits all classes.
+
+| Settlement Feature | Skill System Impact | Unlock Requirement |
+|---|---|---|
+| **Research Lab** | Unlocks advanced Skill Gem crafting | Settlement Level 2 |
+| **Training Grounds** | Passive XP gain for secondary skills | Settlement Level 3 |
+| **Harborwell Forge** | Higher gear enhancement caps | Region Liberation |
+| **Altar of Awakening** | Bloodline node progression | Main Story Chapter 2 |
+
+This synergy ensures that players who engage with the settlement management and exploration aspects of the game are rewarded with a more powerful combat kit. Rebuilding the fallen house isn't just a narrative goal; it is a mechanical necessity for reaching the ceiling of character power.
+
+<Callout type="info" title="Settlement Growth">
+The transition from a humble camp to a vibrant city directly correlates with the number of passive skill slots available in your Bloodline tree. Prioritize House Harborwell upgrades to maximize your build's potential.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Step-by-Step Guide to Building Your Class">
+
+To effectively navigate the **embers of the uncrowned skill system**, players should follow a structured approach to character growth. This ensures resources like Skill Gems and enhancement materials are not wasted on suboptimal configurations during the 2026 demo period.
+
+<Steps>
+  <Step num="1" title="Select Your Combat Identity">
+    Choose between Executioner (Melee/Tank), Spectral Blade (Assassin/DPS), or Stormbringer (Mage/CC). This choice dictates your primary resource management and positioning requirements.
+  </Step>
+  <Step num="2" title="Map Your Active Skill Rotation">
+    Identify 4-5 core active skills that synergize. For example, a Stormbringer should pair a Wind-based displacement skill with a high-damage Lightning burst skill.
+  </Step>
+  <Step num="3" title="Socket Compatible Skill Gems">
+    Insert gems that match your primary elemental focus. If playing a Fire-based Executioner, ensure your gems provide Burn duration or Fire penetration.
+  </Step>
+  <Step num="4" title="Activate Bloodline Nodes">
+    Spend your Awakening points on nodes that support your survival. Early game nodes often provide flat HP or MP recovery, which is vital for sustained boss fights.
+  </Step>
+  <Step num="5" title="Test and Iterate in the Arena">
+    Use the PvP Arena or Domain Bosses to test your build. The **embers of the uncrowned skill system** allows for flexible swapping of Skill Gems, so don't be afraid to adjust based on the encounter.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Pro Strategy">
+In multiplayer Raids, designate one player to focus on **Interrupt Skills**. Having a dedicated "Interrupter" allows the rest of the team to slot high-damage, long-animation Skill Gems without fear of being interrupted by boss mechanics.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Skill System FAQ">
+
+Mastering the intricacies of the **embers of the uncrowned skill system** often leads to common questions regarding respeccing, gem rarity, and multiplayer scaling.
+
+<FAQ items={[
+  {
+    question: "Can I reset my skills in the Embers of the Uncrowned demo?",
+    answer: "Yes, players can respec their active skill points at the Settlement for a small gold fee. However, Skill Gems must be manually removed and replaced, which does not cost resources."
+  },
+  {
+    question: "How do Skill Gems affect the embers of the uncrowned skill system in the long term?",
+    answer: "Skill Gems provide 'Infinite Progression' by allowing players to stack rare modifiers. In the full 2026 release, gems will be the primary way to specialize in late-game Raids and PvP content."
+  },
+  {
+    question: "Are there unique skills tied to House Harborwell?",
+    answer: "The Bloodline Awakening tree is exclusive to the House Harborwell legacy. These skills are powerful, high-cooldown abilities that can turn the tide of a battle."
+  },
+  {
+    question: "Does gear enhancement affect skill damage?",
+    answer: "Absolutely. Skill damage scales directly with your weapon's attack power. Enhancing your gear at the Harborwell Forge is essential for keeping your skills relevant against higher-level Domain Bosses."
+  }
+]} />
+
+</Section>

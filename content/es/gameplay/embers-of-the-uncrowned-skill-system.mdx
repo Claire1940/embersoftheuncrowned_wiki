@@ -1,0 +1,179 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Sistema de Habilidades de Embers of the Uncrowned: Guía de Builds y Progresión",
+  description: "Domina el sistema de habilidades de Embers of the Uncrowned con nuestra guía sobre habilidades activas, Gemas de Habilidad y el despertar del linaje para todas las clases de la demo.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/15161A/fff?text=Skill+System+Guide",
+  date: "2026-06-24",
+  author: "Equipo de la Wiki de Embers of the Uncrowned"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Palabra clave principal**: El **sistema de habilidades de Embers of the Uncrowned** cuenta con 28-29 habilidades únicas por clase, combinando combate activo con crecimiento pasivo.
+- **Mecánica clave**: El combate se basa en un **control isométrico manual**, donde sincronizar las evasiones e interrupciones de habilidades es crítico para la supervivencia.
+- **Mejor estrategia**: Enfócate temprano en la **integración de Gemas de Habilidad** para desbloquear capas de progresión infinita más allá de los límites de nivel base.
+- **Consejo crítico**: Usa el **Despertar del Linaje** para sincronizar el legado del personaje con tipos de daño elemental específicos como Fuego, Viento o Oscuridad.
+- **Mejor elección**: El **Ejecutor** es actualmente la clase más estable para principiantes debido a su durabilidad y ráfagas de daño basadas en Ira.
+</Callout>
+
+<Section icon={Map} title="Resumen del sistema de habilidades de Embers of the Uncrowned">
+
+El **sistema de habilidades de Embers of the Uncrowned** representa el núcleo del MMORPG de fantasía oscura de NEXON, alejándose del combate automatizado hacia una experiencia táctica manual de alto compromiso. En la demo actual de 2026, los jugadores conocen un modelo de progresión por capas donde el poder del personaje no es solo un reflejo del nivel, sino una combinación de maestría en habilidades activas, sinergia pasiva y mejoras externas. Cada una de las tres clases jugables —Ejecutor, Hoja Espectral y Clama Tormentas— cuenta con una profunda biblioteca de casi 30 habilidades que definen su rol en el campo de batalla.
+
+| Categoría de Habilidad | Función | Coste de Recurso |
+|---|---|---|
+| **Habilidades Activas** | Daño directo, CC o utilidad | MP o Recurso de Clase |
+| **Habilidades Pasivas** | Mejoras de estadísticas y modificadores | Ninguno (Persistente) |
+| **Evasión/Utilidad** | Movimiento defensivo y recuperación | SP (Estamina) |
+| **Habilidades de Linaje** | Habilidades de legado de gran impacto | Medidor de Despertar |
+
+El sistema enfatiza la "Progresión Infinita", una filosofía de diseño donde las Gemas de Habilidad y las mejoras de equipo permiten a los jugadores seguir refinando sus builds mucho después de alcanzar los hitos iniciales de contenido de la demo. Esto asegura que, incluso dentro del alcance limitado de la demo del Steam Next Fest, los jugadores puedan experimentar con estilos de combate radicalmente diferentes dentro de la misma clase.
+
+<Callout type="tip" title="Consejo de Combate Táctico">
+El éxito en el combate depende de la **Ventana de Aturdimiento**. Usa habilidades pesadas para agotar la barra de aturdimiento de un jefe, luego desata tus gemas de habilidad de mayor daño durante la fase de vulnerabilidad para una máxima eficiencia.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Mecánicas de Habilidad Específicas de Clase e Identidad">
+
+Cada clase en Embers of the Uncrowned está construida alrededor de un gancho mecánico único que dicta cómo se secuencian las habilidades. Comprender estos ganchos es el primer paso para dominar el **sistema de habilidades de Embers of the Uncrowned**.
+
+<CardGrid cols={3}>
+  <Card title="Ejecutor (Ira)">
+    - **Recurso**: Ira generada mediante el combate
+    - **Enfoque**: Cuerpo a cuerpo pesado y daño de Fuego
+    - **Estilo**: Ráfagas de alto riesgo y alta recompensa
+  </Card>
+  <Card title="Hoja Espectral (Sombra)">
+    - **Recurso**: Acumulaciones de Sombra y Fantasmas
+    - **Enfoque**: Movilidad y daño de Oscuridad
+    - **Estilo**: Combos de precisión y engaño
+  </Card>
+  <Card title="Clama Tormentas (Elemental)">
+    - **Recurso**: Cargas de Viento y Rayo
+    - **Enfoque**: Presión mágica a distancia
+    - **Estilo**: Control del campo de batalla y AoE
+  </Card>
+</CardGrid>
+
+El Ejecutor utiliza una mecánica de "Furia" donde cadenas de habilidades específicas activan un ritmo explosivo, permitiendo una persecución implacable de los enemigos. Por el contrario, la Hoja Espectral depende de la "Generación de Sombra", donde las sombras se consumen para finalizar habilidades o teletransportarse por la arena. El Clama Tormentas gestiona las fuerzas duales de la naturaleza, equilibrando el Viento para el posicionamiento y el Rayo para el daño de ráfaga pura.
+
+| Clase | Elemento Primario | Cantidad de Habilidades | Dificultad |
+|---|---|---|---|
+| **Ejecutor** | Fuego / Físico | 29 | Media |
+| **Hoja Espectral** | Oscuridad / Físico | 28 | Alta |
+| **Clama Tormentas** | Viento / Rayo | 28 | Media |
+
+<Callout type="warning" title="Restricción de Build">
+En la demo de 2026, las elecciones de clase son permanentes para ese espacio de personaje. Asegúrate de probar el estilo de juego de cada clase en el tutorial de apertura antes de comprometer tus Gemas de Habilidad en un camino específico.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Gemas de Habilidad y Capas de Progresión Infinita">
+
+La verdadera profundidad del **sistema de habilidades de Embers of the Uncrowned** se encuentra en su modularidad. Las Gemas de Habilidad actúan como el vehículo principal para la personalización, permitiendo a los jugadores modificar el comportamiento de sus habilidades activas. Estas gemas no son solo potenciadores de estadísticas; pueden cambiar la afinidad elemental de una habilidad, añadir proyectiles adicionales o reducir los enfriamientos basados en activadores específicos.
+
+**Componentes Clave de la Progresión:**
+- **Gemas de Habilidad**: Se engarzan en habilidades activas para mejorar o alterar sus funciones principales.
+- **Mejora de Equipo**: Aumenta la efectividad base del arma o armadura, escalando con el nivel del jugador.
+- **Despertar del Linaje**: Conecta el poder heredado del personaje (legado de la Casa Harborwell) con la progresión del juego tardío.
+
+<Checklist
+  id="skill-gem-checklist"
+  title="Hitos de Progresión:"
+  items={[
+    "Identifica tu habilidad de daño principal",
+    "Colecciona 3 Gemas de Habilidad elementales a juego",
+    "Mejora el equipo a +5 para estabilidad en la demo",
+    "Desbloquea el primer nodo del Despertar del Linaje",
+    "Completa 34 misiones secundarias para cultivar recursos"
+  ]}
+/>
+
+<Callout type="success" title="Consejo de Optimización">
+No disperses demasiado tus Gemas de Habilidad. Enfócate en mejorar una habilidad "Núcleo" y una habilidad de "Utilidad" para crear una rotación confiable para Jefes de Dominio y Raids.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Poder del Linaje y Sinergia con el Asentamiento">
+
+La progresión en Embers of the Uncrowned está inextricablemente ligada a la restauración de la Casa Harborwell. A medida que liberas regiones y mejoras tu asentamiento, desbloqueas nuevas facetas del **sistema de habilidades de Embers of the Uncrowned**. El "Linaje" representa el potencial oculto del personaje como el legítimo señor del dominio, proporcionando un árbol de habilidades separado que beneficia a todas las clases.
+
+| Característica del Asentamiento | Impacto en el Sistema de Habilidades | Requisito de Desbloqueo |
+|---|---|---|
+| **Laboratorio de Investigación** | Desbloquea artesanía avanzada de Gemas de Habilidad | Nivel de Asentamiento 2 |
+| **Campos de Entrenamiento** | Ganancia pasiva de XP para habilidades secundarias | Nivel de Asentamiento 3 |
+| **Forja de Harborwell** | Límites más altos de mejora de equipo | Liberación de Región |
+| **Altar del Despertar** | Progresión de nodos de Linaje | Capítulo 2 de la Historia Principal |
+
+Esta sinergia asegura que los jugadores que se involucren con la gestión del asentamiento y los aspectos de exploración del juego sean recompensados con un kit de combate más poderoso. Reconstruir la casa caída no es solo un objetivo narrativo; es una necesidad mecánica para alcanzar el techo del poder del personaje.
+
+<Callout type="info" title="Crecimiento del Asentamiento">
+La transición de un humilde campamento a una ciudad vibrante se correlaciona directamente con el número de ranuras de habilidades pasivas disponibles en tu árbol de Linaje. Prioriza las mejoras de la Casa Harborwell para maximizar el potencial de tu build.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Guía Paso a Paso para Construir tu Clase">
+
+Para navegar eficazmente por el **sistema de habilidades de Embers of the Uncrowned**, los jugadores deben seguir un enfoque estructurado para el crecimiento del personaje. Esto asegura que recursos como las Gemas de Habilidad y los materiales de mejora no se desperdicien en configuraciones subóptimas durante el periodo de la demo de 2026.
+
+<Steps>
+  <Step num="1" title="Selecciona tu Identidad de Combate">
+    Elige entre Ejecutor (Cuerpo a cuerpo/Tanque), Hoja Espectral (Asesino/DPS) o Clama Tormentas (Mago/CC). Esta elección dicta tu gestión de recursos principal y los requisitos de posicionamiento.
+  </Step>
+  <Step num="2" title="Planifica tu Rotación de Habilidades Activas">
+    Identifica 4-5 habilidades activas centrales que tengan sinergia. Por ejemplo, un Clama Tormentas debería emparejar una habilidad de desplazamiento basada en Viento con una habilidad de ráfaga de Rayo de alto daño.
+  </Step>
+  <Step num="3" title="Engarza Gemas de Habilidad Compatibles">
+    Inserta gemas que coincidan con tu enfoque elemental principal. Si juegas un Ejecutor de Fuego, asegúrate de que tus gemas proporcionen duración de Quemadura o penetración de Fuego.
+  </Step>
+  <Step num="4" title="Activa Nodos de Linaje">
+    Gasta tus puntos de Despertar en nodos que apoyen tu supervivencia. Los nodos del juego temprano a menudo proporcionan recuperación plana de HP o MP, lo cual es vital para peleas prolongadas contra jefes.
+  </Step>
+  <Step num="5" title="Prueba e Itera en la Arena">
+    Usa la Arena PvP o los Jefes de Dominio para probar tu build. El **sistema de habilidades de Embers of the Uncrowned** permite el intercambio flexible de Gemas de Habilidad, así que no temas ajustar según el encuentro.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Estrategia Pro">
+En Raids multijugador, designa a un jugador para que se enfoque en **Habilidades de Interrupción**. Tener un "Interruptor" dedicado permite que el resto del equipo use Gemas de Habilidad de alto daño y animaciones largas sin temor a ser interrumpidos por las mecánicas del jefe.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Preguntas Frecuentes del Sistema de Habilidades">
+
+Dominar las complejidades del **sistema de habilidades de Embers of the Uncrowned** a menudo genera preguntas comunes sobre el restablecimiento de puntos, la rareza de las gemas y el escalado multijugador.
+
+<FAQ items={[
+  {
+    question: "¿Puedo restablecer mis habilidades en la demo de Embers of the Uncrowned?",
+    answer: "Sí, los jugadores pueden restablecer sus puntos de habilidades activas en el Asentamiento por una pequeña tarifa de oro. Sin embargo, las Gemas de Habilidad deben retirarse y reemplazarse manualmente, lo cual no cuesta recursos."
+  },
+  {
+    question: "¿Cómo afectan las Gemas de Habilidad al sistema de habilidades de Embers of the Uncrowned a largo plazo?",
+    answer: "Las Gemas de Habilidad proporcionan 'Progresión Infinita' al permitir a los jugadores acumular modificadores raros. En el lanzamiento completo de 2026, las gemas serán la forma principal de especializarse en Raids de juego tardío y contenido PvP."
+  },
+  {
+    question: "¿Hay habilidades únicas ligadas a la Casa Harborwell?",
+    answer: "El árbol del Despertar del Linaje es exclusivo del legado de la Casa Harborwell. Estas habilidades son poderes potentes con enfriamientos largos que pueden cambiar el rumbo de una batalla."
+  },
+  {
+    question: "¿Afecta la mejora de equipo al daño de las habilidades?",
+    answer: "Absolutamente. El daño de las habilidades escala directamente con el poder de ataque de tu arma. Mejorar tu equipo en la Forja de Harborwell es esencial para mantener tus habilidades relevantes contra Jefes de Dominio de mayor nivel."
+  }
+]} />
+
+</Section>

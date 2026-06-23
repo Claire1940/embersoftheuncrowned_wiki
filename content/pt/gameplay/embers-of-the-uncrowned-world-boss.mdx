@@ -1,0 +1,198 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Chefe Mundial de Embers of the Uncrowned: Táticas de Raid e Recompensas",
+  description: "Domine os encontros com chefes mundiais de Embers of the Uncrowned. Aprenda mecânicas de raid, composições de grupo e drops exclusivos para chefes de Domínio e de Campo.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/15161a/fff?text=World+Boss+Guide",
+  date: "2026-06-24",
+  author: "Equipe da Wiki de Embers of the Uncrowned"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Objetivo principal**: Derrotar um **chefe mundial de Embers of the Uncrowned** exige o domínio do combate manual, esquiva precisa e coordenação de equipe.
+- **Mecânicas-chave**: Foque na janela de atordoamento (stagger) e no tempo de interrupção para quebrar habilidades pesadas do chefe e maximizar o dano.
+- **Composição ideal**: Combine o Algoz (Executioner) para pressão de atordoamento, o Portador da Tormenta (Stormbringer) para dano à distância e a Lâmina Espectral (Spectral Blade) para dano explosivo (burst).
+- **Preparação essencial**: Melhore os edifícios do seu assentamento e traga Eslyn para desbloquear sinergias de combate poderosas com companheiros.
+</Callout>
+
+<Section icon={Map} title="Tipos e Mecânicas de Chefes Mundiais de Embers of the Uncrowned">
+
+Confrontar um **chefe mundial de Embers of the Uncrowned** serve como o teste definitivo de suas capacidades de combate no RPG de ação e fantasia sombria da NEXON. A demo do Steam Next Fest, lançada em 13 de junho de 2026, apresenta um robusto endgame e uma camada cooperativa com 12 monstros chefes exclusivos. Esses encontros são divididos em vários tipos, cada um exigindo composições de grupo distintas, coordenação tática e execução mecânica.
+
+Compreender as diferenças entre esses encontros de chefes é o primeiro passo para retomar a Casa Harborwell. Enquanto alguns chefes vagam pelos campos abertos da Costa Âmbar, outros residem em zonas de raid instanciadas que exigem coordenação de alto nível e execução precisa.
+
+| Categoria do Chefe | Tipo de Encontro | Configuração de Jogadores | Objetivo Principal |
+|---|---|---|---|
+| **Chefes de Domínio** | Cooperação aberta de retomada de território | Partida rápida pública | Derrotar forças de ocupação para restaurar a Casa Harborwell |
+| **Chefes de Raid** | Instanciado com alta coordenação | Jogo em grupo coordenado | Executar mecânicas táticas para derrotar ameaças poderosas |
+| **Chefes de Campo** | Multijogador em mundo aberto | Solo ou grupos públicos | Derrotar grandes ameaças que vagam por áreas libertadas e contestadas |
+| **Defesa da Primavera** | PvE baseado em objetivos | Defesa coordenada | Defender pontos de referência importantes enquanto gerencia a pressão de nível de chefe |
+
+<Callout type="warning" title="Aviso do Sistema Anti-Cheat">
+Embers of the Uncrowned usa o NGS (Nexon Game Security) em nível de kernel. Certifique-se de que seu sistema atende aos requisitos mínimos (Windows 11 de 64 bits, 30 GB de armazenamento) e observe que o NGS requer remoção manual caso decida desinstalar a demo.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Mecânicas de Combate: Esquiva, Interrupções e Janelas de Atordoamento">
+
+O combate isométrico manual é o pilar central do sistema de combate. Para derrotar qualquer chefe de alto nível, você deve olhar além do spam de ataques básicos e dominar as opções de defesa ativa integradas à engine. Os chefes possuem barras de vida massivas e ataques devastadores em área (AoE) que podem facilmente eliminar um grupo despreparado.
+
+O fluxo de combate depende de três mecânicas principais: esquiva precisa, interrupções de habilidades e execução de dano durante as janelas de atordoamento (stagger). A esquiva consome Pontos de Estamina (SP), o que significa que você não pode esquivar indefinidamente. Gerenciar esse recurso é crítico durante encontros prolongados.
+
+| Mecânica | Custo de Recurso | Indicador Visual | Propósito Estratégico |
+|---|---|---|---|
+| **Esquiva** | SP Médio | Animação de corrida do personagem | Evitar padrões letais de AoE e se reposicionar atrás do chefe |
+| **Interrupção** | Tempo de Recarga da Habilidade | Barra de conjuração azul ou amarela | Interromper habilidades perigosas do chefe e evitar mecânicas de eliminação total (wipe) |
+| **Atordoamento (Stagger)** | Nenhum | Barra de postura/atordoamento se esgotando | Criar uma janela de dano explosivo alto com modificadores críticos |
+
+Para lidar com sucesso com uma mecânica de wipe de chefe, siga esta sequência tática padrão:
+
+<Steps>
+  <Step num="1" title="Identifique a Barra de Conjuração">
+    Observe a barra de conjuração acima do chefe. Um contorno azul ou amarelo brilhante indica um feitiço interrompível que causará dano massivo a todo o grupo se for concluído.
+  </Step>
+  <Step num="2" title="Use Habilidades de Controle de Grupo (CC)">
+    Coordene com sua equipe para liberar CC pesado ou habilidades de interrupção especializadas. Os Algozes devem liderar com golpes que causam choque, enquanto os Portadores da Tormenta aplicam pressão elemental.
+  </Step>
+  <Step num="3" title="Exponha a Janela de Atordoamento">
+    Assim que a interrupção for bem-sucedida, a barra de atordoamento do chefe se esgotará rapidamente. Atinja o chefe com habilidades de alto impacto para ativar o estado atordoado, deixando-o indefeso.
+  </Step>
+  <Step num="4" title="Desfira Dano Explosivo">
+    Com o chefe atordoado, mude para modificadores de alto dano. As Lâminas Espectrais devem utilizar bônus de Ataque Traseiro (Rear Strike), enquanto os Portadores da Tormenta conjuram seus feitiços elementais de maior tempo de recarga.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Gerenciamento de Estamina">
+Nunca esgote totalmente sua barra de SP com ataques menores. Sempre mantenha pelo menos uma carga de esquiva disponível para escapar de perigos repentinos no solo ou de ataques de investida do chefe.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Funções das Classes: Otimizando Builds para Raids de Chefe Mundial">
+
+A demo apresenta três classes jogáveis: Algoz (Executioner), Portador da Tormenta (Stormbringer) e Lâmina Espectral (Spectral Blade). Cada classe traz uma identidade mecânica única, sistema de recursos e foco elemental para encontros cooperativos. Criar um grupo equilibrado é essencial ao enfrentar chefes de nível de raid, pois builds focadas em jogo solo geralmente carecem da utilidade necessária para sobreviver a mecânicas complexas.
+
+<CardGrid cols={3}>
+  <Card title="Algoz (Executioner - Tier S)">
+    - **Função**: Vanguarda corpo a corpo pesada e especialista em atordoamento
+    - **Mecânica**: Acumula Fúria (Rage) para ativar o estado de Fúria (Fury)
+    - **Elementos**: Físico e Fogo
+    - **Ideal Para**: Quebrar a postura do chefe e absorver golpes físicos pesados
+  </Card>
+  <Card title="Portador da Tormenta (Stormbringer - Tier A)">
+    - **Função**: DPS mágico à distância e controle de grupo
+    - **Mecânica**: Forças elementais duplas (Vento/Raio)
+    - **Elementos**: Vento e Raio
+    - **Ideal Para**: Dano à distância seguro e pressão elemental consistente
+  </Card>
+  <Card title="Lâmina Espectral (Spectral Blade - Tier A)">
+    - **Função**: Assassino corpo a corpo e especialista em dano explosivo
+    - **Mecânica**: Geração de sombras e invocação de Fantasmas
+    - **Elementos**: Físico e Trevas
+    - **Ideal Para**: Alto dano em alvo único e aproveitamento de janelas de ataque traseiro
+  </Card>
+</CardGrid>
+
+A sinergia de classes determina a rapidez com que sua equipe pode superar os encontros. Embora um grupo de três Algozes possa atordoar os chefes facilmente, eles terão dificuldades com alvos de alta mobilidade ou fases que exigem coordenação à distância.
+
+| Combinação de Classes | Velocidade de Atordoamento | Sobrevivência | Dano (DPS) | Classificação de Sinergia |
+|---|---|---|---|---|
+| **Algoz + Portador da Tormenta + Lâmina Espectral** | Rápida | Alta | Muito Alta | ★★★★★ (Perfeita) |
+| **Algoz + Algoz + Portador da Tormenta** | Extremamente Rápida | Muito Alta | Moderada | ★★★★☆ (Resistente) |
+| **Portador da Tormenta + Portador da Tormenta + Lâmina Espectral** | Lenta | Baixa | Alta | ★★★☆☆ (Canhão de Vidro) |
+| **Lâmina Espectral + Lâmina Espectral + Lâmina Espectral** | Moderada | Baixa | Extremamente Alta | ★★☆☆☆ (Alta Habilidade) |
+
+<Callout type="success" title="Customização de Build">
+Cada classe possui de 28 a 29 habilidades ativas e passivas. Não se limite a uma build genérica de nivelamento para encontros com chefes; mude sua progressão passiva para redução de defesa e dano de atordoamento antes de entrar em uma raid.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Suporte de Companheiros: Maximizando o Valor de Combate da Eslyn">
+
+Os companheiros em Embers of the Uncrowned são parceiros de combate totalmente integrados, e não apenas adições cosméticas. A demo destaca Eslyn como sua companheira principal, oferecendo 17 habilidades exclusivas de companheiro e missões exclusivas baseadas em afinidade. O crescimento dela afeta diretamente seu desempenho contra a seleção de chefes mundiais.
+
+Eslyn fornece buffs defensivos críticos, zonas de cura e mecânicas de distração que permitem que classes corpo a corpo se reposicionem para ataques traseiros. Aumentar a afinidade dela desbloqueia modificadores de combate mais fortes e opções táticas mais profundas.
+
+| Recurso do Companheiro | Aplicação em Combate | Impacto na Progressão |
+|---|---|---|
+| **Habilidades Básicas da Eslyn** | Cura, geração de ameaça (aggro) e controle de grupo menor | Fornece uma rede de segurança para jogo solo e pequenos grupos |
+| **17 Habilidades de Companheiro** | Configurações de habilidades personalizadas para diferentes padrões de chefe | Permite adaptar a utilidade do companheiro para combinar com a build da sua classe |
+| **Missões de Afinidade** | Desbloqueia equipamentos exclusivos para companheiros e reforços de atributos | Aumenta a sobrevivência do companheiro em fases de raid de alto dano |
+| **Sinergia de Combate** | Combina habilidades do companheiro com habilidades ativas do jogador | Ativa efeitos de combo poderosos durante as janelas de atordoamento |
+
+Antes de iniciar uma luta cooperativa contra um chefe, passe por esta lista de verificação de preparação para garantir que sua equipe e companheiros estejam totalmente otimizados.
+
+<Checklist
+  id="boss-prep"
+  title="Lista de Preparação para Raid de Chefe Mundial:"
+  items={[
+    "Equipe Gemas de Habilidade ativas que correspondam à fraqueza elemental do seu alvo",
+    "Defina a configuração de habilidades de companheiro da Eslyn para suporte defensivo/cura",
+    "Conclua as missões de afinidade para maximizar os atributos básicos da sua companheira",
+    "Certifique-se de que todos os membros do grupo tenham poções de HP/MP ativas equipadas",
+    "Melhore as instalações de criação do seu assentamento para obter equipamentos de alto nível"
+  ]}
+/>
+
+<Callout type="info" title="Prioridade de Afinidade">
+Não negligencie as missões exclusivas da Eslyn. Os multiplicadores de atributos obtidos em níveis elevados de afinidade são cruciais para mantê-la viva durante os encontros com chefes no final do jogo.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Saque e Progressão: Retomando a Casa Harborwell">
+
+Derrotar chefes mundiais não é apenas uma questão de glória pessoal; é o motor principal que impulsiona a progressão do seu assentamento. O jogo apresenta um sistema de assentamento que evolui de acampamento a cidade, centrado na Casa Harborwell. Retomar domínios perdidos desbloqueia edifícios atualizáveis, opções de pesquisa e instalações de criação avançadas.
+
+A demo inclui três regiões principais e 10 zonas exploráveis ou libertáveis. Limpar essas zonas de Chefes de Domínio permite que você melhore até sete edifícios de assentamento diferentes, transformando seu humilde acampamento de mercenários em uma próspera fortaleza de fantasia sombria.
+
+| Edifício do Assentamento | Função Relacionada ao Chefe | Prioridade de Melhoria |
+|---|---|---|
+| **Forja / Ferraria** | Cria e aprimora armas e armaduras de alto nível | Alta (Aumenta diretamente o DPS e a defesa) |
+| **Laboratório de Alquimia** | Cria poções de HP, MP e buffs de alta potência | Média (Essencial para sobreviver a raids longas) |
+| **Centro de Pesquisa** | Desbloqueia bônus passivos contra tipos específicos de chefes | Alta (Reduz o dano recebido de Chefes de Domínio) |
+| **Posto de Troca** | Permite trocar drops raros de chefes por materiais de criação | Baixa (Útil para completar conjuntos de equipamentos específicos) |
+
+Os chefes dropam Gemas de Habilidade raras, materiais de aprimoramento de equipamentos e tokens de despertar de linhagem. Esses itens alimentam o sistema de "Progressão Infinita", permitindo que você continue aumentando o poder de combate do seu personagem além dos limites de nível padrão.
+
+<Callout type="success" title="Sinergia do Assentamento">
+Sempre retorne à Casa Harborwell após derrotar um Chefe de Domínio. Melhorar seus edifícios desbloqueia imediatamente receitas de criação melhores, oferecendo uma vantagem competitiva para o próximo encontro.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Quantos jogadores são necessários para derrotar um chefe mundial de Embers of the Uncrowned?",
+    answer: "Embora alguns Chefes de Campo possam ser enfrentados sozinhos com uma companheira altamente otimizada como Eslyn, os Chefes de Raid e Chefes de Domínio são projetados para jogo cooperativo em grupo. Um grupo coordenado de três jogadores é altamente recomendado para lidar com eficiência com as mecânicas de atordoamento e interrupção."
+  },
+  {
+    question: "Posso mudar a build da minha classe especificamente para um encontro de chefe mundial?",
+    answer: "Sim. Cada classe possui de 28 a 29 habilidades com árvores de progressão ativas e passivas flexíveis. Você pode trocar suas habilidades e equipar diferentes Gemas de Habilidade para corresponder às fraquezas elementais ou exigências mecânicas de lutas específicas contra chefes."
+  },
+  {
+    question: "Qual é a diferença entre Chefes de Domínio e Chefes de Raid?",
+    answer: "Os Chefes de Domínio são encontros cooperativos abertos vinculados à libertação de regiões e ao crescimento do assentamento da Casa Harborwell. Os Chefes de Raid são encontros instanciados altamente coordenados que exigem execução mecânica estrita, posicionamento preciso e funções específicas no grupo para serem superados."
+  },
+  {
+    question: "Como os companheiros apoiam os jogadores durante as lutas contra chefes mundiais?",
+    answer: "Companheiros como Eslyn atuam como parceiros de combate ativos. Eles utilizam até 17 habilidades exclusivas para fornecer cura, atrair a agressividade do chefe, aplicar penalidades elementais e acionar sinergias de combate poderosas que aumentam o dano da sua classe."
+  }
+]} />
+
+<Callout type="info" title="Links Oficiais">
+Para as últimas notícias, atualizações dos desenvolvedores e discussões da comunidade, visite o [Site Oficial da NEXON](https://embersoftheuncrowned.nexon.com/) ou junte-se à [Comunidade Oficial no Discord](https://discord.gg/playeotu).
+</Callout>
+
+</Section>
